@@ -25519,6 +25519,808 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
+    leeds: {
+      slug: "leeds",
+      city: "Leeds",
+      country: "United Kingdom",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["First-timers", "Shopping and arcades", "Museum fans"],
+      style: ["Victorian arcades", "Museums", "Neighborhood walks"],
+      pacing: [
+        "Leeds works well with a balanced rhythm. Focus each day on one main area, then leave room for arcade browsing, cafe stops, and relaxed waterfront walks.",
+        "Group time by district to keep movement simple. Pair the city center with the Victoria Quarter for shopping and architecture, then dedicate another day to the Royal Armouries and canal-side walks.",
+        "Save an afternoon for Kirkgate Market and the Corn Exchange, where local character and food stalls offer a relaxed pace.",
+      ],
+      hero: {
+        title: "Leeds in 3 days",
+        subtitle:
+          "Explore Victorian arcades, museums, and neighborhood walks with time for markets and local food.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1589200413677-b911f1e634ba?auto=format&fit=crop&w=1600&q=80",
+          alt: "Aerial view of Leeds city center with historic and modern architecture.",
+        },
+      },
+      cityStats: [
+        { value: "500K+", label: "Residents in the city" },
+        { value: "1904", label: "Kirkgate Market established" },
+        { value: "20+", label: "Museums and galleries" },
+        { value: "3", label: "Victorian shopping arcades" },
+      ],
+      fit: {
+        forYou: [
+          "Shopping and arcade architecture",
+          "Museum and gallery visits",
+          "Walkable city exploration",
+          "Markets and local food",
+          "Relaxed urban pace",
+        ],
+        notForYou: [
+          "Beach or coastal focus",
+          "Mountain or countryside escapes",
+          "Nightlife-heavy schedules",
+          "Rural retreats",
+          "Fast-paced sightseeing",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "City center and Victoria Quarter",
+          summary: "Victorian arcades, shopping, and historic streets.",
+          morning: "Town Hall and City Square",
+          afternoon: "Victoria Quarter and Briggate",
+          evening: "Dinner in the city center and evening stroll",
+        },
+        {
+          day: 2,
+          title: "Royal Armouries and canal",
+          summary: "Museums, waterfront, and canal-side walks.",
+          morning: "Royal Armouries Museum",
+          afternoon: "Canal walk and Granary Wharf",
+          evening: "Waterfront dinner and lights",
+        },
+        {
+          day: 3,
+          title: "Markets and Corn Exchange",
+          summary: "Kirkgate Market, Corn Exchange, and local discoveries.",
+          morning: "Kirkgate Market and Leeds City Museum",
+          afternoon: "Corn Exchange and independent shops",
+          evening: "Final neighborhood dinner and exploration",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Victorian arcades",
+          description:
+            "Leeds' Victoria Quarter and arcades define the city center. Glass roofs, period details, and independent shops create a distinctive atmosphere.",
+          image: {
+            src: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1200&q=80",
+            alt: "Victorian arcade architecture in Leeds city center.",
+          },
+        },
+        {
+          title: "Museums and heritage",
+          description:
+            "The Royal Armouries and City Museum offer free entry and varied collections. Industrial and local history sit alongside the waterfront.",
+          image: {
+            src: "https://images.unsplash.com/photo-1513635269975-59663e3ac1d2?auto=format&fit=crop&w=1200&q=80",
+            alt: "Leeds city street and pedestrian area.",
+          },
+        },
+        {
+          title: "Markets and local food",
+          description:
+            "Kirkgate Market and the Corn Exchange bring local character and food stalls. Plan for a slow browse and a casual meal.",
+          image: {
+            src: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+            alt: "Leeds urban scene with historic buildings.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "May to September for pleasant weather" },
+        { label: "Airport transfer", value: "Train from Leeds Bradford or direct trains" },
+        { label: "Transit tips", value: "Compact center; walk or use buses for farther areas" },
+        { label: "Ticketing", value: "Royal Armouries and City Museum are free" },
+        { label: "Neighborhood stay", value: "City center or near the station" },
+      ],
+      goodToKnow: [
+        { label: "Market days", value: "Kirkgate Market open Tuesday–Saturday; check hours" },
+        { label: "Weather notes", value: "Pack layers and an umbrella; rain is common" },
+        { label: "Common mistakes", value: "Rushing the arcades; allow time to browse" },
+        { label: "Local tip", value: "The Corn Exchange has independent traders and cafes" },
+      ],
+      checklist: [
+        "Pack layers and rain gear",
+        "Wear comfortable walking shoes",
+        "Save offline maps for the center",
+        "Plan cafe breaks between sights",
+        "Check market opening hours",
+        "Research restaurant options in advance",
+      ],
+      faqs: [
+        {
+          question: "Is 3 days enough for Leeds?",
+          answer:
+            "Yes for the main highlights. This plan covers arcades, museums, markets, and neighborhoods with a balanced pace.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "No. The city center is compact and walkable. Buses and trains connect outer areas if you want to explore further.",
+        },
+        {
+          question: "Are the museums free?",
+          answer:
+            "The Royal Armouries and Leeds City Museum offer free entry. Special exhibitions may have a charge.",
+        },
+        {
+          question: "Is Leeds walkable?",
+          answer:
+            "Yes. The center, Victoria Quarter, Royal Armouries area, and canal are all within easy walking distance.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "City center keeps you close to arcades, markets, and transport. Areas near the station are convenient for arrivals and day trips.",
+        },
+        {
+          question: "What about the weather?",
+          answer:
+            "Leeds has a temperate climate with rain possible year-round. Pack layers and an umbrella; May to September is generally the most comfortable.",
+        },
+        {
+          question: "Do I need to book restaurants?",
+          answer:
+            "For popular spots, yes—especially on weekends. Many cafes and market stalls are walk-in, giving flexibility for spontaneous stops.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "manchester", city: "Manchester", days: 3, description: "Music culture, industrial heritage, and modern districts." },
+        { slug: "liverpool", city: "Liverpool", days: 3, description: "Waterfront, music heritage, and historic docks." },
+        { slug: "edinburgh", city: "Edinburgh", days: 3, description: "Castle views, historic lanes, and scenic hikes." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    newcastle: {
+      slug: "newcastle",
+      city: "Newcastle",
+      country: "United Kingdom",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["First-timers", "Bridge and quayside views", "Local culture fans"],
+      style: ["Quayside", "Historic bridges", "Neighborhood walks"],
+      pacing: [
+        "Newcastle rewards a balanced rhythm. Focus each day on one main area, then leave room for quayside strolls, cafes, and relaxed exploration.",
+        "Group time by the Tyne. Pair the Quayside with the bridges and Baltic for art and views, then dedicate another day to the castle and city center.",
+        "Save an afternoon for Ouseburn or the coast for a different pace and local character.",
+      ],
+      hero: {
+        title: "Newcastle in 3 days",
+        subtitle:
+          "Explore the Quayside, Tyne bridges, and friendly Geordie culture with time for museums and local food.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1667409116400-9a19bd946ca5?auto=format&fit=crop&w=1600&q=80",
+          alt: "Tyne Bridge over the River Tyne in Newcastle.",
+        },
+      },
+      cityStats: [
+        { value: "300K+", label: "Residents in the city" },
+        { value: "1928", label: "Tyne Bridge opened" },
+        { value: "7", label: "Bridges across the Tyne" },
+        { value: "2000+", label: "Years of history" },
+      ],
+      fit: {
+        forYou: [
+          "Quayside and bridge views",
+          "Museums and galleries",
+          "Walkable city exploration",
+          "Local pub and food culture",
+          "Relaxed urban pace",
+        ],
+        notForYou: [
+          "Beach-only focus",
+          "Mountain hiking trips",
+          "Nightlife-heavy schedules",
+          "Rural countryside only",
+          "Fast-paced sightseeing",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Quayside and bridges",
+          summary: "Tyne Bridge, waterfront, and riverside walks.",
+          morning: "Quayside and Tyne Bridge views",
+          afternoon: "Baltic Centre for Contemporary Art",
+          evening: "Quayside dinner and evening lights",
+        },
+        {
+          day: 2,
+          title: "Castle and city center",
+          summary: "Newcastle Castle, Grey Street, and historic streets.",
+          morning: "Newcastle Castle and Keep",
+          afternoon: "Grey Street and Grainger Market",
+          evening: "City center dinner and stroll",
+        },
+        {
+          day: 3,
+          title: "Ouseburn and discovery",
+          summary: "Ouseburn Valley, local culture, and relaxed exploration.",
+          morning: "Ouseburn Valley and independent venues",
+          afternoon: "Discovery Museum or Laing Art Gallery",
+          evening: "Final neighborhood dinner and exploration",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Quayside and bridges",
+          description:
+            "The Tyne Bridge and Quayside define Newcastle. Riverside paths, the Baltic, and bridge views make for a relaxed day by the water.",
+          image: {
+            src: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=80",
+            alt: "Tyne Bridge and River Tyne in Newcastle.",
+          },
+        },
+        {
+          title: "Historic Newcastle",
+          description:
+            "The Castle Keep and Grey Street reflect the city's industrial and civic heritage. Grainger Market adds local flavor.",
+          image: {
+            src: "https://images.unsplash.com/photo-1513642784141-1a4594dc7f58?auto=format&fit=crop&w=1200&q=80",
+            alt: "Black bridge and river in Newcastle.",
+          },
+        },
+        {
+          title: "Local culture",
+          description:
+            "Ouseburn and the Quayside have a distinct Geordie character. Pubs, galleries, and independent spots reward slow exploration.",
+          image: {
+            src: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1200&q=80",
+            alt: "Newcastle Quayside and Tyne Bridge.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "May to September for milder weather" },
+        { label: "Airport transfer", value: "Metro from Newcastle International or train" },
+        { label: "Transit tips", value: "Quayside and center are walkable; Metro for coast" },
+        { label: "Ticketing", value: "Book Newcastle Castle in advance in peak season" },
+        { label: "Neighborhood stay", value: "Quayside or city center" },
+      ],
+      goodToKnow: [
+        { label: "Weather notes", value: "Pack layers; the Tyne can be breezy" },
+        { label: "Baltic opening", value: "Free entry; check for exhibition times" },
+        { label: "Common mistakes", value: "Skipping Ouseburn; it has real local character" },
+      ],
+      checklist: [
+        "Pack layers and rain gear",
+        "Wear comfortable walking shoes",
+        "Save offline maps for Quayside and center",
+        "Plan cafe breaks between sights",
+        "Check Baltic and Castle opening hours",
+        "Research restaurant options in advance",
+      ],
+      faqs: [
+        {
+          question: "Is 3 days enough for Newcastle?",
+          answer:
+            "Yes for the main highlights. This plan covers the Quayside, castle, museums, and neighborhoods with a balanced pace.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "No. The Quayside and city center are walkable. Metro connects the coast and airport if you want to explore further.",
+        },
+        {
+          question: "Is the Baltic free?",
+          answer:
+            "Yes. Baltic Centre for Contemporary Art has free entry. Some exhibitions may have a charge.",
+        },
+        {
+          question: "Is Newcastle walkable?",
+          answer:
+            "Yes. The Quayside, bridges, castle, and Grainger Market are all within easy walking distance.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Quayside puts you by the bridges and Baltic; city center is handy for Grey Street and the castle.",
+        },
+        {
+          question: "What about the weather?",
+          answer:
+            "Newcastle has a temperate climate. Pack layers and an umbrella; spring and autumn can be pleasant.",
+        },
+        {
+          question: "Do I need to book restaurants?",
+          answer:
+            "For popular spots, yes—especially on weekends. Many pubs and cafes are walk-in.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "edinburgh", city: "Edinburgh", days: 3, description: "Castle views, historic lanes, and scenic hikes." },
+        { slug: "liverpool", city: "Liverpool", days: 3, description: "Waterfront, music heritage, and historic docks." },
+        { slug: "york", city: "York", days: 3, description: "Medieval walls, cathedral, and compact center." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    brighton: {
+      slug: "brighton",
+      city: "Brighton",
+      country: "United Kingdom",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["First-timers", "Seaside and pier", "Lanes and shopping fans"],
+      style: ["Seaside", "The Lanes", "Royal Pavilion"],
+      pacing: [
+        "Brighton works well with a balanced rhythm. Focus each day on one main area, then leave room for beach time, lane browsing, and cafe stops.",
+        "Group time by the seafront and the Lanes. Pair the pier with the beach and promenade, then dedicate another day to the Royal Pavilion and The Lanes.",
+        "Save an afternoon for Kemptown or the marina for a different angle on the coast.",
+      ],
+      hero: {
+        title: "Brighton in 3 days",
+        subtitle:
+          "Explore the pier, The Lanes, and Royal Pavilion with time for beach walks and local food.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1691416229303-ac9c8b732a19?auto=format&fit=crop&w=1600&q=80",
+          alt: "Brighton Palace Pier with the sea and beach.",
+        },
+      },
+      cityStats: [
+        { value: "290K+", label: "Residents in the city" },
+        { value: "1899", label: "Palace Pier opened" },
+        { value: "8 km", label: "Pebble beach front" },
+        { value: "200+", label: "Shops in The Lanes" },
+      ],
+      fit: {
+        forYou: [
+          "Seaside and pier atmosphere",
+          "Lanes and independent shopping",
+          "Royal Pavilion and heritage",
+          "Beach and promenade walks",
+          "Relaxed coastal pace",
+        ],
+        notForYou: [
+          "Quiet countryside only",
+          "Mountain or hiking focus",
+          "Museum-heavy schedules",
+          "Avoiding crowds",
+          "Fast-paced sightseeing",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Pier and seafront",
+          summary: "Palace Pier, beach, and promenade walks.",
+          morning: "Brighton Palace Pier",
+          afternoon: "Beach walk and promenade",
+          evening: "Seafront dinner and evening lights",
+        },
+        {
+          day: 2,
+          title: "Royal Pavilion and The Lanes",
+          summary: "Pavilion, lanes, and historic streets.",
+          morning: "Royal Pavilion",
+          afternoon: "The Lanes and North Laine",
+          evening: "Dinner in The Lanes and evening stroll",
+        },
+        {
+          day: 3,
+          title: "Kemptown and discovery",
+          summary: "Kemptown, marina, or beach relaxation.",
+          morning: "Kemptown and seafront east",
+          afternoon: "Brighton Marina or beach time",
+          evening: "Final dinner and exploration",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Palace Pier and beach",
+          description:
+            "The pier and pebble beach define Brighton's seafront. Allow time for a stroll, arcades, and sea air.",
+          image: {
+            src: "https://images.unsplash.com/photo-1580519542036-c47e619f1d6e?auto=format&fit=crop&w=1200&q=80",
+            alt: "Brighton Pier with ocean and beach.",
+          },
+        },
+        {
+          title: "The Lanes",
+          description:
+            "Narrow streets and independent shops give The Lanes their character. Browse, stop for coffee, and enjoy the atmosphere.",
+          image: {
+            src: "https://images.unsplash.com/photo-1565887321997-96a9b66e1945?auto=format&fit=crop&w=1200&q=80",
+            alt: "Brighton Palace Pier at night.",
+          },
+        },
+        {
+          title: "Royal Pavilion",
+          description:
+            "The Royal Pavilion's exotic architecture and gardens offer a contrast to the seafront. Book ahead in peak season.",
+          image: {
+            src: "https://images.unsplash.com/photo-1565887321997-96a9b66e1945?auto=format&fit=crop&w=1200&q=80",
+            alt: "Brighton Palace Pier over the sea.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "May to September for beach weather" },
+        { label: "Train", value: "Direct from London; Brighton station central" },
+        { label: "Transit tips", value: "Center and seafront are walkable; buses along the coast" },
+        { label: "Ticketing", value: "Book Royal Pavilion in advance in peak season" },
+        { label: "Neighborhood stay", value: "Central Brighton or near the seafront" },
+      ],
+      goodToKnow: [
+        { label: "Beach note", value: "Pebble beach; bring suitable footwear" },
+        { label: "Weather", value: "Coast can be breezy; pack layers" },
+        { label: "Common mistakes", value: "Rushing The Lanes; allow time to browse" },
+      ],
+      checklist: [
+        "Book Royal Pavilion if visiting in peak season",
+        "Pack layers and sun protection",
+        "Wear comfortable walking shoes",
+        "Save offline maps for center and seafront",
+        "Plan cafe breaks in The Lanes",
+        "Research restaurant options in advance",
+      ],
+      faqs: [
+        {
+          question: "Is 3 days enough for Brighton?",
+          answer:
+            "Yes for the main highlights. This plan covers the pier, Pavilion, Lanes, and seafront with a balanced pace.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "No. Brighton is well served by train from London. The center and seafront are walkable.",
+        },
+        {
+          question: "Is the beach sandy?",
+          answer:
+            "Brighton's beach is pebble. It's still ideal for walks and sitting; bring something to sit on if you plan to stay.",
+        },
+        {
+          question: "Is Brighton walkable?",
+          answer:
+            "Yes. The pier, Royal Pavilion, and The Lanes are all within easy walking distance of each other.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Central Brighton or near the seafront keeps you close to the pier, Lanes, and Pavilion.",
+        },
+        {
+          question: "What about the weather?",
+          answer:
+            "Brighton has a coastal climate. Summer is busiest; spring and autumn can be quieter and still pleasant.",
+        },
+        {
+          question: "Do I need to book restaurants?",
+          answer:
+            "For popular spots, yes—especially on weekends. The Lanes have many walk-in options.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "london", city: "London", days: 3, description: "Iconic sights, museums, and riverside walks." },
+        { slug: "edinburgh", city: "Edinburgh", days: 3, description: "Castle views, historic lanes, and scenic hikes." },
+        { slug: "bristol", city: "Bristol", days: 3, description: "Harborside, street art, and independent culture." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    rabat: {
+      slug: "rabat",
+      city: "Rabat",
+      country: "Morocco",
+      days: 2,
+      pace: "Balanced",
+      idealFor: ["First-timers", "Medina and Kasbah", "Coastal and history fans"],
+      style: ["Kasbah", "Medina", "Coastal walks"],
+      pacing: [
+        "Rabat rewards a calm pace. Focus day one on the Kasbah and medina, then leave room for café stops and coastal views.",
+        "Use day two for Hassan Tower, Chellah, and a relaxed walk along the coast or through the Andalusian Gardens.",
+      ],
+      hero: {
+        title: "Rabat in 2 days",
+        subtitle:
+          "See the Kasbah of the Udayas, Hassan Tower, and Chellah with time for medina streets and coastal walks.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1570029604322-77c356acea7f?auto=format&fit=crop&w=1600&q=80",
+          alt: "Historic architecture and blue walls in Rabat, Morocco.",
+        },
+      },
+      cityStats: [
+        { value: "1.2M+", label: "Residents in the metro area" },
+        { value: "12th c.", label: "Kasbah of the Udayas" },
+        { value: "UNESCO", label: "World Heritage site" },
+        { value: "Coast", label: "Atlantic waterfront" },
+      ],
+      fit: {
+        forYou: [
+          "Medina and Kasbah exploration",
+          "History and monuments",
+          "Coastal and garden walks",
+          "Relaxed capital city pace",
+        ],
+        notForYou: [
+          "Desert-only focus",
+          "Nightlife-heavy schedules",
+          "Skipping culture and history",
+          "Fast-paced sightseeing",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Kasbah and medina",
+          summary: "Kasbah of the Udayas, medina streets, and coastal views.",
+          morning: "Kasbah of the Udayas",
+          afternoon: "Medina and souks",
+          evening: "Sunset by the river or coast",
+        },
+        {
+          day: 2,
+          title: "Hassan Tower and Chellah",
+          summary: "Hassan Tower, Chellah ruins, and gardens.",
+          morning: "Hassan Tower and Mausoleum",
+          afternoon: "Chellah and Andalusian Gardens",
+          evening: "Final dinner and stroll",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Kasbah of the Udayas",
+          description:
+            "The Kasbah's blue-and-white streets and ocean views define Rabat. Allow time for narrow lanes and café stops.",
+          image: {
+            src: "https://images.unsplash.com/photo-1489749798305-4fea3a6d2c3d?auto=format&fit=crop&w=1200&q=80",
+            alt: "Blue and white streets in the Kasbah, Rabat.",
+          },
+        },
+        {
+          title: "Hassan Tower and Chellah",
+          description:
+            "Hassan Tower and the Chellah ruins reflect Rabat's history. Combine with a walk through the gardens for a relaxed half-day.",
+          image: {
+            src: "https://images.unsplash.com/photo-1555881400-74d7eac9b207?auto=format&fit=crop&w=1200&q=80",
+            alt: "Hassan Tower and historic site in Rabat.",
+          },
+        },
+        {
+          title: "Medina and coast",
+          description:
+            "The medina and Atlantic coast offer a contrast to the monuments. Souks and sea breezes round out a 2-day stay.",
+          image: {
+            src: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1200&q=80",
+            alt: "Medina and coastal Rabat.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "March to May or September to November" },
+        { label: "Airport", value: "Rabat-Salé or Casablanca; train to Rabat" },
+        { label: "Transit tips", value: "Kasbah and medina are walkable; petit taxis for longer hops" },
+        { label: "Dress code", value: "Respectful dress for religious and historic sites" },
+        { label: "Neighborhood stay", value: "Agdal, Hassan, or near the medina" },
+      ],
+      goodToKnow: [
+        { label: "Ramadan", value: "Opening hours may change during Ramadan" },
+        { label: "Language", value: "Arabic and French widely used; some English in tourist areas" },
+      ],
+      checklist: [
+        "Pack respectful clothing for sites",
+        "Wear comfortable walking shoes",
+        "Save offline maps for medina and Kasbah",
+        "Carry small change for tips and small purchases",
+        "Plan café breaks in the Kasbah",
+        "Research restaurant options in advance",
+      ],
+      faqs: [
+        {
+          question: "Is 2 days enough for Rabat?",
+          answer:
+            "Yes for the main highlights. This plan covers the Kasbah, medina, Hassan Tower, and Chellah with a calm pace.",
+        },
+        {
+          question: "Do I need a guide?",
+          answer:
+            "Not required. The Kasbah and main sites are manageable on your own; a guide can add context if you want it.",
+        },
+        {
+          question: "Is Rabat safe?",
+          answer:
+            "Rabat is generally safe for visitors. Use normal precautions and respect local customs.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Agdal or Hassan put you near the main sites; near the medina for more local atmosphere.",
+        },
+        {
+          question: "What about the weather?",
+          answer:
+            "Spring and autumn are mild. Summer can be hot; winter is cooler. Pack layers and sun protection.",
+        },
+        {
+          question: "Do I need to book restaurants?",
+          answer:
+            "For upscale or popular spots, yes. Many medina cafés are walk-in.",
+        },
+        {
+          question: "Can I combine Rabat with other cities?",
+          answer:
+            "Yes. Rabat is well connected by train to Casablanca, Fez, and Marrakech for longer trips.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "marrakech", city: "Marrakech", days: 3, description: "Souks, medina, and riad stays." },
+        { slug: "fez", city: "Fez", days: 2, description: "Historic medina, tanneries, and artisan workshops." },
+        { slug: "casablanca", city: "Casablanca", days: 2, description: "Hassan II Mosque, corniche, and city sights." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    tangier: {
+      slug: "tangier",
+      city: "Tangier",
+      country: "Morocco",
+      days: 2,
+      pace: "Balanced",
+      idealFor: ["First-timers", "Medina and coast", "Café culture fans"],
+      style: ["Medina", "Cape Spartel", "Kasbah Museum"],
+      pacing: [
+        "Tangier works well in 2 days. Focus day one on the medina and Kasbah, then leave room for café stops and views.",
+        "Use day two for Cape Spartel, the Caves of Hercules, and a relaxed walk along the coast or through the Grand Socco.",
+      ],
+      hero: {
+        title: "Tangier in 2 days",
+        subtitle:
+          "Explore the medina, Cape Spartel, and Kasbah Museum with time for café culture and coastal views.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1671518283785-2e43588774b7?auto=format&fit=crop&w=1600&q=80",
+          alt: "Tangier medina and white buildings with sea views.",
+        },
+      },
+      cityStats: [
+        { value: "1M+", label: "Residents in the metro area" },
+        { value: "Strait", label: "Gibraltar views" },
+        { value: "Historic", label: "International Zone heritage" },
+        { value: "Coast", label: "Atlantic and Mediterranean" },
+      ],
+      fit: {
+        forYou: [
+          "Medina and Kasbah exploration",
+          "Coastal and cape views",
+          "Café and food culture",
+          "Relaxed port city pace",
+        ],
+        notForYou: [
+          "Desert-only focus",
+          "Nightlife-heavy schedules",
+          "Skipping the medina",
+          "Fast-paced sightseeing",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Medina and Kasbah",
+          summary: "Medina streets, Kasbah Museum, and café stops.",
+          morning: "Medina and Grand Socco",
+          afternoon: "Kasbah Museum and Kasbah area",
+          evening: "Sunset café and dinner",
+        },
+        {
+          day: 2,
+          title: "Cape Spartel and coast",
+          summary: "Cape Spartel, Caves of Hercules, and coastal views.",
+          morning: "Cape Spartel and lighthouse",
+          afternoon: "Caves of Hercules and coast walk",
+          evening: "Final dinner and stroll",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Medina and Grand Socco",
+          description:
+            "Tangier's medina and Grand Socco are the heart of the city. Narrow streets, cafés, and market life reward slow exploration.",
+          image: {
+            src: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1200&q=80",
+            alt: "Tangier medina streets and market.",
+          },
+        },
+        {
+          title: "Cape Spartel",
+          description:
+            "Cape Spartel and the Caves of Hercules offer Atlantic views and a break from the medina. Combine with a coast drive or walk.",
+          image: {
+            src: "https://images.unsplash.com/photo-1489749798305-4fea3a6d2c3d?auto=format&fit=crop&w=1200&q=80",
+            alt: "Cape Spartel and Tangier coast.",
+          },
+        },
+        {
+          title: "Café culture",
+          description:
+            "Tangier's café culture is part of its identity. Plan for a slow mint tea or coffee and people-watching.",
+          image: {
+            src: "https://images.unsplash.com/photo-1555881400-74d7eac9b207?auto=format&fit=crop&w=1200&q=80",
+            alt: "Café and street life in Tangier.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "March to May or September to November" },
+        { label: "Ferry", value: "From Spain (Tarifa, Algeciras); port in Tangier" },
+        { label: "Transit tips", value: "Medina is walkable; petit taxis for Cape Spartel" },
+        { label: "Dress code", value: "Respectful dress for medina and sites" },
+        { label: "Neighborhood stay", value: "Medina, Kasbah, or near the port" },
+      ],
+      goodToKnow: [
+        { label: "Language", value: "Arabic, French, and Spanish common; some English" },
+        { label: "Ferry", value: "Book in advance in peak season" },
+      ],
+      checklist: [
+        "Pack respectful clothing",
+        "Wear comfortable walking shoes",
+        "Save offline maps for medina",
+        "Carry small change for tips and cafés",
+        "Plan café breaks in the medina",
+        "Research restaurant options in advance",
+      ],
+      faqs: [
+        {
+          question: "Is 2 days enough for Tangier?",
+          answer:
+            "Yes for the main highlights. This plan covers the medina, Kasbah, Cape Spartel, and coast with a calm pace.",
+        },
+        {
+          question: "Do I need a guide?",
+          answer:
+            "Not required. The medina and Cape Spartel are manageable on your own; a guide can help with context or transport.",
+        },
+        {
+          question: "Is Tangier safe?",
+          answer:
+            "Tangier is generally safe for visitors. Use normal precautions in the medina and respect local customs.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Medina or Kasbah for atmosphere; near the port if you have an early ferry.",
+        },
+        {
+          question: "What about the weather?",
+          answer:
+            "Spring and autumn are mild. Summer can be hot. Pack layers and sun protection.",
+        },
+        {
+          question: "Do I need to book restaurants?",
+          answer:
+            "For popular spots, yes. Many medina cafés are walk-in.",
+        },
+        {
+          question: "Can I do a day trip from Spain?",
+          answer:
+            "Yes. Ferries from Tarifa or Algeciras make a day trip possible, though 2 days allows a more relaxed stay.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "rabat", city: "Rabat", days: 2, description: "Kasbah, medina, and coastal walks." },
+        { slug: "marrakech", city: "Marrakech", days: 3, description: "Souks, medina, and riad stays." },
+        { slug: "fez", city: "Fez", days: 2, description: "Historic medina, tanneries, and artisan workshops." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
     denver: {
       slug: "denver",
       city: "Denver",
@@ -44391,6 +45193,717 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
         { slug: "amsterdam", city: "Amsterdam", days: 3, description: "Canals, museums, and neighborhoods." },
         { slug: "rotterdam", city: "Rotterdam", days: 3, description: "Architecture, harbor, and modern city." },
         { slug: "bruges", city: "Bruges", days: 2, description: "Canals, squares, and chocolate." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    "andorra-la-vella": {
+      slug: "andorra-la-vella",
+      city: "Andorra la Vella",
+      country: "Andorra",
+      days: 2,
+      pace: "Balanced",
+      idealFor: ["First-timers", "Mountain views", "Compact capitals"],
+      style: ["Historic center", "Shopping", "Pyrenees backdrop"],
+      pacing: [
+        "Andorra la Vella fits into two calm days. Use day one for the old town and Casa de la Vall; day two for a viewpoint or short drive into the mountains.",
+        "The center is small and walkable. Leave time for a relaxed lunch and a stroll along the main street.",
+        "One main focus per day keeps the pace easy. Save an afternoon for duty-free browsing or a café stop if that appeals.",
+      ],
+      hero: {
+        title: "Andorra la Vella in 2 days",
+        subtitle:
+          "The capital in two calm days: historic core, mountain views, and a compact center.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1703252293047-dedd97de5cdd?auto=format&fit=crop&w=1600&q=80",
+          alt: "Mountain peaks and valley near Andorra la Vella in the Pyrenees.",
+        },
+      },
+      cityStats: [
+        { value: "1,023m", label: "Altitude of the capital" },
+        { value: "~22,000", label: "Residents in the parish" },
+        { value: "1993", label: "Year of the constitution" },
+      ],
+      fit: {
+        forYou: ["A small capital in the mountains", "Short walks and one or two sights", "Duty-free and local shops", "Clear two-day plan", "Quiet base for day trips"],
+        notForYou: ["Beach or coast", "Big-city nightlife", "Long museum days", "Ski-only trip", "Remote wilderness only"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Historic center and Casa de la Vall",
+          summary: "Old town, parliament building, and a relaxed stroll.",
+          morning: "Casa de la Vall and historic center",
+          afternoon: "Main street and Plaça del Poble",
+          evening: "Dinner in the center",
+        },
+        {
+          day: 2,
+          title: "Views and surroundings",
+          summary: "Viewpoint or short drive and last strolls.",
+          morning: "Mirador or short mountain drive",
+          afternoon: "Last shopping or café time",
+          evening: "Evening walk and early rest",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Historic center",
+          description:
+            "The old town is compact. Casa de la Vall and the main square set the tone for a short, easy walk.",
+          image: {
+            src: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic street and buildings in Andorra la Vella.",
+          },
+        },
+        {
+          title: "Mountain backdrop",
+          description:
+            "The Pyrenees frame the capital. A short drive or viewpoint gives a sense of scale without a full day out.",
+          image: {
+            src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
+            alt: "Mountain valley near Andorra la Vella.",
+          },
+        },
+        {
+          title: "Compact capital",
+          description:
+            "Everything is within a short walk. Cafés and shops line the main street; keep the pace relaxed.",
+          image: {
+            src: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+            alt: "Street scene in Andorra la Vella.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "May to October for mild weather; winter for ski access" },
+        { label: "Getting there", value: "Bus or car from Barcelona, Toulouse, or Lleida" },
+        { label: "Transit tips", value: "Center is walkable; no airport in Andorra" },
+        { label: "Ticketing", value: "Casa de la Vall may require advance booking for interior visits" },
+        { label: "Neighborhood stay", value: "Central Andorra la Vella or nearby parish" },
+      ],
+      checklist: [
+        "Comfortable shoes for walking the center",
+        "Layer for mountain weather",
+        "Check bus times if arriving by public transport",
+        "Save offline map of the center",
+        "Plan one meal in the old town",
+        "Carry a refillable water bottle",
+      ],
+      faqs: [
+        {
+          question: "Is 2 days enough for Andorra la Vella?",
+          answer:
+            "Yes for the capital. You can cover the historic center, Casa de la Vall, and a viewpoint or short drive. Add a day for skiing or longer mountain trips.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "Not for the center; it is walkable. A car helps for mountain viewpoints or ski resorts.",
+        },
+        {
+          question: "Is Andorra la Vella walkable?",
+          answer:
+            "Yes. The old town and main street are compact. Most visitors stay on foot for the two-day plan.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "In or near the center of Andorra la Vella. That puts you within a short walk of the main sights and shops.",
+        },
+        {
+          question: "What is Casa de la Vall?",
+          answer:
+            "The former parliament building and a historic landmark. Check opening hours and book ahead if you want an interior visit.",
+        },
+        {
+          question: "When is the best time to visit?",
+          answer:
+            "May to October for mild weather and walking. Winter if you plan to ski or want a mountain winter feel.",
+        },
+        {
+          question: "Do I need to book restaurants?",
+          answer:
+            "For popular spots at weekends, yes. Weekdays and lunch are usually more flexible.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "barcelona", city: "Barcelona", days: 3, description: "Gaudi, neighborhoods, and beaches." },
+        { slug: "lyon", city: "Lyon", days: 3, description: "Food, old town, and riverside." },
+        { slug: "toulouse", city: "Toulouse", days: 3, description: "Pink city, canals, and space." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    vaduz: {
+      slug: "vaduz",
+      city: "Vaduz",
+      country: "Liechtenstein",
+      days: 2,
+      pace: "Balanced",
+      idealFor: ["First-timers", "Castle views", "Small capitals"],
+      style: ["Castle", "Museums", "Compact center"],
+      pacing: [
+        "Vaduz fits two calm days. Day one: castle views and the old town. Day two: a museum and a relaxed stroll.",
+        "The center is small. One main sight per morning leaves the rest of the day open for cafés and walking.",
+        "Keep the pace slow. The appeal is the scale—small, quiet, and easy to cover on foot.",
+      ],
+      hero: {
+        title: "Vaduz in 2 days",
+        subtitle:
+          "The Alpine capital in two days: castle, Kunstmuseum, and a compact old town.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1512424113276-fa9f6a112384?auto=format&fit=crop&w=1600&q=80",
+          alt: "Vaduz Castle on the hill above the capital of Liechtenstein.",
+        },
+      },
+      cityStats: [
+        { value: "~5,700", label: "Residents in Vaduz" },
+        { value: "12th c.", label: "Castle origins" },
+        { value: "160 km²", label: "Country area" },
+      ],
+      fit: {
+        forYou: ["A tiny capital in the Alps", "Castle and one or two museums", "Short walks", "Quiet, low-key pace", "Clear two-day plan"],
+        notForYou: ["Beach or coast", "Big-city nightlife", "Long museum marathons", "Ski-only focus", "Remote hiking only"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Castle and old town",
+          summary: "Castle views, main street, and first impressions.",
+          morning: "Castle viewpoint and approach",
+          afternoon: "Old town and main street",
+          evening: "Dinner in the center",
+        },
+        {
+          day: 2,
+          title: "Museums and stroll",
+          summary: "Kunstmuseum or Liechtenstein Museum and a last walk.",
+          morning: "Kunstmuseum Liechtenstein or national museum",
+          afternoon: "Rheinpark or final stroll",
+          evening: "Evening in the center",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Vaduz Castle",
+          description:
+            "The prince's residence on the hill. View from below; interior is not open to the public.",
+          image: {
+            src: "https://images.unsplash.com/photo-1548013146-649def50a1f?auto=format&fit=crop&w=1200&q=80",
+            alt: "Vaduz Castle overlooking the town.",
+          },
+        },
+        {
+          title: "Old town",
+          description:
+            "Compact and walkable. The main street has cafés, shops, and the tourist office for the passport stamp.",
+          image: {
+            src: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=80",
+            alt: "Street in Vaduz old town.",
+          },
+        },
+        {
+          title: "Alpine setting",
+          description:
+            "Mountains frame the capital. The scale is small; a short walk gives a full sense of place.",
+          image: {
+            src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
+            alt: "Alpine valley near Vaduz.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "May to September for mild weather; winter for nearby ski areas" },
+        { label: "Getting there", value: "Train to Sargans or Buchs, then bus to Vaduz" },
+        { label: "Transit tips", value: "Center is walkable; buses connect to other villages" },
+        { label: "Ticketing", value: "Museums have entry fees; check opening hours" },
+        { label: "Neighborhood stay", value: "Central Vaduz or near the main street" },
+      ],
+      checklist: [
+        "Comfortable shoes for walking",
+        "Layer for Alpine weather",
+        "Check bus times from Sargans or Buchs",
+        "Save offline map of the center",
+        "Plan one meal in the old town",
+        "Carry a refillable water bottle",
+      ],
+      faqs: [
+        {
+          question: "Is 2 days enough for Vaduz?",
+          answer:
+            "Yes for the capital. You can see the castle, visit a museum, and walk the old town at a relaxed pace.",
+        },
+        {
+          question: "Can I visit the castle interior?",
+          answer:
+            "No. Vaduz Castle is the prince's residence and is not open to the public. The view from below is the main draw.",
+        },
+        {
+          question: "Is Vaduz walkable?",
+          answer:
+            "Yes. The center is small. Everything in this two-day plan is on foot.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "In or near the center of Vaduz. Options are limited but put you within a short walk of the main sights.",
+        },
+        {
+          question: "How do I get to Vaduz?",
+          answer:
+            "By train to Sargans or Buchs (Switzerland), then bus to Vaduz. No airport in Liechtenstein.",
+        },
+        {
+          question: "When is the best time to visit?",
+          answer:
+            "May to September for comfortable walking. Winter if you want to combine with skiing in the region.",
+        },
+        {
+          question: "Do I need to book restaurants?",
+          answer:
+            "For popular spots, yes. Vaduz is small; a few places get busy at lunch and dinner.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "zurich", city: "Zurich", days: 3, description: "Lake, old town, and museums." },
+        { slug: "innsbruck", city: "Innsbruck", days: 2, description: "Alps, old town, and compact stay." },
+        { slug: "salzburg", city: "Salzburg", days: 3, description: "Baroque city and mountain views." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    "san-marino": {
+      slug: "san-marino",
+      city: "San Marino",
+      country: "San Marino",
+      days: 2,
+      pace: "Balanced",
+      idealFor: ["First-timers", "Medieval towers", "Views"],
+      style: ["Three Towers", "Historic center", "Mount Titano"],
+      pacing: [
+        "San Marino fits two calm days. Day one: First Tower and the historic center. Day two: the other towers and viewpoints.",
+        "The historic center is compact. Steep in places; take your time and enjoy the views.",
+        "One tower or museum per morning keeps the pace relaxed. Leave time for a long lunch and a slow stroll.",
+      ],
+      hero: {
+        title: "San Marino in 2 days",
+        subtitle:
+          "Medieval towers, Mount Titano, and the historic center in two calm days.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1679112600374-0ac944dabba0?auto=format&fit=crop&w=1600&q=80",
+          alt: "The Three Towers of San Marino on Mount Titano.",
+        },
+      },
+      cityStats: [
+        { value: "739m", label: "Mount Titano summit" },
+        { value: "3", label: "Towers on the mountain" },
+        { value: "~4,000", label: "Residents in the city" },
+      ],
+      fit: {
+        forYou: ["A microstate with towers and views", "Short walks and one or two climbs", "Medieval atmosphere", "Clear two-day plan", "Quiet, small-scale stay"],
+        notForYou: ["Beach or coast", "Big-city nightlife", "Long museum days", "Ski or mountains beyond Titano", "Remote wilderness only"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "First Tower and historic center",
+          summary: "Guaita, Piazza della Libertà, and first views.",
+          morning: "Guaita (First Tower) and approach",
+          afternoon: "Piazza della Libertà and basilica area",
+          evening: "Dinner in the center",
+        },
+        {
+          day: 2,
+          title: "Second and Third Towers",
+          summary: "Cesta, Montale, and last viewpoints.",
+          morning: "Cesta (Second Tower) and Montale (Third)",
+          afternoon: "Museums or final stroll",
+          evening: "Evening in the center",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "The Three Towers",
+          description:
+            "Guaita, Cesta, and Montale crown Mount Titano. The first two are visitable; the third is view-only.",
+          image: {
+            src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
+            alt: "The Three Towers of San Marino.",
+          },
+        },
+        {
+          title: "Historic center",
+          description:
+            "Narrow streets and stone buildings. Piazza della Libertà is the main square; the basilica is nearby.",
+          image: {
+            src: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic street in San Marino.",
+          },
+        },
+        {
+          title: "Mount Titano views",
+          description:
+            "Views over the surrounding hills and coast. Take your time on the paths between the towers.",
+          image: {
+            src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
+            alt: "View from Mount Titano.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to October for comfortable walking; summer can be busy" },
+        { label: "Getting there", value: "Bus from Rimini (Italy) or car; no airport or train" },
+        { label: "Transit tips", value: "Center is walkable; wear comfortable shoes for slopes" },
+        { label: "Ticketing", value: "Combined ticket for First and Second Tower; book in peak season" },
+        { label: "Neighborhood stay", value: "Historic center or Borgo Maggiore" },
+      ],
+      checklist: [
+        "Comfortable shoes for steep paths",
+        "Layer for mountain weather",
+        "Check bus times from Rimini",
+        "Save offline map of the center",
+        "Plan one meal in the historic center",
+        "Carry a refillable water bottle",
+      ],
+      faqs: [
+        {
+          question: "Is 2 days enough for San Marino?",
+          answer:
+            "Yes for the towers, historic center, and a relaxed pace. Add a day if you want more museums or a slower stay.",
+        },
+        {
+          question: "Can I visit all three towers?",
+          answer:
+            "Guaita and Cesta are open to visitors. Montale is view-only from the outside. A combined ticket covers the first two.",
+        },
+        {
+          question: "Is San Marino walkable?",
+          answer:
+            "Yes, but there are steep sections. The historic center and paths between towers are on foot; take your time.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "In the historic center or in Borgo Maggiore. Both put you close to the towers and main sights.",
+        },
+        {
+          question: "How do I get to San Marino?",
+          answer:
+            "Bus from Rimini is the main option. No airport or train in San Marino; most visitors day-trip from Rimini or Bologna.",
+        },
+        {
+          question: "When is the best time to visit?",
+          answer:
+            "April to October for mild weather. Summer is busiest; spring and autumn are quieter.",
+        },
+        {
+          question: "Do I need to book restaurants?",
+          answer:
+            "For popular spots at weekends, yes. Weekdays are more flexible.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "bologna", city: "Bologna", days: 3, description: "Food, porticoes, and towers." },
+        { slug: "florence", city: "Florence", days: 3, description: "Art, river, and Renaissance squares." },
+        { slug: "venice", city: "Venice", days: 3, description: "Canals, squares, and islands." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    "phnom-penh": {
+      slug: "phnom-penh",
+      city: "Phnom Penh",
+      country: "Cambodia",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["First-timers", "Palace and museums", "Riverside"],
+      style: ["Royal Palace", "Riverside", "Key museums"],
+      pacing: [
+        "Phnom Penh rewards a calm rhythm. Anchor day one with the Royal Palace and Silver Pagoda; day two with the National Museum or Tuol Sleng; day three with the riverside and markets.",
+        "Group time by area to keep transit short. The palace and riverside are walkable; allow a tuk-tuk or short ride for Tuol Sleng or the Killing Fields if you choose to visit.",
+        "Build in an open-ended afternoon for the riverside promenade, a market, or a café. The heat can be intense; pace accordingly.",
+      ],
+      hero: {
+        title: "Phnom Penh in 3 days",
+        subtitle:
+          "Royal Palace, riverside, and key museums in three days at a steady pace.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1707817501904-2e5448d88b99?auto=format&fit=crop&w=1600&q=80",
+          alt: "Royal Palace and Silver Pagoda in Phnom Penh at golden hour.",
+        },
+      },
+      cityStats: [
+        { value: "1860s", label: "Royal Palace construction began" },
+        { value: "~2.2M", label: "Metro population" },
+        { value: "Mekong", label: "River through the city" },
+      ],
+      fit: {
+        forYou: ["A first trip with palace and riverside", "Museums and recent history", "Short rides and walks", "Steady pace with rest time", "Markets and local food"],
+        notForYou: ["Beach or islands", "Late-night nightlife focus", "Rushed sightseeing", "Avoiding difficult history", "Budget backpacker-only style"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Royal Palace and Silver Pagoda",
+          summary: "Palace complex, Silver Pagoda, and riverside first steps.",
+          morning: "Royal Palace and Silver Pagoda",
+          afternoon: "Riverside promenade and Wat Phnom",
+          evening: "Riverside dinner",
+        },
+        {
+          day: 2,
+          title: "National Museum and Tuol Sleng",
+          summary: "National Museum and, if you choose, Tuol Sleng or a market.",
+          morning: "National Museum of Cambodia",
+          afternoon: "Tuol Sleng or Russian Market",
+          evening: "Riverside or local dinner",
+        },
+        {
+          day: 3,
+          title: "Riverside and markets",
+          summary: "Central market, riverside stroll, and last stops.",
+          morning: "Central Market (Psar Thmei) or Russian Market",
+          afternoon: "Riverside walk and cafés",
+          evening: "Final dinner by the river",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Royal Palace",
+          description:
+            "The palace complex and Silver Pagoda are the main draw. Allow a morning; dress modestly.",
+          image: {
+            src: "https://images.unsplash.com/photo-1564069694-593c2c8e2f2c?auto=format&fit=crop&w=1200&q=80",
+            alt: "Royal Palace in Phnom Penh.",
+          },
+        },
+        {
+          title: "Riverside",
+          description:
+            "The Tonle Sap and Mekong front is a natural place to walk, rest, and watch the city.",
+          image: {
+            src: "https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=1200&q=80",
+            alt: "Riverside in Phnom Penh.",
+          },
+        },
+        {
+          title: "Markets and streets",
+          description:
+            "Central and Russian markets offer local color. Go in the morning to avoid the worst heat.",
+          image: {
+            src: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=80",
+            alt: "Market scene in Phnom Penh.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "November to March for cooler, drier weather" },
+        { label: "Getting there", value: "International airport; tuk-tuk or taxi from airport" },
+        { label: "Transit tips", value: "Walk the riverside; tuk-tuk for museums and markets" },
+        { label: "Ticketing", value: "Royal Palace and National Museum have entry fees; buy on arrival" },
+        { label: "Neighborhood stay", value: "Riverside or near the palace" },
+      ],
+      checklist: [
+        "Modest dress for palace and temples",
+        "Comfortable shoes for walking",
+        "Save offline map of the center",
+        "Plan one riverside meal",
+        "Carry a refillable water bottle",
+        "Sunscreen and hat for daytime",
+      ],
+      faqs: [
+        {
+          question: "Is 3 days enough for Phnom Penh?",
+          answer:
+            "Yes for the Royal Palace, a museum or two, and the riverside. You can add Tuol Sleng or the Killing Fields if you want to include them; pace yourself.",
+        },
+        {
+          question: "Should I visit Tuol Sleng and the Killing Fields?",
+          answer:
+            "They are important but heavy. Many visitors choose one or both; allow time and rest afterward. Not required for a first trip.",
+        },
+        {
+          question: "Is Phnom Penh walkable?",
+          answer:
+            "The riverside and palace area are walkable. For the National Museum, Tuol Sleng, or markets, a short tuk-tuk ride is common.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Near the riverside or the palace. Both put you within walking distance of the main sights and the promenade.",
+        },
+        {
+          question: "What should I wear at the Royal Palace?",
+          answer:
+            "Modest dress: covered shoulders and knees. Remove shoes where required.",
+        },
+        {
+          question: "When is the best time to visit?",
+          answer:
+            "November to March is cooler and drier. April and May are very hot; plan indoor or morning activities.",
+        },
+        {
+          question: "Do I need to book restaurants?",
+          answer:
+            "For upscale or popular spots, yes. Simple local places are usually walk-in.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "bangkok", city: "Bangkok", days: 3, description: "Temples, river, and street food." },
+        { slug: "hanoi", city: "Hanoi", days: 3, description: "Old Quarter, lakes, and food." },
+        { slug: "ho-chi-minh-city", city: "Ho Chi Minh City", days: 3, description: "Museums, markets, and river." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    chengdu: {
+      slug: "chengdu",
+      city: "Chengdu",
+      country: "China",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["First-timers", "Pandas", "Tea and food"],
+      style: ["Giant Panda Base", "Historic streets", "Tea houses"],
+      pacing: [
+        "Chengdu works well in three calm days. Day one: Giant Panda Base and a relaxed return. Day two: Jinli or Wide and Narrow Alley and a tea house. Day three: one more district or a museum and last meals.",
+        "Start early for the pandas; the rest of the day can be light. Group the old streets and tea culture on one day.",
+        "Leave an afternoon open for a long tea break or a market. Chengdu's pace is slow; match it.",
+      ],
+      hero: {
+        title: "Chengdu in 3 days",
+        subtitle:
+          "Pandas, historic streets, and tea houses in three days at a relaxed pace.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1692464487305-30b52cddac4e?auto=format&fit=crop&w=1600&q=80",
+          alt: "Giant panda at the Chengdu Research Base of Giant Panda Breeding.",
+        },
+      },
+      cityStats: [
+        { value: "~21M", label: "Metro population" },
+        { value: "1987", label: "Panda base founded" },
+        { value: "2,300+", label: "Years of history" },
+      ],
+      fit: {
+        forYou: ["Pandas and old streets", "Tea houses and Sichuan food", "Clear three-day plan", "Mix of nature and city", "Relaxed pace"],
+        notForYou: ["Beach or coast", "Late-night party focus", "Rushed sightseeing", "Avoiding crowds at panda base", "Western-only food"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Giant Panda Base",
+          summary: "Morning at the panda base and a relaxed afternoon.",
+          morning: "Chengdu Research Base of Giant Panda Breeding",
+          afternoon: "Return to city and rest or short stroll",
+          evening: "Hotpot or local dinner",
+        },
+        {
+          day: 2,
+          title: "Jinli and tea culture",
+          summary: "Historic streets and a tea house.",
+          morning: "Jinli Ancient Street",
+          afternoon: "Tea house and Wide and Narrow Alley",
+          evening: "Dinner in the old town",
+        },
+        {
+          day: 3,
+          title: "Wide and Narrow Alley or museum",
+          summary: "Second historic street or a museum and last stops.",
+          morning: "Wide and Narrow Alley or Sichuan Museum",
+          afternoon: "Last shopping or tea",
+          evening: "Final dinner",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Giant Panda Base",
+          description:
+            "The main draw for many visitors. Go early to see active pandas; allow half a day.",
+          image: {
+            src: "https://images.unsplash.com/photo-1555952494612-NsNRu6dfRds?auto=format&fit=crop&w=1200&q=80",
+            alt: "Giant panda at Chengdu panda base.",
+          },
+        },
+        {
+          title: "Historic streets",
+          description:
+            "Jinli and Wide and Narrow Alley offer traditional architecture, snacks, and tea.",
+          image: {
+            src: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic street in Chengdu.",
+          },
+        },
+        {
+          title: "Tea and food",
+          description:
+            "Sichuan food and tea houses are part of the experience. Plan at least one long tea break.",
+          image: {
+            src: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=1200&q=80",
+            alt: "Tea and food in Chengdu.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "March to May and September to November for mild weather" },
+        { label: "Getting there", value: "International airport; metro and taxi to center" },
+        { label: "Transit tips", value: "Metro and taxi for panda base and districts; old town is walkable" },
+        { label: "Ticketing", value: "Panda base: book online in advance; other sights buy on arrival" },
+        { label: "Neighborhood stay", value: "Near Tianfu Square or Chunxi Road" },
+      ],
+      checklist: [
+        "Book panda base tickets in advance",
+        "Comfortable shoes for walking",
+        "Save offline map and translation app",
+        "Plan one hotpot or Sichuan meal",
+        "Carry a refillable water bottle",
+        "Layer for indoor AC and outdoor heat",
+      ],
+      faqs: [
+        {
+          question: "Is 3 days enough for Chengdu?",
+          answer:
+            "Yes for the panda base, Jinli, Wide and Narrow Alley, and a tea house or two. Add a day for Leshan or a day trip if you like.",
+        },
+        {
+          question: "When should I go to the panda base?",
+          answer:
+            "Morning is best; pandas are more active. Arrive at opening and allow at least half a day.",
+        },
+        {
+          question: "Is Chengdu walkable?",
+          answer:
+            "The old town streets are walkable. For the panda base and some districts, use metro or taxi.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Near Tianfu Square or Chunxi Road. Both offer good transit and access to the old town and panda base.",
+        },
+        {
+          question: "Do I need to book the panda base?",
+          answer:
+            "Yes. Book online in advance, especially in peak season. Walk-up tickets may sell out.",
+        },
+        {
+          question: "When is the best time to visit?",
+          answer:
+            "March to May and September to November for comfortable weather. Summer is hot and humid.",
+        },
+        {
+          question: "Do I need to book restaurants?",
+          answer:
+            "For popular hotpot or fine-dining spots, yes. Many local places are walk-in.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "tokyo", city: "Tokyo", days: 3, description: "Temples, neighborhoods, and food." },
+        { slug: "shanghai", city: "Shanghai", days: 3, description: "Bund, French Concession, and skyline." },
+        { slug: "bangkok", city: "Bangkok", days: 3, description: "Temples, river, and street food." },
       ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
@@ -67346,6 +68859,808 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
+    leeds: {
+      slug: "leeds",
+      city: "Leeds",
+      country: "Reino Unido",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Compras y arcadas", "Fans de museos"],
+      style: ["Arcadas victorianas", "Museos", "Paseos por barrios"],
+      pacing: [
+        "Leeds funciona bien con un ritmo equilibrado. Enfoca cada día en un área principal, luego deja espacio para recorrer arcadas, pausas en cafés y paseos relajados junto al agua.",
+        "Agrupa el tiempo por distrito para mantener el movimiento simple. Combina el centro con el Victoria Quarter para compras y arquitectura, luego dedica otro día al Royal Armouries y paseos junto al canal.",
+        "Reserva una tarde para Kirkgate Market y el Corn Exchange, donde el carácter local y los puestos de comida ofrecen un ritmo relajado.",
+      ],
+      hero: {
+        title: "Leeds en 3 días",
+        subtitle:
+          "Explora arcadas victorianas, museos y paseos por barrios con tiempo para mercados y comida local.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1589200413677-b911f1e634ba?auto=format&fit=crop&w=1600&q=80",
+          alt: "Vista aérea del centro de Leeds con arquitectura histórica y moderna.",
+        },
+      },
+      cityStats: [
+        { value: "500K+", label: "Residentes en la ciudad" },
+        { value: "1904", label: "Kirkgate Market fundado" },
+        { value: "20+", label: "Museos y galerías" },
+        { value: "3", label: "Arcadas comerciales victorianas" },
+      ],
+      fit: {
+        forYou: [
+          "Arquitectura de arcadas y compras",
+          "Visitas a museos y galerías",
+          "Exploración urbana caminable",
+          "Mercados y comida local",
+          "Ritmo urbano relajado",
+        ],
+        notForYou: [
+          "Enfoque en playa o costa",
+          "Escapadas de montaña o campo",
+          "Horarios cargados de vida nocturna",
+          "Retiros rurales",
+          "Turismo de ritmo rápido",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Centro y Victoria Quarter",
+          summary: "Arcadas victorianas, compras y calles históricas.",
+          morning: "Town Hall y City Square",
+          afternoon: "Victoria Quarter y Briggate",
+          evening: "Cena en el centro y paseo nocturno",
+        },
+        {
+          day: 2,
+          title: "Royal Armouries y canal",
+          summary: "Museos, frente fluvial y paseos junto al canal.",
+          morning: "Royal Armouries Museum",
+          afternoon: "Paseo por el canal y Granary Wharf",
+          evening: "Cena junto al agua e iluminación",
+        },
+        {
+          day: 3,
+          title: "Mercados y Corn Exchange",
+          summary: "Kirkgate Market, Corn Exchange y descubrimientos locales.",
+          morning: "Kirkgate Market y Leeds City Museum",
+          afternoon: "Corn Exchange y tiendas independientes",
+          evening: "Cena final en barrios y exploración",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Arcadas victorianas",
+          description:
+            "El Victoria Quarter y las arcadas de Leeds definen el centro. Techos de cristal, detalles de época y tiendas independientes crean un ambiente distintivo.",
+          image: {
+            src: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1200&q=80",
+            alt: "Arquitectura de arcada victoriana en el centro de Leeds.",
+          },
+        },
+        {
+          title: "Museos y patrimonio",
+          description:
+            "El Royal Armouries y el City Museum ofrecen entrada gratuita y colecciones variadas. Historia industrial y local junto al agua.",
+          image: {
+            src: "https://images.unsplash.com/photo-1513635269975-59663e3ac1d2?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calle y zona peatonal de Leeds.",
+          },
+        },
+        {
+          title: "Mercados y comida local",
+          description:
+            "Kirkgate Market y el Corn Exchange aportan carácter local y puestos de comida. Planifica una visita tranquila y una comida casual.",
+          image: {
+            src: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+            alt: "Escena urbana de Leeds con edificios históricos.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Mayo a septiembre para clima agradable" },
+        { label: "Traslado del aeropuerto", value: "Tren desde Leeds Bradford o trenes directos" },
+        { label: "Consejos de transporte", value: "Centro compacto; a pie o autobús para zonas más lejanas" },
+        { label: "Entradas", value: "Royal Armouries y City Museum son gratuitos" },
+        { label: "Alojamiento en barrio", value: "Centro o cerca de la estación" },
+      ],
+      goodToKnow: [
+        { label: "Días de mercado", value: "Kirkgate Market abre martes a sábado; consulta horarios" },
+        { label: "Notas del clima", value: "Empaca capas y paraguas; la lluvia es común" },
+        { label: "Errores comunes", value: "Apresurarse por las arcadas; deja tiempo para recorrer" },
+        { label: "Consejo local", value: "El Corn Exchange tiene comerciantes independientes y cafés" },
+      ],
+      checklist: [
+        "Empaca capas y equipo para lluvia",
+        "Usa zapatos cómodos para caminar",
+        "Guarda mapas sin conexión para el centro",
+        "Planifica pausas de café entre lugares",
+        "Consulta horarios de apertura del mercado",
+        "Investiga opciones de restaurantes con anticipación",
+      ],
+      faqs: [
+        {
+          question: "¿Son suficientes 3 días para Leeds?",
+          answer:
+            "Sí para los principales destacados. Este plan cubre arcadas, museos, mercados y barrios con un ritmo equilibrado.",
+        },
+        {
+          question: "¿Necesito un auto?",
+          answer:
+            "No. El centro es compacto y caminable. Autobuses y trenes conectan zonas periféricas si quieres explorar más.",
+        },
+        {
+          question: "¿Los museos son gratuitos?",
+          answer:
+            "El Royal Armouries y Leeds City Museum ofrecen entrada gratuita. Las exposiciones especiales pueden tener costo.",
+        },
+        {
+          question: "¿Es Leeds caminable?",
+          answer:
+            "Sí. El centro, Victoria Quarter, zona del Royal Armouries y el canal están a poca distancia a pie.",
+        },
+        {
+          question: "¿Dónde debería alojarme?",
+          answer:
+            "El centro te mantiene cerca de arcadas, mercados y transporte. Las zonas cerca de la estación son prácticas para llegadas y excursiones.",
+        },
+        {
+          question: "¿Qué tal el clima?",
+          answer:
+            "Leeds tiene clima templado con lluvia posible todo el año. Empaca capas y paraguas; mayo a septiembre suele ser lo más cómodo.",
+        },
+        {
+          question: "¿Necesito reservar restaurantes?",
+          answer:
+            "Para lugares populares, sí—especialmente fines de semana. Muchos cafés y puestos del mercado son sin reserva, dando flexibilidad para paradas espontáneas.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "manchester", city: "Mánchester", days: 3, description: "Cultura musical, patrimonio industrial y distritos modernos." },
+        { slug: "liverpool", city: "Liverpool", days: 3, description: "Frente marítimo, patrimonio musical e históricos muelles." },
+        { slug: "edinburgh", city: "Edimburgo", days: 3, description: "Vistas del castillo, calles históricas y caminatas escénicas." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    newcastle: {
+      slug: "newcastle",
+      city: "Newcastle",
+      country: "Reino Unido",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Vistas del puente y el Quayside", "Fans de cultura local"],
+      style: ["Quayside", "Puentes históricos", "Paseos por barrios"],
+      pacing: [
+        "Newcastle recompensa un ritmo equilibrado. Enfoca cada día en un área principal, luego deja espacio para paseos por el Quayside, cafés y exploración relajada.",
+        "Agrupa el tiempo por el Tyne. Combina el Quayside con los puentes y el Baltic para arte y vistas, luego dedica otro día al castillo y al centro.",
+        "Reserva una tarde para Ouseburn o la costa para un ritmo distinto y carácter local.",
+      ],
+      hero: {
+        title: "Newcastle en 3 días",
+        subtitle:
+          "Explora el Quayside, los puentes del Tyne y la cultura geordie con tiempo para museos y comida local.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1667409116400-9a19bd946ca5?auto=format&fit=crop&w=1600&q=80",
+          alt: "Puente del Tyne sobre el río Tyne en Newcastle.",
+        },
+      },
+      cityStats: [
+        { value: "300K+", label: "Residentes en la ciudad" },
+        { value: "1928", label: "Inauguración del Tyne Bridge" },
+        { value: "7", label: "Puentes sobre el Tyne" },
+        { value: "2000+", label: "Años de historia" },
+      ],
+      fit: {
+        forYou: [
+          "Vistas del Quayside y los puentes",
+          "Museos y galerías",
+          "Exploración urbana caminable",
+          "Cultura de pubs y comida local",
+          "Ritmo urbano relajado",
+        ],
+        notForYou: [
+          "Solo playa",
+          "Rutas de senderismo en montaña",
+          "Horarios cargados de vida nocturna",
+          "Solo campo rural",
+          "Turismo de ritmo rápido",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Quayside y puentes",
+          summary: "Tyne Bridge, frente fluvial y paseos junto al río.",
+          morning: "Quayside y vistas del Tyne Bridge",
+          afternoon: "Baltic Centre for Contemporary Art",
+          evening: "Cena en el Quayside e iluminación nocturna",
+        },
+        {
+          day: 2,
+          title: "Castillo y centro",
+          summary: "Newcastle Castle, Grey Street y calles históricas.",
+          morning: "Newcastle Castle y Keep",
+          afternoon: "Grey Street y Grainger Market",
+          evening: "Cena en el centro y paseo",
+        },
+        {
+          day: 3,
+          title: "Ouseburn y descubrimiento",
+          summary: "Valle de Ouseburn, cultura local y exploración relajada.",
+          morning: "Valle de Ouseburn y locales independientes",
+          afternoon: "Discovery Museum o Laing Art Gallery",
+          evening: "Cena final en barrios y exploración",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Quayside y puentes",
+          description:
+            "El Tyne Bridge y el Quayside definen Newcastle. Senderos junto al río, el Baltic y las vistas de los puentes permiten un día relajado junto al agua.",
+          image: {
+            src: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=80",
+            alt: "Tyne Bridge y río Tyne en Newcastle.",
+          },
+        },
+        {
+          title: "Newcastle histórico",
+          description:
+            "El Castle Keep y Grey Street reflejan el patrimonio industrial y cívico. Grainger Market aporta sabor local.",
+          image: {
+            src: "https://images.unsplash.com/photo-1513642784141-1a4594dc7f58?auto=format&fit=crop&w=1200&q=80",
+            alt: "Puente negro y río en Newcastle.",
+          },
+        },
+        {
+          title: "Cultura local",
+          description:
+            "Ouseburn y el Quayside tienen un carácter geordie distintivo. Pubs, galerías y locales independientes recompensan una exploración tranquila.",
+          image: {
+            src: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1200&q=80",
+            alt: "Quayside y Tyne Bridge en Newcastle.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Mayo a septiembre para clima más suave" },
+        { label: "Traslado del aeropuerto", value: "Metro desde Newcastle International o tren" },
+        { label: "Consejos de transporte", value: "Quayside y centro son caminables; Metro para la costa" },
+        { label: "Entradas", value: "Reserva Newcastle Castle con anticipación en temporada alta" },
+        { label: "Alojamiento en barrio", value: "Quayside o centro" },
+      ],
+      goodToKnow: [
+        { label: "Notas del clima", value: "Empaca capas; el Tyne puede ser ventoso" },
+        { label: "Apertura del Baltic", value: "Entrada gratuita; consulta horarios de exposiciones" },
+        { label: "Errores comunes", value: "Saltarse Ouseburn; tiene carácter local real" },
+      ],
+      checklist: [
+        "Empaca capas y equipo para lluvia",
+        "Usa zapatos cómodos para caminar",
+        "Guarda mapas sin conexión para Quayside y centro",
+        "Planifica pausas de café entre lugares",
+        "Consulta horarios del Baltic y del Castillo",
+        "Investiga opciones de restaurantes con anticipación",
+      ],
+      faqs: [
+        {
+          question: "¿Son suficientes 3 días para Newcastle?",
+          answer:
+            "Sí para los principales destacados. Este plan cubre el Quayside, castillo, museos y barrios con un ritmo equilibrado.",
+        },
+        {
+          question: "¿Necesito un auto?",
+          answer:
+            "No. El Quayside y el centro son caminables. El Metro conecta la costa y el aeropuerto si quieres explorar más.",
+        },
+        {
+          question: "¿El Baltic es gratuito?",
+          answer:
+            "Sí. Baltic Centre for Contemporary Art tiene entrada gratuita. Algunas exposiciones pueden tener costo.",
+        },
+        {
+          question: "¿Es Newcastle caminable?",
+          answer:
+            "Sí. El Quayside, puentes, castillo y Grainger Market están a poca distancia a pie.",
+        },
+        {
+          question: "¿Dónde debería alojarme?",
+          answer:
+            "El Quayside te deja junto a los puentes y el Baltic; el centro es práctico para Grey Street y el castillo.",
+        },
+        {
+          question: "¿Qué tal el clima?",
+          answer:
+            "Newcastle tiene clima templado. Empaca capas y paraguas; primavera y otoño pueden ser agradables.",
+        },
+        {
+          question: "¿Necesito reservar restaurantes?",
+          answer:
+            "Para lugares populares, sí—especialmente fines de semana. Muchos pubs y cafés son sin reserva.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "edinburgh", city: "Edimburgo", days: 3, description: "Vistas del castillo, calles históricas y caminatas escénicas." },
+        { slug: "liverpool", city: "Liverpool", days: 3, description: "Frente marítimo, patrimonio musical e históricos muelles." },
+        { slug: "york", city: "York", days: 3, description: "Murallas medievales, catedral y centro compacto." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    brighton: {
+      slug: "brighton",
+      city: "Brighton",
+      country: "Reino Unido",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Playa y muelle", "Fans de los Lanes y compras"],
+      style: ["Costero", "The Lanes", "Royal Pavilion"],
+      pacing: [
+        "Brighton funciona bien con un ritmo equilibrado. Enfoca cada día en un área principal, luego deja espacio para playa, recorrer los Lanes y pausas en cafés.",
+        "Agrupa el tiempo por el paseo marítimo y los Lanes. Combina el muelle con la playa y el paseo, luego dedica otro día al Royal Pavilion y The Lanes.",
+        "Reserva una tarde para Kemptown o el puerto deportivo para otra perspectiva de la costa.",
+      ],
+      hero: {
+        title: "Brighton en 3 días",
+        subtitle:
+          "Explora el muelle, The Lanes y el Royal Pavilion con tiempo para paseos por la playa y comida local.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1691416229303-ac9c8b732a19?auto=format&fit=crop&w=1600&q=80",
+          alt: "Brighton Palace Pier con el mar y la playa.",
+        },
+      },
+      cityStats: [
+        { value: "290K+", label: "Residentes en la ciudad" },
+        { value: "1899", label: "Apertura del Palace Pier" },
+        { value: "8 km", label: "Frente de playa de guijarros" },
+        { value: "200+", label: "Tiendas en The Lanes" },
+      ],
+      fit: {
+        forYou: [
+          "Ambiente de playa y muelle",
+          "The Lanes y compras independientes",
+          "Royal Pavilion y patrimonio",
+          "Paseos por playa y paseo marítimo",
+          "Ritmo costero relajado",
+        ],
+        notForYou: [
+          "Solo campo tranquilo",
+          "Enfoque en montaña o senderismo",
+          "Horarios cargados de museos",
+          "Evitar multitudes",
+          "Turismo de ritmo rápido",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Muelle y paseo marítimo",
+          summary: "Palace Pier, playa y paseos por el paseo marítimo.",
+          morning: "Brighton Palace Pier",
+          afternoon: "Paseo por la playa y paseo marítimo",
+          evening: "Cena en el paseo marítimo e iluminación nocturna",
+        },
+        {
+          day: 2,
+          title: "Royal Pavilion y The Lanes",
+          summary: "Pavilion, Lanes y calles históricas.",
+          morning: "Royal Pavilion",
+          afternoon: "The Lanes y North Laine",
+          evening: "Cena en The Lanes y paseo nocturno",
+        },
+        {
+          day: 3,
+          title: "Kemptown y descubrimiento",
+          summary: "Kemptown, puerto deportivo o relax en la playa.",
+          morning: "Kemptown y paseo marítimo este",
+          afternoon: "Brighton Marina o tiempo en la playa",
+          evening: "Cena final y exploración",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Palace Pier y playa",
+          description:
+            "El muelle y la playa de guijarros definen el paseo marítimo de Brighton. Deja tiempo para un paseo, atracciones y aire marino.",
+          image: {
+            src: "https://images.unsplash.com/photo-1580519542036-c47e619f1d6e?auto=format&fit=crop&w=1200&q=80",
+            alt: "Brighton Pier con océano y playa.",
+          },
+        },
+        {
+          title: "The Lanes",
+          description:
+            "Calles estrechas y tiendas independientes dan carácter a The Lanes. Recorre, para a tomar café y disfruta el ambiente.",
+          image: {
+            src: "https://images.unsplash.com/photo-1565887321997-96a9b66e1945?auto=format&fit=crop&w=1200&q=80",
+            alt: "Brighton Palace Pier de noche.",
+          },
+        },
+        {
+          title: "Royal Pavilion",
+          description:
+            "La arquitectura exótica y los jardines del Royal Pavilion contrastan con el paseo marítimo. Reserva con anticipación en temporada alta.",
+          image: {
+            src: "https://images.unsplash.com/photo-1565887321997-96a9b66e1945?auto=format&fit=crop&w=1200&q=80",
+            alt: "Brighton Palace Pier sobre el mar.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Mayo a septiembre para clima de playa" },
+        { label: "Tren", value: "Directo desde Londres; estación de Brighton céntrica" },
+        { label: "Consejos de transporte", value: "Centro y paseo marítimo son caminables; autobuses por la costa" },
+        { label: "Entradas", value: "Reserva Royal Pavilion con anticipación en temporada alta" },
+        { label: "Alojamiento en barrio", value: "Brighton central o cerca del paseo marítimo" },
+      ],
+      goodToKnow: [
+        { label: "Nota playa", value: "Playa de guijarros; lleva calzado adecuado" },
+        { label: "Clima", value: "La costa puede ser ventosa; empaca capas" },
+        { label: "Errores comunes", value: "Apresurarse por The Lanes; deja tiempo para recorrer" },
+      ],
+      checklist: [
+        "Reserva Royal Pavilion si visitas en temporada alta",
+        "Empaca capas y protección solar",
+        "Usa zapatos cómodos para caminar",
+        "Guarda mapas sin conexión para centro y paseo marítimo",
+        "Planifica pausas de café en The Lanes",
+        "Investiga opciones de restaurantes con anticipación",
+      ],
+      faqs: [
+        {
+          question: "¿Son suficientes 3 días para Brighton?",
+          answer:
+            "Sí para los principales destacados. Este plan cubre el muelle, Pavilion, Lanes y paseo marítimo con un ritmo equilibrado.",
+        },
+        {
+          question: "¿Necesito un auto?",
+          answer:
+            "No. Brighton tiene buen servicio de tren desde Londres. El centro y el paseo marítimo son caminables.",
+        },
+        {
+          question: "¿La playa es de arena?",
+          answer:
+            "La playa de Brighton es de guijarros. Sigue siendo ideal para paseos y sentarse; lleva algo para sentarte si planeas quedarte.",
+        },
+        {
+          question: "¿Es Brighton caminable?",
+          answer:
+            "Sí. El muelle, Royal Pavilion y The Lanes están a poca distancia a pie.",
+        },
+        {
+          question: "¿Dónde debería alojarme?",
+          answer:
+            "Brighton central o cerca del paseo marítimo te deja cerca del muelle, Lanes y Pavilion.",
+        },
+        {
+          question: "¿Qué tal el clima?",
+          answer:
+            "Brighton tiene clima costero. El verano es la época más concurrida; primavera y otoño pueden ser más tranquilos y aún agradables.",
+        },
+        {
+          question: "¿Necesito reservar restaurantes?",
+          answer:
+            "Para lugares populares, sí—especialmente fines de semana. The Lanes tiene muchas opciones sin reserva.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "london", city: "Londres", days: 3, description: "Lugares icónicos, museos y paseos junto al río." },
+        { slug: "edinburgh", city: "Edimburgo", days: 3, description: "Vistas del castillo, calles históricas y caminatas escénicas." },
+        { slug: "bristol", city: "Bristol", days: 3, description: "Harborside, arte callejero y cultura independiente." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    rabat: {
+      slug: "rabat",
+      city: "Rabat",
+      country: "Marruecos",
+      days: 2,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Medina y Kasbah", "Fans de costa e historia"],
+      style: ["Kasbah", "Medina", "Paseos costeros"],
+      pacing: [
+        "Rabat recompensa un ritmo tranquilo. Enfoca el día uno en la Kasbah y la medina, luego deja espacio para pausas en cafés y vistas costeras.",
+        "Usa el día dos para la Torre Hassan, Chellah y un paseo relajado por la costa o por los Jardines Andalusíes.",
+      ],
+      hero: {
+        title: "Rabat en 2 días",
+        subtitle:
+          "Descubre la Kasbah de los Udayas, la Torre Hassan y Chellah con tiempo para calles de la medina y paseos costeros.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1570029604322-77c356acea7f?auto=format&fit=crop&w=1600&q=80",
+          alt: "Arquitectura histórica y paredes azules en Rabat, Marruecos.",
+        },
+      },
+      cityStats: [
+        { value: "1.2M+", label: "Residentes en el área metropolitana" },
+        { value: "S. XII", label: "Kasbah de los Udayas" },
+        { value: "UNESCO", label: "Patrimonio de la Humanidad" },
+        { value: "Costa", label: "Frente al Atlántico" },
+      ],
+      fit: {
+        forYou: [
+          "Exploración de medina y Kasbah",
+          "Historia y monumentos",
+          "Paseos costeros y por jardines",
+          "Ritmo relajado de capital",
+        ],
+        notForYou: [
+          "Solo desierto",
+          "Horarios cargados de vida nocturna",
+          "Saltarse cultura e historia",
+          "Turismo de ritmo rápido",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Kasbah y medina",
+          summary: "Kasbah de los Udayas, calles de la medina y vistas costeras.",
+          morning: "Kasbah de los Udayas",
+          afternoon: "Medina y zocos",
+          evening: "Atardecer junto al río o la costa",
+        },
+        {
+          day: 2,
+          title: "Torre Hassan y Chellah",
+          summary: "Torre Hassan, ruinas de Chellah y jardines.",
+          morning: "Torre Hassan y Mausoleo",
+          afternoon: "Chellah y Jardines Andalusíes",
+          evening: "Cena final y paseo",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Kasbah de los Udayas",
+          description:
+            "Las calles azules y blancas de la Kasbah y las vistas al océano definen Rabat. Deja tiempo para callejuelas y pausas en cafés.",
+          image: {
+            src: "https://images.unsplash.com/photo-1489749798305-4fea3a6d2c3d?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calles azules y blancas en la Kasbah, Rabat.",
+          },
+        },
+        {
+          title: "Torre Hassan y Chellah",
+          description:
+            "La Torre Hassan y las ruinas de Chellah reflejan la historia de Rabat. Combina con un paseo por los jardines para una media jornada relajada.",
+          image: {
+            src: "https://images.unsplash.com/photo-1555881400-74d7eac9b207?auto=format&fit=crop&w=1200&q=80",
+            alt: "Torre Hassan y sitio histórico en Rabat.",
+          },
+        },
+        {
+          title: "Medina y costa",
+          description:
+            "La medina y la costa atlántica ofrecen contraste con los monumentos. Zocos y brisa marina completan una estancia de 2 días.",
+          image: {
+            src: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1200&q=80",
+            alt: "Medina y costa de Rabat.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Marzo a mayo o septiembre a noviembre" },
+        { label: "Aeropuerto", value: "Rabat-Salé o Casablanca; tren a Rabat" },
+        { label: "Consejos de transporte", value: "Kasbah y medina son caminables; petit taxis para trayectos largos" },
+        { label: "Código de vestimenta", value: "Vestimenta respetuosa para sitios religiosos e históricos" },
+        { label: "Alojamiento en barrio", value: "Agdal, Hassan o cerca de la medina" },
+      ],
+      goodToKnow: [
+        { label: "Ramadán", value: "Los horarios pueden cambiar durante el Ramadán" },
+        { label: "Idioma", value: "Árabe y francés muy usados; algo de inglés en zonas turísticas" },
+      ],
+      checklist: [
+        "Empaca ropa respetuosa para los sitios",
+        "Usa zapatos cómodos para caminar",
+        "Guarda mapas sin conexión para medina y Kasbah",
+        "Lleva cambio para propinas y compras pequeñas",
+        "Planifica pausas en cafés en la Kasbah",
+        "Investiga opciones de restaurantes con anticipación",
+      ],
+      faqs: [
+        {
+          question: "¿Son suficientes 2 días para Rabat?",
+          answer:
+            "Sí para los principales destacados. Este plan cubre la Kasbah, medina, Torre Hassan y Chellah con un ritmo tranquilo.",
+        },
+        {
+          question: "¿Necesito guía?",
+          answer:
+            "No es obligatorio. La Kasbah y los sitios principales se pueden recorrer por cuenta propia; un guía puede aportar contexto si lo deseas.",
+        },
+        {
+          question: "¿Rabat es segura?",
+          answer:
+            "Rabat suele ser segura para visitantes. Usa precauciones normales y respeta las costumbres locales.",
+        },
+        {
+          question: "¿Dónde debería alojarme?",
+          answer:
+            "Agdal o Hassan te dejan cerca de los sitios principales; cerca de la medina para más ambiente local.",
+        },
+        {
+          question: "¿Qué tal el clima?",
+          answer:
+            "Primavera y otoño son suaves. El verano puede ser caluroso; el invierno más fresco. Empaca capas y protección solar.",
+        },
+        {
+          question: "¿Necesito reservar restaurantes?",
+          answer:
+            "Para lugares selectos o populares, sí. Muchos cafés de la medina son sin reserva.",
+        },
+        {
+          question: "¿Puedo combinar Rabat con otras ciudades?",
+          answer:
+            "Sí. Rabat está bien conectada en tren con Casablanca, Fez y Marrakech para viajes más largos.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "marrakech", city: "Marrakech", days: 3, description: "Zocos, medina y riads." },
+        { slug: "fez", city: "Fez", days: 2, description: "Medina histórica, curtidurías y talleres artesanales." },
+        { slug: "casablanca", city: "Casablanca", days: 2, description: "Mezquita Hassan II, corniche y lugares de la ciudad." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    tangier: {
+      slug: "tangier",
+      city: "Tánger",
+      country: "Marruecos",
+      days: 2,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Medina y costa", "Fans de la cultura cafetera"],
+      style: ["Medina", "Cabo Espartel", "Museo de la Kasbah"],
+      pacing: [
+        "Tánger funciona bien en 2 días. Enfoca el día uno en la medina y la Kasbah, luego deja espacio para pausas en cafés y vistas.",
+        "Usa el día dos para Cabo Espartel, las Cuevas de Hércules y un paseo relajado por la costa o por el Gran Zoco.",
+      ],
+      hero: {
+        title: "Tánger en 2 días",
+        subtitle:
+          "Explora la medina, Cabo Espartel y el Museo de la Kasbah con tiempo para cultura cafetera y vistas costeras.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1671518283785-2e43588774b7?auto=format&fit=crop&w=1600&q=80",
+          alt: "Medina de Tánger y edificios blancos con vistas al mar.",
+        },
+      },
+      cityStats: [
+        { value: "1M+", label: "Residentes en el área metropolitana" },
+        { value: "Estrecho", label: "Vistas de Gibraltar" },
+        { value: "Histórico", label: "Patrimonio de la Zona Internacional" },
+        { value: "Costa", label: "Atlántico y Mediterráneo" },
+      ],
+      fit: {
+        forYou: [
+          "Exploración de medina y Kasbah",
+          "Vistas del cabo y la costa",
+          "Cultura cafetera y gastronómica",
+          "Ritmo relajado de ciudad portuaria",
+        ],
+        notForYou: [
+          "Solo desierto",
+          "Horarios cargados de vida nocturna",
+          "Saltarse la medina",
+          "Turismo de ritmo rápido",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Medina y Kasbah",
+          summary: "Calles de la medina, Museo de la Kasbah y pausas en cafés.",
+          morning: "Medina y Gran Zoco",
+          afternoon: "Museo de la Kasbah y zona de la Kasbah",
+          evening: "Café al atardecer y cena",
+        },
+        {
+          day: 2,
+          title: "Cabo Espartel y costa",
+          summary: "Cabo Espartel, Cuevas de Hércules y vistas costeras.",
+          morning: "Cabo Espartel y faro",
+          afternoon: "Cuevas de Hércules y paseo por la costa",
+          evening: "Cena final y paseo",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Medina y Gran Zoco",
+          description:
+            "La medina y el Gran Zoco de Tánger son el corazón de la ciudad. Calles estrechas, cafés y vida de mercado recompensan una exploración tranquila.",
+          image: {
+            src: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calles de la medina y mercado de Tánger.",
+          },
+        },
+        {
+          title: "Cabo Espartel",
+          description:
+            "Cabo Espartel y las Cuevas de Hércules ofrecen vistas al Atlántico y un respiro de la medina. Combina con un paseo o recorrido en coche por la costa.",
+          image: {
+            src: "https://images.unsplash.com/photo-1489749798305-4fea3a6d2c3d?auto=format&fit=crop&w=1200&q=80",
+            alt: "Cabo Espartel y costa de Tánger.",
+          },
+        },
+        {
+          title: "Cultura cafetera",
+          description:
+            "La cultura cafetera de Tánger es parte de su identidad. Planifica un té de menta o café tranquilo y observar la vida local.",
+          image: {
+            src: "https://images.unsplash.com/photo-1555881400-74d7eac9b207?auto=format&fit=crop&w=1200&q=80",
+            alt: "Café y vida callejera en Tánger.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Marzo a mayo o septiembre a noviembre" },
+        { label: "Ferry", value: "Desde España (Tarifa, Algeciras); puerto en Tánger" },
+        { label: "Consejos de transporte", value: "La medina es caminable; petit taxis para Cabo Espartel" },
+        { label: "Código de vestimenta", value: "Vestimenta respetuosa para medina y sitios" },
+        { label: "Alojamiento en barrio", value: "Medina, Kasbah o cerca del puerto" },
+      ],
+      goodToKnow: [
+        { label: "Idioma", value: "Árabe, francés y español habituales; algo de inglés" },
+        { label: "Ferry", value: "Reserva con anticipación en temporada alta" },
+      ],
+      checklist: [
+        "Empaca ropa respetuosa",
+        "Usa zapatos cómodos para caminar",
+        "Guarda mapas sin conexión para la medina",
+        "Lleva cambio para propinas y cafés",
+        "Planifica pausas en cafés en la medina",
+        "Investiga opciones de restaurantes con anticipación",
+      ],
+      faqs: [
+        {
+          question: "¿Son suficientes 2 días para Tánger?",
+          answer:
+            "Sí para los principales destacados. Este plan cubre la medina, Kasbah, Cabo Espartel y costa con un ritmo tranquilo.",
+        },
+        {
+          question: "¿Necesito guía?",
+          answer:
+            "No es obligatorio. La medina y Cabo Espartel se pueden recorrer por cuenta propia; un guía puede ayudar con contexto o transporte.",
+        },
+        {
+          question: "¿Tánger es segura?",
+          answer:
+            "Tánger suele ser segura para visitantes. Usa precauciones normales en la medina y respeta las costumbres locales.",
+        },
+        {
+          question: "¿Dónde debería alojarme?",
+          answer:
+            "Medina o Kasbah para ambiente; cerca del puerto si tienes ferry temprano.",
+        },
+        {
+          question: "¿Qué tal el clima?",
+          answer:
+            "Primavera y otoño son suaves. El verano puede ser caluroso. Empaca capas y protección solar.",
+        },
+        {
+          question: "¿Necesito reservar restaurantes?",
+          answer:
+            "Para lugares populares, sí. Muchos cafés de la medina son sin reserva.",
+        },
+        {
+          question: "¿Puedo hacer excursión de un día desde España?",
+          answer:
+            "Sí. Los ferris desde Tarifa o Algeciras permiten una excursión de un día, aunque 2 días permiten una estancia más relajada.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "rabat", city: "Rabat", days: 2, description: "Kasbah, medina y paseos costeros." },
+        { slug: "marrakech", city: "Marrakech", days: 3, description: "Zocos, medina y riads." },
+        { slug: "fez", city: "Fez", days: 2, description: "Medina histórica, curtidurías y talleres artesanales." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
     denver: {
       slug: "denver",
       city: "Denver",
@@ -81165,6 +83480,717 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
         { slug: "amsterdam", city: "Ámsterdam", days: 3, description: "Canales, museos y barrios." },
         { slug: "rotterdam", city: "Róterdam", days: 3, description: "Arquitectura, puerto y ciudad moderna." },
         { slug: "bruges", city: "Brujas", days: 2, description: "Canales, plazas y chocolate." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    "andorra-la-vella": {
+      slug: "andorra-la-vella",
+      city: "Andorra la Vella",
+      country: "Andorra",
+      days: 2,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Vistas de montaña", "Capitales compactas"],
+      style: ["Centro histórico", "Compras", "Pirineos al fondo"],
+      pacing: [
+        "Andorra la Vella encaja en dos días tranquilos. Día uno: casco antiguo y Casa de la Vall. Día dos: mirador o corto trayecto a la montaña.",
+        "El centro es pequeño y caminable. Deja tiempo para un almuerzo tranquilo y un paseo por la calle principal.",
+        "Un foco principal por día mantiene el ritmo fácil. Reserva una tarde para compras libres de impuestos o un café si te apetece.",
+      ],
+      hero: {
+        title: "Andorra la Vella en 2 días",
+        subtitle:
+          "La capital en dos días tranquilos: núcleo histórico, vistas de montaña y centro compacto.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1703252293047-dedd97de5cdd?auto=format&fit=crop&w=1600&q=80",
+          alt: "Picos y valle cerca de Andorra la Vella en los Pirineos.",
+        },
+      },
+      cityStats: [
+        { value: "1.023 m", label: "Altitud de la capital" },
+        { value: "~22.000", label: "Habitantes en la parroquia" },
+        { value: "1993", label: "Año de la constitución" },
+      ],
+      fit: {
+        forYou: ["Una capital pequeña en la montaña", "Paseos cortos y uno o dos puntos de interés", "Compras libres de impuestos y tiendas locales", "Plan claro de dos días", "Base tranquila para excursiones"],
+        notForYou: ["Playa o costa", "Vida nocturna de gran ciudad", "Días largos de museos", "Solo esquí", "Solo naturaleza remota"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Centro histórico y Casa de la Vall",
+          summary: "Casco antiguo, edificio del parlamento y un paseo tranquilo.",
+          morning: "Casa de la Vall y centro histórico",
+          afternoon: "Calle principal y Plaça del Poble",
+          evening: "Cena en el centro",
+        },
+        {
+          day: 2,
+          title: "Vistas y alrededores",
+          summary: "Mirador o corto trayecto en coche y últimos paseos.",
+          morning: "Mirador o corto trayecto a la montaña",
+          afternoon: "Últimas compras o tiempo en cafés",
+          evening: "Paseo nocturno y descanso temprano",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Centro histórico",
+          description:
+            "El casco antiguo es compacto. La Casa de la Vall y la plaza principal marcan el tono de un paseo corto y fácil.",
+          image: {
+            src: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calle histórica y edificios en Andorra la Vella.",
+          },
+        },
+        {
+          title: "Montaña al fondo",
+          description:
+            "Los Pirineos enmarcan la capital. Un corto trayecto o mirador da sensación de escala sin un día entero fuera.",
+          image: {
+            src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
+            alt: "Valle de montaña cerca de Andorra la Vella.",
+          },
+        },
+        {
+          title: "Capital compacta",
+          description:
+            "Todo está a un paseo corto. Cafés y tiendas bordean la calle principal; mantén el ritmo tranquilo.",
+          image: {
+            src: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+            alt: "Escena callejera en Andorra la Vella.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Mayo a octubre por clima suave; invierno para acceso al esquí" },
+        { label: "Cómo llegar", value: "Autobús o coche desde Barcelona, Toulouse o Lleida" },
+        { label: "Transporte", value: "El centro es caminable; no hay aeropuerto en Andorra" },
+        { label: "Entradas", value: "Casa de la Vall puede requerir reserva para visitar el interior" },
+        { label: "Dónde alojarse", value: "Andorra la Vella central o parroquia cercana" },
+      ],
+      checklist: [
+        "Zapatos cómodos para caminar por el centro",
+        "Capa para el tiempo de montaña",
+        "Consulta horarios de autobús si llegas en transporte público",
+        "Guarda mapa sin conexión del centro",
+        "Planifica una comida en el casco antiguo",
+        "Lleva botella de agua reutilizable",
+      ],
+      faqs: [
+        {
+          question: "¿Son suficientes 2 días en Andorra la Vella?",
+          answer:
+            "Sí para la capital. Puedes cubrir el centro histórico, Casa de la Vall y un mirador o corto trayecto. Añade un día para esquí o rutas más largas por la montaña.",
+        },
+        {
+          question: "¿Necesito coche?",
+          answer:
+            "No para el centro; es caminable. Un coche ayuda para miradores de montaña o estaciones de esquí.",
+        },
+        {
+          question: "¿Andorra la Vella es caminable?",
+          answer:
+            "Sí. El casco antiguo y la calle principal son compactos. La mayoría de visitantes van a pie en el plan de dos días.",
+        },
+        {
+          question: "¿Dónde alojarme?",
+          answer:
+            "En el centro de Andorra la Vella o cerca. Así tendrás a mano los principales puntos de interés y tiendas.",
+        },
+        {
+          question: "¿Qué es la Casa de la Vall?",
+          answer:
+            "El antiguo edificio del parlamento y un hito histórico. Consulta horarios y reserva si quieres visitar el interior.",
+        },
+        {
+          question: "¿Cuándo es la mejor época para visitar?",
+          answer:
+            "Mayo a octubre por clima suave y paseos. Invierno si planeas esquiar o quieres ambiente de montaña invernal.",
+        },
+        {
+          question: "¿Hay que reservar restaurantes?",
+          answer:
+            "Para sitios populares en fin de semana, sí. Entre semana y al mediodía suele haber más flexibilidad.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "barcelona", city: "Barcelona", days: 3, description: "Gaudí, barrios y playas." },
+        { slug: "lyon", city: "Lyon", days: 3, description: "Gastronomía, casco antiguo y río." },
+        { slug: "toulouse", city: "Toulouse", days: 3, description: "Ciudad rosa, canales y espacio." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    vaduz: {
+      slug: "vaduz",
+      city: "Vaduz",
+      country: "Liechtenstein",
+      days: 2,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Vistas del castillo", "Capitales pequeñas"],
+      style: ["Castillo", "Museos", "Centro compacto"],
+      pacing: [
+        "Vaduz encaja en dos días tranquilos. Día uno: vistas del castillo y casco antiguo. Día dos: un museo y un paseo relajado.",
+        "El centro es pequeño. Un punto principal por mañana deja el resto del día libre para cafés y paseos.",
+        "Mantén el ritmo lento. El atractivo es la escala: pequeño, tranquilo y fácil de recorrer a pie.",
+      ],
+      hero: {
+        title: "Vaduz en 2 días",
+        subtitle:
+          "La capital alpina en dos días: castillo, Kunstmuseum y casco antiguo compacto.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1512424113276-fa9f6a112384?auto=format&fit=crop&w=1600&q=80",
+          alt: "Castillo de Vaduz en la colina sobre la capital de Liechtenstein.",
+        },
+      },
+      cityStats: [
+        { value: "~5.700", label: "Habitantes en Vaduz" },
+        { value: "s. XII", label: "Orígenes del castillo" },
+        { value: "160 km²", label: "Superficie del país" },
+      ],
+      fit: {
+        forYou: ["Una capital minúscula en los Alpes", "Castillo y uno o dos museos", "Paseos cortos", "Ritmo tranquilo y discreto", "Plan claro de dos días"],
+        notForYou: ["Playa o costa", "Vida nocturna de gran ciudad", "Maratones de museos", "Solo esquí", "Solo senderismo remoto"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Castillo y casco antiguo",
+          summary: "Vistas del castillo, calle principal y primeras impresiones.",
+          morning: "Mirador del castillo y acceso",
+          afternoon: "Casco antiguo y calle principal",
+          evening: "Cena en el centro",
+        },
+        {
+          day: 2,
+          title: "Museos y paseo",
+          summary: "Kunstmuseum Liechtenstein o museo nacional y último paseo.",
+          morning: "Kunstmuseum Liechtenstein o museo nacional",
+          afternoon: "Rheinpark o paseo final",
+          evening: "Noche en el centro",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Castillo de Vaduz",
+          description:
+            "La residencia del príncipe en la colina. Vista desde abajo; el interior no está abierto al público.",
+          image: {
+            src: "https://images.unsplash.com/photo-1548013146-649def50a1f?auto=format&fit=crop&w=1200&q=80",
+            alt: "Castillo de Vaduz sobre la ciudad.",
+          },
+        },
+        {
+          title: "Casco antiguo",
+          description:
+            "Compacto y caminable. La calle principal tiene cafés, tiendas y la oficina de turismo para el sello en el pasaporte.",
+          image: {
+            src: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calle del casco antiguo de Vaduz.",
+          },
+        },
+        {
+          title: "Entorno alpino",
+          description:
+            "Las montañas enmarcan la capital. La escala es pequeña; un paseo corto da una idea completa del lugar.",
+          image: {
+            src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
+            alt: "Valle alpino cerca de Vaduz.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Mayo a septiembre por clima suave; invierno para zonas de esquí cercanas" },
+        { label: "Cómo llegar", value: "Tren a Sargans o Buchs, luego autobús a Vaduz" },
+        { label: "Transporte", value: "El centro es caminable; autobuses conectan con otros pueblos" },
+        { label: "Entradas", value: "Los museos tienen entrada de pago; consulta horarios" },
+        { label: "Dónde alojarse", value: "Vaduz centro o cerca de la calle principal" },
+      ],
+      checklist: [
+        "Zapatos cómodos para caminar",
+        "Capa para tiempo alpino",
+        "Consulta horarios de autobús desde Sargans o Buchs",
+        "Guarda mapa sin conexión del centro",
+        "Planifica una comida en el casco antiguo",
+        "Lleva botella de agua reutilizable",
+      ],
+      faqs: [
+        {
+          question: "¿Son suficientes 2 días en Vaduz?",
+          answer:
+            "Sí para la capital. Puedes ver el castillo, visitar un museo y pasear por el casco antiguo con calma.",
+        },
+        {
+          question: "¿Puedo visitar el interior del castillo?",
+          answer:
+            "No. El castillo de Vaduz es la residencia del príncipe y no está abierto al público. La vista desde abajo es el principal atractivo.",
+        },
+        {
+          question: "¿Vaduz es caminable?",
+          answer:
+            "Sí. El centro es pequeño. Todo en este plan de dos días se hace a pie.",
+        },
+        {
+          question: "¿Dónde alojarme?",
+          answer:
+            "En el centro de Vaduz o cerca. Las opciones son limitadas pero te dejan a un paseo de los principales puntos de interés.",
+        },
+        {
+          question: "¿Cómo llego a Vaduz?",
+          answer:
+            "En tren a Sargans o Buchs (Suiza), luego autobús a Vaduz. No hay aeropuerto en Liechtenstein.",
+        },
+        {
+          question: "¿Cuándo es la mejor época para visitar?",
+          answer:
+            "Mayo a septiembre para pasear con comodidad. Invierno si quieres combinar con esquí en la región.",
+        },
+        {
+          question: "¿Hay que reservar restaurantes?",
+          answer:
+            "Para sitios populares, sí. Vaduz es pequeño; algunos lugares se llenan a mediodía y por la noche.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "zurich", city: "Zúrich", days: 3, description: "Lago, casco antiguo y museos." },
+        { slug: "innsbruck", city: "Innsbruck", days: 2, description: "Alpes, casco antiguo y estancia compacta." },
+        { slug: "salzburg", city: "Salzburgo", days: 3, description: "Ciudad barroca y vistas de montaña." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    "san-marino": {
+      slug: "san-marino",
+      city: "San Marino",
+      country: "San Marino",
+      days: 2,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Torres medievales", "Vistas"],
+      style: ["Tres Torres", "Centro histórico", "Monte Titano"],
+      pacing: [
+        "San Marino encaja en dos días tranquilos. Día uno: Primera Torre y centro histórico. Día dos: las otras torres y miradores.",
+        "El centro histórico es compacto. Con pendientes en algunos tramos; tómate tu tiempo y disfruta las vistas.",
+        "Una torre o museo por mañana mantiene el ritmo relajado. Deja tiempo para un almuerzo largo y un paseo tranquilo.",
+      ],
+      hero: {
+        title: "San Marino en 2 días",
+        subtitle:
+          "Torres medievales, Monte Titano y centro histórico en dos días tranquilos.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1679112600374-0ac944dabba0?auto=format&fit=crop&w=1600&q=80",
+          alt: "Las Tres Torres de San Marino en el Monte Titano.",
+        },
+      },
+      cityStats: [
+        { value: "739 m", label: "Cumbre del Monte Titano" },
+        { value: "3", label: "Torres en la montaña" },
+        { value: "~4.000", label: "Habitantes en la ciudad" },
+      ],
+      fit: {
+        forYou: ["Un microestado con torres y vistas", "Paseos cortos y una o dos subidas", "Ambiente medieval", "Plan claro de dos días", "Estancia tranquila y a pequeña escala"],
+        notForYou: ["Playa o costa", "Vida nocturna de gran ciudad", "Días largos de museos", "Esquí o montaña más allá del Titano", "Solo naturaleza remota"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Primera Torre y centro histórico",
+          summary: "Guaita, Piazza della Libertà y primeras vistas.",
+          morning: "Guaita (Primera Torre) y acceso",
+          afternoon: "Piazza della Libertà y zona de la basílica",
+          evening: "Cena en el centro",
+        },
+        {
+          day: 2,
+          title: "Segunda y Tercera Torre",
+          summary: "Cesta, Montale y últimos miradores.",
+          morning: "Cesta (Segunda Torre) y Montale (Tercera)",
+          afternoon: "Museos o paseo final",
+          evening: "Noche en el centro",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Las Tres Torres",
+          description:
+            "Guaita, Cesta y Montale coronan el Monte Titano. Las dos primeras son visitables; la tercera solo se ve desde fuera.",
+          image: {
+            src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
+            alt: "Las Tres Torres de San Marino.",
+          },
+        },
+        {
+          title: "Centro histórico",
+          description:
+            "Calles estrechas y edificios de piedra. La Piazza della Libertà es la plaza principal; la basílica está cerca.",
+          image: {
+            src: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calle histórica en San Marino.",
+          },
+        },
+        {
+          title: "Vistas del Monte Titano",
+          description:
+            "Vistas sobre las colinas y la costa. Tómate tu tiempo en los caminos entre las torres.",
+          image: {
+            src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
+            alt: "Vista desde el Monte Titano.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a octubre para pasear con comodidad; verano puede estar concurrido" },
+        { label: "Cómo llegar", value: "Autobús desde Rímini (Italia) o coche; no hay aeropuerto ni tren" },
+        { label: "Transporte", value: "El centro es caminable; lleva zapatos cómodos para las cuestas" },
+        { label: "Entradas", value: "Entrada combinada para Primera y Segunda Torre; reserva en temporada alta" },
+        { label: "Dónde alojarse", value: "Centro histórico o Borgo Maggiore" },
+      ],
+      checklist: [
+        "Zapatos cómodos para caminos con pendiente",
+        "Capa para tiempo de montaña",
+        "Consulta horarios de autobús desde Rímini",
+        "Guarda mapa sin conexión del centro",
+        "Planifica una comida en el centro histórico",
+        "Lleva botella de agua reutilizable",
+      ],
+      faqs: [
+        {
+          question: "¿Son suficientes 2 días en San Marino?",
+          answer:
+            "Sí para las torres, centro histórico y un ritmo relajado. Añade un día si quieres más museos o una estancia más tranquila.",
+        },
+        {
+          question: "¿Puedo visitar las tres torres?",
+          answer:
+            "Guaita y Cesta están abiertas a visitantes. Montale solo se ve desde fuera. Una entrada combinada cubre las dos primeras.",
+        },
+        {
+          question: "¿San Marino es caminable?",
+          answer:
+            "Sí, pero hay tramos con pendiente. El centro histórico y los caminos entre torres son a pie; tómate tu tiempo.",
+        },
+        {
+          question: "¿Dónde alojarme?",
+          answer:
+            "En el centro histórico o en Borgo Maggiore. Ambos te dejan cerca de las torres y los principales puntos de interés.",
+        },
+        {
+          question: "¿Cómo llego a San Marino?",
+          answer:
+            "Autobús desde Rímini es la opción principal. No hay aeropuerto ni tren en San Marino; la mayoría hace excursión desde Rímini o Bolonia.",
+        },
+        {
+          question: "¿Cuándo es la mejor época para visitar?",
+          answer:
+            "Abril a octubre por clima suave. El verano es el más concurrido; primavera y otoño son más tranquilos.",
+        },
+        {
+          question: "¿Hay que reservar restaurantes?",
+          answer:
+            "Para sitios populares en fin de semana, sí. Entre semana hay más flexibilidad.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "bologna", city: "Bolonia", days: 3, description: "Gastronomía, pórticos y torres." },
+        { slug: "florence", city: "Florencia", days: 3, description: "Arte, río y plazas renacentistas." },
+        { slug: "venice", city: "Venecia", days: 3, description: "Canales, plazas e islas." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    "phnom-penh": {
+      slug: "phnom-penh",
+      city: "Phnom Penh",
+      country: "Camboya",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Palacio y museos", "Ribera"],
+      style: ["Palacio Real", "Ribera", "Museos clave"],
+      pacing: [
+        "Phnom Penh se disfruta con un ritmo tranquilo. Ancla el día uno con el Palacio Real y la Pagoda de Plata; el día dos con el Museo Nacional o Tuol Sleng; el día tres con la ribera y los mercados.",
+        "Agrupa el tiempo por zona para moverte poco. El palacio y la ribera son caminables; reserva un tuk-tuk o trayecto corto para Tuol Sleng o los Campos de la Muerte si decides visitarlos.",
+        "Incluye una tarde abierta para el paseo de la ribera, un mercado o un café. El calor puede ser fuerte; adapta el ritmo.",
+      ],
+      hero: {
+        title: "Phnom Penh en 3 días",
+        subtitle:
+          "Palacio Real, ribera y museos clave en tres días a ritmo constante.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1707817501904-2e5448d88b99?auto=format&fit=crop&w=1600&q=80",
+          alt: "Palacio Real y Pagoda de Plata en Phnom Penh en la hora dorada.",
+        },
+      },
+      cityStats: [
+        { value: "1860s", label: "Inicio de la construcción del Palacio Real" },
+        { value: "~2,2 M", label: "Población metropolitana" },
+        { value: "Mekong", label: "Río que atraviesa la ciudad" },
+      ],
+      fit: {
+        forYou: ["Una primera visita con palacio y ribera", "Museos e historia reciente", "Trayectos y paseos cortos", "Ritmo constante con tiempo de descanso", "Mercados y comida local"],
+        notForYou: ["Playa o islas", "Enfoque en vida nocturna", "Turismo acelerado", "Evitar la historia difícil", "Solo estilo mochilero low-cost"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Palacio Real y Pagoda de Plata",
+          summary: "Complejo del palacio, Pagoda de Plata y primeros pasos por la ribera.",
+          morning: "Palacio Real y Pagoda de Plata",
+          afternoon: "Paseo de la ribera y Wat Phnom",
+          evening: "Cena en la ribera",
+        },
+        {
+          day: 2,
+          title: "Museo Nacional y Tuol Sleng",
+          summary: "Museo Nacional y, si eliges, Tuol Sleng o un mercado.",
+          morning: "Museo Nacional de Camboya",
+          afternoon: "Tuol Sleng o Mercado Ruso",
+          evening: "Ribera o cena local",
+        },
+        {
+          day: 3,
+          title: "Ribera y mercados",
+          summary: "Mercado central, paseo por la ribera y últimas paradas.",
+          morning: "Mercado Central (Psar Thmei) o Mercado Ruso",
+          afternoon: "Paseo por la ribera y cafés",
+          evening: "Última cena junto al río",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Palacio Real",
+          description:
+            "El complejo del palacio y la Pagoda de Plata son el principal atractivo. Dedica una mañana; viste con modestia.",
+          image: {
+            src: "https://images.unsplash.com/photo-1564069694-593c2c8e2f2c?auto=format&fit=crop&w=1200&q=80",
+            alt: "Palacio Real en Phnom Penh.",
+          },
+        },
+        {
+          title: "Ribera",
+          description:
+            "El frente del Tonle Sap y el Mekong es un lugar natural para pasear, descansar y ver la ciudad.",
+          image: {
+            src: "https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=1200&q=80",
+            alt: "Ribera en Phnom Penh.",
+          },
+        },
+        {
+          title: "Mercados y calles",
+          description:
+            "Los mercados Central y Ruso ofrecen color local. Ve por la mañana para evitar el peor calor.",
+          image: {
+            src: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=80",
+            alt: "Escena de mercado en Phnom Penh.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Noviembre a marzo por tiempo más fresco y seco" },
+        { label: "Cómo llegar", value: "Aeropuerto internacional; tuk-tuk o taxi desde el aeropuerto" },
+        { label: "Transporte", value: "A pie por la ribera; tuk-tuk para museos y mercados" },
+        { label: "Entradas", value: "Palacio Real y Museo Nacional tienen entrada de pago; compra a la llegada" },
+        { label: "Dónde alojarse", value: "Ribera o cerca del palacio" },
+      ],
+      checklist: [
+        "Ropa modesta para palacio y templos",
+        "Zapatos cómodos para caminar",
+        "Guarda mapa sin conexión del centro",
+        "Planifica una comida en la ribera",
+        "Lleva botella de agua reutilizable",
+        "Protector solar y sombrero para el día",
+      ],
+      faqs: [
+        {
+          question: "¿Son suficientes 3 días en Phnom Penh?",
+          answer:
+            "Sí para el Palacio Real, uno o dos museos y la ribera. Puedes añadir Tuol Sleng o los Campos de la Muerte si quieres incluirlos; ve a tu ritmo.",
+        },
+        {
+          question: "¿Debo visitar Tuol Sleng y los Campos de la Muerte?",
+          answer:
+            "Son importantes pero duros. Muchos visitantes eligen uno o ambos; deja tiempo y descanso después. No son obligatorios en una primera visita.",
+        },
+        {
+          question: "¿Phnom Penh es caminable?",
+          answer:
+            "La ribera y la zona del palacio son caminables. Para el Museo Nacional, Tuol Sleng o mercados, un trayecto corto en tuk-tuk es habitual.",
+        },
+        {
+          question: "¿Dónde alojarme?",
+          answer:
+            "Cerca de la ribera o del palacio. Ambos te dejan a pie de los principales puntos de interés y del paseo.",
+        },
+        {
+          question: "¿Qué debo llevar en el Palacio Real?",
+          answer:
+            "Ropa modesta: hombros y rodillas cubiertos. Quítate los zapatos donde se indique.",
+        },
+        {
+          question: "¿Cuándo es la mejor época para visitar?",
+          answer:
+            "Noviembre a marzo es más fresco y seco. Abril y mayo son muy calurosos; planifica actividades de interior o por la mañana.",
+        },
+        {
+          question: "¿Hay que reservar restaurantes?",
+          answer:
+            "Para sitios de nivel alto o muy populares, sí. Los locales sencillos suelen ser sin reserva.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "bangkok", city: "Bangkok", days: 3, description: "Templos, río y comida callejera." },
+        { slug: "hanoi", city: "Hanói", days: 3, description: "Barrio Antiguo, lagos y gastronomía." },
+        { slug: "ho-chi-minh-city", city: "Ho Chi Minh", days: 3, description: "Museos, mercados y río." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    chengdu: {
+      slug: "chengdu",
+      city: "Chengdú",
+      country: "China",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Pandas", "Té y gastronomía"],
+      style: ["Base del Panda Gigante", "Calles históricas", "Casas de té"],
+      pacing: [
+        "Chengdú funciona bien en tres días tranquilos. Día uno: Base del Panda Gigante y vuelta relajada. Día dos: Jinli o Callejón Ancho y Estrecho y una casa de té. Día tres: otro barrio o museo y últimas comidas.",
+        "Empieza temprano para los pandas; el resto del día puede ser ligero. Agrupa las calles antiguas y la cultura del té en un día.",
+        "Deja una tarde abierta para una larga pausa de té o un mercado. El ritmo de Chengdú es lento; acompáñalo.",
+      ],
+      hero: {
+        title: "Chengdú en 3 días",
+        subtitle:
+          "Pandas, calles históricas y casas de té en tres días a ritmo relajado.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1692464487305-30b52cddac4e?auto=format&fit=crop&w=1600&q=80",
+          alt: "Panda gigante en la Base de Investigación de Cría del Panda Gigante de Chengdú.",
+        },
+      },
+      cityStats: [
+        { value: "~21 M", label: "Población metropolitana" },
+        { value: "1987", label: "Año de fundación de la base de pandas" },
+        { value: "2.300+", label: "Años de historia" },
+      ],
+      fit: {
+        forYou: ["Pandas y calles antiguas", "Casas de té y comida sichuanesa", "Plan claro de tres días", "Mezcla de naturaleza y ciudad", "Ritmo relajado"],
+        notForYou: ["Playa o costa", "Enfoque en fiesta nocturna", "Turismo acelerado", "Evitar aglomeraciones en la base de pandas", "Solo comida occidental"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Base del Panda Gigante",
+          summary: "Mañana en la base de pandas y tarde relajada.",
+          morning: "Base de Investigación de Cría del Panda Gigante de Chengdú",
+          afternoon: "Vuelta a la ciudad y descanso o paseo corto",
+          evening: "Hotpot o cena local",
+        },
+        {
+          day: 2,
+          title: "Jinli y cultura del té",
+          summary: "Calles históricas y una casa de té.",
+          morning: "Calle Antigua Jinli",
+          afternoon: "Casa de té y Callejón Ancho y Estrecho",
+          evening: "Cena en el casco antiguo",
+        },
+        {
+          day: 3,
+          title: "Callejón Ancho y Estrecho o museo",
+          summary: "Segunda calle histórica o museo y últimas paradas.",
+          morning: "Callejón Ancho y Estrecho o Museo de Sichuan",
+          afternoon: "Últimas compras o té",
+          evening: "Última cena",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Base del Panda Gigante",
+          description:
+            "El principal atractivo para muchos visitantes. Ve temprano para ver pandas activos; dedica media jornada.",
+          image: {
+            src: "https://images.unsplash.com/photo-1555952494612-NsNRu6dfRds?auto=format&fit=crop&w=1200&q=80",
+            alt: "Panda gigante en la base de pandas de Chengdú.",
+          },
+        },
+        {
+          title: "Calles históricas",
+          description:
+            "Jinli y Callejón Ancho y Estrecho ofrecen arquitectura tradicional, snacks y té.",
+          image: {
+            src: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calle histórica en Chengdú.",
+          },
+        },
+        {
+          title: "Té y gastronomía",
+          description:
+            "La comida sichuanesa y las casas de té forman parte de la experiencia. Planifica al menos una pausa larga de té.",
+          image: {
+            src: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=1200&q=80",
+            alt: "Té y comida en Chengdú.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Marzo a mayo y septiembre a noviembre por clima suave" },
+        { label: "Cómo llegar", value: "Aeropuerto internacional; metro y taxi al centro" },
+        { label: "Transporte", value: "Metro y taxi para la base de pandas y barrios; el casco antiguo es caminable" },
+        { label: "Entradas", value: "Base de pandas: reserva online con antelación; otros lugares compra a la llegada" },
+        { label: "Dónde alojarse", value: "Cerca de la plaza Tianfu o de Chunxi Road" },
+      ],
+      checklist: [
+        "Reserva entradas de la base de pandas con antelación",
+        "Zapatos cómodos para caminar",
+        "Guarda mapa sin conexión y app de traducción",
+        "Planifica una comida de hotpot o sichuanesa",
+        "Lleva botella de agua reutilizable",
+        "Capa para AC interior y calor exterior",
+      ],
+      faqs: [
+        {
+          question: "¿Son suficientes 3 días en Chengdú?",
+          answer:
+            "Sí para la base de pandas, Jinli, Callejón Ancho y Estrecho y una o dos casas de té. Añade un día para Leshan o una excursión si te apetece.",
+        },
+        {
+          question: "¿Cuándo debo ir a la base de pandas?",
+          answer:
+            "La mañana es mejor; los pandas están más activos. Llega a la apertura y dedica al menos media jornada.",
+        },
+        {
+          question: "¿Chengdú es caminable?",
+          answer:
+            "Las calles del casco antiguo son caminables. Para la base de pandas y algunos barrios, usa metro o taxi.",
+        },
+        {
+          question: "¿Dónde alojarme?",
+          answer:
+            "Cerca de la plaza Tianfu o de Chunxi Road. Ambas ofrecen buen transporte y acceso al casco antiguo y la base de pandas.",
+        },
+        {
+          question: "¿Hay que reservar la base de pandas?",
+          answer:
+            "Sí. Reserva online con antelación, sobre todo en temporada alta. Las entradas en taquilla pueden agotarse.",
+        },
+        {
+          question: "¿Cuándo es la mejor época para visitar?",
+          answer:
+            "Marzo a mayo y septiembre a noviembre por tiempo cómodo. El verano es caluroso y húmedo.",
+        },
+        {
+          question: "¿Hay que reservar restaurantes?",
+          answer:
+            "Para hotpot o restaurantes de nivel alto muy populares, sí. Muchos locales son sin reserva.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "tokyo", city: "Tokio", days: 3, description: "Templos, barrios y gastronomía." },
+        { slug: "shanghai", city: "Shanghái", days: 3, description: "Bund, Concesión Francesa y skyline." },
+        { slug: "bangkok", city: "Bangkok", days: 3, description: "Templos, río y comida callejera." },
       ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",

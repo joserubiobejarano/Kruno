@@ -86,6 +86,8 @@ const QUERIES = [
 const HERO_FIX_SLUGS = [
   'canberra', 'christchurch', 'heidelberg', 'poznan', 'halifax', 'siena',
   'annecy', 'monaco', 'utrecht', 'santiago-de-compostela',
+  'andorra-la-vella', 'vaduz', 'san-marino', 'phnom-penh', 'chengdu',
+  'leeds', 'newcastle', 'brighton', 'rabat', 'tangier',
 ];
 const FIX_HERO_QUERIES = [
   { slug: 'canberra', city: 'Canberra', query: 'Canberra Australia Parliament House Lake Burley Griffin' },
@@ -98,6 +100,16 @@ const FIX_HERO_QUERIES = [
   { slug: 'monaco', city: 'Monaco', query: 'Monaco Monte Carlo harbor Mediterranean' },
   { slug: 'utrecht', city: 'Utrecht', query: 'Utrecht Netherlands Dom Tower canals' },
   { slug: 'santiago-de-compostela', city: 'Santiago de Compostela', query: 'Santiago de Compostela cathedral Spain Camino' },
+  { slug: 'andorra-la-vella', city: 'Andorra la Vella', query: 'Andorra Pyrenees mountains valley' },
+  { slug: 'vaduz', city: 'Vaduz', query: 'Vaduz Liechtenstein castle Alps' },
+  { slug: 'san-marino', city: 'San Marino', query: 'San Marino Three Towers Mount Titano Italy' },
+  { slug: 'phnom-penh', city: 'Phnom Penh', query: 'Phnom Penh Cambodia Royal Palace riverside' },
+  { slug: 'chengdu', city: 'Chengdu', query: 'Chengdu China city skyline' },
+  { slug: 'leeds', city: 'Leeds', query: 'Leeds England UK city center' },
+  { slug: 'newcastle', city: 'Newcastle', query: 'Newcastle upon Tyne Tyne Bridge England' },
+  { slug: 'brighton', city: 'Brighton', query: 'Brighton UK Palace Pier beach' },
+  { slug: 'rabat', city: 'Rabat', query: 'Rabat Morocco city' },
+  { slug: 'tangier', city: 'Tangier', query: 'Tangier Morocco city' },
 ];
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
