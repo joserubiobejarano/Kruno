@@ -2,6 +2,9 @@ import { NextResponse } from 'next/server';
 import { sendWelcomeEmail } from '@/lib/email/resend';
 
 export async function POST(request: Request) {
+  if (process.env.NODE_ENV === 'production') {
+    return NextResponse.json({ error: 'Not Found' }, { status: 404 });
+  }
   try {
     const body = await request.json();
     const { to, firstName } = body;
@@ -28,7 +31,7 @@ export async function POST(request: Request) {
     }
 
     return NextResponse.json(
-      { error: err.message || 'Failed to send email' },
+      { error: 'Failed to send email' },
       { status: 500 }
     );
   }

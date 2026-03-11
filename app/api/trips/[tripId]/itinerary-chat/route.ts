@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 import { getProfileId } from '@/lib/auth/getProfileId';
+import { checkRateLimit } from '@/lib/rate-limit/rate-limit-middleware';
 import OpenAI from 'openai';
 import { SmartItinerary } from '@/types/itinerary';
 
@@ -61,9 +62,11 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ tri
     const supabase = await createClient();
 
     // Get profile ID for authorization
+    let clerkUserId: string | undefined;
     try {
       const authResult = await getProfileId(supabase);
       profileId = authResult.profileId;
+      clerkUserId = authResult.clerkUserId;
     } catch (authError: any) {
       console.error('[Itinerary Chat API]', {
         path: '/api/trips/[tripId]/itinerary-chat',
@@ -125,6 +128,12 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ tri
         context: 'authorization_check',
       });
       return NextResponse.json({ error: "Forbidden" }, { status: 403 });
+    }
+
+    // Rate limiting (after auth and trip access)
+    const rateLimitCheck = await checkRateLimit(req, 'ASSISTANT', clerkUserId);
+    if (!rateLimitCheck.allowed) {
+      return rateLimitCheck.response;
     }
 
     // 2) Load existing itinerary
@@ -211,9 +220,9 @@ Return your response in this exact format:
         console.error('[itinerary-chat] Invalid response structure', parsed);
         return NextResponse.json({ error: 'invalid-structure' }, { status: 500 });
       }
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error('[itinerary-chat] OpenAI API error', err);
-      return NextResponse.json({ error: 'openai-error', details: err.message }, { status: 500 });
+      return NextResponse.json({ error: 'openai-error' }, { status: 500 });
     }
 
     // 5) Save back to Supabase

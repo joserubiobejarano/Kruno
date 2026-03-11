@@ -4,11 +4,13 @@ import { createSupabaseAdmin } from '@/lib/supabase/admin';
 const BUCKET_NAME = 'place-images';
 
 /**
- * Health check endpoint for image caching system
- * Returns environment variable status and bucket access status
- * NEVER returns secret values, only booleans and error messages
+ * Health check endpoint for image caching system.
+ * Disabled in production for security.
  */
 export async function GET(request: NextRequest) {
+  if (process.env.NODE_ENV === 'production') {
+    return NextResponse.json({ error: 'Not Found' }, { status: 404 });
+  }
   try {
     // Check environment variables (booleans only, no secrets)
     const hasSupabaseUrl = !!process.env.NEXT_PUBLIC_SUPABASE_URL;

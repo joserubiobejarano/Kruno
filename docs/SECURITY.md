@@ -27,7 +27,8 @@ The following routes are public and do not require authentication:
 - `/sign-up(.*)`
 - `/p(.*)` (public trip sharing)
 - `/api/webhooks/clerk(.*)` (webhook endpoints)
-- `/api/debug(.*)` (debug endpoints - consider removing in production)
+- `/api/debug(.*)` (debug endpoints – return 404 in production)
+- `/api/test(.*)` (test email endpoints – return 404 in production)
 
 ## Authorization
 
@@ -160,7 +161,7 @@ Responses include rate limit headers:
 
 ### Current Strategy
 
-Since Kruno uses Clerk (not Supabase Auth), RLS policies are permissive (`USING (true) WITH CHECK (true)`). **All authorization happens in the application layer.**
+**RLS is enabled** on all public tables exposed to PostgREST: `trips`, `trip_members`, `expenses`, `expense_shares`, `smart_itineraries` (see migration `database/migrations/enable-rls-on-exposed-tables.sql`). Policies are permissive (`USING (true) WITH CHECK (true)`) because Kruno uses Clerk (not Supabase Auth). **All authorization happens in the application layer.**
 
 ### Why This Approach?
 
@@ -175,11 +176,16 @@ Since Kruno uses Clerk (not Supabase Auth), RLS policies are permissive (`USING 
 2. Trip access (via `requireTripAccess()` or `requireTripOwner()`)
 3. Pro status (via `requirePro()` or `requireTripPro()`)
 
+### Residual Risk and Guardrails
+
+- Any direct Supabase client access (e.g. from a future script or server) that bypasses API routes is not restricted by RLS; use the service role only where necessary and audit access.
+- Future option: migrate to restrictive RLS using Clerk JWT claims or a custom RLS function.
+
 ### Future Considerations
 
 - Consider using Supabase service role key restrictions
 - Monitor for any direct database access bypassing API routes
-- Document that RLS is intentionally permissive
+- Optionally migrate to restrictive RLS with Clerk JWT integration
 
 ## XSS Protection
 
@@ -250,6 +256,18 @@ Clerk handles CSRF protection via:
 - API routes validate request origin (handled by Clerk)
 - No GET requests modify data
 
+## Security Verification Checklist (PR / audits)
+
+Use this when adding or changing API routes or auth:
+
+- [ ] RLS is enabled on any new public tables (and policies documented).
+- [ ] Trip-scoped routes call `requireTripAccess(tripId)` or `requireTripOwner(tripId)` before any DB read/write.
+- [ ] No raw `error.message` or internal details returned to the client (log only; return generic messages).
+- [ ] Debug/test routes return 404 in production (or are removed).
+- [ ] Expensive or AI routes use rate limiting (`checkRateLimit` with appropriate type).
+- [ ] Inputs validated with Zod schemas and `validateParams` / `validateBody` / `validateQuery`.
+- [ ] No server-only secrets in `NEXT_PUBLIC_*` or in committed docs (use placeholders).
+
 ## Security Checklist
 
 ### For New API Routes
@@ -318,6 +336,19 @@ console.error('[API Name]', {
 4. **Audit Logging**: Comprehensive audit trail for all operations
 5. **Penetration Testing**: Regular security audits
 6. **Dependency Scanning**: Automated vulnerability scanning
+
+## Recent Changes (March 2025 – RLS and security pass)
+
+### Added
+- **RLS enabled** on `trips`, `trip_members`, `expenses`, `expense_shares`, `smart_itineraries` via `database/migrations/enable-rls-on-exposed-tables.sql` (Supabase advisor alerts resolved).
+- **Authorization on all trip data paths**: `requireTripAccess()` or `requireTripOwner()` added to `ai/plan-day`, `accommodation/find`, `ai-itinerary`, and `images/cache-place-image` (IDOR fixes).
+- **Rate limiting** on `ai-itinerary`, `ai/plan-day`, and `itinerary-chat` (in addition to existing assistant/places).
+- **Security verification checklist** section for PR/audit use.
+
+### Changed
+- **Debug and test routes** (`/api/debug/*`, `/api/test/*`) return 404 in production.
+- **Error responses**: Removed leakage of `error.message` / internal details in itinerary-chat and test/welcome-email; generic messages returned to clients.
+- **Docs**: README env example uses placeholders instead of real Supabase URL/anon key.
 
 ## Recent Changes (January 2025)
 

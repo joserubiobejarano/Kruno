@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@/lib/supabase/server'
+import { requireTripAccess, tripAccessErrorResponse } from '@/lib/auth/require-trip-access'
+import { checkRateLimit } from '@/lib/rate-limit/rate-limit-middleware'
 import { getOpenAIClient } from '@/lib/openai'
 import { findPlacePhoto, getCityFromLatLng, isLandmark } from '@/lib/google/places-server'
 import { resolvePlacePhotoSrc } from '@/lib/placePhotos' // Import resolvePlacePhotoSrc
@@ -258,6 +260,15 @@ export async function POST(request: NextRequest) {
     }
 
     const supabase = await createClient()
+
+    // Verify user has access to trip
+    const accessResult = await requireTripAccess(tripId, supabase)
+
+    // Rate limiting (after auth and trip access)
+    const rateLimitCheck = await checkRateLimit(request, 'AI', accessResult.clerkUserId)
+    if (!rateLimitCheck.allowed) {
+      return rateLimitCheck.response
+    }
 
     // Check if smart itinerary already exists (segment-scoped if trip_segment_id provided)
     let existingItinerary = null;
@@ -1106,12 +1117,13 @@ function sanitizeNoMdash<T>(input: T): T {
     }
 
     return NextResponse.json({ itinerary: sanitizedItinerary, fromCache: false })
-  } catch (error) {
+  } catch (error: unknown) {
+    if (error instanceof NextResponse) return error
+    const res = tripAccessErrorResponse(error)
+    if (res.status !== 500) return res
     console.error('Error in /api/ai-itinerary:', error)
-    const errorMessage =
-      error instanceof Error ? error.message : 'Unknown error occurred'
     return NextResponse.json(
-      { error: errorMessage },
+      { error: 'Failed to generate itinerary' },
       { status: 500 }
     )
   }

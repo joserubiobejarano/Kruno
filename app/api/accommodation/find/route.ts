@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { findBestAccommodation } from "@/lib/google/accommodation";
+import { requireTripAccess, tripAccessErrorResponse } from "@/lib/auth/require-trip-access";
 import type { Database, Json } from "@/types/database";
 
 type TripUpdate = Database["public"]["Tables"]["trips"]["Update"];
@@ -28,6 +29,9 @@ export async function POST(request: NextRequest) {
     }
 
     const supabase = await createClient();
+
+    // Verify user has access to trip
+    await requireTripAccess(tripId, supabase);
 
     // Load trip data
     const { data: trip, error: tripError } = await supabase
@@ -86,12 +90,13 @@ export async function POST(request: NextRequest) {
     }
 
     return NextResponse.json({ accommodation });
-  } catch (error) {
+  } catch (error: unknown) {
+    if (error instanceof NextResponse) return error;
+    const res = tripAccessErrorResponse(error);
+    if (res.status !== 500) return res;
     console.error("Error in /api/accommodation/find:", error);
-    const errorMessage =
-      error instanceof Error ? error.message : "Unknown error occurred";
     return NextResponse.json(
-      { error: errorMessage },
+      { error: "Failed to find accommodation" },
       { status: 500 }
     );
   }

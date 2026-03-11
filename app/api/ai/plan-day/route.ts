@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@/lib/supabase/server'
 import { getOpenAIClient } from '@/lib/openai'
+import { requireTripAccess, tripAccessErrorResponse } from '@/lib/auth/require-trip-access'
+import { checkRateLimit } from '@/lib/rate-limit/rate-limit-middleware'
 import type { PlannedActivity } from '@/types/ai'
 
 type TripQueryResult = {
@@ -29,6 +31,7 @@ type ActivityQueryResult = {
 
 export async function POST(request: NextRequest) {
   try {
+    // tripId and dayId are validated below; trip access is enforced via requireTripAccess
     const body = await request.json()
     const { tripId, dayId } = body
 
@@ -41,7 +44,16 @@ export async function POST(request: NextRequest) {
 
     const supabase = await createClient()
 
-    // Load trip data
+    // Verify user has access to trip
+    const accessResult = await requireTripAccess(tripId, supabase)
+
+    // Rate limiting (after auth and trip access)
+    const rateLimitCheck = await checkRateLimit(request, 'AI', accessResult.clerkUserId)
+    if (!rateLimitCheck.allowed) {
+      return rateLimitCheck.response
+    }
+
+    // Load trip data (access already verified)
     const { data: tripData, error: tripError } = await supabase
       .from('trips')
       .select(
@@ -195,12 +207,13 @@ Return the activities in chronological order.`
     }
 
     return NextResponse.json({ activities })
-  } catch (error) {
+  } catch (error: unknown) {
+    if (error instanceof NextResponse) return error
+    const res = tripAccessErrorResponse(error)
+    if (res.status !== 500) return res
     console.error('Error in /api/ai/plan-day:', error)
-    const errorMessage =
-      error instanceof Error ? error.message : 'Unknown error occurred'
     return NextResponse.json(
-      { error: errorMessage },
+      { error: 'An error occurred while planning the day' },
       { status: 500 }
     )
   }

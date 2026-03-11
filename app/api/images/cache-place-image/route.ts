@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { cachePlaceImageWithDetails, type CachePlaceImageParams } from '@/lib/images/cache-place-image';
-import { getProfileId } from '@/lib/auth/getProfileId';
+import { requireTripAccess, tripAccessErrorResponse } from '@/lib/auth/require-trip-access';
 import { createClient } from '@/lib/supabase/server';
 
 const isDev = process.env.NODE_ENV === 'development';
@@ -8,12 +8,6 @@ const isDev = process.env.NODE_ENV === 'development';
 export async function POST(request: NextRequest) {
   try {
     const supabase = await createClient();
-    
-    // Verify user is authenticated
-    const { profileId } = await getProfileId(supabase);
-    if (!profileId) {
-      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-    }
 
     const body = await request.json();
     const { tripId, placeId, title, city, country, photoRef, lat, lng } = body;
@@ -27,28 +21,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Verify user has access to the trip
-    const { data: trip, error: tripError } = await supabase
-      .from('trips')
-      .select('id, owner_id')
-      .eq('id', tripId)
-      .single();
-
-    if (tripError || !trip) {
-      return NextResponse.json({ error: 'Trip not found' }, { status: 404 });
-    }
-
-    // Check if user is owner or member
-    const { data: member } = await supabase
-      .from('trip_members')
-      .select('id')
-      .eq('trip_id', tripId)
-      .eq('user_id', profileId)
-      .maybeSingle();
-
-    const tripData = trip as { id: string; owner_id: string };
-    if (tripData.owner_id !== profileId && !member) {
-      return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
-    }
+    await requireTripAccess(tripId, supabase);
 
     // Cache the image with detailed result
     const params: CachePlaceImageParams = {
@@ -91,10 +64,13 @@ export async function POST(request: NextRequest) {
         image_url: result.publicUrl, // Also include for backward compatibility
       });
     }
-  } catch (error: any) {
+  } catch (error: unknown) {
+    if (error instanceof NextResponse) return error;
+    const res = tripAccessErrorResponse(error);
+    if (res.status !== 500) return res;
     console.error('[cache-place-image API] Error:', error);
     return NextResponse.json(
-      { error: error.message || 'Internal server error' },
+      { error: 'Failed to cache place image' },
       { status: 500 }
     );
   }
