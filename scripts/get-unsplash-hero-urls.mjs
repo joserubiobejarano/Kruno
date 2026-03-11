@@ -8,6 +8,7 @@
  *        node scripts/get-unsplash-hero-urls.mjs --replace-hero  (only the 10 city-guide hero replacement slugs)
  *        node scripts/get-unsplash-hero-urls.mjs --fix-hero  (only the 11 city-guide hero fix slugs: wrong images)
  *        node scripts/get-unsplash-hero-urls.mjs --fix-guide-hero  (14 city guides: Trieste, Salamanca, Toledo, etc.)
+ *        node scripts/get-unsplash-hero-urls.mjs --fix-guide-hero-2  (11 city guides: Yokohama, Arequipa, Salvador, etc.)
  * If rate limit is hit, run again later or use --hero-only --by-id for oxford, santa-fe, asheville, savannah, graz.
  */
 
@@ -131,6 +132,21 @@ const GUIDE_HERO_FIX_QUERIES = [
   { slug: 'perugia', city: 'Perugia', query: 'Perugia Italy Piazza IV Novembre Umbria' },
 ];
 
+// 11 city guides with broken or non–city-related hero images (use --fix-guide-hero-2 to run only these)
+const GUIDE_HERO_FIX_2_QUERIES = [
+  { slug: 'yokohama', city: 'Yokohama', query: 'Yokohama Japan harbor Minato Mirai' },
+  { slug: 'arequipa', city: 'Arequipa', query: 'Arequipa Peru White City Misti volcano' },
+  { slug: 'salvador', city: 'Salvador', query: 'Salvador Brazil Pelourinho colonial' },
+  { slug: 'incheon', city: 'Incheon', query: 'Incheon South Korea Chinatown waterfront' },
+  { slug: 'plovdiv', city: 'Plovdiv', query: 'Plovdiv Bulgaria Old Town Roman theatre' },
+  { slug: 'brno', city: 'Brno', query: 'Brno Czech Republic Spilberk old town' },
+  { slug: 'kaunas', city: 'Kaunas', query: 'Kaunas Lithuania old town Nemunas' },
+  { slug: 'cluj-napoca', city: 'Cluj-Napoca', query: 'Cluj-Napoca Romania Union Square' },
+  { slug: 'timisoara', city: 'Timișoara', query: 'Timisoara Romania Opera Square' },
+  { slug: 'sibiu', city: 'Sibiu', query: 'Sibiu Romania Large Square Bridge of Lies' },
+  { slug: 'zadar', city: 'Zadar', query: 'Zadar Croatia Sea Organ sunset waterfront' },
+];
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const base = 'https://api.unsplash.com/search/photos';
 const photoBase = 'https://api.unsplash.com/photos';
@@ -139,6 +155,7 @@ const BY_ID = process.argv.includes('--by-id');
 const REPLACE_HERO = process.argv.includes('--replace-hero');
 const FIX_HERO = process.argv.includes('--fix-hero');
 const FIX_GUIDE_HERO = process.argv.includes('--fix-guide-hero');
+const FIX_GUIDE_HERO_2 = process.argv.includes('--fix-guide-hero-2');
 const HERO_REPLACEMENT_SLUGS = [
   'ostrava', 'las-palmas', 'coimbra', 'cadiz', 'gijon', 'oviedo',
   'aarhus', 'penang', 'salt-lake-city', 'la-paz', 'trondheim',
@@ -151,7 +168,9 @@ const PHOTO_IDS = {
   savannah: 'r2Uz3Rbs6hE',
   graz: '4vSb71TnB5A',
 };
-const queriesToRun = FIX_GUIDE_HERO
+const queriesToRun = FIX_GUIDE_HERO_2
+  ? GUIDE_HERO_FIX_2_QUERIES
+  : FIX_GUIDE_HERO
   ? GUIDE_HERO_FIX_QUERIES
   : FIX_HERO
   ? FIX_HERO_QUERIES
