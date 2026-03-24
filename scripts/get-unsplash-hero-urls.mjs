@@ -10,6 +10,9 @@
  *        node scripts/get-unsplash-hero-urls.mjs --fix-guide-hero  (14 city guides: Trieste, Salamanca, Toledo, etc.)
  *        node scripts/get-unsplash-hero-urls.mjs --fix-guide-hero-2  (11 city guides: Yokohama, Arequipa, Salvador, etc.)
  *        node scripts/get-unsplash-hero-urls.mjs --fix-guide-hero-3  (12 city guides: Varna, Burgas, Constanța, Debrecen, Novi Sad, Ohrid, Astana, Chania, Corfu, Heraklion, Nafplio, Sarande)
+ *        node scripts/get-unsplash-hero-urls.mjs --fix-guide-hero-4  (10 city guides: Malmö, Cagliari, Pamplona, Zaragoza, Lübeck, Hoi An, Luang Prabang, Yogyakarta, Lucca, Sorrento)
+ *        node scripts/get-unsplash-hero-urls.mjs --fix-guide-hero-5  (14 city guides: Sheffield, Nottingham, Inverness, Stavanger, Tromsø, Aalborg, Essen, Ulaanbaatar, Windhoek, Lusaka, Maputo, Antananarivo, Sucre, Valparaíso)
+ * If the API returns rate limit errors, wait and retry or paste vetted Unsplash photo URLs into city-itineraries.ts (same ?auto=format&fit=crop&w=1600&q=80 pattern).
  * If rate limit is hit, run again later or use --hero-only --by-id for oxford, santa-fe, asheville, savannah, graz.
  */
 
@@ -164,6 +167,38 @@ const GUIDE_HERO_FIX_3_QUERIES = [
   { slug: 'sarande', city: 'Sarande', query: 'Albania coast beach Mediterranean' },
 ];
 
+// 10 city guides with broken or non–city-related hero images (use --fix-guide-hero-4 to run only these)
+const GUIDE_HERO_FIX_4_QUERIES = [
+  { slug: 'malmo', city: 'Malmö', query: 'Malmö Sweden Turning Torso waterfront' },
+  { slug: 'cagliari', city: 'Cagliari', query: 'Cagliari Italy Sardinia coast' },
+  { slug: 'pamplona', city: 'Pamplona', query: 'Pamplona Spain city Navarre' },
+  { slug: 'zaragoza', city: 'Zaragoza', query: 'Zaragoza Spain Basilica del Pilar Ebro' },
+  { slug: 'lubeck', city: 'Lübeck', query: 'Lubeck Germany old town brick' },
+  { slug: 'hoi-an', city: 'Hoi An', query: 'Hoi An Vietnam old town lanterns river' },
+  { slug: 'luang-prabang', city: 'Luang Prabang', query: 'Luang Prabang Laos Mekong temple' },
+  { slug: 'yogyakarta', city: 'Yogyakarta', query: 'Yogyakarta Indonesia Borobudur' },
+  { slug: 'lucca', city: 'Lucca', query: 'Lucca Italy walls Tuscany' },
+  { slug: 'sorrento', city: 'Sorrento', query: 'Sorrento Italy Amalfi coast cliffs' },
+];
+
+// 14 city guides: hero images (use --fix-guide-hero-5 to run only these)
+const GUIDE_HERO_FIX_5_QUERIES = [
+  { slug: 'sheffield', city: 'Sheffield', query: 'Sheffield England Winter Garden Peace Gardens UK' },
+  { slug: 'nottingham', city: 'Nottingham', query: 'Nottingham England castle Old Market Square UK' },
+  { slug: 'inverness', city: 'Inverness', query: 'Inverness Scotland River Ness castle UK' },
+  { slug: 'stavanger', city: 'Stavanger', query: 'Stavanger Norway Gamle Stavanger harbor wooden houses' },
+  { slug: 'tromso', city: 'Tromsø', query: 'Tromso Norway Arctic Cathedral bridge' },
+  { slug: 'aalborg', city: 'Aalborg', query: 'Aalborg Denmark Limfjord waterfront city' },
+  { slug: 'essen', city: 'Essen', query: 'Essen Germany Zollverein coal mine UNESCO industrial' },
+  { slug: 'ulaanbaatar', city: 'Ulaanbaatar', query: 'Ulaanbaatar Mongolia Gandan monastery city hills' },
+  { slug: 'windhoek', city: 'Windhoek', query: 'Windhoek Namibia Christuskirche Independence Avenue' },
+  { slug: 'lusaka', city: 'Lusaka', query: 'Lusaka Zambia city skyline Africa' },
+  { slug: 'maputo', city: 'Maputo', query: 'Maputo Mozambique waterfront Indian Ocean coast' },
+  { slug: 'antananarivo', city: 'Antananarivo', query: 'Antananarivo Madagascar hillside city Rova' },
+  { slug: 'sucre', city: 'Sucre', query: 'Sucre Bolivia white city colonial plaza UNESCO' },
+  { slug: 'valparaiso', city: 'Valparaíso', query: 'Valparaiso Chile colorful houses hills funicular bay' },
+];
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const base = 'https://api.unsplash.com/search/photos';
 const photoBase = 'https://api.unsplash.com/photos';
@@ -174,6 +209,10 @@ const FIX_HERO = process.argv.includes('--fix-hero');
 const FIX_GUIDE_HERO = process.argv.includes('--fix-guide-hero');
 const FIX_GUIDE_HERO_2 = process.argv.includes('--fix-guide-hero-2');
 const FIX_GUIDE_HERO_3 = process.argv.includes('--fix-guide-hero-3');
+const FIX_GUIDE_HERO_4 = process.argv.includes('--fix-guide-hero-4');
+const FIX_GUIDE_HERO_5 = process.argv.includes('--fix-guide-hero-5');
+const NEW_GUIDE_SLUGS = ['sheffield', 'nottingham', 'inverness', 'stavanger', 'tromso', 'aalborg', 'essen'];
+const NEW_GUIDES = process.argv.includes('--new-guides');
 const HERO_REPLACEMENT_SLUGS = [
   'ostrava', 'las-palmas', 'coimbra', 'cadiz', 'gijon', 'oviedo',
   'aarhus', 'penang', 'salt-lake-city', 'la-paz', 'trondheim',
@@ -186,7 +225,18 @@ const PHOTO_IDS = {
   savannah: 'r2Uz3Rbs6hE',
   graz: '4vSb71TnB5A',
 };
-const queriesToRun = FIX_GUIDE_HERO_3
+// Fallback by-ID for --fix-guide-hero-4 when search hits rate limit (Lübeck, Luang Prabang)
+const PHOTO_IDS_GUIDE_HERO_4 = {
+  lubeck: 'vPWn7zprVH4',
+  'luang-prabang': 'fFL5K3A3uGo',
+};
+const queriesToRun = NEW_GUIDES
+  ? QUERIES.filter((q) => NEW_GUIDE_SLUGS.includes(q.slug))
+  : FIX_GUIDE_HERO_5
+  ? GUIDE_HERO_FIX_5_QUERIES
+  : FIX_GUIDE_HERO_4
+  ? GUIDE_HERO_FIX_4_QUERIES
+  : FIX_GUIDE_HERO_3
   ? GUIDE_HERO_FIX_3_QUERIES
   : FIX_GUIDE_HERO_2
   ? GUIDE_HERO_FIX_2_QUERIES
@@ -223,10 +273,22 @@ if (BY_ID && HERO_ONLY) {
   for (const { slug, city, query } of queriesToRun) {
     try {
       await sleep(400);
-      const url = `${base}?query=${encodeURIComponent(query)}&per_page=1&orientation=landscape`;
-      const res = await fetch(url, { headers: { Authorization: `Client-ID ${KEY}` } });
-      const data = await res.json();
-      const regular = data?.results?.[0]?.urls?.regular;
+      let regular;
+      if (
+        queriesToRun === GUIDE_HERO_FIX_4_QUERIES &&
+        PHOTO_IDS_GUIDE_HERO_4[slug]
+      ) {
+        const idRes = await fetch(`${photoBase}/${PHOTO_IDS_GUIDE_HERO_4[slug]}`, {
+          headers: { Authorization: `Client-ID ${KEY}` },
+        });
+        const idData = await idRes.json();
+        regular = idData?.urls?.regular;
+      } else {
+        const url = `${base}?query=${encodeURIComponent(query)}&per_page=1&orientation=landscape`;
+        const res = await fetch(url, { headers: { Authorization: `Client-ID ${KEY}` } });
+        const data = await res.json();
+        regular = data?.results?.[0]?.urls?.regular;
+      }
       if (regular) {
         const heroUrl = regular.replace(/\?.*$/, '') + '?auto=format&fit=crop&w=1600&q=80';
         console.log(slug + '|' + heroUrl);

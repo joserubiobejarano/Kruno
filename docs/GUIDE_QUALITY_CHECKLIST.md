@@ -4,6 +4,7 @@ Use this checklist before shipping any new city guide. The bar is "Rome quality.
 
 ## P0 (must-have)
 - Hero section includes title, subtitle, and a valid hero image URL.
+- Hero image and all three image-info-card images use **Unsplash** (`https://images.unsplash.com/...`) URLs that clearly match the guide city (EN and ES share the same `src`; localize alt text only).
 - City stats section includes 3-5 stats with clear labels.
 - Image cards section includes 3 cards with title, description, and image.
 - Day plans count matches the number of days and each day has all fields filled.

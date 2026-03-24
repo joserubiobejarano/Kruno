@@ -7,6 +7,7 @@ import { getSiteUrl, siteConfig } from "@/lib/seo/site";
 import { buildCanonicalUrl, buildLanguageAlternates, getLocalizedPath, isSupportedLocale } from "@/lib/seo/urls";
 import { getMarketingCopy } from "@/lib/i18n/marketing";
 import { notFound } from "next/navigation";
+import { auth } from "@clerk/nextjs/server";
 
 export async function generateMetadata({
   params,
@@ -46,6 +47,8 @@ export default async function LocalizedHomePage({
   if (!isSupportedLocale(lang)) {
     notFound();
   }
+  const { userId } = await auth();
+  const isSignedIn = Boolean(userId);
   const siteUrl = getSiteUrl();
   const localizedBase = buildCanonicalUrl(getLocalizedPath("/", lang));
   const structuredData = [
@@ -72,7 +75,7 @@ export default async function LocalizedHomePage({
   return (
     <>
       <StructuredData data={structuredData} id={`kruno-home-ld-${lang}`} />
-      <HomePageClient showChrome={false} isSignedIn={false} />
+      <HomePageClient showChrome={false} isSignedIn={isSignedIn} />
       <HomepageSeoLinksSection lang={lang} />
     </>
   );

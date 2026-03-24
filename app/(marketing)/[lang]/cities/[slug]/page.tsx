@@ -268,10 +268,17 @@ export default async function LocalizedCityItineraryPage({
   });
   // Map image cards to use current language titles for display (Spanish titles on ES pages, English on EN pages)
   const dayImageCards = dayImageCardsResult
-    ? dayImageCardsResult.map((card, index) => ({
-        ...card,
-        title: itinerary.dayPlans[index]?.title ?? card.title,
-      }))
+    ? dayImageCardsResult.map((card, index) => {
+        const displayTitle = itinerary.dayPlans[index]?.title ?? card.title;
+        return {
+          ...card,
+          title: displayTitle,
+          image: {
+            ...card.image,
+            alt: `${displayCityName} - ${displayTitle}`,
+          },
+        };
+      })
     : null;
   if (process.env.NODE_ENV !== "production") {
     const missingP0 = validateGuide(itinerary);

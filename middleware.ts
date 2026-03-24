@@ -38,6 +38,9 @@ function getPreferredLocale(acceptLanguage: string | null): SupportedLocale {
 
 const isPublicRoute = createRouteMatcher([
   '/',
+  // Localized marketing (must match middleware.config.matcher so auth() works on these pages)
+  '/en(.*)',
+  '/es(.*)',
   '/sign-in(.*)',
   '/sign-up(.*)',
   '/p(.*)',
@@ -108,6 +111,8 @@ export default clerkMiddleware(async (auth, request) => {
 export const config = {
   matcher: [
     '/',
+    '/en(.*)',
+    '/es(.*)',
     '/sign-in(.*)',
     '/sign-up(.*)',
     '/trips(.*)',
