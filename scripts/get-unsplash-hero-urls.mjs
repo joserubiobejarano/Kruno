@@ -12,6 +12,7 @@
  *        node scripts/get-unsplash-hero-urls.mjs --fix-guide-hero-3  (12 city guides: Varna, Burgas, Constanța, Debrecen, Novi Sad, Ohrid, Astana, Chania, Corfu, Heraklion, Nafplio, Sarande)
  *        node scripts/get-unsplash-hero-urls.mjs --fix-guide-hero-4  (10 city guides: Malmö, Cagliari, Pamplona, Zaragoza, Lübeck, Hoi An, Luang Prabang, Yogyakarta, Lucca, Sorrento)
  *        node scripts/get-unsplash-hero-urls.mjs --fix-guide-hero-5  (14 city guides: Sheffield, Nottingham, Inverness, Stavanger, Tromsø, Aalborg, Essen, Ulaanbaatar, Windhoek, Lusaka, Maputo, Antananarivo, Sucre, Valparaíso)
+ *        node scripts/get-unsplash-hero-urls.mjs --fix-guide-hero-6  (15 city guides: Bonn, Girona, Braga, Haifa, Messina, Durban, Salerno, Brescia, Biarritz, Bolzano, Matera, Lugano, Montreux, Odense, Bled)
  * If the API returns rate limit errors, wait and retry or paste vetted Unsplash photo URLs into city-itineraries.ts (same ?auto=format&fit=crop&w=1600&q=80 pattern).
  * If rate limit is hit, run again later or use --hero-only --by-id for oxford, santa-fe, asheville, savannah, graz.
  */
@@ -199,6 +200,25 @@ const GUIDE_HERO_FIX_5_QUERIES = [
   { slug: 'valparaiso', city: 'Valparaíso', query: 'Valparaiso Chile colorful houses hills funicular bay' },
 ];
 
+// 15 city guides: hero images (use --fix-guide-hero-6 to run only these)
+const GUIDE_HERO_FIX_6_QUERIES = [
+  { slug: 'bonn', city: 'Bonn', query: 'Bonn Germany Rhine old town Beethoven' },
+  { slug: 'girona', city: 'Girona', query: 'Girona Spain Onyar river houses' },
+  { slug: 'braga', city: 'Braga', query: 'Bom Jesus Braga Portugal baroque stairs' },
+  { slug: 'haifa', city: 'Haifa', query: "Haifa Israel Baha'i gardens terraces" },
+  { slug: 'messina', city: 'Messina', query: 'Messina Sicily strait harbor' },
+  { slug: 'durban', city: 'Durban', query: 'Durban South Africa beachfront' },
+  { slug: 'salerno', city: 'Salerno', query: 'Salerno Italy seafront Amalfi' },
+  { slug: 'brescia', city: 'Brescia', query: 'Brescia Italy Roman forum Piazza Loggia' },
+  { slug: 'biarritz', city: 'Biarritz', query: 'Biarritz France Basque coast' },
+  { slug: 'bolzano', city: 'Bolzano', query: 'Bolzano Italy Dolomites South Tyrol' },
+  { slug: 'matera', city: 'Matera', query: 'Matera Italy Sassi caves' },
+  { slug: 'lugano', city: 'Lugano', query: 'Lugano Switzerland lake Lugano' },
+  { slug: 'montreux', city: 'Montreux', query: 'Montreux Switzerland Lake Geneva' },
+  { slug: 'odense', city: 'Odense', query: 'Odense Denmark historic center' },
+  { slug: 'bled', city: 'Bled', query: 'Lake Bled Slovenia island church' },
+];
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const base = 'https://api.unsplash.com/search/photos';
 const photoBase = 'https://api.unsplash.com/photos';
@@ -211,6 +231,7 @@ const FIX_GUIDE_HERO_2 = process.argv.includes('--fix-guide-hero-2');
 const FIX_GUIDE_HERO_3 = process.argv.includes('--fix-guide-hero-3');
 const FIX_GUIDE_HERO_4 = process.argv.includes('--fix-guide-hero-4');
 const FIX_GUIDE_HERO_5 = process.argv.includes('--fix-guide-hero-5');
+const FIX_GUIDE_HERO_6 = process.argv.includes('--fix-guide-hero-6');
 const NEW_GUIDE_SLUGS = ['sheffield', 'nottingham', 'inverness', 'stavanger', 'tromso', 'aalborg', 'essen'];
 const NEW_GUIDES = process.argv.includes('--new-guides');
 const HERO_REPLACEMENT_SLUGS = [
@@ -230,8 +251,28 @@ const PHOTO_IDS_GUIDE_HERO_4 = {
   lubeck: 'vPWn7zprVH4',
   'luang-prabang': 'fFL5K3A3uGo',
 };
+// Vetted Unsplash photo IDs for --fix-guide-hero-6 (avoids search rate limits and wrong-first-result)
+const PHOTO_IDS_GUIDE_HERO_6 = {
+  bonn: 'l4nwCVExhv8',
+  girona: 'Au8DnGDJz-g',
+  braga: 'cNM3uZ3je2E',
+  haifa: 'aOTWuZN9eoc',
+  messina: 'uqW5DpFpNMo',
+  durban: 'h5aF8jYW5XU',
+  salerno: 'wx3uDd2uabc',
+  brescia: 'oFqglXmY2CA',
+  biarritz: 'bEz87QHAW3o',
+  bolzano: 'DEez1BPJW2c',
+  matera: '42fS8_aq5oQ',
+  lugano: 'B6_4a2-FtLg',
+  montreux: 'YcCLdSgO3vw',
+  odense: 'mUc6oQOH_28',
+  bled: 'NK-GQrcM0Ko',
+};
 const queriesToRun = NEW_GUIDES
   ? QUERIES.filter((q) => NEW_GUIDE_SLUGS.includes(q.slug))
+  : FIX_GUIDE_HERO_6
+  ? GUIDE_HERO_FIX_6_QUERIES
   : FIX_GUIDE_HERO_5
   ? GUIDE_HERO_FIX_5_QUERIES
   : FIX_GUIDE_HERO_4
@@ -274,11 +315,14 @@ if (BY_ID && HERO_ONLY) {
     try {
       await sleep(400);
       let regular;
-      if (
-        queriesToRun === GUIDE_HERO_FIX_4_QUERIES &&
-        PHOTO_IDS_GUIDE_HERO_4[slug]
-      ) {
-        const idRes = await fetch(`${photoBase}/${PHOTO_IDS_GUIDE_HERO_4[slug]}`, {
+      const photoId =
+        queriesToRun === GUIDE_HERO_FIX_4_QUERIES
+          ? PHOTO_IDS_GUIDE_HERO_4[slug]
+          : queriesToRun === GUIDE_HERO_FIX_6_QUERIES
+            ? PHOTO_IDS_GUIDE_HERO_6[slug]
+            : undefined;
+      if (photoId) {
+        const idRes = await fetch(`${photoBase}/${photoId}`, {
           headers: { Authorization: `Client-ID ${KEY}` },
         });
         const idData = await idRes.json();

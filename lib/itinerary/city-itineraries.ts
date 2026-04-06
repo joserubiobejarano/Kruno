@@ -3700,6 +3700,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
+    rijeka: {
+      slug: "rijeka",
+      city: "Rijeka",
+      country: "Croatia",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Harbor-city fans", "Kvarner first-timers", "Moderate hill walks"],
+      style: ["Korzo strolls", "Harbor light", "Trsat views"],
+      pacing: [
+        "Rijeka reads as a working Adriatic port with an easy downtown. Keep mornings for Trsat or museums, then let Korzo fill the evening without a strict agenda.",
+        "Hills and sea breezes break up flat harbor walks. Carry a layer even when summer heat builds inland.",
+        "Ferry glimpses tempt island hopping; this plan stays in the city so the pace stays steady.",
+      ],
+      hero: {
+        title: "Rijeka in 3 days",
+        subtitle:
+          "Korzo promenades, Trsat overlooks, and a practical Kvarner city pace.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1586089080640-7798a9449d5c?auto=format&fit=crop&w=1600&q=80",
+          alt: "Rijeka waterfront with harbor buildings and calm Adriatic water.",
+        },
+      },
+      cityStats: [
+        { value: "120K+", label: "City population" },
+        { value: "Kvarner", label: "Historic maritime region" },
+        { value: "Trsat", label: "Hill fortress neighborhood" },
+        { value: "2020", label: "European Capital of Culture year" },
+      ],
+      fit: {
+        forYou: [
+          "Harbor walks and espresso breaks",
+          "Hilltop Trsat without all-day hiking",
+          "Coastal buses if you add a beach hour",
+          "Smaller crowds than Split in peak season",
+          "Italianate architecture touches",
+        ],
+        notForYou: [
+          "Classic walled Dubrovnik experience",
+          "Car-free island-only trips",
+          "Large sandy beaches in-city",
+          "Ultra-luxury resort strips",
+          "Dolomite mountain scenery",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Korzo and harbor",
+          summary: "Main promenade and city museums.",
+          morning: "Korzo coffee and City Tower area",
+          afternoon: "Maritime and History Museum or pedestrian market",
+          evening: "Harbor-side dinner and blue-hour walk",
+        },
+        {
+          day: 2,
+          title: "Trsat castle and viewpoints",
+          summary: "Hill fortress with slower return.",
+          morning: "Trsat Castle and Franciscan church",
+          afternoon: "Steps or bus back; gentle downtown reset",
+          evening: "Tunel bar district or calm Kontradmir block",
+        },
+        {
+          day: 3,
+          title: "Markets and open afternoon",
+          summary: "Local life plus flexible time.",
+          morning: "Central market and cathedral exterior",
+          afternoon: "Botanical garden or design-forward café crawl",
+          evening: "Final Korzo stroll",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Harbor clarity",
+          description:
+            "The water sets the daily rhythm. Wind often picks up mid-afternoon; mornings feel gentler.",
+          image: {
+            src: "https://images.unsplash.com/photo-1672571076918-742711b6dffd?auto=format&fit=crop&w=1200&q=80",
+            alt: "Rijeka river and city buildings along the water.",
+          },
+        },
+        {
+          title: "Boats and piers",
+          description:
+            "Ferries connect outward. Watching traffic from the pier is enough if you are not island-hopping.",
+          image: {
+            src: "https://images.unsplash.com/photo-1573658970739-d88735921610?auto=format&fit=crop&w=1200&q=80",
+            alt: "Boats docked along Rijeka harbor pier.",
+          },
+        },
+        {
+          title: "Urban coastline",
+          description:
+            "Rijeka mixes Austro-Hungarian façades with modern port infrastructure. Short photo stops beat long detours.",
+          image: {
+            src: "https://images.unsplash.com/photo-1654969936668-e8a5532aa1c7?auto=format&fit=crop&w=1200&q=80",
+            alt: "Rijeka cityscape next to the Adriatic Sea.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "May to June or September for milder heat" },
+        { label: "Airport transfer", value: "Bus or taxi from Rijeka Airport" },
+        { label: "Transit tips", value: "Walk Korzo; bus to Trsat" },
+        { label: "Ticketing", value: "Castle grounds often free; exhibits vary" },
+        { label: "Neighborhood stay", value: "Korzo or Žabica" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Korzo fills weekend evenings" },
+        { label: "Seasonal notes", value: "Bora wind possible; secure hats on Trsat" },
+        { label: "Museum booking advice", value: "Rarely needed except special exhibits" },
+        { label: "Common mistakes", value: "Expecting Dubrovnik-style walls everywhere" },
+        { label: "Dress code", value: "Sturdy shoes for Trsat cobbles" },
+      ],
+      checklist: [
+        "Download local bus app",
+        "Carry kunas/euro mix per season",
+        "Sun protection for open harbor stretches",
+        "Plan Trsat before midday heat",
+        "Leave room for spontaneous gelato",
+        "Check ferry boards only if adding a hop",
+      ],
+      faqs: [
+        {
+          question: "Is Rijeka a beach city?",
+          answer:
+            "Not in the resort sense. You get rocks, piers, and nearby Kostanjna or Opatija with a short ride if you want easier swimming.",
+        },
+        {
+          question: "Is 3 days enough?",
+          answer:
+            "Yes for Korzo, Trsat, markets, and one museum. Add islands only if you accept a faster pace.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "No for this itinerary. Buses and walking cover the city core.",
+        },
+        {
+          question: "Is it hilly?",
+          answer:
+            "Trsat climbs noticeably. Wear comfortable shoes and use the bus downhill if knees complain.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Near Korzo simplifies evenings. Žabica keeps you near transport hubs.",
+        },
+        {
+          question: "English level?",
+          answer:
+            "Hotels and cafés along Korzo usually speak English; patience helps in smaller shops.",
+        },
+        {
+          question: "Compared to Split or Zadar?",
+          answer:
+            "Rijeka feels more urban-industrial. Come for a grounded port city, not a polished old-town-only resort.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "split", city: "Split", days: 3, description: "Diocletian’s Palace and Riva walks." },
+        { slug: "zadar", city: "Zadar", days: 3, description: "Sea Organ sunsets and Roman forum." },
+        { slug: "zagreb", city: "Zagreb", days: 3, description: "Upper town funicular and museums." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
     yokohama: {
       slug: "yokohama",
       city: "Yokohama",
@@ -5427,6 +5594,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
         { slug: "prague", city: "Prague", days: 3, description: "Old Town, castle, and river." },
         { slug: "krakow", city: "Krakow", days: 3, description: "Square, castle, and old town." },
         { slug: "vienna", city: "Vienna", days: 3, description: "Palaces, museums, and grand avenues." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    pilsen: {
+      slug: "pilsen",
+      city: "Pilsen",
+      country: "Czech Republic",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Beer history fans", "Gothic architecture", "Easy Czech detours"],
+      style: ["Republic Square", "Great Synagogue area", "Brewery heritage"],
+      pacing: [
+        "Pilsen rewards a single-focus morning: cathedral towers, brewery storytelling, or a synagogue visit—then a long square lunch.",
+        "The historic center is walkable in loops. Revisit Republic Square at different lights rather than chasing distant districts.",
+        "Leave one afternoon soft for underground tours or simply people-watching with a half-liter that you did not rush to pour.",
+      ],
+      hero: {
+        title: "Pilsen in 3 days",
+        subtitle:
+          "Gothic towers, Republic Square rhythm, and brewery culture at an easy Czech pace.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1709073035222-edfaf938da11?auto=format&fit=crop&w=1600&q=80",
+          alt: "Pilsen Cathedral of St. Bartholomew tower rising above the city.",
+        },
+      },
+      cityStats: [
+        { value: "103m", label: "Highest church tower in Czech Republic" },
+        { value: "1842", label: "Pilsner lager origin era" },
+        { value: "170K+", label: "City population" },
+        { value: "90 min", label: "Fast train from Prague (typical)" },
+      ],
+      fit: {
+        forYou: [
+          "Central European squares without Prague density",
+          "Beer culture with context, not binge framing",
+          "Underground historical tours if booked",
+          "Easy trains west toward Germany",
+          "Calm pace with late café stops",
+        ],
+        notForYou: [
+          "Castles on every corner like Prague’s circuit",
+          "Alpine hiking at the doorstep",
+          "Coastal itineraries",
+          "English-only menus everywhere",
+          "Club-focused nights",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Republic Square and cathedral",
+          summary: "Tower ascent and square geometry.",
+          morning: "Republic Square arcades and Town Hall details",
+          afternoon: "Cathedral interior and tower ticket window",
+          evening: "Dinner near the square; early night if you climb",
+        },
+        {
+          day: 2,
+          title: "Pilsner Urquell and brewery quarter",
+          summary: "Historic cellars and brewing story.",
+          morning: "Brewery tour booking and visitor experience",
+          afternoon: "Beer museum or neighboring park walk",
+          evening: "Local pub with restrained pace",
+        },
+        {
+          day: 3,
+          title: "Synagogue and underground options",
+          summary: "Heritage variety with flexible close.",
+          morning: "Great Synagogue visit",
+          afternoon: "Historic underground tour or Techmania if families prefer",
+          evening: "Final square loop and pack",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Cathedral tower",
+          description:
+            "The climb rewards patient legs. Check last entry times before you commit.",
+          image: {
+            src: "https://images.unsplash.com/photo-1716481731194-67a27f868c23?auto=format&fit=crop&w=1200&q=80",
+            alt: "Street view toward tall Pilsen cathedral tower.",
+          },
+        },
+        {
+          title: "Square symmetry",
+          description:
+            "Republic Square frames cafés and events. Midweek mornings stay photographable.",
+          image: {
+            src: "https://images.unsplash.com/photo-1662666808151-aaa73e09883d?auto=format&fit=crop&w=1200&q=80",
+            alt: "Rooftops and city skyline of Pilsen.",
+          },
+        },
+        {
+          title: "Fountain and facades",
+          description:
+            "Plague Column and passing trams mark daily life. Slow circumnavigation beats ticking boxes.",
+          image: {
+            src: "https://images.unsplash.com/photo-1634842542033-cd34e3abb060?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic fountain and building facade in Pilsen center.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September for mild weather and festivals" },
+        { label: "Getting there", value: "RegioJet or ČD trains from Prague main station" },
+        { label: "Transit tips", value: "Walk old town; trams to outskirts" },
+        { label: "Ticketing", value: "Book brewery tours and underground slots early on weekends" },
+        { label: "Neighborhood stay", value: "Inside or one block off Republic Square" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Cathedral tower queues peak before noon" },
+        { label: "Seasonal notes", value: "Christmas market fills the square; book stays early" },
+        { label: "Museum booking advice", value: "Synagogue may have gender seating norms for services—visit as tourist during open hours" },
+        { label: "Common mistakes", value: "Treating the brewery visit as only a bar crawl" },
+        { label: "Dress code", value: "Modest shoulders for active worship spaces" },
+      ],
+      checklist: [
+        "Prebook brewery tour English slot",
+        "Carry small crowns for toilets or snacks",
+        "Tower ticket separate from church donation",
+        "Hydrate between beer tastings",
+        "Download offline Czech phrase basics",
+        "Comfortable layered clothing for cellars",
+      ],
+      faqs: [
+        {
+          question: "Is Pilsen just for beer drinkers?",
+          answer:
+            "No. The Gothic cathedral and synagogue are strong alone. Beer is one strand, not the whole city.",
+        },
+        {
+          question: "Can I day-trip from Prague?",
+          answer:
+            "Yes, but you would skip underground and second-day depth. Overnight makes the pace honest.",
+        },
+        {
+          question: "Is English spoken?",
+          answer:
+            "At major sites, often yes. Smaller pubs may rely on gestures—part of the charm.",
+        },
+        {
+          question: "Are tours kid-friendly?",
+          answer:
+            "Brewery and Techmania work well. Underground tours may have age minimums—check schedules.",
+        },
+        {
+          question: "Is the tower climb difficult?",
+          answer:
+            "It is steep and narrow. Skip it if you dislike enclosed stairs; the square views partially compensate from cafés.",
+        },
+        {
+          question: "Cash or card?",
+          answer:
+            "Cards widen each year; keep some crowns for small stands.",
+        },
+        {
+          question: "What about Karlovy Vary next?",
+          answer:
+            "Different vibe—spa hills versus industrial-brew heritage. Choose based on interest, not proximity alone.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "prague", city: "Prague", days: 3, description: "Castle, Charles Bridge, and Old Town." },
+        { slug: "brno", city: "Brno", days: 3, description: "Moravian cafes and Spielberg fortress." },
+        { slug: "vienna", city: "Vienna", days: 3, description: "Ringstrasse museums and palaces." },
       ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
@@ -8679,6 +9013,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
+    katowice: {
+      slug: "katowice",
+      city: "Katowice",
+      country: "Poland",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Industrial heritage", "Silesian culture", "Easy city loops"],
+      style: ["Rynek", "Modernist icons", "Green pocket parks"],
+      pacing: [
+        "Post-industrial Katowice works best with one headline sight per day—Spodek-adjacent culture, Nikiszowiec brick streets, or valley ponds—then slower food.",
+        "Trams stitch districts; rides are part of the rest, not a penalty.",
+        "Summer festivals shift crowds; keep one dinner reservation when events land on the weekend.",
+      ],
+      hero: {
+        title: "Katowice in 3 days",
+        subtitle:
+          "Silesian squares, modernist landmarks, and green pockets without a packed checklist.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1730321942365-336937870800?auto=format&fit=crop&w=1600&q=80",
+          alt: "Katowice city center view with modernist architecture.",
+        },
+      },
+      cityStats: [
+        { value: "290K+", label: "City population" },
+        { value: "1865", label: "Rail hub era milestone" },
+        { value: "UNESCO", label: "Nikiszowiec workers’ housing ensemble" },
+        { value: "3 valleys", label: "Ponds and green corridor access" },
+      ],
+      fit: {
+        forYou: [
+          "Rynek cafés and evening light",
+          "Photogenic modernist and brick districts",
+          "Museums that explain Silesian change",
+          "Tram commutes as scenic, not stressful",
+          "Hearty Central European meals",
+        ],
+        notForYou: [
+          "Medieval old towns like Krakow’s core",
+          "Mountain scenery on foot from hotels",
+          "Beach weeks",
+          "Ultra-compact single-district tourism",
+          "Expecting Polish-only rural silence downtown",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Rynek and Spodek area",
+          summary: "Market square loop and flying-saucer landmark.",
+          morning: "Rynek arcades and Silesian Theatre block",
+          afternoon: "International Congress Centre and Spodek exterior",
+          evening: "Mariacka or Mariacka Tylna dining",
+        },
+        {
+          day: 2,
+          title: "Nikiszowiec and culture",
+          summary: "Brick workers’ quarter and focused museum time.",
+          morning: "Nikiszowiec housing ensemble walk",
+          afternoon: "Silesian Museum or choir shaft viewpoint",
+          evening: "Local bistro with live music if scheduled",
+        },
+        {
+          day: 3,
+          title: "Valley of Three Ponds",
+          summary: "Green day with flexible close.",
+          morning: "Park entry and lakeside loop",
+          afternoon: "Slow café and return tram",
+          evening: "Final Rynek drink",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Modernist drama",
+          description:
+            "Spodek’s form divides opinion in the best way. Exterior photos need little staging.",
+          image: {
+            src: "https://images.unsplash.com/photo-1679652947302-9a9378a81271?auto=format&fit=crop&w=1200&q=80",
+            alt: "Spodek arena and modern structures in Katowice.",
+          },
+        },
+        {
+          title: "Brick colony streets",
+          description:
+            "Nikiszowiec rewards slow corners. Respect residents; keep voices low in courtyards.",
+          image: {
+            src: "https://images.unsplash.com/photo-1579551356890-63849a1d1286?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic brick architecture in Katowice area.",
+          },
+        },
+        {
+          title: "City rhythm",
+          description:
+            "Trams and mid-rise blocks frame everyday Silesia. Sunsets from higher streets add contrast.",
+          image: {
+            src: "https://images.unsplash.com/photo-1710147558445-fa151de9b47c?auto=format&fit=crop&w=1200&q=80",
+            alt: "Katowice skyline at sunset with warm light.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "Late spring to early fall for park days" },
+        { label: "Airport transfer", value: "Bus or taxi from Katowice Airport (KTW)" },
+        { label: "Transit tips", value: "ZTM trams and buses; buy tickets before boarding" },
+        { label: "Ticketing", value: "Silesian Museum and shafts may need online slots" },
+        { label: "Neighborhood stay", value: "Near Rynek or Koszutka for tram lines" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Concerts fill Spodek weekends—check listings" },
+        { label: "Seasonal notes", value: "Winter smog possible; prefer museums on hazy days" },
+        { label: "Museum booking advice", value: "Underground routes at the museum popular—reserve" },
+        { label: "Common mistakes", value: "Treating Katowice as only a Krakow add-on without sleep" },
+        { label: "Dress code", value: "Casual layers; wind at pond parks" },
+      ],
+      checklist: [
+        "Buy 72-hour transit pass if exploring widely",
+        "Download ZTM ticket app",
+        "Sturdy shoes for Nikiszowiec cobbles",
+        "One traditional dinner reservation",
+        "Offline map for tram hops",
+        "Check museum Monday closures",
+      ],
+      faqs: [
+        {
+          question: "Is Katowice safe?",
+          answer:
+            "Use normal urban awareness. Tourist zones are busy; peripheral post-industrial sites merit daylight visits.",
+        },
+        {
+          question: "How does it compare to Krakow?",
+          answer:
+            "Less medieval postcard, more 20th-century layers. Come for architecture density and Silesian identity.",
+        },
+        {
+          question: "English in restaurants?",
+          answer:
+            "Younger staff often speak English; picture menus help elsewhere.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "No for this itinerary. Trams reach Nikiszowiec and valley parks.",
+        },
+        {
+          question: "Is Auschwitz nearby?",
+          answer:
+            "Yes, but emotionally heavy. If you go, dedicate a full separate day; do not stack with nightlife.",
+        },
+        {
+          question: "Best coffee neighborhoods?",
+          answer:
+            "City center and Mariacka-adjacent streets cluster solid third-wave spots.",
+        },
+        {
+          question: "Music festivals?",
+          answer:
+            "Off-season may still host arena events. Book hotels early when tickets sell out.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "krakow", city: "Krakow", days: 3, description: "Medieval core and Kazimierz." },
+        { slug: "warsaw", city: "Warsaw", days: 3, description: "Rebuilt old town and riverside." },
+        { slug: "wroclaw", city: "Wroclaw", days: 3, description: "Market square and dwarf trails." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
     adelaide: {
       slug: "adelaide",
       city: "Adelaide",
@@ -10145,6 +10646,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
           days: 3,
           description: "Classic landmarks, museums, and cafe neighborhoods.",
         },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    caen: {
+      slug: "caen",
+      city: "Caen",
+      country: "France",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["History readers", "Normandy starters", "Walkable old towns"],
+      style: ["Ducal castle", "Romanesque abbeys", "Calm plateaus"],
+      pacing: [
+        "Caen spreads across a plateau, but the castle and abbeys anchor short days. Keep one major site per morning, then wander Vaugueux without a strict list.",
+        "Normandy weather shifts quickly. Pair outdoor castle ramps with abbey interiors when clouds roll in.",
+        "Evening meals in the laneways stay relaxed. Book one dinner, leave the rest flexible.",
+      ],
+      hero: {
+        title: "Caen in 3 days",
+        subtitle:
+          "William’s castle, twin abbeys, and quiet Norman lanes without overloading the schedule.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1680770259219-d0d760dd135e?auto=format&fit=crop&w=1600&q=80",
+          alt: "Aerial view of Caen castle walls and green inner grounds.",
+        },
+      },
+      cityStats: [
+        { value: "1050s", label: "Château de Caen foundations era" },
+        { value: "2", label: "Major Romanesque abbeys in the guide" },
+        { value: "125K+", label: "Residents in greater Caen" },
+        { value: "15 min", label: "Approximate train link toward Bayeux" },
+      ],
+      fit: {
+        forYou: [
+          "Normandy landing history nearby without living at museums",
+          "Castle ramparts and abbey calm",
+          "Student-town energy with manageable size",
+          "Regional cider and seafood stops",
+          "Regional trains for optional side steps",
+        ],
+        notForYou: [
+          "Paris-level nightlife",
+          "Alpine scenery",
+          "Year-round beach focus in Caen itself",
+          "Packed Loire château hopping",
+          "No history interest at all",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Château de Caen",
+          summary: "Ducal castle museums and ramparts.",
+          morning: "Château walls and Fine Arts Museum wing",
+          afternoon: "Castle gardens or temporary exhibit halls",
+          evening: "Vaugueux dinner lanes",
+        },
+        {
+          day: 2,
+          title: "Abbaye aux Hommes and women’s abbey",
+          summary: "Romanesque architecture at an easy pace.",
+          morning: "Abbaye aux Hommes (Men’s Abbey)",
+          afternoon: "Abbaye aux Dames and surrounds",
+          evening: "Port area or old town café",
+        },
+        {
+          day: 3,
+          title: "Memorial morning and free afternoon",
+          summary: "Thoughtful history block, then local time.",
+          morning: "Caen Memorial Museum (allow several hours)",
+          afternoon: "Saint-Pierre church area or shopping streets",
+          evening: "Quiet farewell walk on the plateau",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Castle keep",
+          description:
+            "William’s fortification spans a wide green interior. The scale is better absorbed slowly.",
+          image: {
+            src: "https://images.unsplash.com/photo-1730410037260-ea4a1fd19c7e?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic Caen cathedral spire and stone architecture.",
+          },
+        },
+        {
+          title: "Abbey stonework",
+          description:
+            "Romanesque lines read clearly in morning light. Audio guides help without rushing.",
+          image: {
+            src: "https://images.unsplash.com/photo-1743424222555-0268611eca10?auto=format&fit=crop&w=1200&q=80",
+            alt: "Gothic and Romanesque stone detail on Caen church architecture.",
+          },
+        },
+        {
+          title: "City overview",
+          description:
+            "The plateau layout reveals itself from higher points. Use it to plan gentle return walks.",
+          image: {
+            src: "https://images.unsplash.com/photo-1662552378984-57020fdba712?auto=format&fit=crop&w=1200&q=80",
+            alt: "Hill view over Caen rooftops and green spaces.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September for lighter crowds" },
+        { label: "Getting there", value: "Paris–Caen by train under three hours" },
+        { label: "Transit tips", value: "Trams cross the plateau; old core on foot" },
+        { label: "Ticketing", value: "Book Memorial slot in peak summer" },
+        { label: "Neighborhood stay", value: "Château side or Vaugueux" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Memorial busy late morning; arrive at open" },
+        { label: "Seasonal notes", value: "Rain common; mix indoor abbey blocks" },
+        { label: "Museum booking advice", value: "Abbey tours sometimes capped per day" },
+        { label: "Common mistakes", value: "Stacking D-Day beaches same day as full Memorial visit" },
+        { label: "Dress code", value: "Shoulders covered for active church visits" },
+      ],
+      checklist: [
+        "Prebook Memorial if visiting July–August",
+        "Download tram map",
+        "Carry cash for small countryside bakeries",
+        "Wear grippy shoes for castle ramps",
+        "Plan abbey visits before lunch sluggishness",
+        "Note Tuesday closures for some sites",
+      ],
+      faqs: [
+        {
+          question: "Is Caen only about D-Day?",
+          answer:
+            "No. Medieval Caen is strong on its own. The Memorial is optional but fits day three if you want that history lens.",
+        },
+        {
+          question: "Can I visit the D-Day beaches in one day?",
+          answer:
+            "Possible from Caen, but it is a full day. Expect driving or an organized tour; not a calm add-on.",
+        },
+        {
+          question: "Is Caen walkable?",
+          answer:
+            "The old core is. The plateau is slightly hilly; trams help crossing longer axes.",
+        },
+        {
+          question: "Where should I eat?",
+          answer:
+            "Vaugueux clusters smaller restaurants. One reservation on weekends is enough.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "Not for Caen itself. A car helps only if you self-drive the beaches or countryside.",
+        },
+        {
+          question: "Is English enough?",
+          answer:
+            "In museums and hotels, yes. A few French phrases still smooth smaller cafés.",
+        },
+        {
+          question: "Is 3 days too long?",
+          answer:
+            "It balances castle, abbeys, and a thoughtful museum day. Trim day three if you prefer a tighter Norman stopover.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "paris", city: "Paris", days: 3, description: "Train hub and classic sights." },
+        { slug: "lyon", city: "Lyon", days: 3, description: "Two rivers and food-focused quarters." },
+        { slug: "brussels", city: "Brussels", days: 3, description: "Grand Place and easy rail links north." },
       ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
@@ -13250,6 +13918,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
+    potsdam: {
+      slug: "potsdam",
+      city: "Potsdam",
+      country: "Germany",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Park walks", "Palace grounds", "Easy day trips from Berlin"],
+      style: ["Sanssouci", "Dutch Quarter", "Havel riverside"],
+      pacing: [
+        "Potsdam spreads palace gardens across kilometers—pick one estate depth per day rather than racing between all gates.",
+        "Bike rentals can help honest walkers, but this plan stays on foot with trams filling gaps.",
+        "Evenings along the Havel feel quieter than Berlin; use them to decompress.",
+      ],
+      hero: {
+        title: "Potsdam in 3 days",
+        subtitle:
+          "Rococo terraces, Dutch Quarter brick, and calm lakeside stretches west of Berlin.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1467539656147-5273a1d3fd2f?auto=format&fit=crop&w=1600&q=80",
+          alt: "Sanssouci Palace terraces and gardens in Potsdam.",
+        },
+      },
+      cityStats: [
+        { value: "18th c.", label: "Frederician park landscapes" },
+        { value: "UNESCO", label: "Palaces and parks ensemble" },
+        { value: "~180K", label: "Residents in the city" },
+        { value: "35 min", label: "Regional train from Berlin center" },
+      ],
+      fit: {
+        forYou: [
+          "Formal gardens with benches",
+          "Photography without big-city grit",
+          "History told through architecture",
+          "Quiet dinners after long walks",
+          "Berlin add-on travelers who want green space",
+        ],
+        notForYou: [
+          "Dense nightlife strips",
+          "Fast-only itineraries",
+          "Budget travelers avoiding transit passes",
+          "Travelers who dislike palace ticket logistics",
+          "Expecting skyscraper skylines",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Sanssouci core",
+          summary: "Palace terraces and closest gardens.",
+          morning: "Sanssouci Palace exterior and vineyard terraces",
+          afternoon: "Sanssouci Park highlights at a slow loop",
+          evening: "Dinner near Brandenburger Strasse",
+        },
+        {
+          day: 2,
+          title: "Neues Palais and new gardens",
+          summary: "Western park zone with richer interiors optional.",
+          morning: "Neues Palais forecourt and palace tour if booked",
+          afternoon: "Park paths toward Charlottenhof area",
+          evening: "Havel shore walk near city center",
+        },
+        {
+          day: 3,
+          title: "Dutch Quarter and film museum",
+          summary: "Urban brick streets plus cultural interior.",
+          morning: "Holländisches Viertel lanes",
+          afternoon: "Filmmuseum Potsdam or Alexandrowka Russian colony",
+          evening: "Tram back through Bassinplatz without rushing",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Rococo terraces",
+          description:
+            "Climbing rows reward early arrival. Bring water on warm afternoons; shade is selective.",
+          image: {
+            src: "https://images.unsplash.com/photo-1688302749963-5c7709451d76?auto=format&fit=crop&w=1200&q=80",
+            alt: "Neues Palais dome and baroque architecture in Potsdam.",
+          },
+        },
+        {
+          title: "Formal fountains",
+          description:
+            "Symmetry and benches invite sitting. Pair with a timed entry elsewhere so the day still feels light.",
+          image: {
+            src: "https://images.unsplash.com/photo-1723482649600-5457c598211a?auto=format&fit=crop&w=1200&q=80",
+            alt: "Formal garden with fountain in Potsdam park.",
+          },
+        },
+        {
+          title: "Still water reflections",
+          description:
+            "Late-day light on palace basins is gentle. Use it as a closing pause before dinner.",
+          image: {
+            src: "https://images.unsplash.com/photo-1748450038200-3a9696c0690c?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic tower reflected in calm water in Potsdam.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "Late April to June or September for park color" },
+        { label: "Airport transfer", value: "BER to Berlin Hbf then RE1/RB to Potsdam" },
+        { label: "Transit tips", value: "Tram 91 or 92 links palaces; walking between distant gates eats time" },
+        { label: "Ticketing", value: "Book Sanssouci interior slots days ahead in peak weeks" },
+        { label: "Neighborhood stay", value: "Near Brandenburger Tor tram hub or Dutch Quarter" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Sanssouci midday draws tour coaches—start before 10:00" },
+        { label: "Seasonal notes", value: "Winter closes some garden interiors; check schedules" },
+        { label: "Museum booking advice", value: "Combine one ticketed palace with two outdoor loops per day max" },
+        { label: "Common mistakes", value: "Assuming Versailles-scale buses inside the park" },
+        { label: "Dress code", value: "Sturdy shoes for gravel and slopes" },
+      ],
+      checklist: [
+        "Buy day tram pass if jumping palaces",
+        "Pre-book palace interior you care about most",
+        "Pack sun hat for open terraces",
+        "Carry water bottle with refill points mapped",
+        "Download offline park map",
+        "Note Monday closures for some houses",
+      ],
+      faqs: [
+        {
+          question: "Is Potsdam only a Berlin day trip?",
+          answer:
+            "Many visit for a day, but three nights let you walk the Dutch Quarter twice, repeat a favorite garden, and tour interiors without exhaustion.",
+        },
+        {
+          question: "Which palace interior matters most?",
+          answer:
+            "First-timers often pick Sanssouci; architecture fans add Neues Palais. Skip secondary tickets if you dislike timed schedules.",
+        },
+        {
+          question: "Do I need bikes?",
+          answer:
+            "Not for this walking plan. Trams cover honest gaps if your feet need relief.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Near Brandenburger Tor keeps tram access simple; the Dutch Quarter suits quieter evenings.",
+        },
+        {
+          question: "Are restaurants touristy?",
+          answer:
+            "Near palaces, yes. Walk ten minutes toward Nauener Tor for more mixed crowds.",
+        },
+        {
+          question: "Is English enough?",
+          answer:
+            "At ticket desks and bigger museums, usually. Smaller cafés may default to German.",
+        },
+        {
+          question: "Can I see everything?",
+          answer:
+            "The park ensemble is huge. Commit to highlights per day and treat return trips as a feature, not a failure.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "berlin", city: "Berlin", days: 3, description: "Museums, memorials, and neighborhoods." },
+        { slug: "dresden", city: "Dresden", days: 3, description: "Elbe baroque and gallery depth." },
+        { slug: "wurzburg", city: "Würzburg", days: 3, description: "Residence UNESCO and bridge sunsets." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
     zurich: {
       slug: "zurich",
       city: "Zurich",
@@ -13898,6 +14733,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
           days: 3,
           description: "Relaxed parks and neighborhood loops.",
         },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    rennes: {
+      slug: "rennes",
+      city: "Rennes",
+      country: "France",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Food markets", "Half-timber lanes", "Brittany gateway trips"],
+      style: ["Parliament block", "Timber houses", "Garden walks"],
+      pacing: [
+        "Rennes balances a lively student city with pockets of calm—schedule market mornings, then museum or park afternoons.",
+        "Half-timber streets reward diagonal wandering; resist mapping every alley in advance.",
+        "The Vilaine offers flat evening loops when hills in other Breton towns would tire you faster.",
+      ],
+      hero: {
+        title: "Rennes in 3 days",
+        subtitle:
+          "Parliament courtyards, Saturday market energy, and timber lanes at an easy Brittany rhythm.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1646941696411-8cd7e72101b1?auto=format&fit=crop&w=1600&q=80",
+          alt: "River Vilaine flowing through Rennes with buildings along the banks.",
+        },
+      },
+      cityStats: [
+        { value: "~220K", label: "Residents in the metro area" },
+        { value: "1720s", label: "Parliament stone drama still center stage" },
+        { value: "Sat.", label: "Major market at Place des Lices" },
+        { value: "TGV", label: "Paris in roughly 90 minutes" },
+      ],
+      fit: {
+        forYou: [
+          "Compact city breaks with good food",
+          "Markets without massive crowds of capitals",
+          "Timber-photo walks at golden hour",
+          "Student-town café culture",
+          "Easy onward trains toward Saint-Malo or Nantes",
+        ],
+        notForYou: [
+          "Alpine scenery on foot",
+          "Expecting only coastal views in-city",
+          "Late-night club tourism focus",
+          "Zero interest in regional cuisine",
+          "Visitors who dislike occasional rain",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Parliament and timber core",
+          summary: "Historic institutions plus narrow lanes.",
+          morning: "Parlement de Bretagne exterior and Place de la Mairie",
+          afternoon: "Rue Saint-Michel half-timber loop",
+          evening: "Dinner near Saint-Anne square",
+        },
+        {
+          day: 2,
+          title: "Market and museums",
+          summary: "Lices market then focused indoor time.",
+          morning: "Marché des Lices (Saturday) or brunch lane nearby",
+          afternoon: "Musée de Bretagne or Musée des Beaux-Arts block",
+          evening: "Vilaine walk toward MAIL leisure quarter",
+        },
+        {
+          day: 3,
+          title: "Thabor and calm close",
+          summary: "Garden day with optional catch-up shopping.",
+          morning: "Thabor gardens and rose circuit",
+          afternoon: "Odorama perfumery stop or café crawl",
+          evening: "Quiet timber-street revisit without goals",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "River light",
+          description:
+            "Morning reflections on the Vilaine are softest before commuter bikes peak.",
+          image: {
+            src: "https://images.unsplash.com/photo-1602441424328-f609508f8163?auto=format&fit=crop&w=1200&q=80",
+            alt: "Boat and quay buildings along water in Rennes.",
+          },
+        },
+        {
+          title: "Parliament stone",
+          description:
+            "The courtyards mix gravity with everyday city life. Visit on foot, then step sideways into lanes.",
+          image: {
+            src: "https://images.unsplash.com/photo-1610937102577-78606931e97f?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic civic architecture and street in Rennes.",
+          },
+        },
+        {
+          title: "Urban brick rhythm",
+          description:
+            "Modernist chunks sit near timber houses—contrast keeps walks interesting without long transfers.",
+          image: {
+            src: "https://images.unsplash.com/photo-1610937507905-06fcd469f2d7?auto=format&fit=crop&w=1200&q=80",
+            alt: "City street with mixed architecture in Rennes.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "May to June or September for market and garden comfort" },
+        { label: "Airport transfer", value: "Rennes airport shuttle or TGV from Paris" },
+        { label: "Transit tips", value: "Metro line A crosses town; center stays walkable" },
+        { label: "Ticketing", value: "Book opera or dance shows early if visiting culture venues" },
+        { label: "Neighborhood stay", value: "Saint-Anne or near Republic for food access" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Saturday market peaks before 11:00—go early or very late" },
+        { label: "Seasonal notes", value: "Brittany rain arrives quickly; plan indoor museum backups" },
+        { label: "Museum booking advice", value: "Regional museum is sizable; pick two floors, not all" },
+        { label: "Common mistakes", value: "Skipping rest days between Rennes and coastal driving loops" },
+        { label: "Dress code", value: "Smart layers for changeable coastal-influenced weather" },
+      ],
+      checklist: [
+        "Align one day with Saturday market",
+        "Book dinner for market night",
+        "Carry compact umbrella",
+        "Download metro map offline",
+        "Wear shoes ok for cobbles",
+        "Note late lunch kitchen closures",
+      ],
+      faqs: [
+        {
+          question: "Is Rennes just a stop before Saint-Malo?",
+          answer:
+            "It can be, but three days here add context—markets, Breton museums, and timber architecture—without coastal wind fatigue.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "Not for this city itinerary. Trains reach nearby coast if you extend later.",
+        },
+        {
+          question: "Is English spoken?",
+          answer:
+            "Younger locals and tourism desks often speak English; rural Breton towns less so.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Republic or Saint-Anne keeps food options walkable late; quieter picks sit near Thabor.",
+        },
+        {
+          question: "How is food?",
+          answer:
+            "Crêpes and galettes are staples, but the restaurant scene is broader than stereotypes suggest—book one nicer table.",
+        },
+        {
+          question: "Is it expensive?",
+          answer:
+            "Moderate for France; markets help balance restaurant spend.",
+        },
+        {
+          question: "Can I skip museums?",
+          answer:
+            "Yes if timber walks, gardens, and market culture are enough—this guide still assumes one indoor half-day for rain cover.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "nantes", city: "Nantes", days: 2, description: "Loire creativity and compact center." },
+        { slug: "paris", city: "Paris", days: 3, description: "Landmarks and calm neighborhood time." },
+        { slug: "bordeaux", city: "Bordeaux", days: 3, description: "Stone quays and wine-country pacing." },
       ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
@@ -14725,6 +15727,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
           days: 3,
           description: "Seaside neighborhoods and relaxed pacing.",
         },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    rouen: {
+      slug: "rouen",
+      city: "Rouen",
+      country: "France",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Gothic architecture", "River Seine strollers", "Compact Normandy breaks"],
+      style: ["Cathedral light", "Half-timber lanes", "Old Market history"],
+      pacing: [
+        "Rouen rewards short loops: cathedral in one light, clock street in another, museum in between. Avoid treating every timber house as mandatory.",
+        "The Seine adds orientation. Use riverside walks to reset between old-town climbs.",
+        "Markets and cafés matter—leave lunch long when bells ring longer than your schedule allows.",
+      ],
+      hero: {
+        title: "Rouen in 3 days",
+        subtitle:
+          "Gothic cathedral visits, Gros-Horloge streets, and calm Seine-side pacing.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1708599205714-dad8f3cd8638?auto=format&fit=crop&w=1600&q=80",
+          alt: "Rouen Cathedral Gothic facade under dramatic sky.",
+        },
+      },
+      cityStats: [
+        { value: "1431", label: "Joan of Arc trial year in Rouen" },
+        { value: "151m", label: "Cathedral lantern height (approx.)" },
+        { value: "110K+", label: "Central city population" },
+        { value: "Seine", label: "River ties orientation north-south" },
+      ],
+      fit: {
+        forYou: [
+          "Claude Monet’s repeated subject in real stone",
+          "Half-timber photography without car dependence",
+          "Museums on Rouen’s art-medieval mix",
+          "Day-trip potential toward the coast if desired",
+          "Walkable Normandy hub",
+        ],
+        notForYou: [
+          "Sun-soaked Riviera pace",
+          "Large beaches in town",
+          "Paris metro frequency expectations",
+          "Ultra-modern skyline tourism",
+          "Late-night club strips",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Cathedral and close lanes",
+          summary: "Gothic west front and nearby churches.",
+          morning: "Notre-Dame exterior study and side chapels entry",
+          afternoon: "Saint-Maclou or Saint-Ouen exteriors",
+          evening: "Rue du Gros-Horloge evening glow",
+        },
+        {
+          day: 2,
+          title: "Old Market and museums",
+          summary: "Joan site plus fine arts pacing.",
+          morning: "Place du Vieux-Marché and Joan tower stop",
+          afternoon: "Museum of Fine Arts partial visit",
+          evening: "Seine quay walk to Pont Boieldieu",
+        },
+        {
+          day: 3,
+          title: "Panorama and farewell stroll",
+          summary: "Views or a short gastronomy loop.",
+          morning: "Côte Sainte-Catherine viewpoint walk",
+          afternoon: "Antique district browsing or river café",
+          evening: "Quiet cathedral square loop",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Gros-Horloge street",
+          description:
+            "The arch and clock face are a natural meeting point. Visit twice for morning versus lantern light.",
+          image: {
+            src: "https://images.unsplash.com/photo-1708168505286-033800ac4710?auto=format&fit=crop&w=1200&q=80",
+            alt: "Gros-Horloge Renaissance arch in Rouen.",
+          },
+        },
+        {
+          title: "Cobble rhythm",
+          description:
+            "Pedestrian hours make the core kinder to slow walkers. Watch for rain-slick stones.",
+          image: {
+            src: "https://images.unsplash.com/photo-1705706786113-525c571ff884?auto=format&fit=crop&w=1200&q=80",
+            alt: "Cobblestone street with half-timber buildings in Rouen.",
+          },
+        },
+        {
+          title: "Lantern stone lace",
+          description:
+            "The cathedral façade reads differently each hour. Binoculars optional; patience mandatory.",
+          image: {
+            src: "https://images.unsplash.com/photo-1676721411061-6953c9f7b2da?auto=format&fit=crop&w=1200&q=80",
+            alt: "Close-up of Rouen cathedral tower and carved detail.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September for softer crowds" },
+        { label: "Getting there", value: "Direct trains from Paris Saint-Lazare (~2 hours)" },
+        { label: "Transit tips", value: "MetroTEOr line helps cross river; old core walkable" },
+        { label: "Ticketing", value: "Cathedral tower climbs if reopened need separate tickets" },
+        { label: "Neighborhood stay", value: "Between cathedral and Vieux-Marché" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "School groups cluster mid-morning at cathedral" },
+        { label: "Seasonal notes", value: "Light shows may alter evening access—check city calendar" },
+        { label: "Museum booking advice", value: "Rarely needed; special exhibits may differ" },
+        { label: "Common mistakes", value: "Driving into timber-zone alleys—park peripheral garages" },
+        { label: "Dress code", value: "Modest shoulders for active worship" },
+      ],
+      checklist: [
+        "Comfortable soles for wet cobbles",
+        "Compact umbrella",
+        "One riverside dinner reservation",
+        "Charge camera for blue-hour façade shots",
+        "Verify Sunday museum closures",
+        "Small bag for market morning if visiting",
+      ],
+      faqs: [
+        {
+          question: "Is Rouen a day trip from Paris?",
+          answer:
+            "Possible, but you miss evening cathedral light and longer meals. Overnight keeps the tone calm.",
+        },
+        {
+          question: "Is the cathedral always under scaffolding?",
+          answer:
+            "Restoration cycles vary. Facade segments may hide—build expectation for return visits.",
+        },
+        {
+          question: "Can I combine with Honfleur?",
+          answer:
+            "Yes by bus or tour, but it compresses Rouen. Prefer a dedicated coast day if you need that harbor fix.",
+        },
+        {
+          question: "Is Rouen hilly?",
+          answer:
+            "Moderately toward Côte Sainte-Catherine. Daily old-town walks stay mostly flat.",
+        },
+        {
+          question: "Vegetarian dining?",
+          answer:
+            "Improving; still lean on creperies and modern bistros beyond traditional andouille menus.",
+        },
+        {
+          question: "Cash or card?",
+          answer:
+            "Cards common; small bakeries may prefer cash mornings.",
+        },
+        {
+          question: "English communication?",
+          answer:
+            "Hotel and museum staff usually manage; greet in French first when possible.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "paris", city: "Paris", days: 3, description: "Major museums and Seine symmetry." },
+        { slug: "caen", city: "Caen", days: 3, description: "Norman castle and abbeys plateau." },
+        { slug: "brussels", city: "Brussels", days: 3, description: "Grand Place and train crossroads." },
       ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
@@ -15604,6 +16773,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
+    linz: {
+      slug: "linz",
+      city: "Linz",
+      country: "Austria",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["First-timers", "River walks", "Museum-light trips"],
+      style: ["Danube waterfront", "Main square", "Easy transit"],
+      pacing: [
+        "Linz fits a steady rhythm: one main neighborhood or sight per day, then room for long lunches along the Danube or in the old center.",
+        "Keep Hauptplatz and the riverside as natural anchors. Trams handle longer hops so you do not need to rush between the museum quarter and Pöstlingberg.",
+        "Leave one afternoon half-open for a cafe, a slow riverside loop, or a shorter viewpoint trip without adding another full ticketed block.",
+      ],
+      hero: {
+        title: "Linz in 3 days",
+        subtitle:
+          "Danube walks, Hauptplatz calm, and modern museums with a practical, unhurried pace.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1714154053327-ec051c193858?auto=format&fit=crop&w=1600&q=80",
+          alt: "Yellow tram and city street in Linz, Austria.",
+        },
+      },
+      cityStats: [
+        { value: "200K+", label: "Residents in the city" },
+        { value: "1", label: "Major Danube port in Austria" },
+        { value: "13th c.", label: "Old town charter era" },
+        { value: "2009", label: "European Capital of Culture year" },
+      ],
+      fit: {
+        forYou: [
+          "Compact old town and riverside walks",
+          "Easy tram links and short distances",
+          "Museums without an overwhelming schedule",
+          "A quieter Austrian city than Vienna",
+          "Calm cafés and sunset along the water",
+        ],
+        notForYou: [
+          "Imperial palace focus like Vienna’s core",
+          "High Alpine hiking from the doorstep",
+          "Nonstop nightlife districts",
+          "Packed cathedral-and-museum sprints",
+          "Coastal beach days",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Hauptplatz and old core",
+          summary: "Main square lanes and inner-city stroll.",
+          morning: "Hauptplatz and Landstraße windows",
+          afternoon: "Old town lanes and Trinity Column",
+          evening: "Danube stroll toward Nibelungen Bridge",
+        },
+        {
+          day: 2,
+          title: "Ars Electronica and waterfront",
+          summary: "Interactive museum and riverside rhythm.",
+          morning: "Ars Electronica Center",
+          afternoon: "Donau cycle path or sun deck walks",
+          evening: "Urfahr side dinner and tram back",
+        },
+        {
+          day: 3,
+          title: "Pöstlingberg and final views",
+          summary: "Hill basilica or art stop, then an easy closing loop.",
+          morning: "Pöstlingbergbahn up to the basilica viewpoint",
+          afternoon: "Lentos or a final Hauptplatz café pause",
+          evening: "Last riverside walk at blue hour",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Trams and Hauptplatz",
+          description:
+            "The main square is the compass point. Short tram rides keep the pace light when you stretch toward museums or the river.",
+          image: {
+            src: "https://images.unsplash.com/photo-1607554338569-d83477dbe01a?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic buildings near Hauptplatz in Linz.",
+          },
+        },
+        {
+          title: "Danube presence",
+          description:
+            "Wide water views frame the city. Morning and evening walks along the banks reset the day without adding mileage.",
+          image: {
+            src: "https://images.unsplash.com/photo-1653384942485-266003c4e1c2?auto=format&fit=crop&w=1200&q=80",
+            alt: "Boat and Danube waterfront in Linz.",
+          },
+        },
+        {
+          title: "Modern culture",
+          description:
+            "Linz mixes baroque corners with confident contemporary design. One focused museum block is enough for a relaxed day.",
+          image: {
+            src: "https://images.unsplash.com/photo-1591348761914-65fbd0258076?auto=format&fit=crop&w=1200&q=80",
+            alt: "Modern architecture and sky in Linz city center.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September to early October" },
+        { label: "Airport transfer", value: "Bus 601 to Hauptbahnhof or taxi" },
+        { label: "Transit tips", value: "Trams and buses; walk the old core" },
+        { label: "Ticketing", value: "Book Pöstlingbergbahn busy slots on weekends" },
+        { label: "Neighborhood stay", value: "Near Hauptplatz or Urfahr riverfront" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Museums open late one day a week; check schedules" },
+        { label: "Seasonal notes", value: "Winter markets add crowds; dress for river wind" },
+        { label: "Museum booking advice", value: "Ars Electronica rarely sells out; still book holiday weeks" },
+        { label: "Common mistakes", value: "Trying to match Vienna’s museum count" },
+        { label: "Dress code", value: "Comfortable shoes for cobbles and hillside steps" },
+      ],
+      checklist: [
+        "Load a tram map offline",
+        "Reserve Pöstlingberg ride if visiting on a summer weekend",
+        "Pack layers for riverside breezes",
+        "Pick one museum, not three, per day",
+        "Plan a daily Danube walk segment",
+        "Carry coins or card for quick tram tickets",
+      ],
+      faqs: [
+        {
+          question: "Is 3 days enough for Linz?",
+          answer:
+            "Yes for a first visit. You can cover the old town, riverfront, Ars Electronica, and Pöstlingberg with time left for cafés.",
+        },
+        {
+          question: "Do I need a transit pass?",
+          answer:
+            "A 24- or 48-hour pass is convenient if you use trams daily. The center is walkable if you prefer pay-as-you-go.",
+        },
+        {
+          question: "Is Linz walkable?",
+          answer:
+            "The Hauptplatz area and riverfront are easy on foot. Use the tram for Lentos, Ars Electronica, and the Pöstlingbergbahn base.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Near Hauptplatz keeps dinners and morning walks simple. Urfahr offers quieter streets with quick bridge access.",
+        },
+        {
+          question: "What time should I start at Pöstlingberg?",
+          answer:
+            "Go early for softer light and fewer visitors, especially on weekends. Midday works if you prefer warmer weather.",
+        },
+        {
+          question: "Is Linz only for tech fans?",
+          answer:
+            "No. Ars Electronica is one slice of the city. Baroque squares, the river, and hillside views balance the itinerary.",
+        },
+        {
+          question: "Can I day-trip to Salzburg or Vienna?",
+          answer:
+            "Yes by train, but it tightens the pace. This guide assumes you stay in Linz and keep side trips optional.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "vienna", city: "Vienna", days: 3, description: "Palaces, Ringstrasse, and classic museums." },
+        { slug: "salzburg", city: "Salzburg", days: 3, description: "Baroque old town and fortress walks." },
+        { slug: "munich", city: "Munich", days: 3, description: "Historic squares, gardens, and beer gardens." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
     rotterdam: {
       slug: "rotterdam",
       city: "Rotterdam",
@@ -15775,6 +17111,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
           days: 3,
           description: "History and creative neighborhoods.",
         },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    groningen: {
+      slug: "groningen",
+      city: "Groningen",
+      country: "Netherlands",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["First-timers", "Bike-friendly streets", "Student-town calm"],
+      style: ["Canals", "Market square", "Northern Dutch pace"],
+      pacing: [
+        "Groningen is compact enough for walking days. Anchor around the Martini quarter and Grote Markt, then stretch to parks without long transfers.",
+        "Café culture matters here. Leave mid-afternoons flexible so you can follow side streets or canal loops when the weather shifts.",
+        "Bikes are normal, but this plan stays on foot and short bus rides so first-time visitors are not juggling rentals.",
+      ],
+      hero: {
+        title: "Groningen in 3 days",
+        subtitle:
+          "Canal-side walks, the Martini tower quarter, and a relaxed northern Dutch rhythm.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1732969167670-46120838a47a?auto=format&fit=crop&w=1600&q=80",
+          alt: "Historic tower and buildings in Groningen city center.",
+        },
+      },
+      cityStats: [
+        { value: "230K+", label: "Residents in the municipality" },
+        { value: "1614+", label: "Years since university founding" },
+        { value: "600+", label: "Monuments and heritage sites" },
+        { value: "Youngest", label: "City in the Netherlands on average age" },
+      ],
+      fit: {
+        forYou: [
+          "Walkable center and calm canals",
+          "Historic Martini area and markets",
+          "Museums on a human scale",
+          "Easy trains toward the wider north",
+          "Evening terraces without big-city rush",
+        ],
+        notForYou: [
+          "Iconic Dutch canal rings like Amsterdam",
+          "Royal palace itineraries",
+          "Beach-focused trips",
+          "Nonstop nightlife",
+          "Mountain or fjord scenery at the doorstep",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Grote Markt and Martini quarter",
+          summary: "Main square cafés and tower neighborhood.",
+          morning: "Grote Markt and city hall terrace coffee",
+          afternoon: "Martinitoren area lanes and churches",
+          evening: "Peperstraat or nearby dinner and canal loop",
+        },
+        {
+          day: 2,
+          title: "Museums and Noorderplantsoen",
+          summary: "Focused indoor time plus a green pause.",
+          morning: "Groninger Museum or University Museum",
+          afternoon: "Noorderplantsoen walk",
+          evening: "Folkingestraat area small shops and dinner",
+        },
+        {
+          day: 3,
+          title: "Canals east and slower farewell",
+          summary: "Sauntering neighborhoods with light planning.",
+          morning: "Eastern canal streets toward Helpman",
+          afternoon: "Forum rooftop or inner-city bookstore cafés",
+          evening: "Final Grote Markt drink and early pack",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Tower quarter",
+          description:
+            "The Martini area defines the skyline. Short walks radiate to cafés and narrow shopping lanes.",
+          image: {
+            src: "https://images.unsplash.com/photo-1732969174895-0a99d4f669eb?auto=format&fit=crop&w=1200&q=80",
+            alt: "Street corner with historic balconies in Groningen.",
+          },
+        },
+        {
+          title: "Daily life downtown",
+          description:
+            "Students and locals share the center. Mid-mornings stay readable; evenings pick up gently.",
+          image: {
+            src: "https://images.unsplash.com/photo-1732969204471-9d1d0d24f515?auto=format&fit=crop&w=1200&q=80",
+            alt: "Pedestrians near shops and tall buildings in Groningen.",
+          },
+        },
+        {
+          title: "Cycling city",
+          description:
+            "Bike racks line the squares. Even as a pedestrian, expect courteous bike traffic at crossings.",
+          image: {
+            src: "https://images.unsplash.com/photo-1732969216960-32fa5f245f8f?auto=format&fit=crop&w=1200&q=80",
+            alt: "Bicycles parked along a Groningen street.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "May to September for terraces; spring tulip trips en route" },
+        { label: "Arrival", value: "Direct trains from Amsterdam or Schiphol connections" },
+        { label: "Transit tips", value: "Bus from station; center mostly on foot" },
+        { label: "Ticketing", value: "Book guided tower climbs in holiday weeks" },
+        { label: "Neighborhood stay", value: "Between Grote Markt and station" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Saturday market fills the square early" },
+        { label: "Seasonal notes", value: "North Sea wind—bring a light shell" },
+        { label: "Museum booking advice", value: "Temporary exhibits may need timed slots" },
+        { label: "Common mistakes", value: "Assuming it is a mini-Amsterdam canals tour" },
+        { label: "Dress code", value: "Casual; comfortable shoes for bricks" },
+      ],
+      checklist: [
+        "Check Martinitoren climb hours",
+        "Save offline map of inner ring",
+        "Carry contactless for buses",
+        "Plan one park or canal hour daily",
+        "Reserve one dinner spot on weekends",
+        "Pack a compact umbrella",
+      ],
+      faqs: [
+        {
+          question: "Is 3 days enough for Groningen?",
+          answer:
+            "Yes. You can see the historic core, add one museum day, and still leave slow afternoons open.",
+        },
+        {
+          question: "Do I need a bike?",
+          answer:
+            "No for this plan. Walking covers the center; buses help if you stay farther out.",
+        },
+        {
+          question: "Is English widely spoken?",
+          answer:
+            "Yes in shops, cafés, and museums. Menus are often bilingual.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Between the station and Grote Markt keeps logistics simple for first-time visitors.",
+        },
+        {
+          question: "Can I visit the Wadden Islands?",
+          answer:
+            "Possible as a long day but it breaks the calm pace here. Treat it as a separate trip.",
+        },
+        {
+          question: "Is Groningen expensive?",
+          answer:
+            "Moderate for the Netherlands. Dining is less pressured than Amsterdam if you avoid only tourist terraces.",
+        },
+        {
+          question: "What about day trips?",
+          answer:
+            "Leeuwarden or historic villages are reachable by train if you trim one city day.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "amsterdam", city: "Amsterdam", days: 3, description: "Canal rings and major museums." },
+        { slug: "rotterdam", city: "Rotterdam", days: 3, description: "Modern architecture and Maas waterfront." },
+        { slug: "hamburg", city: "Hamburg", days: 3, description: "Harbor warehouses and warehouse district walks." },
       ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
@@ -17635,6 +19138,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
           days: 3,
           description: "Old town charm and island hopping.",
         },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    trier: {
+      slug: "trier",
+      city: "Trier",
+      country: "Germany",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Roman history", "Wine country", "Walkable altstadt"],
+      style: ["Porta Nigra", "Moselle quays", "Cathedral block"],
+      pacing: [
+        "Trier compresses millennia into a walkable center—choose one ancient anchor per day so museums do not blur together.",
+        "Moselle benches invite slow evenings even when sightseeing is done by mid-afternoon.",
+        "Wine tastings deserve spacing; schedule food first if you are sensitive to midday pours.",
+      ],
+      hero: {
+        title: "Trier in 3 days",
+        subtitle:
+          "Roman gates, amphitheater echoes, and Moselle terraces without overbooking every ruin.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1767715241091-dcbac841d0c0?auto=format&fit=crop&w=1600&q=80",
+          alt: "Porta Nigra Roman gate with palm trees in Trier.",
+        },
+      },
+      cityStats: [
+        { value: "~16 BC", label: "Roman colony foundations" },
+        { value: "UNESCO", label: "Multiple classical monuments cluster" },
+        { value: "~110K", label: "Residents in the city" },
+        { value: "Moselle", label: "Wine slopes minutes away" },
+      ],
+      fit: {
+        forYou: [
+          "Outdoor-visible Roman fabric",
+          "Short distances between major sites",
+          "Wine tavern culture with restraint",
+          "Student-town café energy",
+          "Photography at gates and bridges",
+        ],
+        notForYou: [
+          "Expecting Cologne cathedral scale indoors",
+          "Nightlife-only weekends",
+          "Travelers avoiding stairs at monuments",
+          "Beach holidays",
+          "Ultra-modern architecture focus only",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Porta Nigra to cathedral",
+          summary: "North gate through Hauptmarkt.",
+          morning: "Porta Nigra interior climb optional",
+          afternoon: "Cathedral and Liebfrauenkirche block",
+          evening: "Hauptmarkt cafes and soft lighting on stone",
+        },
+        {
+          day: 2,
+          title: "Imperial baths and amphitheater",
+          summary: "South zone with green buffer.",
+          morning: "Kaiserthermen ruins",
+          afternoon: "Roman amphitheater site",
+          evening: "Moseleufer walk toward Kaiser-Wilhelm-Brücke",
+        },
+        {
+          day: 3,
+          title: "Museum depth or vineyard bus",
+          summary: "Rheinisches Landesmuseum or tasting mindfully.",
+          morning: "Landesmuseum or Karl-Marx-Haus if curious",
+          afternoon: "Local bus toward Schweich or riverside bike",
+          evening: "Quiet Moselle terrace dinner",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Roman stone mass",
+          description:
+            "Closer looks reveal tool marks and repairs. Early visits beat shoulder crowds at the gate.",
+          image: {
+            src: "https://images.unsplash.com/photo-1773589061404-042494139908?auto=format&fit=crop&w=1200&q=80",
+            alt: "Ancient Roman stone gate arches in Trier.",
+          },
+        },
+        {
+          title: "City on the slope",
+          description:
+            "Viewpoints help you place amphitheater, vineyards, and basilica spires in one mental map.",
+          image: {
+            src: "https://images.unsplash.com/photo-1728306173203-4ef0151f4071?auto=format&fit=crop&w=1200&q=80",
+            alt: "Elevated view over rooftops in Trier.",
+          },
+        },
+        {
+          title: "Square at dusk",
+          description:
+            "Evening light warms stone differently than flash photography ever could—plan a slow loop.",
+          image: {
+            src: "https://images.unsplash.com/photo-1768002708691-2648151fd46b?auto=format&fit=crop&w=1200&q=80",
+            alt: "European city square at sunset with people walking in Trier.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September for terrace weather" },
+        { label: "Airport transfer", value: "Frankfurt-Hahn bus or Luxembourg rail link" },
+        { label: "Transit tips", value: "Walk center ruins; bus 30 for farther vineyards" },
+        { label: "Ticketing", value: "Antikencard bundles monuments if you enter more than two" },
+        { label: "Neighborhood stay", value: "Near Porta Nigra or Hauptmarkt" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Cruise passengers spike midday near Porta Nigra" },
+        { label: "Seasonal notes", value: "Christmas market fills Hauptmarkt—book rooms early" },
+        { label: "Museum booking advice", value: "Landesmuseum quietest weekday mornings" },
+        { label: "Common mistakes", value: "Driving between sites you could walk in ten minutes" },
+        { label: "Dress code", value: "Grip soles on amphitheater grass slopes" },
+      ],
+      checklist: [
+        "Compare Antikencard vs single tickets",
+        "Pack sun hat for open ruins",
+        "Set tasting cut-off if cycling",
+        "Carry 1€ coins for restrooms",
+        "Download vineyard bus schedule",
+        "Note cathedral service closures",
+      ],
+      faqs: [
+        {
+          question: "Is Trier too small for 3 days?",
+          answer:
+            "If you love Roman layers and Moselle evenings, three days stay relaxed. If you only snap the gate, you will finish faster—adjust downward.",
+        },
+        {
+          question: "Do I need guided tours?",
+          answer:
+            "Helpful for baths context, not mandatory. Audio guides cover basics if you prefer independence.",
+        },
+        {
+          question: "Is Luxembourg a day trip?",
+          answer:
+            "Trains run, but border hops eat energy. Finish Trier thoroughly unless your trip is explicitly multi-capital.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Inside the former walls keeps night walks pleasant; riverside hotels trade quiet for trams.",
+        },
+        {
+          question: "Wine or history first?",
+          answer:
+            "Schedule history mornings when legs are fresh; wine fits late afternoon if you are tasting multiple glasses.",
+        },
+        {
+          question: "Is German required?",
+          answer:
+            "No for major sites; rural cellar doors appreciate phrases.",
+        },
+        {
+          question: "Are monuments accessible?",
+          answer:
+            "Some Roman levels involve stairs; check museum sheets if mobility is limited.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "luxembourg", city: "Luxembourg", days: 3, description: "Gorge city and casemates." },
+        { slug: "cologne", city: "Cologne", days: 3, description: "Dom and Rhine embankment." },
+        { slug: "strasbourg", city: "Strasbourg", days: 3, description: "Cathedral and canal quarter." },
       ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
@@ -33684,6 +35354,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
+    koblenz: {
+      slug: "koblenz",
+      city: "Koblenz",
+      country: "Germany",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["River views", "First-timers", "Short walking days"],
+      style: ["Rhine–Moselle", "Cable-car viewpoints", "Old town lanes"],
+      pacing: [
+        "Koblenz works well when you anchor each day on one river or one height: the confluence, then the heights, then a slower old-town wrap-up.",
+        "Cable-car queues move at their own rhythm; plan a buffer and treat the ride as part of the rest, not a tight connector.",
+        "Evenings on the promenade are calmer after tour groups thin out—save one dinner without a reservation sprint.",
+      ],
+      hero: {
+        title: "Koblenz in 3 days",
+        subtitle:
+          "Rhine and Moselle meet here: confluence viewpoints, fortress heights, and easy old-town loops.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1756298516111-48fb3617530c?auto=format&fit=crop&w=1600&q=80",
+          alt: "Cable car over the Rhine with Koblenz and hills in view.",
+        },
+      },
+      cityStats: [
+        { value: "2", label: "Major rivers: Rhine and Moselle" },
+        { value: "121 BC", label: "Roman-era origins" },
+        { value: "~115K", label: "Residents in the city" },
+        { value: "Fortress", label: "Ehrenbreitstein across the river" },
+      ],
+      fit: {
+        forYou: [
+          "River promenade walks with clear landmarks",
+          "Short uphill viewpoints without alpine trekking",
+          "Day-train links along the Rhine corridor",
+          "Unhurried dinners near the water",
+          "A compact old town for evening loops",
+        ],
+        notForYou: [
+          "Big-city nightlife grids",
+          "Beach-focused trips",
+          "Nonstop museum-only schedules",
+          "Zero tolerance for tourist-season queues",
+          "Expecting Cologne-scale skyline density",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Deutsches Eck and Rhine stroll",
+          summary: "Confluence monument and waterfront pace.",
+          morning: "Deutsches Eck and confluence viewpoint",
+          afternoon: "Rhine promenade toward old town",
+          evening: "Dinner in old-town lanes",
+        },
+        {
+          day: 2,
+          title: "Fortress and cable car",
+          summary: "Heights across the river with museum option.",
+          morning: "Seilbahn to Ehrenbreitstein Fortress",
+          afternoon: "Fortress grounds and regional history museum",
+          evening: "Sunset river walk or quiet bridge viewpoint",
+        },
+        {
+          day: 3,
+          title: "Moselle edge and second passes",
+          summary: "Moselle quay or vineyards mindfully.",
+          morning: "Balduinbrücke and Moselle waterfront",
+          afternoon: "Electoral Palace gardens or repeat a favorite Rhine stretch",
+          evening: "Relaxed wine bar or regional dinner without rushing",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Hills above the rivers",
+          description:
+            "The plateau views put both valleys in context. Mid-morning often has softer light for photos.",
+          image: {
+            src: "https://images.unsplash.com/photo-1664789351856-e5807503fc47?auto=format&fit=crop&w=1200&q=80",
+            alt: "Koblenz old town and river seen from hillside.",
+          },
+        },
+        {
+          title: "Stone architecture near the water",
+          description:
+            "Promenades link modern leisure with older masonry. Good for short loops between meals.",
+          image: {
+            src: "https://images.unsplash.com/photo-1664788424057-a47dc61dbb37?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic stone building near Koblenz with hills behind.",
+          },
+        },
+        {
+          title: "Monument at the corner",
+          description:
+            "The confluence statue is a practical meeting point. Visit once intentionally, then explore outward calmly.",
+          image: {
+            src: "https://images.unsplash.com/photo-1631993034684-9948cae7a27d?auto=format&fit=crop&w=1200&q=80",
+            alt: "Deutsches Eck monument and waterfront in Koblenz.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September for comfortable riverside walks" },
+        { label: "Airport transfer", value: "Frankfurt Airport then ICE to Koblenz Hbf" },
+        { label: "Transit tips", value: "Walk the center; ferries optional for perspective" },
+        { label: "Ticketing", value: "Buy cable-car tickets online on busy weekends" },
+        { label: "Neighborhood stay", value: "Old town near Jesuitenplatz or Rhine promenade" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Midday Rhine cruises swell the waterfront" },
+        { label: "Seasonal notes", value: "Christmas markets redraw walking routes near the church squares" },
+        { label: "Museum booking advice", value: "Fortress exhibits rarely need slots outside holidays" },
+        { label: "Common mistakes", value: "Stacking cable car, cruise, and Moselle drive in one day" },
+        { label: "Dress code", value: "Wind shell useful on the fortress plateau" },
+      ],
+      checklist: [
+        "Book weekend cable-car tickets early",
+        "Wear shoes with grip for fortress paths",
+        "Save offline map of old-town gates",
+        "Plan one cruise OR terrace day, not both rushed",
+        "Carry light pack for security checks at venues",
+        "Note ferry schedules if using river crossings",
+      ],
+      faqs: [
+        {
+          question: "Is 3 days enough for Koblenz?",
+          answer:
+            "Yes for the confluence, fortress heights, Moselle margin, and repeated relaxed waterfront time without packing long-distance cruises into every hour.",
+        },
+        {
+          question: "Should I take the cable car?",
+          answer:
+            "If you are fine with short waits, it is the clearest view of the rivers. Skip it only if heights or queues are deal-breakers.",
+        },
+        {
+          question: "Is Koblenz walkable?",
+          answer:
+            "The old town is compact. The fortress requires a crossing and lift or walk; plan half a day, not a rushed hour.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "The old town keeps dinner walks simple; riverside hotels add noise but shorten promenade access.",
+        },
+        {
+          question: "Do I need a Rhine cruise?",
+          answer:
+            "Optional. This itinerary assumes walking-focused pacing; add a cruise only if you trim another block the same day.",
+        },
+        {
+          question: "How crowded is peak season?",
+          answer:
+            "Weekends in summer bring busy promenades. Earlier breakfasts and later strolls feel calmer.",
+        },
+        {
+          question: "Can I visit Cologne on a day trip?",
+          answer:
+            "Trains run often, but it becomes a different trip mentally. Finish Koblenz calmly first, then extend if you have extra nights.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "cologne", city: "Cologne", days: 3, description: "Cathedral, Rhine walks, and museums." },
+        { slug: "frankfurt", city: "Frankfurt", days: 3, description: "Skyline, riverfront, and old town pockets." },
+        { slug: "strasbourg", city: "Strasbourg", days: 3, description: "Canals, cathedral quarter, and Alsatian pace." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
     kolkata: {
       slug: "kolkata",
       city: "Kolkata",
@@ -37243,6 +39080,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
         { slug: "london", city: "London", days: 3, description: "Iconic sights, museums, and riverside walks." },
         { slug: "edinburgh", city: "Edinburgh", days: 3, description: "Castle, Royal Mile, and historic lanes." },
         { slug: "bristol", city: "Bristol", days: 3, description: "Harbourside, street art, and relaxed pace." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    nancy: {
+      slug: "nancy",
+      city: "Nancy",
+      country: "France",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Architecture fans", "First-timers", "Slow plaza days"],
+      style: ["Stanislas square", "Art nouveau", "Park walks"],
+      pacing: [
+        "Nancy rewards a plaza-first rhythm: long breaks on Stanislas, then short hops to lanes or parks without doubling back constantly.",
+        "Art nouveau details reward walking with your head up—schedule one slow morning for façades rather than a checklist of interiors.",
+        "Endings are easy here: the Pépinière offers shade when summer squares feel bright.",
+      ],
+      hero: {
+        title: "Nancy in 3 days",
+        subtitle:
+          "Golden gates, Stanislas light, and art nouveau corners at a steady Lorraine pace.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1743768767640-40ef3400cece?auto=format&fit=crop&w=1600&q=80",
+          alt: "Historic buildings on sunny Place Stanislas in Nancy.",
+        },
+      },
+      cityStats: [
+        { value: "UNESCO", label: "18th-century ensemble at Stanislas" },
+        { value: "~105K", label: "Residents in the city proper" },
+        { value: "1755", label: "Stanislas square inaugurated" },
+        { value: "3", label: "Royal squares linked on foot" },
+      ],
+      fit: {
+        forYou: [
+          "Ornate squares with room to sit",
+          "Manageable distances between highlights",
+          "Wine-friendly dinners without hype",
+          "Photography at calm hours",
+          "City-break calm rather than capital rush",
+        ],
+        notForYou: [
+          "Coastal beach weeks",
+          "Ultra-late club scenes",
+          "Mountain hiking straight from the hotel",
+          "Expecting Paris metro scale",
+          "Packed theme-park itineraries",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Stanislas and Carré d'Or",
+          summary: "Signature square plus nearby lanes.",
+          morning: "Place Stanislas arcades and fountains",
+          afternoon: "Carré d'Art walk toward Place de la Carrière",
+          evening: "Dinner steps off the square without a tight reservation",
+        },
+        {
+          day: 2,
+          title: "Old Town and craft lanes",
+          summary: "Vieille Ville timber houses and quieter corners.",
+          morning: "Porte de la Craffe and Old Town gates",
+          afternoon: "Rue des Dominicains boutiques and cafés",
+          evening: "Cours Léopold or quiet side-street bistro",
+        },
+        {
+          day: 3,
+          title: "Parks and art nouveau",
+          summary: "Green pause plus façade hunting.",
+          morning: "Parc de la Pépinière stroll",
+          afternoon: "Saurupt or centre art nouveau façades at a slow pace",
+          evening: "Return to Stanislas for night illumination if energy allows",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Daylight on the squares",
+          description:
+            "Mid-morning diffuse light is forgiving for stone and gold trim. Save harsh noon for shaded arcades.",
+          image: {
+            src: "https://images.unsplash.com/photo-1614891202431-e4ba6b3d9edb?auto=format&fit=crop&w=1200&q=80",
+            alt: "People walking on Place Stanislas in Nancy by day.",
+          },
+        },
+        {
+          title: "Ornate rooflines",
+          description:
+            "Look for sculpture and ironwork above eye level. Nancy rewards slow corners more than rushing gates.",
+          image: {
+            src: "https://images.unsplash.com/photo-1744200152317-83899ffa0169?auto=format&fit=crop&w=1200&q=80",
+            alt: "Ornate historic building facade in Nancy under blue sky.",
+          },
+        },
+        {
+          title: "Lamp posts and detail",
+          description:
+            "Evening brings different contrast on railings and lanterns. A short loop after dinner often feels enough.",
+          image: {
+            src: "https://images.unsplash.com/photo-1744224490362-0ec8e59d7d53?auto=format&fit=crop&w=1200&q=80",
+            alt: "Decorative lamppost and classical architecture in Nancy.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September for square comfort" },
+        { label: "Airport transfer", value: "Metz or Paris TGV links; tram from Nancy station" },
+        { label: "Transit tips", value: "Walk core sights; guided tram for farther hotels" },
+        { label: "Ticketing", value: "Book Musée des Beaux-Arts peak slots if needed" },
+        { label: "Neighborhood stay", value: "Near Stanislas or Ville Vieille for quiet nights" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Weekend evenings bring local promenades to the square" },
+        { label: "Seasonal notes", value: "Winter markets add stalls; plan extra coat room time" },
+        { label: "Museum booking advice", value: "Small exhibitions may need online tickets in summer" },
+        { label: "Common mistakes", value: "Trying to match Paris museum counts" },
+        { label: "Dress code", value: "Smart-casual fits most bistros near Stanislas" },
+      ],
+      checklist: [
+        "Charge camera for evening square shots",
+        "Book one Stanislas-area dinner on weekends",
+        "Wear comfortable flats for cobbles",
+        "Download museum hours offline",
+        "Plan one park afternoon",
+        "Carry light umbrella in shoulder season",
+      ],
+      faqs: [
+        {
+          question: "Is 3 days enough for Nancy?",
+          answer:
+            "Yes. Two days cover Stanislas, the old gates, and shopping lanes; the third adds parks and art nouveau wandering without pressure.",
+        },
+        {
+          question: "Do I need French?",
+          answer:
+            "Polite phrases help; many tourism-facing staff speak English, especially near the main squares.",
+        },
+        {
+          question: "Is Nancy walkable?",
+          answer:
+            "The historic core is compact. You will walk more than you ride unless your hotel sits far east.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Near Place Stanislas puts landmarks at your doorstep; Ville Vieille trades square prestige for timber-house charm.",
+        },
+        {
+          question: "How does it pair with Strasbourg?",
+          answer:
+            "Short TGV hops make combination trips possible, but treat each city as its own calm base rather than nightly transfers.",
+        },
+        {
+          question: "Are museums essential?",
+          answer:
+            "The Fine Arts Museum adds depth if weather shifts; the city is still rewarding as an outdoor architecture trip.",
+        },
+        {
+          question: "Is it crowded?",
+          answer:
+            "Peak summer weekends add visitors, yet the pace stays slower than major capitals. Mornings stay gentle.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "paris", city: "Paris", days: 3, description: "Landmarks, museums, and river walks." },
+        { slug: "strasbourg", city: "Strasbourg", days: 3, description: "Canals and cathedral quarter." },
+        { slug: "brussels", city: "Brussels", days: 3, description: "Grand Place and easy rail links." },
       ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
@@ -54528,6 +56532,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
+    erfurt: {
+      slug: "erfurt",
+      city: "Erfurt",
+      country: "Germany",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["First-timers", "Medieval architecture", "Walkable old towns"],
+      style: ["Cathedral hill", "Merchant bridge", "Compact center"],
+      pacing: [
+        "Erfurt is compact enough to keep days simple: one main area in the morning, a slow lunch, then a short walk or museum block.",
+        "Group the cathedral hill with nearby squares so you are not crossing the old town repeatedly. Save Krämerbrücke for when you want uninterrupted window-shopping time.",
+        "Leave one late afternoon open for a café on a square or a second look at the bridge in softer light.",
+      ],
+      hero: {
+        title: "Erfurt in 3 days",
+        subtitle:
+          "Cathedral views, Krämerbrücke timber houses, and calm squares at a pace that fits Thuringia.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1743267956403-f60902e888d0?auto=format&fit=crop&w=1600&q=80",
+          alt: "Cobblestone lane and historic facades in Erfurt old town.",
+        },
+      },
+      cityStats: [
+        { value: "~213K", label: "Residents in the city" },
+        { value: "1250+", label: "Years of documented Krämerbrücke trade history" },
+        { value: "25+", label: "Churches and chapels in the center" },
+        { value: "1 hr", label: "Fast train to Leipzig (for context)" },
+      ],
+      fit: {
+        forYou: [
+          "Medieval lanes without big-city pressure",
+          "Easy days on foot with tram backup",
+          "Photography-friendly bridges and squares",
+          "Regional food at a relaxed tempo",
+          "A single base for three calm days",
+        ],
+        notForYou: [
+          "Nonstop nightlife",
+          "Large theme-park style attractions",
+          "Coastal or alpine scenery on foot from the hotel",
+          "Packed museum marathons every day",
+          "Expecting Berlin-scale scale and speed",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Cathedral hill and old town core",
+          summary: "Dom, Severikirche, and main squares.",
+          morning: "Erfurt Cathedral and St Severus Church exterior",
+          afternoon: "Fish Market and city hall area",
+          evening: "Dinner near Anger or Willy Brandt Platz",
+        },
+        {
+          day: 2,
+          title: "Krämerbrücke and museums",
+          summary: "Merchant bridge day with focused indoor time.",
+          morning: "Krämerbrücke walk and small shops",
+          afternoon: "Angermuseum or Andreasstrasse memorial (optional depth)",
+          evening: "Quiet streets near Gera riverfront",
+        },
+        {
+          day: 3,
+          title: "Green breaks and second passes",
+          summary: "Park time plus anything you skipped.",
+          morning: "Petersberg Citadel exterior walk or Egstedt forest tram ride",
+          afternoon: "Egapark gardens or second old-town square loop",
+          evening: "Final Thuringian dinner without a tight schedule",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Cathedral above the roofs",
+          description:
+            "The hill cluster anchors orientation. Mornings are usually quieter on the steps and viewing points.",
+          image: {
+            src: "https://images.unsplash.com/photo-1707893853509-ef1535a8b4a3?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic street and tram line in Erfurt near the old center.",
+          },
+        },
+        {
+          title: "Square rhythm",
+          description:
+            "Small squares break up walking days. Use them for coffee rather than trying to tick every corner simultaneously.",
+          image: {
+            src: "https://images.unsplash.com/photo-1707893997085-a3db283e6916?auto=format&fit=crop&w=1200&q=80",
+            alt: "Visitors near historic buildings on an Erfurt square.",
+          },
+        },
+        {
+          title: "Layers of the center",
+          description:
+            "Half-timber and stone sit side by side. A slower loop often reveals details a rushed pass misses.",
+          image: {
+            src: "https://images.unsplash.com/photo-1707893741492-fdcd2b1afc14?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic Erfurt architecture along a pedestrian street.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "May to June or September to early October" },
+        { label: "Airport transfer", value: "Leipzig or rail from Frankfurt; then RE to Erfurt Hbf" },
+        { label: "Transit tips", value: "Walk the old town; trams link the station to Anger" },
+        { label: "Ticketing", value: "Book cathedral tower climbs if offered and weather-dependent" },
+        { label: "Neighborhood stay", value: "Near Anger or west of the cathedral hill" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Krämerbrücke is busiest mid-afternoon on weekends" },
+        { label: "Seasonal notes", value: "Winter markets change square flow; dress for wind on the hill" },
+        { label: "Museum booking advice", value: "Small museums seldom need slots outside holiday weeks" },
+        { label: "Common mistakes", value: "Treating Erfurt as only a Leipzig day trip without an overnight" },
+        { label: "Dress code", value: "Comfortable soles for cobbles and cathedral steps" },
+      ],
+      checklist: [
+        "Save offline map of the old town",
+        "Pack light rain layer",
+        "Reserve one slower lunch venue",
+        "Check Monday closures for museums",
+        "Plan one half-day without tickets",
+        "Carry cash for smaller market stalls",
+      ],
+      faqs: [
+        {
+          question: "Is 3 days enough for Erfurt?",
+          answer:
+            "Yes. You can cover the cathedral cluster, Krämerbrücke, and main museums with time left for gardens or a second pass through the old town.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "No for this plan. The historic center is walkable and regional trains handle arrival day cleanly.",
+        },
+        {
+          question: "Is Erfurt walkable?",
+          answer:
+            "The core is compact. Use trams mainly for the station, citadel approaches, or if your hotel sits farther out.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Near Anger keeps you between the station and old town; areas west of the cathedral hill are quieter at night.",
+        },
+        {
+          question: "How does it compare to Weimar?",
+          answer:
+            "Erfurt feels more medieval-bridge focused; Weimar is smaller and literary. Many travelers pair them later, but this guide keeps the pace local.",
+        },
+        {
+          question: "Are English menus common?",
+          answer:
+            "Hotels and central restaurants often have them; smaller taverns may rely on German, which is manageable with a translation app.",
+        },
+        {
+          question: "Can I day-trip to Leipzig?",
+          answer:
+            "Yes on a fast train, but it turns a calm city break into a transit-heavy day. Prefer adding that when you can swap nights, not mid-itinerary.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "berlin", city: "Berlin", days: 3, description: "Broad museums and neighborhoods." },
+        { slug: "prague", city: "Prague", days: 3, description: "Castle views and river walks." },
+        { slug: "wurzburg", city: "Würzburg", days: 3, description: "Residence, fortress, and Main river loops." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
     essen: {
       slug: "essen",
       city: "Essen",
@@ -55908,6 +58079,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
+    wurzburg: {
+      slug: "wurzburg",
+      city: "Würzburg",
+      country: "Germany",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Baroque interiors", "River sunsets", "Compact wine city"],
+      style: ["Residence", "Fortress viewpoints", "Old bridge"],
+      pacing: [
+        "Würzburg lines up three clear anchors—the Residence, the fortress, the bridge—spread them rather than stacking in one sprint day.",
+        "Wine in Franconia leans dry; pace tastings if you walk hills afterward.",
+        "Evening on the Alte Mainbrücke is social theater; join the standing crowd at least once without a timetable.",
+      ],
+      hero: {
+        title: "Würzburg in 3 days",
+        subtitle:
+          "Rococo halls, Marienberg overlooks, and Main river light at an easy Franconian pace.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1704702954173-bf16d49fae9f?auto=format&fit=crop&w=1600&q=80",
+          alt: "Main River flowing through Würzburg with old bridge and city.",
+        },
+      },
+      cityStats: [
+        { value: "UNESCO", label: "Würzburg Residence interiors" },
+        { value: "Fortress", label: "Marienberg above vineyards" },
+        { value: "~130K", label: "Residents in the city" },
+        { value: "Stein", label: "Wine village tram hop" },
+      ],
+      fit: {
+        forYou: [
+          "Palace rooms with manageable crowds",
+          "Hill climbs rewarded by river panoramas",
+          "Riverfront aperitivo culture",
+          "Student energy near Sanderstrasse",
+          "Straightforward old-town orientation",
+        ],
+        notForYou: [
+          "Ultra-modern skyline hunting",
+          "Visitors avoiding stairs entirely",
+          "Strict teetotalers uncomfortable near wine culture",
+          "Travelers needing huge club scenes",
+          "Expecting Berlin-scale public transit layers",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Residence and court church",
+          summary: "Rococo interiors plus Hofkirch focus.",
+          morning: "Würzburg Residence tour with Tiepolo rooms",
+          afternoon: "Court Garden symmetrical walks",
+          evening: "Old Main Bridge sunset standing tradition",
+        },
+        {
+          day: 2,
+          title: "Marienberg fortress",
+          summary: "Climb or bus, museum optional.",
+          morning: "Path or bus up to Marienberg",
+          afternoon: "Fortress museum and rampart walks",
+          evening: "Descend for dinner in Sachsenhausen wine taverns",
+        },
+        {
+          day: 3,
+          title: "Market square repeats",
+          summary: "Catch-up shopping or Stein village.",
+          morning: "Marktplatz and Marienkapelle detail",
+          afternoon: "Tram to Unterfranken Museum or Stein vineyards",
+          evening: "Quiet riverside stroll without goals",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Clock towers and façades",
+          description:
+            "Renaissance ornament competes with baroque massing—slow down to separate layers.",
+          image: {
+            src: "https://images.unsplash.com/photo-1697660444865-edaa1d2c5b59?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic building with clock tower in Würzburg.",
+          },
+        },
+        {
+          title: "Bridge over the Main",
+          description:
+            "Afternoon reflections differ from night lantern glow—visit twice lightly rather than once frantically.",
+          image: {
+            src: "https://images.unsplash.com/photo-1602128318292-8273afb70bb5?auto=format&fit=crop&w=1200&q=80",
+            alt: "Stone bridge over the Main River in Würzburg.",
+          },
+        },
+        {
+          title: "River bend light",
+          description:
+            "The elbow in the river frames spires cleanly at golden hour if clouds cooperate.",
+          image: {
+            src: "https://images.unsplash.com/photo-1647742313916-737d919ad851?auto=format&fit=crop&w=1200&q=80",
+            alt: "Würzburg old town and river bend from above.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "May to September for terrace and vineyard comfort" },
+        { label: "Airport transfer", value: "Nuremberg or Frankfurt rail connections to Würzburg Hbf" },
+        { label: "Transit tips", value: "Trams climb toward fortress stops; walk down to save knees" },
+        { label: "Ticketing", value: "Residence tours sell out—book morning slots online" },
+        { label: "Neighborhood stay", value: "Altstadt inside ring or Sachsenhausen wine side" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Residence midday tours fill with day trippers" },
+        { label: "Seasonal notes", value: "Volksfest weeks reshape tram schedules" },
+        { label: "Museum booking advice", value: "Fortress museum needs ~90 quiet minutes" },
+        { label: "Common mistakes", value: "Skipping rest between Residence audio tour and fortress climb" },
+        { label: "Dress code", value: "Shoulder cover useful in active chapels" },
+      ],
+      checklist: [
+        "Book Residence slot before arrival",
+        "Carry camera battery for evening bridge shots",
+        "Wear breathable layers for fortress wind",
+        "Note last tram down the hill",
+        "Try one dry Silvaner by the glass",
+        "Save bridge night photo for steady hands or a tripod",
+      ],
+      faqs: [
+        {
+          question: "Is one day enough for Würzburg?",
+          answer:
+            "You can see the headline trio, but three days leave breathing room for second-bridge sunsets and vineyard calmer hours.",
+        },
+        {
+          question: "Must I tour the Residence interior?",
+          answer:
+            "If baroque ceilings matter to you, yes—it is the city's clearest world-class moment. Otherwise enjoy gardens and exteriors.",
+        },
+        {
+          question: "Is the fortress strenuous?",
+          answer:
+            "The footpath is steady but long; buses lighten the climb. Descend on foot if knees allow.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Inside the ring minimizes night walks; Sachsenhausen suits wine-focused travelers accepting a short bridge return.",
+        },
+        {
+          question: "How does it compare to Bamberg?",
+          answer:
+            "Würzburg foregrounds episcopal baroque and bridge culture; Bamberg skews medieval-smoky beer. Both merit separate calm visits.",
+        },
+        {
+          question: "Do I need cash?",
+          answer:
+            "Cards common; small corkage tasting rooms may prefer notes.",
+        },
+        {
+          question: "English tours?",
+          answer:
+            "Major sites offer English audio or live slots; check times seasonally.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "nuremberg", city: "Nuremberg", days: 3, description: "Imperial castle and old walls." },
+        { slug: "frankfurt", city: "Frankfurt", days: 3, description: "Skyline and museums." },
+        { slug: "erfurt", city: "Erfurt", days: 3, description: "Cathedral hill and Krämerbrücke." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
     lusaka: {
       slug: "lusaka",
       city: "Lusaka",
@@ -56015,6 +58353,3258 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       checklist: ["Wear shoes with good grip", "Carry a light wind layer", "Save selected funicular routes offline", "Keep valuables secured in crowded spots", "Book one dinner with a bay view", "Leave one afternoon block unplanned"],
       faqs: [{ question: "Is 3 days enough for Valparaiso?", answer: "Yes for core hill neighborhoods, viewpoints, funicular rides, and a relaxed port-area overview." }, { question: "Is Valparaiso walkable?", answer: "Yes in short segments, but steep hills make funiculars and occasional taxis useful." }, { question: "Where should I stay?", answer: "Cerro Alegre or Cerro Concepcion are practical for first-time visitors and evening dining access." }, { question: "Can I do Valparaiso as a Santiago day trip?", answer: "Possible, but staying in the city gives a calmer pace and better access to early and late viewpoints." }, { question: "Is it safe to walk with cameras?", answer: "Use normal city precautions, especially around crowded viewpoints and transport nodes." }, { question: "Do funiculars run all day?", answer: "Operating hours vary, so check each route in advance and keep one backup plan." }, { question: "When is the best light for photos?", answer: "Early morning and late afternoon usually provide the best conditions for hill and bay views." }],
       relatedItineraries: [{ slug: "santiago", city: "Santiago", days: 3, description: "Andean city parks and neighborhoods." }, { slug: "buenos-aires", city: "Buenos Aires", days: 3, description: "Neighborhood culture and classic boulevards." }, { slug: "lima", city: "Lima", days: 3, description: "Coastal districts and food-led itineraries." }],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    alicante: {
+      slug: "alicante",
+      city: "Alicante",
+      country: "Spain",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Coastal walkers", "First-time visitors", "Market mornings"],
+      style: ["Castle views", "Marina strolls", "Old town lanes"],
+      pacing: [
+        "Alicante is easiest when you group each day by neighborhood: the castle hill, the marina and beach, or the old town and esplanada.",
+        "Summer afternoons are hot; plan shade, a longer lunch, or indoor time, then walk the waterfront in early evening.",
+        "Keep one night unscheduled so you can follow the promenade at your own pace.",
+      ],
+      hero: {
+        title: "Alicante in 3 days",
+        subtitle:
+          "Castle views, marina walks, and old-town lanes on the Costa Blanca with time for the beach.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1680537732160-01750bae5217?auto=format&fit=crop&w=1600&q=80",
+          alt: "Alicante cityscape and hills rising from the Mediterranean coast.",
+        },
+      },
+      cityStats: [
+        { value: "330K+", label: "City population" },
+        { value: "300+", label: "Sunny days per year (regional)" },
+        { value: "9th c.", label: "Castle hill origins" },
+        { value: "Port", label: "Working marina and cruise calls" },
+      ],
+      fit: {
+        forYou: ["Short airport hops", "Beach near the center", "Walkable old town", "Seafood and tapas", "Relaxed pacing"],
+        notForYou: ["Mountain-only trips", "Cold-season beach focus", "Packed museum-only days", "Remote countryside base", "Late-night club circuits"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Santa Barbara and old town",
+          summary: "Castle views and shaded old-town lanes.",
+          morning: "Santa Barbara Castle (lift or walk) and ramparts",
+          afternoon: "Barrio Santa Cruz and cathedral area",
+          evening: "Tapas around old-town plazas",
+        },
+        {
+          day: 2,
+          title: "Marina and beach",
+          summary: "Waterfront walk and sand time.",
+          morning: "Port and marina stroll",
+          afternoon: "Postiguet beach or long waterfront break",
+          evening: "Seafood dinner near the port",
+        },
+        {
+          day: 3,
+          title: "Esplanada and markets",
+          summary: "Palm-lined walk and a calm close.",
+          morning: "Explanada de Espana walk and Mercado Central",
+          afternoon: "Luceros or shopping streets, light cafe stop",
+          evening: "Final promenade stroll and early dinner",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Harbor and bay",
+          description: "The port ties the city to the sea; morning light is easiest for long walks.",
+          image: {
+            src: "https://images.unsplash.com/photo-1680537732093-a4cde73479af?auto=format&fit=crop&w=1200&q=80",
+            alt: "Boats and harbor water in Alicante bay.",
+          },
+        },
+        {
+          title: "Palm-lined streets",
+          description: "Wide sidewalks near the water make short loops simple between meals.",
+          image: {
+            src: "https://images.unsplash.com/photo-1636319039199-4b81fe4d9552?auto=format&fit=crop&w=1200&q=80",
+            alt: "Palm trees along a sidewalk in Alicante.",
+          },
+        },
+        {
+          title: "Old town lanes",
+          description: "Steep lanes below the castle stay cooler in the afternoon shade.",
+          image: {
+            src: "https://images.unsplash.com/photo-1693835826680-82abb277bf7e?auto=format&fit=crop&w=1200&q=80",
+            alt: "Narrow street with plants in Alicante old town.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September for milder walks" },
+        { label: "Airport transfer", value: "Short bus or taxi from Alicante-Elche Airport" },
+        { label: "Transit tips", value: "Walk the center; tram for longer coastal hops" },
+        { label: "Ticketing", value: "Book castle lift in peak hours if you prefer timed entry" },
+        { label: "Neighborhood stay", value: "Old town or near the esplanada" },
+      ],
+      checklist: [
+        "Pack sun protection and a hat in summer",
+        "Wear shoes with grip for castle paths",
+        "Carry water for midday walks",
+        "Check beach flag conditions before swimming",
+        "Reserve one dinner table on weekends",
+        "Save offline map of old town lanes",
+      ],
+      faqs: [
+        {
+          question: "Is 3 days enough for Alicante?",
+          answer:
+            "Yes for the castle, old town, marina, and a beach afternoon with time for markets and evening walks.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "No for the city center. Public transport and walking cover most first-time plans.",
+        },
+        {
+          question: "Is Alicante walkable?",
+          answer:
+            "The old town and waterfront are compact; the castle hill adds steps but is manageable in short segments.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Near the old town or esplanada keeps evenings simple and reduces repeat trips.",
+        },
+        {
+          question: "When is the beach least crowded?",
+          answer:
+            "Weekday mornings outside peak summer weeks are usually calmer than weekend afternoons.",
+        },
+        {
+          question: "Can I day-trip from here?",
+          answer:
+            "Yes, but this guide keeps focus in the city so you do not trade rest for transit.",
+        },
+        {
+          question: "Is tapas timing strict?",
+          answer:
+            "Dinner runs later than in some countries; book if you want a specific terrace table.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "valencia", city: "Valencia", days: 3, description: "Turia gardens and seaside pauses." },
+        { slug: "murcia", city: "Murcia", days: 3, description: "Cathedral city with compact center." },
+        { slug: "madrid", city: "Madrid", days: 3, description: "Museums, plazas, and neighborhood walks." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    surabaya: {
+      slug: "surabaya",
+      city: "Surabaya",
+      country: "Indonesia",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["City history fans", "Food markets", "First-time East Java"],
+      style: ["Colonial lanes", "Riverfront walks", "Neighborhood pace"],
+      pacing: [
+        "Surabaya spreads wide, so pick one corridor per day: old Arab Quarter, museums, or a calmer southern loop.",
+        "Traffic peaks in late afternoon; schedule sit-down meals or indoor stops for those hours.",
+        "Keep evenings near your hotel on day one while you learn local transport rhythms.",
+      ],
+      hero: {
+        title: "Surabaya in 3 days",
+        subtitle:
+          "Colonial quarters, river context, and practical city days without a packed checklist.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1642356190266-f91794c89ee0?auto=format&fit=crop&w=1600&q=80",
+          alt: "Surabaya skyline with high-rise buildings under a bright sky.",
+        },
+      },
+      cityStats: [
+        { value: "2.9M+", label: "City population" },
+        { value: "1293", label: "Year of first recorded name use" },
+        { value: "East Java", label: "Regional trade hub" },
+        { value: "Port city", label: "Working river and sea links" },
+      ],
+      fit: {
+        forYou: ["Urban history and lanes", "Street food and markets", "Museum mornings", "Flexible Grab or taxi days", "Gateway before Malang or Bali flights"],
+        notForYou: ["Quiet village stays", "Beach-in-city expectations", "Walk-only without heat planning", "Strict alpine hiking", "Car-free-only travel"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Arab Quarter and House of Sampoerna",
+          summary: "Lanes, heritage buildings, and museum pacing.",
+          morning: "Arab Quarter (Kenari) walking loop",
+          afternoon: "House of Sampoerna museum and courtyard",
+          evening: "Dinner near Tunjungan or your hotel area",
+        },
+        {
+          day: 2,
+          title: "Monuments and city center",
+          summary: "Heroes sites and central squares.",
+          morning: "Tugu Pahlawan and surrounding park",
+          afternoon: "Surabaya Submarine Monument or nearby museums",
+          evening: "Local warung or mall food court for an easy night",
+        },
+        {
+          day: 3,
+          title: "Kenjeran coast or relaxed close",
+          summary: "Waterfront option or light shopping day.",
+          morning: "Kenjeran Beach area stroll or viewpoint",
+          afternoon: "Open buffer for cafes and packing",
+          evening: "Final neighborhood meal",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Heritage arches",
+          description: "Shop-house streets show how trade shaped the old quarter.",
+          image: {
+            src: "https://images.unsplash.com/photo-1572522227522-4495a1481425?auto=format&fit=crop&w=1200&q=80",
+            alt: "Decorative gateway and street scene in Surabaya.",
+          },
+        },
+        {
+          title: "Water and boats",
+          description: "Morning light along the water is calmer before commuter traffic builds.",
+          image: {
+            src: "https://images.unsplash.com/photo-1605661276967-56238b4faca9?auto=format&fit=crop&w=1200&q=80",
+            alt: "Silhouette of people on a boat at sunset in Surabaya waters.",
+          },
+        },
+        {
+          title: "Street life",
+          description: "Short walks between meals keep the pace human in a large city.",
+          image: {
+            src: "https://images.unsplash.com/photo-1643981005089-dbba5668a337?auto=format&fit=crop&w=1200&q=80",
+            alt: "People walking a busy Surabaya street in daytime.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "May to October for drier days" },
+        { label: "Airport transfer", value: "Taxi or app ride to your district" },
+        { label: "Transit tips", value: "Use Grab for cross-town hops; walk short old-town segments" },
+        { label: "Ticketing", value: "Check museum hours; some close Monday" },
+        { label: "Neighborhood stay", value: "Genteng or Tunjungan corridor for first-timers" },
+      ],
+      checklist: [
+        "Download offline maps for your base area",
+        "Carry cash for small eateries",
+        "Pack light breathable clothes",
+        "Plan midday breaks out of the sun",
+        "Confirm airport transfer timing night before",
+        "Keep one dinner near the hotel after long days",
+      ],
+      faqs: [
+        {
+          question: "Is 3 days enough for Surabaya?",
+          answer:
+            "Yes for core heritage, monuments, and one coastal or relaxed day without rushing every district.",
+        },
+        {
+          question: "Is Surabaya safe for tourists?",
+          answer:
+            "Use standard big-city habits: secure valuables, prefer licensed taxis or apps at night, and stay aware in crowded markets.",
+        },
+        {
+          question: "Do I need Bahasa Indonesia?",
+          answer:
+            "English helps in hotels and malls; basic phrases smooth ordering in smaller eateries.",
+        },
+        {
+          question: "How do I beat traffic?",
+          answer:
+            "Start major moves before late afternoon and cluster sights in one area per day.",
+        },
+        {
+          question: "Can I reach Mount Bromo from here?",
+          answer:
+            "It is a long trip; this guide keeps days in the city so you are not swapping rest for road hours.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "A central corridor near Tunjungan or Genteng reduces repeat cross-town rides.",
+        },
+        {
+          question: "Is street food OK?",
+          answer:
+            "Choose busy stalls, drink sealed water, and follow your comfort level with spice and ice.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "jakarta", city: "Jakarta", days: 3, description: "Monas, Kota Tua, and harbor context." },
+        { slug: "yogyakarta", city: "Yogyakarta", days: 3, description: "Temple country and sultan city lanes." },
+        { slug: "bali", city: "Bali", days: 3, description: "Island pace after Java cities." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    bandung: {
+      slug: "bandung",
+      city: "Bandung",
+      country: "Indonesia",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Cooler highland air", "Colonial architecture", "Cafe culture"],
+      style: ["Art deco streets", "North Bandung views", "Calm pacing"],
+      pacing: [
+        "Bandung sits higher than coastal Java, so mornings feel fresher—use them for walks before afternoon rain in wet season.",
+        "Traffic around fashion outlets can clog weekends; pick one shopping strip, not three.",
+        "Leave margin for slow cafe stops; that is part of the city rhythm.",
+      ],
+      hero: {
+        title: "Bandung in 3 days",
+        subtitle:
+          "Colonial avenues, volcano country on the horizon, and a relaxed highland city pace.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1676910905288-3a72eacb3512?auto=format&fit=crop&w=1600&q=80",
+          alt: "Bandung city with mountains visible on the horizon.",
+        },
+      },
+      cityStats: [
+        { value: "2.5M+", label: "Metro population" },
+        { value: "~768 m", label: "Approximate elevation" },
+        { value: "1920s", label: "Art deco building era" },
+        { value: "Cooler", label: "Highland climate vs coastal Java" },
+      ],
+      fit: {
+        forYou: ["Milder Java weather", "Architecture walks", "Cafes and bakeries", "Short viewpoint trips", "Weekend city breaks"],
+        notForYou: ["Beach days in town", "Flat-only walking", "Zero traffic tolerance on weekends", "Remote jungle trekking from the hotel", "Strict museum-only itineraries"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Braga and Asia-Afrika",
+          summary: "Colonial street and heritage strip.",
+          morning: "Braga Street walk and Gedung Merdeka exterior",
+          afternoon: "Museum Konferensi Asia-Afrika or nearby lanes",
+          evening: "Cafe stop and early night near your base",
+        },
+        {
+          day: 2,
+          title: "Gedung Sate and north viewpoints",
+          summary: "Iconic government building and cooler air.",
+          morning: "Gedung Sate grounds and photo loop",
+          afternoon: "Dago or Lembang direction for a viewpoint or tea stop",
+          evening: "Quiet dinner away from peak outlet traffic",
+        },
+        {
+          day: 3,
+          title: "Markets and calm close",
+          summary: "Local retail or park time, then rest.",
+          morning: "Pasar Baru or chosen market stroll",
+          afternoon: "Open buffer or small museum",
+          evening: "Final Bandung meal before travel",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Highland backdrop",
+          description: "Volcano silhouettes remind you why the air feels different than on the coast.",
+          image: {
+            src: "https://images.unsplash.com/photo-1631005441185-0cdb5fe1b126?auto=format&fit=crop&w=1200&q=80",
+            alt: "Green mountain ridges near Bandung under clouds.",
+          },
+        },
+        {
+          title: "Urban rooftops",
+          description: "The basin layout spreads neighborhoods; plan one direction per outing.",
+          image: {
+            src: "https://images.unsplash.com/photo-1633175186866-91e357fa7562?auto=format&fit=crop&w=1200&q=80",
+            alt: "Rooftops and trees across Bandung city.",
+          },
+        },
+        {
+          title: "Greenery close by",
+          description: "Short drives reach cooler ridges when you want a break from streets.",
+          image: {
+            src: "https://images.unsplash.com/photo-1584796236624-988ea65160d1?auto=format&fit=crop&w=1200&q=80",
+            alt: "Forest and hills near Bandung highlands.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "Dry season months for clearer viewpoints" },
+        { label: "Airport transfer", value: "Taxi or app ride to Dago or city center" },
+        { label: "Transit tips", value: "Use apps for hills; allow extra time weekends" },
+        { label: "Ticketing", value: "Some heritage sites require timed slots" },
+        { label: "Neighborhood stay", value: "Dago or Braga corridor" },
+      ],
+      checklist: [
+        "Bring a light jacket for evening hills",
+        "Plan weekend routes with buffer time",
+        "Carry rain shell in wet months",
+        "Book one viewpoint tea house if popular",
+        "Keep cash for small warungs",
+        "Avoid stacking distant day trips in one plan",
+      ],
+      faqs: [
+        {
+          question: "Is Bandung cooler than Jakarta?",
+          answer:
+            "Usually yes, especially mornings and in the northern districts, but midday can still feel warm.",
+        },
+        {
+          question: "Is 3 days enough?",
+          answer:
+            "Yes for Braga, Gedung Sate, one north Bandung outing, and markets without constant driving.",
+        },
+        {
+          question: "Do I need a driver?",
+          answer:
+            "Not only, but hills and traffic make private drivers or apps practical for viewpoint days.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Dago or near Braga reduces repeated cross-town trips for first visits.",
+        },
+        {
+          question: "Are factory outlets worth it?",
+          answer:
+            "If you enjoy shopping, pick one cluster; otherwise skip to keep the trip calm.",
+        },
+        {
+          question: "How is the rain?",
+          answer:
+            "Wet season brings afternoon showers; plan indoor blocks or cafe time then.",
+        },
+        {
+          question: "Can I visit Tangkuban Perahu in this plan?",
+          answer:
+            "Possible as a day trip, but it turns this into a driving-heavy schedule; add a day if you want crater time.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "jakarta", city: "Jakarta", days: 3, description: "Capital museums and old town." },
+        { slug: "yogyakarta", city: "Yogyakarta", days: 3, description: "Temples and palace quarter." },
+        { slug: "surabaya", city: "Surabaya", days: 3, description: "East Java heritage and monuments." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    bonn: {
+      slug: "bonn",
+      city: "Bonn",
+      country: "Germany",
+      days: 2,
+      pace: "Balanced",
+      idealFor: ["Rhine walkers", "Music history fans", "Compact city breaks"],
+      style: ["Old town lanes", "Museum mornings", "River sunsets"],
+      pacing: [
+        "Bonn is small enough for two unhurried days: one for Beethoven and the old center, one for museums and the Rhine.",
+        "Museum visits pair well with long lunches; avoid stacking ticketed sites back-to-back.",
+        "Evenings belong on the promenade or a quiet neighborhood restaurant.",
+      ],
+      hero: {
+        title: "Bonn in 2 days",
+        subtitle: "Beethoven's city on the Rhine with museums, old-town lanes, and easy river walks.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1600801686672-756a329e60ec?auto=format&fit=crop&w=1600&q=80",
+          alt: "Night view of Bonn skyline with the Rhine waterfront and Post Tower.",
+        },
+      },
+      cityStats: [
+        { value: "330K+", label: "City population" },
+        { value: "1770", label: "Beethoven birth year" },
+        { value: "UNESCO", label: "German UN city presence" },
+        { value: "Rhine", label: "Major river promenade" },
+      ],
+      fit: {
+        forYou: ["Classical music context", "Walkable old town", "Museum clusters", "Rhine cycling or strolling", "Day trips to Cologne possible"],
+        notForYou: ["Nonstop nightlife", "Alpine hiking", "Huge metropolitan scale", "Beach focus", "Minute-by-minute sightseeing"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Beethoven and Munster quarter",
+          summary: "Birth house, church, and old streets.",
+          morning: "Beethoven House and Bonn Munster area",
+          afternoon: "Marktplatz lanes and city museum if open",
+          evening: "Rhine promenade walk",
+        },
+        {
+          day: 2,
+          title: "Museums and Rhine close",
+          summary: "Art or history block, then a calm finish.",
+          morning: "Bundeskunsthalle or Haus der Geschichte",
+          afternoon: "Kunstmuseum Bonn or open park time",
+          evening: "Final Rhine stroll and early dinner",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Rhine front",
+          description: "Wide paths suit slow walks after museum blocks.",
+          image: {
+            src: "https://images.unsplash.com/photo-1618151343302-a654c2880c38?auto=format&fit=crop&w=1200&q=80",
+            alt: "Cherry blossoms along a Bonn street near spring.",
+          },
+        },
+        {
+          title: "City architecture",
+          description: "Postwar and modern buildings sit beside older stone lanes.",
+          image: {
+            src: "https://images.unsplash.com/photo-1589482816439-19a28b7ac7a8?auto=format&fit=crop&w=1200&q=80",
+            alt: "Modern glass facade building in Bonn.",
+          },
+        },
+        {
+          title: "Quiet streets",
+          description: "Side roads off the Marktplatz stay calm after business hours.",
+          image: {
+            src: "https://images.unsplash.com/photo-1649658656738-5be4414e54b0?auto=format&fit=crop&w=1200&q=80",
+            alt: "Tree-lined street with parked cars in Bonn.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September for mild walks" },
+        { label: "Airport transfer", value: "Cologne-Bonn Airport with S-Bahn or taxi" },
+        { label: "Transit tips", value: "Walk the center; regional train to Cologne in ~20 minutes" },
+        { label: "Ticketing", value: "Check museum Monday closures" },
+        { label: "Neighborhood stay", value: "Old town or Südstadt" },
+      ],
+      checklist: [
+        "Book Beethoven House slot in peak season",
+        "Carry coins or card for museum lockers",
+        "Wear layers for Rhine breeze",
+        "Confirm Haus der Geschichte hours",
+        "Save offline map of old town",
+        "Leave luggage time if continuing by train",
+      ],
+      faqs: [
+        {
+          question: "Is 2 days enough for Bonn?",
+          answer:
+            "Yes for Beethoven sites, old town, one museum focus, and Rhine time without rushing.",
+        },
+        {
+          question: "Should I add Cologne?",
+          answer:
+            "Easy as a separate day; mixing both cities in one afternoon feels tight.",
+        },
+        {
+          question: "Is Bonn walkable?",
+          answer:
+            "The old center is compact; museums spread a bit but stay within short tram hops.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Old town keeps evenings simple; Südstadt is quieter with quick links.",
+        },
+        {
+          question: "Do I need German?",
+          answer:
+            "English works in many museums; basic German helps in smaller cafes.",
+        },
+        {
+          question: "When are museums closed?",
+          answer:
+            "Many close Monday; verify each site the night before.",
+        },
+        {
+          question: "Is the Rhine path safe at night?",
+          answer:
+            "Well lit near the center; use normal evening city awareness.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "cologne", city: "Cologne", days: 3, description: "Cathedral and Rhine old town." },
+        { slug: "berlin", city: "Berlin", days: 3, description: "History, parks, and neighborhoods." },
+        { slug: "munich", city: "Munich", days: 3, description: "Bavarian squares and gardens." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    klaipeda: {
+      slug: "klaipeda",
+      city: "Klaipeda",
+      country: "Lithuania",
+      days: 2,
+      pace: "Balanced",
+      idealFor: ["Baltic port atmosphere", "Old town strolls", "Ferry day ideas"],
+      style: ["Timber houses", "Harbor walks", "Compact center"],
+      pacing: [
+        "Klaipeda is best taken in short loops: theatre square, harbor, then a quieter residential lane.",
+        "Wind off the lagoon can feel sharp; plan cafe breaks between waterfront stretches.",
+        "If you ferry to the spit, keep the rest of the day light.",
+      ],
+      hero: {
+        title: "Klaipeda in 2 days",
+        subtitle: "Timber-framed streets, a working port, and an easy Baltic base near the Curonian coast.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1587668799230-4b776f4304a7?auto=format&fit=crop&w=1600&q=80",
+          alt: "Boat at dock with Baltic water near Klaipeda harbor.",
+        },
+      },
+      cityStats: [
+        { value: "150K+", label: "City population" },
+        { value: "1253", label: "Town charter era" },
+        { value: "Port", label: "Lithuania's main seaport" },
+        { value: "Ferry hub", label: "Curonian Spit access" },
+      ],
+      fit: {
+        forYou: ["Small old towns", "Maritime history", "Short coastal trips", "Calm photography walks", "Gateway before Vilnius"],
+        notForYou: ["Large metropolitan nightlife", "Warm beach resorts in winter", "Mountain hiking", "Tropical climate", "Nonstop shopping"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Old town and Theatre Square",
+          summary: "Sculptures, lanes, and harbor edge.",
+          morning: "Theatre Square and surrounding timber houses",
+          afternoon: "Meridianas ship area and harbor walk",
+          evening: "Seafood dinner near the port",
+        },
+        {
+          day: 2,
+          title: "Smiltyne or relaxed museums",
+          summary: "Ferry hop or city close.",
+          morning: "Ferry toward Smiltyne for dunes forest walk or viewpoint",
+          afternoon: "Maritime Museum annex if open or quiet cafe time",
+          evening: "Final old-town stroll",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Harbor craft",
+          description: "Working boats remind you the city still lives from the water.",
+          image: {
+            src: "https://images.unsplash.com/photo-1676580239330-ad05bc4c056e?auto=format&fit=crop&w=1200&q=80",
+            alt: "Houseboats and waterfront buildings in Klaipeda port area.",
+          },
+        },
+        {
+          title: "Baltic light",
+          description: "Late afternoon sun on the water rewards slow pacing.",
+          image: {
+            src: "https://images.unsplash.com/photo-1660390304539-3d10533adc10?auto=format&fit=crop&w=1200&q=80",
+            alt: "Sunset tones over Baltic sea horizon.",
+          },
+        },
+        {
+          title: "Sculpture quarter",
+          description: "Small statues give corners personality without long detours.",
+          image: {
+            src: "https://images.unsplash.com/photo-1672323316581-3d976535b3ba?auto=format&fit=crop&w=1200&q=80",
+            alt: "Statue and historic building facade in Klaipeda.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "May to September for longer evenings" },
+        { label: "Airport transfer", value: "Palanga Airport bus or taxi" },
+        { label: "Transit tips", value: "Walk the center; ferry for Smiltyne" },
+        { label: "Ticketing", value: "Check ferry times seasonally" },
+        { label: "Neighborhood stay", value: "Old town near Theatre Square" },
+      ],
+      checklist: [
+        "Pack wind layer for waterfront",
+        "Check ferry schedule same morning",
+        "Wear grippy shoes on wet docks",
+        "Carry card and small cash",
+        "Confirm museum hours",
+        "Book dinner on summer weekends",
+      ],
+      faqs: [
+        {
+          question: "Is 2 days enough for Klaipeda?",
+          answer:
+            "Yes for old town, harbor, and a half-day Smiltyne outing with relaxed evenings.",
+        },
+        {
+          question: "Can I visit the Curonian Spit from here?",
+          answer:
+            "Yes via ferry to Smiltyne; full spit exploration needs more time than this guide assumes.",
+        },
+        {
+          question: "Is English spoken?",
+          answer:
+            "Younger people and tourism spots often speak English; learn a few Lithuanian greetings.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Inside the old town minimizes walking at night after ferry returns.",
+        },
+        {
+          question: "Is it expensive?",
+          answer:
+            "Generally moderate for the Baltics; waterfront dining costs more than inland cafes.",
+        },
+        {
+          question: "What about winter?",
+          answer:
+            "Short days and wind; plan shorter outdoor loops and more indoor time.",
+        },
+        {
+          question: "Do I need cash?",
+          answer:
+            "Cards are common; cash still helps at small kiosks.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "vilnius", city: "Vilnius", days: 3, description: "Old town hills and lanes." },
+        { slug: "riga", city: "Riga", days: 3, description: "Art nouveau avenues." },
+        { slug: "tallinn", city: "Tallinn", days: 3, description: "Walled old town and harbor." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    szeged: {
+      slug: "szeged",
+      city: "Szeged",
+      country: "Hungary",
+      days: 2,
+      pace: "Balanced",
+      idealFor: ["Riverside cities", "Architecture fans", "Cafe pacing"],
+      style: ["Votive church", "Tisza walks", "Open squares"],
+      pacing: [
+        "Szeged spreads along the Tisza, so pick one bank per outing and avoid zigzagging at rush hour.",
+        "The main square and church deserve unhurried time; short detours beat a long checklist.",
+        "Evenings on the riverfront are simplest after a lighter afternoon.",
+      ],
+      hero: {
+        title: "Szeged in 2 days",
+        subtitle: "Grand squares, Hungary's largest church, and calm Tisza-side walks in the Great Plain.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1550231566-0099d6a56964?auto=format&fit=crop&w=1600&q=80",
+          alt: "Grand historic building facade in Szeged city center.",
+        },
+      },
+      cityStats: [
+        { value: "160K+", label: "City population" },
+        { value: "1914", label: "Votive Church consecration era" },
+        { value: "Tisza", label: "River defining the city" },
+        { value: "Plain", label: "Southern Great Plain setting" },
+      ],
+      fit: {
+        forYou: ["Hungarian regional food", "Wide boulevards", "Church architecture", "Student-city cafes", "Easy two-night stops"],
+        notForYou: ["Mountain scenery", "Coastal trips", "Tiny village quiet", "Nonstop thermal baths only", "Fast intercity sprinting"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Votive Church and Szechenyi square",
+          summary: "Main worship site and cafe ring.",
+          morning: "Votive Church visit and square photos",
+          afternoon: "Reök Palace exterior and nearby lanes",
+          evening: "Dinner near the cathedral quarter",
+        },
+        {
+          day: 2,
+          title: "Tisza riverfront and markets",
+          summary: "Waterfront walk and local flavors.",
+          morning: "Bridge walk and riverside park stretch",
+          afternoon: "Market hall or picnic-friendly shop stops",
+          evening: "Final Tisza-side stroll",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Open squares",
+          description: "Wide plazas make orientation simple on foot.",
+          image: {
+            src: "https://images.unsplash.com/photo-1605267139835-96d017ba36cc?auto=format&fit=crop&w=1200&q=80",
+            alt: "Trees and open green space in Szeged park area.",
+          },
+        },
+        {
+          title: "River rhythm",
+          description: "Morning paths along the Tisza stay quieter before commuter traffic.",
+          image: {
+            src: "https://images.unsplash.com/photo-1735986079937-5a55eb87734c?auto=format&fit=crop&w=1200&q=80",
+            alt: "Warm sky over Szeged city horizon at sunset.",
+          },
+        },
+        {
+          title: "Urban green",
+          description: "Parks break up long boulevard walks between sights.",
+          image: {
+            src: "https://images.unsplash.com/photo-1588176693663-ee03251e8682?auto=format&fit=crop&w=1200&q=80",
+            alt: "Yellow flowers and greenery in a Szeged garden setting.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or early autumn for walks" },
+        { label: "Airport transfer", value: "Budapest train or domestic link if flying" },
+        { label: "Transit tips", value: "Trams connect river to center; walk the core" },
+        { label: "Ticketing", value: "Church may request modest dress" },
+        { label: "Neighborhood stay", value: "Near Szechenyi square" },
+      ],
+      checklist: [
+        "Check church service times before visiting",
+        "Carry Forint cash for small vendors",
+        "Pack light jacket for river breeze",
+        "Note Sunday shop closures",
+        "Book popular restaurants Friday nights",
+        "Download offline tram map",
+      ],
+      faqs: [
+        {
+          question: "Is 2 days enough for Szeged?",
+          answer:
+            "Yes for the Votive Church, main squares, and a full Tisza afternoon without rushing.",
+        },
+        {
+          question: "How do I reach Szeged?",
+          answer:
+            "Train from Budapest is common; allow two to three hours depending on service.",
+        },
+        {
+          question: "Is Szeged walkable?",
+          answer:
+            "The center is flat and open; trams help if you stay farther from the river.",
+        },
+        {
+          question: "What should I eat?",
+          answer:
+            "Fish soup and paprika-forward dishes are regional favorites; ask for daily menus.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Near Szechenyi square reduces walking after evening meals.",
+        },
+        {
+          question: "Is English common?",
+          answer:
+            "Hotels and cafes often speak English; smaller shops may be Hungarian-only.",
+        },
+        {
+          question: "Are baths worth it?",
+          answer:
+            "If you want thermal time, add a half day; this guide keeps focus on the urban core.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "budapest", city: "Budapest", days: 3, description: "Danube hills and thermal baths." },
+        { slug: "pecs", city: "Pécs", days: 2, description: "Southern Hungarian heritage city." },
+        { slug: "debrecen", city: "Debrecen", days: 2, description: "Great Plain regional hub." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    oradea: {
+      slug: "oradea",
+      city: "Oradea",
+      country: "Romania",
+      days: 2,
+      pace: "Balanced",
+      idealFor: ["Art nouveau fans", "Thermal bath visitors", "Border-city stops"],
+      style: ["Secession facades", "Union Square", "River promenades"],
+      pacing: [
+        "Oradea's center is compact—walk facades slowly instead of collecting distant neighborhoods.",
+        "Thermal pools reward an afternoon slot; mornings stay cooler for photography.",
+        "If you cross into Hungary for an errand, keep the day simple on return.",
+      ],
+      hero: {
+        title: "Oradea in 2 days",
+        subtitle: "Secession architecture, restored squares, and an easy two-day walk through western Romania.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1654172054677-c9dbc18cd1ec?auto=format&fit=crop&w=1600&q=80",
+          alt: "Oradea city view from above with historic rooftops.",
+        },
+      },
+      cityStats: [
+        { value: "180K+", label: "City population" },
+        { value: "Art nouveau", label: "Major facade heritage" },
+        { value: "Crisul Repede", label: "River through the center" },
+        { value: "Border", label: "Hungary crossing nearby" },
+      ],
+      fit: {
+        forYou: ["Architecture photography", "Thermal strand visits", "Walkable blocks", "Coffee-and-walk days", "Regional Romania first stops"],
+        notForYou: ["Alpine hiking", "Seaside trips", "Huge nightlife districts", "Remote village isolation", "Strict museum-only pacing"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Union Square facades",
+          summary: "Black Eagle Palace and square loop.",
+          morning: "Union Square walking loop and Black Eagle Palace exterior",
+          afternoon: "Moskovits Palace and nearby art nouveau streets",
+          evening: "Dinner with local wine",
+        },
+        {
+          day: 2,
+          title: "River and thermal close",
+          summary: "Promenade walk and baths or calm museums.",
+          morning: "Crisul Repede promenade stroll",
+          afternoon: "Nymphaea Aquapark thermal time or city museum",
+          evening: "Final square walk",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Clock towers",
+          description: "Tall spires help navigation while you admire facade details.",
+          image: {
+            src: "https://images.unsplash.com/photo-1654172054677-9a8cd7a8c04a?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic tower and ornate building in Oradea.",
+          },
+        },
+        {
+          title: "Riverfront",
+          description: "Tree-lined paths along the Crisul Repede break up street walking.",
+          image: {
+            src: "https://images.unsplash.com/photo-1635621216620-48fe7a7fab2c?auto=format&fit=crop&w=1200&q=80",
+            alt: "White historic building beside water in Oradea.",
+          },
+        },
+        {
+          title: "City grid",
+          description: "Short blocks make it easy to circle back to your hotel.",
+          image: {
+            src: "https://images.unsplash.com/photo-1654172054673-a1aebcf51dbd?auto=format&fit=crop&w=1200&q=80",
+            alt: "River running through Oradea with buildings along the banks.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September for walking" },
+        { label: "Airport transfer", value: "Oradea International Airport taxi or bus" },
+        { label: "Transit tips", value: "Walk the center; trams for longer hops" },
+        { label: "Ticketing", value: "Book aquapark slots in summer weekends" },
+        { label: "Neighborhood stay", value: "Near Union Square" },
+      ],
+      checklist: [
+        "Carry lei cash for small shops",
+        "Wear modest cover for church entries",
+        "Pack swim gear if using thermal pools",
+        "Photograph facades in morning light",
+        "Confirm aquapark hours",
+        "Keep passport copy for border-adjacent travel",
+      ],
+      faqs: [
+        {
+          question: "Is 2 days enough for Oradea?",
+          answer:
+            "Yes for main squares, art nouveau streets, and a river or thermal afternoon.",
+        },
+        {
+          question: "Is Oradea safe?",
+          answer:
+            "Use normal urban awareness at night; central streets are busy with locals.",
+        },
+        {
+          question: "Do I need Romanian?",
+          answer:
+            "Younger locals often speak English; Hungarian is also common in shops.",
+        },
+        {
+          question: "Can I day-trip to Debrecen?",
+          answer:
+            "Possible across the border; this guide assumes nights in Oradea to keep pacing calm.",
+        },
+        {
+          question: "Where should I stay?",
+          answer:
+            "Near Union Square keeps walks short and evenings simple.",
+        },
+        {
+          question: "Are the baths crowded?",
+          answer:
+            "Weekend afternoons fill up; go earlier or book ahead.",
+        },
+        {
+          question: "Is the city flat?",
+          answer:
+            "Yes, which makes walking pleasant but summer heat can feel strong at midday.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "cluj-napoca", city: "Cluj-Napoca", days: 3, description: "Transylvanian university city." },
+        { slug: "timisoara", city: "Timisoara", days: 3, description: "Banat squares and parks." },
+        { slug: "bucharest", city: "Bucharest", days: 3, description: "Capital boulevards and old town." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    braga: {
+      slug: "braga",
+      city: "Braga",
+      country: "Portugal",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["First-timers", "Church architecture", "Calm northern Portugal"],
+      style: ["Baroque sanctuaries", "Walkable center", "Hill viewpoints"],
+      pacing: [
+        "Braga works best when you treat Bom Jesus or Sameiro as one focused outing, then recover with slow café time in the old streets.",
+        "The cathedral quarter rewards short loops: you can revisit the same square at different light without feeling you are repeating yourself.",
+        "Leave one evening unplanned for tascas and conversation—northern Portugal is as much about pace as it is about monuments.",
+      ],
+      hero: {
+        title: "Braga in 3 days",
+        subtitle:
+          "Baroque staircases, Portugal's oldest cathedral roots, and a compact center you can enjoy without sprinting.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1693580759775-319125e2ebd4?auto=format&fit=crop&w=1600&q=80",
+          alt: "Aerial view of Bom Jesus do Monte sanctuary and baroque staircase above Braga.",
+        },
+      },
+      cityStats: [
+        { value: "193K+", label: "Residents in the municipality" },
+        { value: "12th c.", label: "Archbishopric heritage depth" },
+        { value: "116m", label: "Bom Jesus stairway climb (approx.)" },
+        { value: "45 min", label: "Typical train hop to Porto" },
+      ],
+      fit: {
+        forYou: [
+          "Layered church history with context",
+          "Hill sanctuaries at a measured pace",
+          "Walkable old town evenings",
+          "Easy combo trips toward Guimarães or Porto",
+          "Quiet nights compared to Lisbon",
+        ],
+        notForYou: [
+          "Beach-focused itineraries",
+          "Large-scale nightlife districts",
+          "Minimal walking tolerance",
+          "Strictly secular sightseeing only",
+          "Big-city skyline energy",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Cathedral quarter and lanes",
+          summary: "Sé, chapels, and old-town squares.",
+          morning: "Sé de Braga exterior and Archbishop's Palace area",
+          afternoon: "Santa Cruz church and pedestrian lanes",
+          evening: "Praça da República and dinner near the center",
+        },
+        {
+          day: 2,
+          title: "Bom Jesus do Monte",
+          summary: "Sanctuary, funicular option, forested views.",
+          morning: "Sanctuary grounds and stairway or funicular ride",
+          afternoon: "Terrace views and slow return to the center",
+          evening: "Relaxed dinner; early night if you climbed both ways",
+        },
+        {
+          day: 3,
+          title: "Sameiro or city museums",
+          summary: "Second sanctuary or indoor depth.",
+          morning: "Sameiro sanctuary approach or Museu dos Biscainhos",
+          afternoon: "Arco da Porta Nova photos and café pause",
+          evening: "Final stroll through the historic grid",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Sanctuary stairways",
+          description:
+            "The baroque stairs are a workout. Funiculars exist for a reason—use them if you want energy left for dinner.",
+          image: {
+            src: "https://images.unsplash.com/photo-1555881400-3f22ee160acf?auto=format&fit=crop&w=1200&q=80",
+            alt: "Ornate baroque stairway climbing a green hillside in Portugal.",
+          },
+        },
+        {
+          title: "Old town stone",
+          description:
+            "Narrow lanes and small squares feel lived-in. Mid-morning light is kind for facades without heavy crowds.",
+          image: {
+            src: "https://images.unsplash.com/photo-1565008576399-9432a827e324?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic stone church facade in a Portuguese city center.",
+          },
+        },
+        {
+          title: "Hilltop perspective",
+          description:
+            "From the sanctuaries you see folds of green and red roofs. It is worth one long pause at a viewpoint.",
+          image: {
+            src: "https://images.unsplash.com/photo-1523906834651-245e5e503437?auto=format&fit=crop&w=1200&q=80",
+            alt: "View over rooftops and hills from a high vantage in northern Portugal.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September to October for mild walking weather" },
+        { label: "Getting there", value: "Train from Porto-Campanhã; regional buses for nearby towns" },
+        { label: "Transit tips", value: "Walk the center; taxi or bus to sanctuaries if skipping the funicular" },
+        { label: "Ticketing", value: "Check sanctuary hours; some chapels close midday" },
+        { label: "Neighborhood stay", value: "Near Sé or Praça da República for short evening walks" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Bom Jesus busier on weekends; go earlier for photos" },
+        { label: "Seasonal notes", value: "Summer afternoons can feel hot on exposed stairs" },
+        { label: "Dress code", value: "Shoulders covered for active worship spaces" },
+        { label: "Common mistakes", value: "Stacking both sanctuaries and a Porto day without rest" },
+        { label: "Cash or card", value: "Cards common; small chapels may prefer cash for candles" },
+      ],
+      checklist: [
+        "Check Bom Jesus funicular hours",
+        "Wear shoes with grip for wet stairs",
+        "Book weekend restaurants if you prefer set times",
+        "Download offline maps for hill sites",
+        "Carry water for sanctuary climbs",
+        "Plan one slow coffee stop daily",
+      ],
+      faqs: [
+        {
+          question: "Is Braga walkable?",
+          answer:
+            "Yes in the historic core. Sanctuaries sit uphill—plan transport or a funicular if you want to keep the day relaxed.",
+        },
+        {
+          question: "Can I day-trip from Porto?",
+          answer:
+            "Yes, but you will trim museums and second-sanctuary time. Overnight stays make the staircases feel less rushed.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "Not for the city center. A car helps only if you are chaining Minho villages; trains cover Porto links well.",
+        },
+        {
+          question: "Is English spoken?",
+          answer:
+            "Often in hotels and main sites. Smaller tascas may be Portuguese-forward—pointing at the menu still works.",
+        },
+        {
+          question: "How does it compare to Porto?",
+          answer:
+            "Smaller, calmer evenings, stronger church focus. Pair them on one trip rather than choosing only one.",
+        },
+        {
+          question: "Are the sanctuaries free to enter?",
+          answer:
+            "Grounds are generally accessible; interior rules and donations vary. Check current notices at the entrance.",
+        },
+        {
+          question: "What should I eat?",
+          answer:
+            "Try bacalhau dishes, regional vinho verde, and simple grilled meats. Keep one meal light if you climbed stairs.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "porto", city: "Porto", days: 3, description: "Riverfront tiles, port lodges, and steep lanes." },
+        { slug: "lisbon", city: "Lisbon", days: 3, description: "Trams, miradouros, and riverside walks." },
+        { slug: "coimbra", city: "Coimbra", days: 3, description: "University hill and river town." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    brescia: {
+      slug: "brescia",
+      city: "Brescia",
+      country: "Italy",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Roman history fans", "Lake day-trippers", "Low-key Lombardy"],
+      style: ["UNESCO forum ruins", "Piazza life", "Easy rail links"],
+      pacing: [
+        "Brescia fits a calm rhythm: one major layer per day—Roman forum, Renaissance square, then optional lake air.",
+        "Keep transfers honest. If you add Iseo or Franciacorta, shorten the old-town loop rather than squeezing both.",
+        "Evenings along Piazza della Loggia are for slow aperitivo and people-watching, not a packed museum sprint.",
+      ],
+      hero: {
+        title: "Brescia in 3 days",
+        subtitle:
+          "Roman Capitolium underground, Renaissance loggias, and optional lake time without overfilling the schedule.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1689776166708-f46c2ec1f2a1?auto=format&fit=crop&w=1600&q=80",
+          alt: "Ancient ruins at Grotte di Catullo with Lake Garda, Sirmione, Province of Brescia.",
+        },
+      },
+      cityStats: [
+        { value: "200K+", label: "City population" },
+        { value: "UNESCO", label: "Longobard site complex in town" },
+        { value: "1st c.", label: "Roman forum layers under the center" },
+        { value: "30 min", label: "Typical train to Lake Iseo towns" },
+      ],
+      fit: {
+        forYou: [
+          "Roman ruins with museum context",
+          "Piazza dining without Milan crowds",
+          "Day trips by train",
+          "Museums at a human pace",
+          "Northern Italian food on a budget",
+        ],
+        notForYou: [
+          "Iconic skyline landmarks like Milan's Duomo",
+          "Coastal beach days in town",
+          "Nonstop alpine hiking at the doorstep",
+          "English menus everywhere",
+          "Late-night club districts",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Capitolium and forum",
+          summary: "Roman Brixia underground and museum loop.",
+          morning: "Santa Giulia Museum complex and Longobard context",
+          afternoon: "Capitolium archaeological area",
+          evening: "Piazza della Loggia stroll and aperitivo",
+        },
+        {
+          day: 2,
+          title: "Castle and panoramas",
+          summary: "Cidneo lifts or walks with city views.",
+          morning: "Castle approach and rampart views",
+          afternoon: "Duomo Vecchio and Duomo Nuovo exteriors",
+          evening: "Dinner near Piazza Paolo VI",
+        },
+        {
+          day: 3,
+          title: "Lake Iseo or Franciacorta",
+          summary: "Waterfront calm or vineyard lanes.",
+          morning: "Train to Iseo or Sulzano",
+          afternoon: "Lakeside walk or short ferry if schedules allow",
+          evening: "Return for a quiet last walk in Brescia",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Roman layers",
+          description:
+            "The forum site makes abstract history concrete. Audio guides help if you prefer structure over wandering.",
+          image: {
+            src: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1200&q=80",
+            alt: "Ancient Roman columns and archaeological stonework in Italy.",
+          },
+        },
+        {
+          title: "Renaissance loggias",
+          description:
+            "Arcades frame coffee breaks and evening light. It is a working city square, not only a postcard.",
+          image: {
+            src: "https://images.unsplash.com/photo-1612697850866-9b998272d2d4?auto=format&fit=crop&w=1200&q=80",
+            alt: "Italian piazza with historic buildings and outdoor seating.",
+          },
+        },
+        {
+          title: "Lake option",
+          description:
+            "Iseo stays quieter than Como on many days. Build in ferry slack rather than a tight island dash.",
+          image: {
+            src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calm lake shoreline with mountains in the distance.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September for walking and lake breezes" },
+        { label: "Getting there", value: "Milano Centrale frequent trains; Verona links nearby" },
+        { label: "Transit tips", value: "Metro helps east-west; walk the centro storico" },
+        { label: "Ticketing", value: "Book Santa Giulia combo tickets online on busy weekends" },
+        { label: "Neighborhood stay", value: "Near Piazza della Loggia or Piazza Vittoria" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Museums quieter on weekday mornings" },
+        { label: "Seasonal notes", value: "July afternoons can feel humid before storms" },
+        { label: "Common mistakes", value: "Treating Brescia as only a Milan hotel suburb" },
+        { label: "Dress code", value: "Modest shoulders for cathedral interiors" },
+        { label: "Lake ferries", value: "Check seasonal timetables before promising Monte Isola" },
+      ],
+      checklist: [
+        "Prebook Santa Giulia if visiting Saturday",
+        "Buy integrated bus-metro ticket if using both",
+        "Pack sun hat for castle ramparts",
+        "Confirm lake train return times",
+        "Carry cash for small lake kiosks",
+        "Reserve one slow dinner without a clock",
+      ],
+      faqs: [
+        {
+          question: "Is Brescia worth three days?",
+          answer:
+            "Yes if you want Roman depth, castle air, and a lake day. Two days cover the core; the third buys breathing room.",
+        },
+        {
+          question: "Can I skip the lake?",
+          answer:
+            "Yes—swap day three for Pinacoteca Tosio Martinengo or a slower food day in Franciacorta towns.",
+        },
+        {
+          question: "How far is Milan?",
+          answer:
+            "About an hour by train. Day-tripping Milan from Brescia is possible, but this guide keeps focus local.",
+        },
+        {
+          question: "Is it crowded?",
+          answer:
+            "Less than Venice or Como hotspots. Piazza moments can still feel busy on Saturday evenings.",
+        },
+        {
+          question: "Do I need Italian?",
+          answer:
+            "Helpful but not mandatory. Write down addresses for taxis; menus often have English in tourist zones.",
+        },
+        {
+          question: "Are sites accessible?",
+          answer:
+            "Some Roman areas have uneven stone. Castle paths include slopes—check mobility needs in advance.",
+        },
+        {
+          question: "What about parking?",
+          answer:
+            "ZTL rules apply in the center. Trains are simpler than driving for most first visits.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "milan", city: "Milan", days: 3, description: "Duomo, Navigli, and design-forward walks." },
+        { slug: "verona", city: "Verona", days: 3, description: "Arena, river bends, and compact lanes." },
+        { slug: "bergamo", city: "Bergamo", days: 3, description: "Upper town walls and funicular views." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    durban: {
+      slug: "durban",
+      city: "Durban",
+      country: "South Africa",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Beach walkers", "First-timers", "Warm-climate comfort"],
+      style: ["Golden Mile", "Indian Ocean swims", "Market stops"],
+      pacing: [
+        "Durban works when you pair morning beach air with shaded afternoon breaks—humidity rewards a slower clock.",
+        "Keep one day flexible for weather; the promenade still works under cloud if you shorten swim time.",
+        "Markets and bunny chow stops are part of the rhythm, not side quests—build them in without guilt.",
+      ],
+      hero: {
+        title: "Durban in 3 days",
+        subtitle:
+          "Ocean promenades, calm beach time, and city markets at a pace that respects heat and humidity.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1747558510377-2b383597e1d1?auto=format&fit=crop&w=1600&q=80",
+          alt: "Sunset skyline from North Beach Pier where Durban meets the Indian Ocean.",
+        },
+      },
+      cityStats: [
+        { value: "3.9M+", label: "Ethekwini metro population" },
+        { value: "Warm", label: "Subtropical climate most of the year" },
+        { value: "6 km+", label: "Golden Mile beachfront stretch" },
+        { value: "SA's", label: "Busiest container port nearby" },
+      ],
+      fit: {
+        forYou: [
+          "Beach-and-city in one stay",
+          "Promenade walks at sunrise or sunset",
+          "Curried street food culture",
+          "Relaxed pacing with swim breaks",
+          "Gateway to KZN nature later",
+        ],
+        notForYou: [
+          "Cool mountain-only trips without travel",
+          "European old-town density",
+          "Cold-weather comfort",
+          "Car-free safari at the doorstep",
+          "Strict winter sports focus",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Golden Mile",
+          summary: "Promenade, swim, and uShaka fringe.",
+          morning: "Beach walk from North Beach toward the pier",
+          afternoon: "Swim within flagged areas; shade break",
+          evening: "uShaka precinct stroll without packing every attraction",
+        },
+        {
+          day: 2,
+          title: "Markets and Victoria Street",
+          summary: "Spices, architecture, and city texture.",
+          morning: "Victoria Street Market and surrounding blocks",
+          afternoon: "City Hall or KwaMuhle Museum if heat allows",
+          evening: "Curry dinner in a neighborhood you can reach safely by taxi or ride-hail",
+        },
+        {
+          day: 3,
+          title: "Botanic calm or repeat beach",
+          summary: "Greenery or a final ocean morning.",
+          morning: "Durban Botanic Gardens",
+          afternoon: "Moses Mabhida Stadium viewpoint booking or relaxed beach",
+          evening: "Sunset walk and early pack",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Palm-lined shore",
+          description:
+            "Lifeguard flags matter—swim where locals swim. Morning light on the promenade is the calmest hour.",
+          image: {
+            src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+            alt: "Tropical beach with palm trees along a sandy shore.",
+          },
+        },
+        {
+          title: "Market color",
+          description:
+            "Spice stalls reward curiosity. Buy small quantities if you are traveling onward.",
+          image: {
+            src: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80",
+            alt: "Colorful market spices displayed in baskets.",
+          },
+        },
+        {
+          title: "City and sea",
+          description:
+            "The skyline behind the surf reminds you this is a working coast. Pause at a bench instead of rushing photos.",
+          image: {
+            src: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80",
+            alt: "Coastal city view with ocean mist and urban foreground.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "May to September for drier, milder beach weather" },
+        { label: "Airport transfer", value: "King Shaka International taxi or shuttle; confirm fixed rates" },
+        { label: "Transit tips", value: "Ride-hail and hotel shuttles common; ask locally about areas after dark" },
+        { label: "Safety", value: "Use mainstream beaches; secure valuables; follow local swim advisories" },
+        { label: "Neighborhood stay", value: "North Beach or Berea for promenade access" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Weekend beaches busier; weekday mornings are gentler" },
+        { label: "Seasonal notes", value: "Summer humidity peaks midday—plan indoor or shaded blocks" },
+        { label: "Sun care", value: "High UV even on cloudy days" },
+        { label: "Water quality", value: "Check municipal notices after heavy rain" },
+        { label: "Common mistakes", value: "Skipping hydration between beach and market walks" },
+      ],
+      checklist: [
+        "Pack reef-safe sunscreen and a hat",
+        "Carry bottled water on promenade walks",
+        "Save swim-only hours for flagged beaches",
+        "Book stadium swing or sky car ahead if required",
+        "Keep small cash for market snacks",
+        "Download offline maps for taxi directions",
+      ],
+      faqs: [
+        {
+          question: "Is Durban safe for tourists?",
+          answer:
+            "Use standard urban awareness, especially after dark. Stick to busy beaches, licensed transport, and advice from your accommodation.",
+        },
+        {
+          question: "Can I swim year-round?",
+          answer:
+            "Water stays relatively warm, but winter air can feel cool. Lifeguard seasons and flags should guide when and where you swim.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "Not for the Golden Mile core. Rent only if you are heading to Drakensberg or game reserves afterward.",
+        },
+        {
+          question: "What is bunny chow?",
+          answer:
+            "A hollowed loaf filled with curry—iconic Durban. Order a sensible spice level and eat it as a sit-down meal if you prefer less mess.",
+        },
+        {
+          question: "How does it compare to Cape Town?",
+          answer:
+            "Warmer ocean, flatter city beach rhythm, different cultural mix. Both reward calm pacing for different reasons.",
+        },
+        {
+          question: "Are there sharks?",
+          answer:
+            "Nets and monitoring exist in places; follow lifeguard instructions and avoid dawn or dusk swims if advised locally.",
+        },
+        {
+          question: "What about load shedding?",
+          answer:
+            "Power schedules can affect lifts and kitchens. Hotels often have backup—confirm when booking.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "cape-town", city: "Cape Town", days: 3, description: "Table Mountain, waterfront, and Cape Peninsula." },
+        { slug: "johannesburg", city: "Johannesburg", days: 3, description: "Museums, neighborhoods, and urban history." },
+        { slug: "nairobi", city: "Nairobi", days: 3, description: "Parks, museums, and safari gateways." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    girona: {
+      slug: "girona",
+      city: "Girona",
+      country: "Spain",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Medieval lanes", "Catalonia first-timers", "Barcelona add-ons"],
+      style: ["Onyar houses", "City walls", "Quiet plazas"],
+      pacing: [
+        "Girona rewards short loops: the cathedral hill, the river bend, and the walls each deserve their own unhurried pass.",
+        "If you are pairing with Barcelona, keep day three soft—repeat a favorite café rather than forcing new sights.",
+        "Heat in summer builds by midday; schedule wall walks for morning or golden hour.",
+      ],
+      hero: {
+        title: "Girona in 3 days",
+        subtitle:
+          "Colorful river houses, intact walls, and a cathedral quarter you can explore without a sprint.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1566736459432-a82bdacb0330?auto=format&fit=crop&w=1600&q=80",
+          alt: "Colorful buildings along the Onyar River in Girona, Catalonia.",
+        },
+      },
+      cityStats: [
+        { value: "100K+", label: "Province capital population" },
+        { value: "9th c.", label: "Foundations of the cathedral hill" },
+        { value: "2 km+", label: "Walkable medieval wall sections" },
+        { value: "38 min", label: "Typical high-speed train to Barcelona" },
+      ],
+      fit: {
+        forYou: [
+          "Game of Thrones fans who want real streets",
+          "Photographers who like river reflections",
+          "Walkers who prefer small-city scale",
+          "Food lovers pairing Costa Brava day trips",
+          "Calm nights after big-city noise",
+        ],
+        notForYou: [
+          "Skyscraper skylines",
+          "Beach-in-town without a short drive",
+          "Major museum density like Madrid",
+          "Late-night mega clubs",
+          "English-only rural silence",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Old town and cathedral",
+          summary: "Steps, cloister, and Jewish quarter lanes.",
+          morning: "Girona Cathedral approach and exterior terraces",
+          afternoon: "Jewish quarter lanes and small museums",
+          evening: "Rambla de la Libertad stroll and dinner",
+        },
+        {
+          day: 2,
+          title: "Onyar bridges and walls",
+          summary: "River photos and rampart walks.",
+          morning: "Eiffel Bridge and river house viewpoints",
+          afternoon: "City walls east section with water breaks",
+          evening: "Plaça del Vi aperitivo",
+        },
+        {
+          day: 3,
+          title: "Sant Pere or Costa Brava option",
+          summary: "Monastery calm or coastal half-day.",
+          morning: "Sant Pere de Galligants or Arab Baths visit",
+          afternoon: "Train to Figueres for Dalí only if booked—else slow Girona repeat",
+          evening: "Final Onyar loop and pack",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "River façades",
+          description:
+            "Mid-morning sun paints the Onyar ochres and yellows. Cross multiple bridges for different angles.",
+          image: {
+            src: "https://images.unsplash.com/photo-1562600873-9af178dec6d5?auto=format&fit=crop&w=1200&q=80",
+            alt: "Brightly painted houses reflected in a narrow river in Girona.",
+          },
+        },
+        {
+          title: "Cathedral stairs",
+          description:
+            "The wide staircase is a stage set. Arrive early if you want people-free frames.",
+          image: {
+            src: "https://images.unsplash.com/photo-1591014761979-d111e1bc083c?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic cathedral facade and wide stone staircase in Girona.",
+          },
+        },
+        {
+          title: "Wall walks",
+          description:
+            "Carry water; stretches are sunny. Exit where signs allow rather than backtracking in heat.",
+          image: {
+            src: "https://images.unsplash.com/photo-1555999468-27fcd7851d4f?auto=format&fit=crop&w=1200&q=80",
+            alt: "Stone city walls overlooking red rooftops and green hills.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September for mild walking" },
+        { label: "Getting there", value: "AVE or regional trains from Barcelona Sants" },
+        { label: "Transit tips", value: "Walk the center; buses for edge hotels" },
+        { label: "Ticketing", value: "Book cathedral combo tickets on busy weekends" },
+        { label: "Neighborhood stay", value: "Near Plaça de la Independència or old town" },
+      ],
+      goodToKnow: [
+        { label: "Crowd timing", value: "Day-trippers peak midday Saturday" },
+        { label: "Seasonal notes", value: "Temps de Flors fills May—book stays early" },
+        { label: "Common mistakes", value: "Treating Girona as a one-hour photo stop" },
+        { label: "Language", value: "Catalan and Spanish both common; English in hotels" },
+        { label: "Steps", value: "Cathedral and walls include steep climbs" },
+      ],
+      checklist: [
+        "Charge camera batteries for river light",
+        "Wear gripped shoes on wet cobbles",
+        "Prebook Dalí if day-tripping to Figueres",
+        "Carry a light scarf for church entries",
+        "Save one evening for unplanned tapas",
+        "Download train tickets offline",
+      ],
+      faqs: [
+        {
+          question: "Is Girona a day trip from Barcelona?",
+          answer:
+            "Yes, but overnight lets you see walls at sunset and dine without watching the clock.",
+        },
+        {
+          question: "Is it hilly?",
+          answer:
+            "The cathedral and walls involve climbs. Build rest stops and water breaks into the plan.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "No for the old town. Rent only if you are threading multiple Costa Brava coves in one day.",
+        },
+        {
+          question: "When is Temps de Flors?",
+          answer:
+            "Usually May; streets fill with floral installations—beautiful but busy. Book hotels early.",
+        },
+        {
+          question: "Is it crowded in summer?",
+          answer:
+            "River viewpoints busy by afternoon. Morning wall walks feel calmer.",
+        },
+        {
+          question: "What should I eat?",
+          answer:
+            "Try xuixo pastries, local vermouth hours, and Catalan classics. Keep lunch long and dinner late.",
+        },
+        {
+          question: "Can I walk the full walls?",
+          answer:
+            "Sections link with exits; you do not need to complete every meter. Follow posted hours.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "barcelona", city: "Barcelona", days: 3, description: "Gaudí, Gothic Quarter, and sea breezes." },
+        { slug: "madrid", city: "Madrid", days: 3, description: "Museums, plazas, and tapas bars." },
+        { slug: "valencia", city: "Valencia", days: 3, description: "Turia gardens, old town, and paella culture." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    haifa: {
+      slug: "haifa",
+      city: "Haifa",
+      country: "Israel",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Garden terraces", "Port city views", "Multi-faith context"],
+      style: ["Baha'i terraces", "German Colony", "Carmel ridges"],
+      pacing: [
+        "Haifa stacks vertically—plan one slope-focused outing per day so knees and schedules stay kind.",
+        "Shabbat and holidays shift transit; build Friday afternoon slack if you rely on buses.",
+        "Evenings in the German Colony are for strolling, not packing extra sights.",
+      ],
+      hero: {
+        title: "Haifa in 3 days",
+        subtitle:
+          "Terraced gardens, bay breezes, and hillside neighborhoods at a pace that respects heat and hills.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1573322867448-1ba626bd9aeb?auto=format&fit=crop&w=1600&q=80",
+          alt: "View over the Bahá'í gardens and Shrine of the Báb on Mount Carmel, Haifa.",
+        },
+      },
+      cityStats: [
+        { value: "280K+", label: "City population" },
+        { value: "19 terraces", label: "Baha'i garden layers above the bay" },
+        { value: "Mount Carmel", label: "Ridge defining the city's spine" },
+        { value: "90 km", label: "Approximate distance to Tel Aviv by train" },
+      ],
+      fit: {
+        forYou: [
+          "Structured garden visits with timed entry",
+          "Neighborhood walks with café pauses",
+          "Port-and-hill photo contrasts",
+          "Calm compared to Tel Aviv nights",
+          "History through architecture layers",
+        ],
+        notForYou: [
+          "Classic European old towns only",
+          "Strict beach-in-city focus",
+          "Minimal security checkpoint tolerance on regional travel",
+          "Flat-only walking itineraries",
+          "Alcohol-forward nightlife as the main goal",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Baha'i Gardens viewpoint",
+          summary: "Upper terrace views and visitor center context.",
+          morning: "Yefe Nof street viewpoints and garden orientation",
+          afternoon: "German Colony walk and late lunch",
+          evening: "Ben Gurion Boulevard evening stroll",
+        },
+        {
+          day: 2,
+          title: "Downtown and port",
+          summary: "Bay level without constant climbing.",
+          morning: "Port area walk and maritime context",
+          afternoon: "National Museum of Science or Madatech if families prefer",
+          evening: "Dinner with sea breeze near the lower city",
+        },
+        {
+          day: 3,
+          title: "Stella Maris or Carmel nature",
+          summary: "Church, cable car option, ridge air.",
+          morning: "Stella Maris area and panoramas",
+          afternoon: "Carmel National Park short trail or relaxed café",
+          evening: "Sunset repeat at a favorite viewpoint",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Terraced green",
+          description:
+            "Gardens run on strict visiting rules. Read the latest entry guidance before you plan the day.",
+          image: {
+            src: "https://images.unsplash.com/photo-1611348571902-76b37cd4db11?auto=format&fit=crop&w=1200&q=80",
+            alt: "Symmetrical garden terraces on a steep hillside above a bay.",
+          },
+        },
+        {
+          title: "German Colony streets",
+          description:
+            "Restored Templer houses now hold cafés and small shops—ideal for slow browsing.",
+          image: {
+            src: "https://images.unsplash.com/photo-1566737230979-f9850f9aacae?auto=format&fit=crop&w=1200&q=80",
+            alt: "Tree-lined street with historic buildings in a Mediterranean city.",
+          },
+        },
+        {
+          title: "Bay and ships",
+          description:
+            "Working port light changes through the day. Bench time beats a rushed panorama checklist.",
+          image: {
+            src: "https://images.unsplash.com/photo-1542037371027-348bdd1b6172?auto=format&fit=crop&w=1200&q=80",
+            alt: "Harbor view with cranes and calm water under a warm sky.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "March to May or October to November for milder hill walks" },
+        { label: "Getting there", value: "Train from Tel Aviv HaHaganah; buses within the city" },
+        { label: "Transit tips", value: "Cable car links upper and lower Carmel on operating days" },
+        { label: "Ticketing", value: "Confirm Baha'i tour registration windows in advance" },
+        { label: "Neighborhood stay", value: "German Colony or lower Carmel for flatter evenings" },
+      ],
+      goodToKnow: [
+        { label: "Shabbat", value: "Friday evening to Saturday night reduces bus frequency—plan taxis or walking" },
+        { label: "Security", value: "Follow local guidance; carry ID for regional checkpoints if traveling onward" },
+        { label: "Heat", value: "Afternoon shade matters on exposed garden paths" },
+        { label: "Dress", value: "Modest clothing for religious sites" },
+        { label: "Hills", value: "Stairs add up—spread climbs across days" },
+      ],
+      checklist: [
+        "Check Baha'i visitor rules the week you travel",
+        "Download transit apps with offline maps",
+        "Carry sun protection and water for terraces",
+        "Confirm Shabbat timing for your dates",
+        "Book German Colony dinner if Saturday night matters to you",
+        "Keep small shekels for market snacks",
+      ],
+      faqs: [
+        {
+          question: "Can I enter the Baha'i Gardens freely?",
+          answer:
+            "Public edges and viewpoints are accessible; structured garden walks often require registration. Check official sites for current rules.",
+        },
+        {
+          question: "Is Haifa cheaper than Tel Aviv?",
+          answer:
+            "Often slightly, but hotels still spike on holidays. Book early for weekends.",
+        },
+        {
+          question: "Do I need Hebrew?",
+          answer:
+            "English works in many tourist-facing places. Learning a few Hebrew or Arabic greetings still helps.",
+        },
+        {
+          question: "Is the cable car reliable?",
+          answer:
+            "It closes for maintenance or wind. Have a bus or taxi backup between upper and lower Carmel.",
+        },
+        {
+          question: "Can I swim in Haifa?",
+          answer:
+            "Beaches exist; water quality and flags vary by season. Ask locally before planning a swim day.",
+        },
+        {
+          question: "How do I reach Akko?",
+          answer:
+            "Short train rides north are common day trips—this guide keeps nights in Haifa for calmer returns.",
+        },
+        {
+          question: "What about Nazareth?",
+          answer:
+            "Possible by bus or tour; it is a fuller day. Trim Haifa sights if you add it mid-trip.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "tel-aviv", city: "Tel Aviv", days: 3, description: "Beaches, Bauhaus, and food markets." },
+        { slug: "jerusalem", city: "Jerusalem", days: 3, description: "Old City lanes and hilltop light." },
+        { slug: "athens", city: "Athens", days: 3, description: "Ancient hills and Mediterranean evenings." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    messina: {
+      slug: "messina",
+      city: "Messina",
+      country: "Italy",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Strait views", "Sicily starters", "Ferry hub travelers"],
+      style: ["Baroque squares", "Coastal promenade", "Clocktower drama"],
+      pacing: [
+        "Messina fits travelers who want strait light and baroque detail without Rome-scale crowds.",
+        "Ferry days skew schedules—if you arrive or depart by sea, keep that day's plan thin.",
+        "Afternoon heat on the waterfront is real; shift churches and museums earlier.",
+      ],
+      hero: {
+        title: "Messina in 3 days",
+        subtitle:
+          "Strait panoramas, a kinetic astronomical clock, and a walkable centro with room to breathe.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1666079757423-7cb18ec1865d?auto=format&fit=crop&w=1600&q=75",
+          alt: "Messina cityscape with cathedral spire and trees in the historic center, Sicily.",
+        },
+      },
+      cityStats: [
+        { value: "220K+", label: "City population" },
+        { value: "3 km", label: "Approximate strait width to Calabria" },
+        { value: "12th c.", label: "Cathedral foundations era" },
+        { value: "Major", label: "Sicilian ferry and cruise port" },
+      ],
+      fit: {
+        forYou: [
+          "Sicily first stops by train or ferry",
+          "Waterfront walks with mountain backdrops",
+          "Baroque interiors without long queues",
+          "Day-trip curiosity toward Taormina",
+          "Unhurried port-city evenings",
+        ],
+        notForYou: [
+          "Only alpine hiking",
+          "Expecting Venice-level canal density",
+          "Strict English countryside aesthetics",
+          "Zero interest in church architecture",
+          "Nightlife-only trips",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Duomo and clock",
+          summary: "Square geometry and moving figures.",
+          morning: "Piazza del Duomo and cathedral interior",
+          afternoon: "Astronomical clock timing check and square cafés",
+          evening: "Sunset along the lungomare",
+        },
+        {
+          day: 2,
+          title: "Regional museum and strait",
+          summary: "Indoor context, then open water.",
+          morning: "MuME or similar museum block",
+          afternoon: "Torre Faro viewpoint or coastal bus hop",
+          evening: "Seafood dinner with strait views",
+        },
+        {
+          day: 3,
+          title: "Taormina option or slow Messina",
+          summary: "Hill town or repeat favorites.",
+          morning: "Train to Taormina-Giardini if tickets allow",
+          afternoon: "Greek theatre exterior or return for rest",
+          evening: "Final promenade walk",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Strait light",
+          description:
+            "Morning haze softens Calabria's outline. Evening clears for sharper silhouettes.",
+          image: {
+            src: "https://images.unsplash.com/photo-1539650116574-75c0c6d34a95?auto=format&fit=crop&w=1200&q=80",
+            alt: "Sicilian coastline with deep blue sea toward the Messina strait.",
+          },
+        },
+        {
+          title: "Baroque interiors",
+          description:
+            "Cathedral side chapels reward slow looking. Respect mass schedules when visiting.",
+          image: {
+            src: "https://images.unsplash.com/photo-1528312635006-8ea0bc49ec63?auto=format&fit=crop&w=1200&q=80",
+            alt: "Ornate Sicilian baroque church facade with carved stone detail.",
+          },
+        },
+        {
+          title: "Promenade rhythm",
+          description:
+            "Locals use the waterfront for exercise and chat. Join the pace instead of racing its length.",
+          image: {
+            src: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+            alt: "Harbor boats and waterfront activity along the Sicilian coast.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September for milder coastal walking" },
+        { label: "Getting there", value: "Ferry from Villa San Giovanni; trains along the Sicilian coast" },
+        { label: "Transit tips", value: "Walk centro; buses for Torre Faro" },
+        { label: "Ticketing", value: "Book Taormina trains ahead on summer Sundays" },
+        { label: "Neighborhood stay", value: "Near Piazza del Duomo or lungomare" },
+      ],
+      goodToKnow: [
+        { label: "Cruise days", value: "Streets pulse when ships dock—plan museum mornings" },
+        { label: "Clock shows", value: "Confirm daily astronomical clock times to avoid waiting in full sun" },
+        { label: "Ferry delays", value: "Wind can slow strait crossings—keep buffer before flights" },
+        { label: "Language", value: "Italian primary; tourist Italian phrases help" },
+        { label: "Sun", value: "Waterfront UV is strong even in spring" },
+      ],
+      checklist: [
+        "Note clock performance times on arrival",
+        "Carry euros for small ferries and snacks",
+        "Pack a light layer for sea breezes",
+        "Prebook Taormina return if tight on time",
+        "Wear modest cover for active services",
+        "Save one meal for swordfish or local pasta",
+      ],
+      faqs: [
+        {
+          question: "Is Messina only a ferry stop?",
+          answer:
+            "Many treat it that way, but two nights let you enjoy the square, clock, and strait light without rushing to the next port.",
+        },
+        {
+          question: "Can I see Etna from town?",
+          answer:
+            "Sometimes on clear mornings from elevated spots. Do not plan photography around guaranteed views.",
+        },
+        {
+          question: "How far is Taormina?",
+          answer:
+            "Under an hour by train to Giardini-Naxos plus a short hop uphill. It is a full day if done calmly.",
+        },
+        {
+          question: "Is it safe at night?",
+          answer:
+            "Stick to lit waterfront and central squares; use licensed taxis if unsure.",
+        },
+        {
+          question: "What about Reggio Calabria?",
+          answer:
+            "A short ferry for another country-facing viewpoint—this guide assumes nights in Sicily.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "Not for Messina center. Rent if you are threading multiple hill towns in one loop.",
+        },
+        {
+          question: "When should I avoid cruising crowds?",
+          answer:
+            "Check ship schedules online; mid-morning on dock days is busiest near the port gates.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "palermo", city: "Palermo", days: 3, description: "Markets, palaces, and Norman layers." },
+        { slug: "catania", city: "Catania", days: 3, description: "Baroque stone and Etna on the horizon." },
+        { slug: "naples", city: "Naples", days: 3, description: "Vibrant centro and bay views." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    salerno: {
+      slug: "salerno",
+      city: "Salerno",
+      country: "Italy",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Amalfi gateway", "Lungomare walkers", "Lower-cost Campania base"],
+      style: ["Medieval centro", "Seafront sunsets", "Ferry links"],
+      pacing: [
+        "Salerno shines when you treat ferries as part of the day, not a panic sprint from ticket booth to gangway.",
+        "Medieval alleys are short but steep—alternate them with flat lungomare miles.",
+        "If Positano day-trips tempt you, accept that return ferries can run late in season.",
+      ],
+      hero: {
+        title: "Salerno in 3 days",
+        subtitle:
+          "A long waterfront, a compact old town, and ferry-friendly access south without forcing every famous cliff town in one trip.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1764586118555-6166ff75e6ec?auto=format&fit=crop&w=1600&q=80",
+          alt: "Positano cliffside village on the Amalfi Coast, Salerno province.",
+        },
+      },
+      cityStats: [
+        { value: "130K+", label: "City population" },
+        { value: "Duomo", label: "Norman-era cathedral mosaic heritage" },
+        { value: "Ferries", label: "Coastal links toward Amalfi and Capri seasonally" },
+        { value: "40 min", label: "Typical fast train to Naples" },
+      ],
+      fit: {
+        forYou: [
+          "Sea breezes with easier lodging prices than Positano",
+          "Medieval lanes without Venice-scale maze stress",
+          "Train-plus-ferry planners",
+          "Long sunset walks",
+          "Day trips with realistic return buffers",
+        ],
+        notForYou: [
+          "Cliff-village-only aesthetics without any travel",
+          "Expecting empty beaches in August",
+          "Zero stairs tolerance",
+          "Strict silence at night—centro can stay lively",
+          "Winter swimming focus",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Duomo and centro storico",
+          summary: "Mosaics, alleys, and Giardino della Minerva.",
+          morning: "Cathedral visit and atrium mosaics",
+          afternoon: "Via dei Mercanti loop and Minerva garden",
+          evening: "Lungomare Trieste sunset walk",
+        },
+        {
+          day: 2,
+          title: "Amalfi by ferry",
+          summary: "Coastal approach without cliff driving.",
+          morning: "Ferry to Amalfi; cathedral and piazza",
+          afternoon: "Coastal walk segment or quiet café",
+          evening: "Ferry back; light dinner near the port",
+        },
+        {
+          day: 3,
+          title: "Vietri sul Mare or Paestum option",
+          summary: "Ceramics town or Greek temples.",
+          morning: "Train to Vietri for ceramics streets or Paestum for ruins",
+          afternoon: "Slow return with gelato stops",
+          evening: "Final old-town pass and pack",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Lungomare miles",
+          description:
+            "The promenade invites repetition. Benches and palm shade make it a legitimate afternoon plan.",
+          image: {
+            src: "https://images.unsplash.com/photo-1523906834651-245e5e503437?auto=format&fit=crop&w=1200&q=80",
+            alt: "Mediterranean seafront with promenade and distant hills.",
+          },
+        },
+        {
+          title: "Medieval grid",
+          description:
+            "Stairs link pocket piazzas. Drop pins on your map so you can find your pensione after dark.",
+          image: {
+            src: "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&w=1200&q=80",
+            alt: "Narrow European alley with stone steps between old buildings.",
+          },
+        },
+        {
+          title: "Ferry light",
+          description:
+            "Deck seats beat indoor rows on clear days. Sunscreen and wind layers both help.",
+          image: {
+            src: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+            alt: "Passenger ferry moving across blue water toward coastal cliffs.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September for ferries and mild heat" },
+        { label: "Getting there", value: "Freccia trains from Naples or Rome connections" },
+        { label: "Transit tips", value: "Walk centro; ferries from Molo Manfredi in season" },
+        { label: "Ticketing", value: "Buy ferry tickets morning-of or online when schedules post" },
+        { label: "Neighborhood stay", value: "Historic center or lungomare for flat evening walks" },
+      ],
+      goodToKnow: [
+        { label: "Summer crowds", value: "Ferries fill on weekends—arrive early for deck space" },
+        { label: "Sea state", value: "Rough days cancel smaller boats—have a land backup" },
+        { label: "Luggage", value: "Stairs in centro storico punish heavy bags—pack light" },
+        { label: "Parking", value: "Garages exist but ZTL signs are strict—train travel is simpler" },
+        { label: "Cash", value: "Small bars may prefer cash for coffee" },
+      ],
+      checklist: [
+        "Screenshot ferry timetables offline",
+        "Pack motion sickness tablets if unsure",
+        "Wear shoes with grip on wet stone",
+        "Book Paestum entry online on weekends",
+        "Carry a light windbreaker for boat decks",
+        "Plan one dinner without reservations",
+      ],
+      faqs: [
+        {
+          question: "Is Salerno a good Amalfi base?",
+          answer:
+            "Yes for ferry-based days and easier luggage handling than cliff steps. Driving the coast is a different skill set.",
+        },
+        {
+          question: "Can I day-trip to Positano?",
+          answer:
+            "Possible by ferry or bus, but summer queues bite. Start early and accept a long return.",
+        },
+        {
+          question: "How noisy is the centro?",
+          answer:
+            "Evenings can stay lively near bars. Choose lungomare hotels if you need earlier quiet.",
+        },
+        {
+          question: "Is the beach in town?",
+          answer:
+            "There are stretches east along the coast; quality and crowds vary—ask locally for the week's cleaner spots.",
+        },
+        {
+          question: "Do I need Italian?",
+          answer:
+            "Helpful for smaller shops. Tourist areas handle basic English.",
+        },
+        {
+          question: "What if ferries cancel?",
+          answer:
+            "Pivot to Vietri, Paestum, or a slow museum day—forcing a drive you dislike helps no one.",
+        },
+        {
+          question: "How does it compare to Sorrento?",
+          answer:
+            "Salerno feels more workaday, often cheaper, with strong train links. Sorrento skews more resort packaged.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "naples", city: "Naples", days: 3, description: "Pizza, archaeology, and bay energy." },
+        { slug: "sorrento", city: "Sorrento", days: 3, description: "Clifftop lanes and marina sunsets." },
+        { slug: "rome", city: "Rome", days: 3, description: "Ancient icons, piazzas, and Vatican depth." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    bolzano: {
+      slug: "bolzano",
+      city: "Bolzano",
+      country: "Italy",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["First-timers", "Mountain-and-city mix", "Slow walkers"],
+      style: ["Arcaded streets", "Museum mornings", "River pauses"],
+      pacing: [
+        "Bolzano works best when you treat the old town as a small world: short loops, long coffee stops, and one clear focus per day.",
+        "Leave room for Talvera walks and hillside views without chasing every cable car—pick one vantage and enjoy it.",
+        "Evenings cool quickly near the Alps; pack a layer and end days with unhurried dinners near the arcades.",
+      ],
+      hero: {
+        title: "Bolzano in 3 days",
+        subtitle:
+          "Walk Italy's alpine gateway with arcaded streets, quiet river paths, and mountain-backed horizons.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1601893920895-e3ed4a655d27?auto=format&fit=crop&w=1600&q=80",
+          alt: "Lago di Braies in the Dolomites, South Tyrol near Bolzano.",
+        },
+      },
+      cityStats: [
+        { value: "100k+", label: "Residents in greater Bolzano" },
+        { value: "5,000+", label: "Years of Alpine trade history" },
+        { value: "15+", label: "Museum and gallery spaces" },
+        { value: "300+", label: "Typical sunny summer days" },
+      ],
+      fit: {
+        forYou: [
+          "Italian and Tyrolean culture in one base",
+          "Walkable old town and simple transit",
+          "Museums plus short nature breaks",
+          "Food with Alpine and Mediterranean notes",
+          "A calm pace with clear daily anchors",
+        ],
+        notForYou: [
+          "Nonstop beach focus",
+          "Late-night club trips",
+          "Big-city nightlife only",
+          "Strictly tropical destinations",
+          "Ski-only trips without city time",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Piazza Walther and arcades",
+          summary: "Core squares, cathedral, and life under the porticos.",
+          morning: "Piazza Walther and Bolzano Cathedral",
+          afternoon: "Via dei Portici and Piazza delle Erbe",
+          evening: "Talvera riverfront walk",
+        },
+        {
+          day: 2,
+          title: "Ötzi and wine-country edge",
+          summary: "Museum depth, then a slower afternoon toward the hills.",
+          morning: "South Tyrol Museum of Archaeology (Ötzi)",
+          afternoon: "Easy bus or walk toward Gries and vineyard lanes",
+          evening: "Wine bar or trattoria in the old town",
+        },
+        {
+          day: 3,
+          title: "Castles and viewpoints",
+          summary: "Mareccio or Runkelstein without packing too many tickets.",
+          morning: "Maretsch Castle gardens and exterior",
+          afternoon: "Runkelstein Castle approach and hillside path",
+          evening: "Rooftop drink or a simple funicular viewpoint if open",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Arcades and market squares",
+          description:
+            "Porticos frame daily life. Morning errands flow into long espresso pauses without a rigid schedule.",
+          image: {
+            src: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+            alt: "Dolomite peaks rising above rooftops near Bolzano.",
+          },
+        },
+        {
+          title: "Talvera river corridors",
+          description:
+            "Flat, tree-lined paths separate historic districts and work well as evening resets between busier blocks.",
+          image: {
+            src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&q=80",
+            alt: "Alpine lake reflecting mountains in South Tyrol.",
+          },
+        },
+        {
+          title: "Wine hills at the edge",
+          description:
+            "Short bus rides reach terraced slopes. One afternoon there balances mornings in the city center.",
+          image: {
+            src: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80",
+            alt: "Vineyard rows on a hillside under a clear sky.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September to October for clear skies" },
+        { label: "Airport transfer", value: "Regional buses or rail via Verona and Innsbruck" },
+        { label: "Transit tips", value: "Walk the center; buses for hillside trips" },
+        { label: "Ticketing", value: "Book Ötzi museum slots on busy weekends" },
+        { label: "Neighborhood stay", value: "Historic center or Gries near the river" },
+      ],
+      checklist: [
+        "Save offline Italian and German phrases",
+        "Pack a light jacket for evening drops",
+        "Wear shoes with grip on cobbled lanes",
+        "Reserve museum entry if visiting Saturday",
+        "Carry a refillable water bottle",
+        "Leave one afternoon unscheduled",
+      ],
+      faqs: [
+        {
+          question: "Is Bolzano walkable?",
+          answer:
+            "Yes. The historic core is compact, and river paths add easy flat miles without crowding the day.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "Not for the city itself. Buses handle nearby hills; trains connect north and south if you extend.",
+        },
+        {
+          question: "Is German widely used?",
+          answer:
+            "South Tyrol is bilingual. Menus and signage often show both Italian and German, which keeps navigation simple.",
+        },
+        {
+          question: "Are three days enough?",
+          answer:
+            "Enough for city highlights and one slower nature-focused afternoon without rushing every mountain site.",
+        },
+      ],
+      relatedItineraries: [
+        {
+          slug: "verona",
+          city: "Verona",
+          days: 3,
+          description: "Arena, river bends, and compact medieval lanes.",
+        },
+        {
+          slug: "innsbruck",
+          city: "Innsbruck",
+          days: 2,
+          description: "Alpine old town with easy valley views.",
+        },
+        {
+          slug: "venice",
+          city: "Venice",
+          days: 3,
+          description: "Canals, churches, and slow island pacing.",
+        },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    matera: {
+      slug: "matera",
+      city: "Matera",
+      country: "Italy",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["First-timers", "History and landscapes", "Slow walkers"],
+      style: ["Stone districts", "Viewpoint walks", "Local cuisine"],
+      pacing: [
+        "Matera asks for short bursts of walking on stone stairs, then real rest. Alternate viewpoints with shaded cafe time.",
+        "Spread cave churches and viewpoints across days so knees and cameras both get a fair pace.",
+        "Evenings above the Sassi are quiet and cinematic; keep one night free of reservations for wandering.",
+      ],
+      hero: {
+        title: "Matera in 3 days",
+        subtitle:
+          "Explore ancient stone neighborhoods, ravine views, and unhurried southern Italian evenings.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1528214096798-37891d32174c?auto=format&fit=crop&w=1600&q=80",
+          alt: "Sunset view of Matera's stone Sassi framed from a hillside cave opening.",
+        },
+      },
+      cityStats: [
+        { value: "9k+", label: "Residents in the historic area" },
+        { value: "UNESCO", label: "World Heritage Sassi districts" },
+        { value: "150+", label: "Rock-hewn churches in the region" },
+        { value: "7,000+", label: "Years of layered settlement" },
+      ],
+      fit: {
+        forYou: [
+          "Stone architecture and dramatic viewpoints",
+          "Compact days with big visual payoff",
+          "Regional food and bread culture",
+          "Photography at golden hour",
+          "A slower rhythm without beach pressure",
+        ],
+        notForYou: [
+          "Flat, elevator-friendly cities only",
+          "Fast nightlife circuits",
+          "Strictly beach-focused trips",
+          "Large theme-park style attractions",
+          "Travelers who dislike stairs",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Sasso Barisano introduction",
+          summary: "Lanes, viewpoints, and a soft first pass over the stone city.",
+          morning: "Piazza Vittorio Veneto and Belvedere views",
+          afternoon: "Sasso Barisano lanes and Casa Grotta neighborhood",
+          evening: "Sunset terrace above the ravine",
+        },
+        {
+          day: 2,
+          title: "Cave churches and Civita",
+          summary: "Rock churches and the higher old town.",
+          morning: "Chiese rupestri cluster with timed entries",
+          afternoon: "Civita and cathedral square calm",
+          evening: "Slow dinner in a cave restaurant",
+        },
+        {
+          day: 3,
+          title: "Murgia and modern Matera",
+          summary: "Across the gorge, then contemporary culture.",
+          morning: "Path or taxi toward Murgia Timone viewpoints",
+          afternoon: "Museum of Contemporary Sculpture or palazzo stroll",
+          evening: "Final passeggiata and local wine",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Terraced stone neighborhoods",
+          description:
+            "The Sassi stack homes and churches. Mornings stay cooler on east-facing lanes; pace your climbs.",
+          image: {
+            src: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80",
+            alt: "Narrow stone alley winding through Matera's Sassi.",
+          },
+        },
+        {
+          title: "Ravine light at sunset",
+          description:
+            "The Gravina cut defines the horizon. One slow evening on a belvedere is worth more than extra daytime miles.",
+          image: {
+            src: "https://images.unsplash.com/photo-1533395427226-1b7cc9e5dcd0?auto=format&fit=crop&w=1200&q=80",
+            alt: "Sassi stone dwellings stacked along the Matera ravine at sunset.",
+          },
+        },
+        {
+          title: "Bread and cucina lucana",
+          description:
+            "Pane di Matera and peperoni cruschi anchor simple meals. Build lunch around one ingredient and rest after.",
+          image: {
+            src: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
+            alt: "Rustic Italian table with bread, vegetables, and olive oil.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September for mild stairs weather" },
+        { label: "Airport transfer", value: "Bari airport bus or train plus regional shuttle" },
+        { label: "Transit tips", value: "Walk the Sassi; taxis for ridge hops" },
+        { label: "Ticketing", value: "Book rock-church combos on weekends" },
+        { label: "Neighborhood stay", value: "Sasso Barisano or central plateau for fewer climbs" },
+      ],
+      checklist: [
+        "Wear shoes with solid grip on smooth stone",
+        "Carry a small flashlight for dim lanes",
+        "Pack a hat for exposed viewpoints",
+        "Download offline maps for stair shortcuts",
+        "Hydrate before afternoon climbs",
+        "Reserve one cave dinner in advance",
+      ],
+      faqs: [
+        {
+          question: "Is Matera hard to walk?",
+          answer:
+            "There are stairs and slopes. Build in breaks, choose a well-located stay, and avoid rushing between ridges.",
+        },
+        {
+          question: "How many days do I need?",
+          answer:
+            "Three days cover the main districts, one rock-church focus, and a calmer final half-day.",
+        },
+        {
+          question: "Can I visit churches without guides?",
+          answer:
+            "Some sites allow solo entry; others require timed tickets. Check the latest combo passes to avoid doubling back.",
+        },
+        {
+          question: "Is summer too hot?",
+          answer:
+            "July and August are demanding on stone streets. Spring and early autumn keep the pace kinder.",
+        },
+      ],
+      relatedItineraries: [
+        {
+          slug: "naples",
+          city: "Naples",
+          days: 3,
+          description: "Bay energy, archaeology, and layered old streets.",
+        },
+        {
+          slug: "bari",
+          city: "Bari",
+          days: 3,
+          description: "Adriatic old town lanes and seafood pace.",
+        },
+        {
+          slug: "rome",
+          city: "Rome",
+          days: 3,
+          description: "Ancient icons, piazzas, and Vatican depth.",
+        },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    lugano: {
+      slug: "lugano",
+      city: "Lugano",
+      country: "Switzerland",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Lake lovers", "First-timers", "Slow walkers"],
+      style: ["Lakeside walks", "Hill viewpoints", "Ticino cafés"],
+      pacing: [
+        "Lugano rewards short lakeside miles and long pauses. Keep one major viewpoint for the middle of the trip, not every morning.",
+        "Funiculars and boats are tools for pacing, not a checklist. Skip a ride if the weather turns flat.",
+        "Afternoons on the water reflect heat; mornings are better for uphill walks.",
+      ],
+      hero: {
+        title: "Lugano in 3 days",
+        subtitle:
+          "Circle the lake slowly, climb one good viewpoint, and let Ticino cafés set the clock.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1597676685077-eb9176b25b57?auto=format&fit=crop&w=1600&q=80",
+          alt: "Aerial view of Lugano on Lake Lugano with surrounding Alps.",
+        },
+      },
+      cityStats: [
+        { value: "60k+", label: "Residents in the city" },
+        { value: "48 km", label: "Shoreline to explore in segments" },
+        { value: "300+", label: "Average annual sunny days" },
+        { value: "11", label: "Official Swiss city districts" },
+      ],
+      fit: {
+        forYou: [
+          "Italian-speaking Swiss pace",
+          "Lake boats and gentle hills",
+          "Compact museum mornings",
+          "Outdoor lunches with a view",
+          "Easy rail links to Milan and Alps",
+        ],
+        notForYou: [
+          "High-altitude ski-only bases",
+          "Large nightlife districts",
+          "Budget beach parties",
+          "Desert or tropical climates",
+          "Cities without any slopes",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Parco Ciani and old town",
+          summary: "Flat lakeside miles and arcaded shopping lanes.",
+          morning: "Parco Ciani promenade toward Gandria direction",
+          afternoon: "Piazza della Riforma and Nassa arcades",
+          evening: "Sunset along the lungolago",
+        },
+        {
+          day: 2,
+          title: "Monte Brè or San Salvatore",
+          summary: "One viewpoint day, kept simple.",
+          morning: "Funicular to Monte Brè terrace",
+          afternoon: "Light walk and cafe at altitude",
+          evening: "Casual dinner near the lake",
+        },
+        {
+          day: 3,
+          title: "Culture and a slow boat",
+          summary: "Art collections plus water perspective.",
+          morning: "LAC or Museo d'arte focused visit",
+          afternoon: "Short public boat hop if schedules allow",
+          evening: "Final gelato stroll on the fronte",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Lakefront symmetry",
+          description:
+            "Morning light is calm on the water. Walk one direction, ferry or bus back to save knees.",
+          image: {
+            src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
+            alt: "Mountain lake with clear water and forested slopes.",
+          },
+        },
+        {
+          title: "Hillside belvederes",
+          description:
+            "Terraces above town frame the lake like a map. One viewpoint beats rushing several.",
+          image: {
+            src: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80",
+            alt: "Alpine ridge view above a blue lake valley.",
+          },
+        },
+        {
+          title: "Arcades and piazzas",
+          description:
+            "Covered walks handle brief rain. Use them to link cafes without treating shopping as the goal.",
+          image: {
+            src: "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&w=1200&q=80",
+            alt: "European cafe terrace under stone arches.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "April to June or September for clear lake views" },
+        { label: "Airport transfer", value: "Milan Malpensa rail links or Lugano Agno bus" },
+        { label: "Transit tips", value: "Boats, buses, and funiculars—buy day passes if hopping" },
+        { label: "Ticketing", value: "Book LAC exhibits on holiday weekends" },
+        { label: "Neighborhood stay", value: "Lakefront or Paradiso for flat walks" },
+      ],
+      checklist: [
+        "Check funicular maintenance windows",
+        "Pack sunglasses for water glare",
+        "Carry francs and cards—both common",
+        "Download boat timetables offline",
+        "Wear layers for hill tops",
+        "Leave one meal unreserved",
+      ],
+      faqs: [
+        {
+          question: "Is Lugano expensive?",
+          answer:
+            "Swiss prices apply. Picnics from bakeries and focused sit-down meals balance the budget without rushing.",
+        },
+        {
+          question: "Do I need Italian?",
+          answer:
+            "Italian dominates daily life; German and English appear often in tourism. Phrase basics help at small shops.",
+        },
+        {
+          question: "Can I swim?",
+          answer:
+            "Seasonal lidos dot the shore. Water stays cool; plan short dips, not full beach days.",
+        },
+        {
+          question: "Is three days enough?",
+          answer:
+            "Yes for the city, one climb, and a museum morning without feeling shortchanged.",
+        },
+      ],
+      relatedItineraries: [
+        {
+          slug: "zurich",
+          city: "Zurich",
+          days: 3,
+          description: "Lake city mix of trams, museums, and river walks.",
+        },
+        {
+          slug: "geneva",
+          city: "Geneva",
+          days: 3,
+          description: "Jet d'eau, old town lanes, and lake pacing.",
+        },
+        {
+          slug: "milan",
+          city: "Milan",
+          days: 3,
+          description: "Cathedral, design quarters, and aperitivo rhythm.",
+        },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    montreux: {
+      slug: "montreux",
+      city: "Montreux",
+      country: "Switzerland",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Lake Geneva fans", "First-timers", "Music history buffs"],
+      style: ["Promenade walks", "Castle visits", "Vineyard views"],
+      pacing: [
+        "Montreux is a linear town—walk one direction in the morning, return by train or boat to avoid doubling fatigue.",
+        "Pair Chillon with a light afternoon; it is easy to overfill day one.",
+        "Lavaux viewpoints reward patience more than mileage; pick one terrace and stay.",
+      ],
+      hero: {
+        title: "Montreux in 3 days",
+        subtitle:
+          "Stroll Lake Geneva, visit Chillon Castle, and keep afternoons open for terraces and trains.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1684050879098-87151a1ded14?auto=format&fit=crop&w=1600&q=80",
+          alt: "Lake Geneva shoreline with spring flowers and Chillon Castle near Montreux, Switzerland.",
+        },
+      },
+      cityStats: [
+        { value: "25k+", label: "Residents in the municipality" },
+        { value: "11th c.", label: "Chillon Castle origins" },
+        { value: "50+", label: "Jazz Festival years of heritage" },
+        { value: "30 km", label: "Easy rail reach to Lausanne" },
+      ],
+      fit: {
+        forYou: [
+          "Lakeside walking without car stress",
+          "Historic castle interiors",
+          "Scenic trains toward vineyards",
+          "Calm resort pacing",
+          "Queen and music memorabilia",
+        ],
+        notForYou: [
+          "High-rise city energy only",
+          "Tropical beaches",
+          "Budget hostel circuits",
+          "Late-night club districts",
+          "Strict desert climates",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Chillon and the promenade",
+          summary: "Castle morning, flat lake walk after.",
+          morning: "Chillon Castle interior and lakeshore path",
+          afternoon: "Promenade Fleuri toward Clarens",
+          evening: "Quiet dinner with lake views",
+        },
+        {
+          day: 2,
+          title: "Vevey and terraces",
+          summary: "Short hop, food market, easy viewpoints.",
+          morning: "Train to Vevey old harbor",
+          afternoon: "Fork tower area and market lanes",
+          evening: "Return boat if wind is low",
+        },
+        {
+          day: 3,
+          title: "Lavaux or Rochers-de-Naye",
+          summary: "Pick one scenic line, keep the other for a return trip.",
+          morning: "Lavaux vineyard walk from Rivaz or Cully",
+          afternoon: "Wine tasting by appointment or simple picnic",
+          evening: "Montreux sunset on the quay",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Chillon on the water",
+          description:
+            "Arrive early for softer light in the courtyards. Audio guides help if you prefer solo pacing.",
+          image: {
+            src: "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?auto=format&fit=crop&w=1200&q=80",
+            alt: "Historic stone castle on a lakeshore with mountains.",
+          },
+        },
+        {
+          title: "Flower-lined promenade",
+          description:
+            "The lakeside path is level. Use benches freely; the goal is steady movement, not distance records.",
+          image: {
+            src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
+            alt: "Alpine lake reflecting snow-capped peaks at dusk.",
+          },
+        },
+        {
+          title: "Vineyard stairways",
+          description:
+            "Lavaux terraces climb in short flights. Hiking poles optional; water is essential on warm afternoons.",
+          image: {
+            src: "https://images.unsplash.com/photo-1506377295352-b315464d35b2?auto=format&fit=crop&w=1200&q=80",
+            alt: "Terraced vineyards above a blue lake.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "May to September for boats and vineyard paths" },
+        { label: "Airport transfer", value: "Geneva Airport trains to Lausanne then regional" },
+        { label: "Transit tips", value: "Swiss Travel Pass or day cards for lake boats" },
+        { label: "Ticketing", value: "Book Chillon online on summer weekends" },
+        { label: "Neighborhood stay", value: "Central lakefront or Clarens for quieter nights" },
+      ],
+      checklist: [
+        "Download SBB app for live platform changes",
+        "Pack wind shell for lake breezes",
+        "Carry francs for small kiosks",
+        "Reserve one wine tasting midweek",
+        "Wear shoes with grip on vineyard steps",
+        "Screenshot boat schedules offline",
+      ],
+      faqs: [
+        {
+          question: "Is Montreux only for the jazz festival?",
+          answer:
+            "No. The promenade, Chillon, and trains shine year-round; festival weeks are simply busier.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "Rarely. Trains and boats link Vevey, Lausanne, and vineyard villages cleanly.",
+        },
+        {
+          question: "Can I swim in the lake?",
+          answer:
+            "Seasonal lidos exist; water stays brisk. Plan short dips, not tropical beach expectations.",
+        },
+        {
+          question: "How steep is Lavaux?",
+          answer:
+            "Moderate stairways between terraces. Build rest stops and carry water.",
+        },
+      ],
+      relatedItineraries: [
+        {
+          slug: "lausanne",
+          city: "Lausanne",
+          days: 3,
+          description: "Hillside old town, lake museums, and Olympic park.",
+        },
+        {
+          slug: "geneva",
+          city: "Geneva",
+          days: 3,
+          description: "Jet d'eau, diplomacy quarter, and calm quays.",
+        },
+        {
+          slug: "zurich",
+          city: "Zurich",
+          days: 3,
+          description: "Trams, Limmat walks, and focused museum blocks.",
+        },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    biarritz: {
+      slug: "biarritz",
+      city: "Biarritz",
+      country: "France",
+      days: 3,
+      pace: "Balanced",
+      idealFor: ["Coast walkers", "First-timers", "Food-focused travelers"],
+      style: ["Atlantic beaches", "Basque flavors", "Easy promenades"],
+      pacing: [
+        "Biarritz spreads along cliffs and sand. Pick one beach mood per day instead of chasing every cove.",
+        "Wind and tides change plans; keep an indoor backup like the aquarium or a long lunch.",
+        "Evening light on the Rocher is worth a repeat walk—skip rushing inland after sunset.",
+      ],
+      hero: {
+        title: "Biarritz in 3 days",
+        subtitle:
+          "Balance Atlantic beaches, Basque cuisine, and cliff walks without overbooking the coast.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1712939703029-b0b3c6d0e7ee?auto=format&fit=crop&w=1600&q=80",
+          alt: "Aerial view of Biarritz beach and city along the Basque Atlantic coast.",
+        },
+      },
+      cityStats: [
+        { value: "30k+", label: "Residents in the town" },
+        { value: "1834", label: "Sea bathing resort era begins" },
+        { value: "6 km", label: "Urban coastal walks linked" },
+        { value: "20+", label: "Surf schools along the shore" },
+      ],
+      fit: {
+        forYou: [
+          "Ocean air and moderate walks",
+          "Basque pintxos culture nearby",
+          "Historic belle-époque architecture",
+          "Photography on headlands",
+          "Relaxed resort pacing",
+        ],
+        notForYou: [
+          "Calm Mediterranean water only",
+          "Landlocked mountain treks only",
+          "Ultra-budget hostel circuits",
+          "Nightlife-only city breaks",
+          "Guaranteed flat calm seas daily",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Grande Plage and lighthouse",
+          summary: "Classic beach rhythm and cliff air.",
+          morning: "Grande Plage stroll and seawall",
+          afternoon: "Phare de Biarritz viewpoints",
+          evening: "Port des Pêcheurs dinner",
+        },
+        {
+          day: 2,
+          title: "Côte des Basques",
+          summary: "Surf culture and rock pools at easy pace.",
+          morning: "Côte des Basques overlook and sand time",
+          afternoon: "Aquarium de Biarritz or indoor backup",
+          evening: "Les Halles market grazing",
+        },
+        {
+          day: 3,
+          title: "Anglet forest or slow bay",
+          summary: "Green buffer day away from crowds.",
+          morning: "Chiberta forest paths or mild boardwalk",
+          afternoon: "Spa pause or cafe overlooking the ocean",
+          evening: "Farewell walk on the Grande Plage",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Red cliffs and Atlantic swell",
+          description:
+            "Tides reshape the sand daily. Check local flags before wading; currents deserve respect.",
+          image: {
+            src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+            alt: "Waves breaking on a wide sandy beach under sky.",
+          },
+        },
+        {
+          title: "Historic casino facade",
+          description:
+            "Belle-époque details frame the waterfront. A short look beats long interior queues unless you plan to play.",
+          image: {
+            src: "https://images.unsplash.com/photo-1544984243-ec57dc26339f?auto=format&fit=crop&w=1200&q=80",
+            alt: "Surfer walking on sand with longboard at sunset.",
+          },
+        },
+        {
+          title: "Basque table spreads",
+          description:
+            "Anchovies, peppers, and cider anchor simple meals. Share plates to taste more without over-ordering.",
+          image: {
+            src: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1200&q=80",
+            alt: "Colorful tapas-style plates on a wooden table.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "June to September for warm sand; May and October for quieter walks" },
+        { label: "Airport transfer", value: "Biarritz Pays Basque airport bus or taxi" },
+        { label: "Transit tips", value: "Walk the core; bikes for Anglet forest loops" },
+        { label: "Ticketing", value: "Book aquarium slots on rainy weekends" },
+        { label: "Neighborhood stay", value: "Grande Plage for views or Saint-Charles for calmer nights" },
+      ],
+      checklist: [
+        "Pack a windbreaker even in summer",
+        "Carry reef-safe sunscreen",
+        "Check surf flags before swimming",
+        "Reserve one seafood dinner midweek",
+        "Bring sandals for rocky coves",
+        "Download offline tide charts",
+      ],
+      faqs: [
+        {
+          question: "Is the water cold?",
+          answer:
+            "The Atlantic stays brisk. Wetsuits help surfers; swimmers should plan shorter dips.",
+        },
+        {
+          question: "Do I need Basque?",
+          answer:
+            "French carries daily life; Basque phrases charm locals but are not required.",
+        },
+        {
+          question: "Can I day-trip to Spain?",
+          answer:
+            "San Sebastián is reachable by bus or car, but it adds hours. Keep Biarritz days unhurried if you stay local.",
+        },
+        {
+          question: "Is Biarritz walkable?",
+          answer:
+            "Yes along the coast. Inland neighborhoods add gentle hills; buses cover gaps.",
+        },
+      ],
+      relatedItineraries: [
+        {
+          slug: "bordeaux",
+          city: "Bordeaux",
+          days: 3,
+          description: "Stone quays, wine culture, and river loops.",
+        },
+        {
+          slug: "nice",
+          city: "Nice",
+          days: 3,
+          description: "Mediterranean promenade and old town lanes.",
+        },
+        {
+          slug: "san-sebastian",
+          city: "San Sebastián",
+          days: 3,
+          description: "Pintxos bars and shell-shaped bay walks.",
+        },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    odense: {
+      slug: "odense",
+      city: "Odense",
+      country: "Denmark",
+      days: 2,
+      pace: "Balanced",
+      idealFor: ["Families", "Literary travelers", "Compact visits"],
+      style: ["Storybook history", "Green parks", "Cycling lanes"],
+      pacing: [
+        "Odense fits two easy days: one for Andersen sites, one for museums and river loops without rushing.",
+        "Bikes match the city scale; walk if you prefer fewer locks and more spontaneous cafe stops.",
+        "Weather shifts quickly—plan one indoor anchor each day.",
+      ],
+      hero: {
+        title: "Odense in 2 days",
+        subtitle:
+          "Walk fairy-tale lanes, riverside paths, and calm museums in Denmark's garden island hub.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1693329048681-409f68fccaa6?auto=format&fit=crop&w=1600&q=80",
+          alt: "Narrow cobblestone lane lined with houses in Odense old town, Denmark.",
+        },
+      },
+      cityStats: [
+        { value: "180k+", label: "Residents in the municipality" },
+        { value: "1805", label: "Hans Christian Andersen's birth year" },
+        { value: "13 km", label: "Odense Å river paths to explore" },
+        { value: "200+", label: "Public sculptures citywide" },
+      ],
+      fit: {
+        forYou: [
+          "Compact city with short transfers",
+          "Literary history and child-friendly stops",
+          "Flat cycling and walking",
+          "Hygge cafes between sights",
+          "Easy rail to Copenhagen",
+        ],
+        notForYou: [
+          "Mountain trekking bases",
+          "Tropical warmth",
+          "24-hour megacity energy",
+          "Large beach resorts in town",
+          "Strictly car-dependent travel",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Andersen quarter",
+          summary: "Museums, half-timber lanes, and a gentle river loop.",
+          morning: "Hans Christian Andersen Museum cluster",
+          afternoon: "Historic quarter lanes and Eventyrhaven",
+          evening: "Odense Å waterfront walk",
+        },
+        {
+          day: 2,
+          title: "Culture and green buffer",
+          summary: "One focused museum, then park time.",
+          morning: "Brandts or railway museum pick",
+          afternoon: "Munke Mose or Fruens Bøge paths",
+          evening: "Local smørrebrød or bakery dinner",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Timber houses and courtyards",
+          description:
+            "The old town rewards slow corners. Read plaques briefly, then let alleys dictate the route.",
+          image: {
+            src: "https://images.unsplash.com/photo-1579033461380-adb46c903e1f?auto=format&fit=crop&w=1200&q=80",
+            alt: "Cobblestone street with yellow Scandinavian buildings.",
+          },
+        },
+        {
+          title: "River Å paths",
+          description:
+            "Paved trails suit bikes or strollers. Mornings stay quieter before school traffic peaks.",
+          image: {
+            src: "https://images.unsplash.com/photo-1445968660880-12065ba1b1b0?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calm river reflecting trees along a city park.",
+          },
+        },
+        {
+          title: "Museum modern wings",
+          description:
+            "Brandts blends industrial brick with bright galleries. One hour focused beats trying every floor.",
+          image: {
+            src: "https://images.unsplash.com/photo-1545987796-200677ee0041?auto=format&fit=crop&w=1200&q=80",
+            alt: "Bright contemporary art gallery interior with visitors.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "May to September for long daylight" },
+        { label: "Airport transfer", value: "Billund bus links or Copenhagen train under two hours" },
+        { label: "Transit tips", value: "Rent bikes at the station or walk the core" },
+        { label: "Ticketing", value: "Book Andersen houses on holiday Mondays" },
+        { label: "Neighborhood stay", value: "City center or near the station for flat arrivals" },
+      ],
+      checklist: [
+        "Download DOT tickets app",
+        "Pack a light rain shell",
+        "Carry a reusable cup for cafe discounts",
+        "Book Brandts if a blockbuster shows",
+        "Wear layers for wind off the river",
+        "Leave luggage at station if day-tripping",
+      ],
+      faqs: [
+        {
+          question: "Is Odense only for families?",
+          answer:
+            "No. Museums, design shops, and river walks suit solo adults; Andersen sites are optional depth.",
+        },
+        {
+          question: "How far from Copenhagen?",
+          answer:
+            "Direct trains run often; plan roughly 90 minutes each way if you split bases.",
+        },
+        {
+          question: "Do I need cash?",
+          answer:
+            "Cards dominate; a few kroner in coins helps older vending machines.",
+        },
+        {
+          question: "Is English enough?",
+          answer:
+            "Yes for most tourism-facing staff; Danish greetings still feel welcome.",
+        },
+      ],
+      relatedItineraries: [
+        {
+          slug: "copenhagen",
+          city: "Copenhagen",
+          days: 3,
+          description: "Nyhavn color, design museums, and harbor bikes.",
+        },
+        {
+          slug: "aarhus",
+          city: "Aarhus",
+          days: 3,
+          description: "ARoS rainbow, Latin quarter, and second-city calm.",
+        },
+        {
+          slug: "stockholm",
+          city: "Stockholm",
+          days: 3,
+          description: "Island ferries, Gamla Stan, and museum islands.",
+        },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    bled: {
+      slug: "bled",
+      city: "Bled",
+      country: "Slovenia",
+      days: 2,
+      pace: "Balanced",
+      idealFor: ["First-timers", "Lake hikers", "Short stays"],
+      style: ["Island views", "Forest paths", "Alpine cakes"],
+      pacing: [
+        "Bled is small; repeat the lake loop at different hours instead of adding distant goals.",
+        "Morning mist beats midday glare for photos; afternoons are for cake and swimming if you accept cool water.",
+        "Vintgar fits one focused morning—wear shoes that handle wet boards.",
+      ],
+      hero: {
+        title: "Bled in 2 days",
+        subtitle:
+          "Circle the lake, climb to the castle, and keep one morning for the gorge without rushing.",
+        eyebrow: "Travel guide",
+        image: {
+          src: "https://images.unsplash.com/photo-1740978197848-d526dfd5af05?auto=format&fit=crop&w=1600&q=80",
+          alt: "Lake Bled with its island church, castle cliff, and Julian Alps in Slovenia.",
+        },
+      },
+      cityStats: [
+        { value: "8k+", label: "Residents in Bled town" },
+        { value: "2 km", label: "Lake circumference walk segments" },
+        { value: "100m", label: "Approximate cliff rise to the castle" },
+        { value: "1981", label: "Bled cream cake protected recipe era" },
+      ],
+      fit: {
+        forYou: [
+          "Iconic lake photography",
+          "Short forest walks",
+          "Rowboat or pletna calm",
+          "Julian Alps gateway pacing",
+          "Ljubljana combo trips",
+        ],
+        notForYou: [
+          "Large urban nightlife",
+          "Guaranteed hot sea swimming",
+          "Desert landscapes",
+          "Theme-park style cities",
+          "Travelers who dislike tourist peaks",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Lake loop and castle",
+          summary: "Flat miles, island views, castle ramparts.",
+          morning: "West shore walk toward Velika Zaka",
+          afternoon: "Bled Castle exterior and cafe terrace",
+          evening: "Sunset from Mala Osojnica if energy allows",
+        },
+        {
+          day: 2,
+          title: "Vintgar Gorge morning",
+          summary: "Boardwalks, then slow town time.",
+          morning: "Shuttle or bike to Vintgar Gorge",
+          afternoon: "Cream cake pause and optional rowboat",
+          evening: "Quiet dinner away from the main strip",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Island church silhouette",
+          description:
+            "Pletnas run on schedules; rowing yourself is slower but peaceful if winds stay low.",
+          image: {
+            src: "https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=1200&q=80",
+            alt: "Small church on a tree-covered island in an alpine lake.",
+          },
+        },
+        {
+          title: "Castle over the trees",
+          description:
+            "The climb is short but steep. Morning shade on the east path keeps the pace kinder.",
+          image: {
+            src: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=80",
+            alt: "Medieval castle perched on a rocky cliff above forest.",
+          },
+        },
+        {
+          title: "Gorge walkways",
+          description:
+            "Vintgar is one-way in peak season. Arrive early for photos without bottlenecks.",
+          image: {
+            src: "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1200&q=80",
+            alt: "Turquoise river flowing through a narrow forested canyon.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Best time", value: "May to September for gorge opening and boats" },
+        { label: "Airport transfer", value: "Ljubljana airport shuttle or bus via Kranj" },
+        { label: "Transit tips", value: "Walk the lake; buses for Vintgar in peak months" },
+        { label: "Ticketing", value: "Buy gorge entry online on summer mornings" },
+        { label: "Neighborhood stay", value: "West shore for quieter nights or center for buses" },
+      ],
+      checklist: [
+        "Book accommodation early for July weekends",
+        "Carry cash for small boat rentals",
+        "Pack grippy shoes for Vintgar",
+        "Bring swim layer if trying the lake",
+        "Screenshot bus times from Bled",
+        "Start gorge day before 9 a.m.",
+      ],
+      faqs: [
+        {
+          question: "Is Bled crowded?",
+          answer:
+            "July and August bring peaks. Shoulder months and early starts keep the lake loop pleasant.",
+        },
+        {
+          question: "Can I skip the island?",
+          answer:
+            "Yes. Many travelers enjoy the walk and viewpoints without paying for a boat landing.",
+        },
+        {
+          question: "Do I need a car?",
+          answer:
+            "No for two days in town. Buses cover Vintgar; Ljubljana connections are frequent.",
+        },
+        {
+          question: "Is the cake worth it?",
+          answer:
+            "It is part of the ritual. Share a slice mid-afternoon instead of a full dessert each meal.",
+        },
+      ],
+      relatedItineraries: [
+        {
+          slug: "ljubljana",
+          city: "Ljubljana",
+          days: 2,
+          description: "Castle hill, river cafes, and compact old town.",
+        },
+        {
+          slug: "zagreb",
+          city: "Zagreb",
+          days: 3,
+          description: "Upper town lanes, markets, and museum mornings.",
+        },
+        {
+          slug: "venice",
+          city: "Venice",
+          days: 3,
+          description: "Lagoon city pacing after alpine calm.",
+        },
+      ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
@@ -59054,6 +64644,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
+    rijeka: {
+      slug: "rijeka",
+      city: "Rijeka",
+      country: "Croacia",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Ciudad portuaria", "Primera vez en el Kvarner", "Colinas moderadas"],
+      style: ["Paseos en Korzo", "Luz del puerto", "Vistas desde Trsat"],
+      pacing: [
+        "Rijeka se lee como puerto jadranico con centro manejable. Reserva mañanas para Trsat o museos y deja que Korzo ocupe la tarde sin tabla de horarios.",
+        "Colina y brisa marina alternan los paseos planos del centro. Lleva una capa aunque haga calor tierra adentro.",
+        "Los ferris invitan a islas; este plan se queda en ciudad para mantener el ritmo reposado.",
+      ],
+      hero: {
+        title: "Rijeka en 3 días",
+        subtitle:
+          "Korzo, vistas desde Trsat y un ritmo práctico en la ciudad del Kvarner.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1586089080640-7798a9449d5c?auto=format&fit=crop&w=1600&q=80",
+          alt: "Frente marítimo de Rijeka con edificios y agua tranquila del Adriático.",
+        },
+      },
+      cityStats: [
+        { value: "120K+", label: "Población urbana" },
+        { value: "Kvarner", label: "Región marítima histórica" },
+        { value: "Trsat", label: "Colina con fortín" },
+        { value: "2020", label: "Capital Europea de la Cultura" },
+      ],
+      fit: {
+        forYou: [
+          "Paseos de puerto y pausas de café",
+          "Trsat sin hiking largo",
+          "Autobuses a calas si añades una hora de playa",
+          "Menos ajetreo estival que Split a veces",
+          "Toques de arquitectura austrohúngara",
+        ],
+        notForYou: [
+          "Dubrovnik amurallado completo",
+          "Islas sin coche y solo resort",
+          "Grandes playas de arena urbana",
+          "Tiras solo de lujo",
+          "Dolomitas desde el hotel",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Korzo y puerto",
+          summary: "Paseo principal y museos céntricos.",
+          morning: "Café en Korzo y Torre de la ciudad",
+          afternoon: "Museo Marítimo e Histórico o mercado peatonal",
+          evening: "Cena frente al puerto y paseo al anochecer",
+        },
+        {
+          day: 2,
+          title: "Castillo de Trsat",
+          summary: "Fortín en colina y regreso suave.",
+          morning: "Castillo Trsat e iglesia franciscana",
+          afternoon: "Bajada en autobús o a pie con calma",
+          evening: "Zona Tunel o bloque Kontradmir tranquilo",
+        },
+        {
+          day: 3,
+          title: "Mercado y tarde abierta",
+          summary: "Vida local más flexibilidad.",
+          morning: "Mercado central y exterior de la catedral",
+          afternoon: "Jardín botánico o cafés de diseño",
+          evening: "Último paseo por Korzo",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Agua del puerto",
+          description:
+            "El mar ordena el día. Suele levantarse viento por la tarde; las mañanas suelen ser más suaves.",
+          image: {
+            src: "https://images.unsplash.com/photo-1672571076918-742711b6dffd?auto=format&fit=crop&w=1200&q=80",
+            alt: "Curso de agua y edificios urbanos en Rijeka.",
+          },
+        },
+        {
+          title: "Embarcaciones y muelles",
+          description:
+            "El tráfico de ferris explica la ciudad. Mirar desde el muelle basta si no saltas de isla.",
+          image: {
+            src: "https://images.unsplash.com/photo-1573658970739-d88735921610?auto=format&fit=crop&w=1200&q=80",
+            alt: "Barcos amarrados en el puerto de Rijeka.",
+          },
+        },
+        {
+          title: "Costa urbana",
+          description:
+            "Fachadas austrohúngaras chocan con infraestructura portuaria moderna. Fotos cortas, menos desvíos largos.",
+          image: {
+            src: "https://images.unsplash.com/photo-1654969936668-e8a5532aa1c7?auto=format&fit=crop&w=1200&q=80",
+            alt: "Ciudad de Rijeka junto al Adriático.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Mayo a junio o septiembre con menos calor" },
+        { label: "Traslado aeropuerto", value: "Autobús o taxi desde el aeropuerto de Rijeka" },
+        { label: "Consejos de transporte", value: "Korzo a pie; autobús a Trsat" },
+        { label: "Entradas", value: "Recinto del castillo a menudo libre; museos varían" },
+        { label: "Alojamiento en barrio", value: "Korzo o Žabica" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "Korzo llena los viernes por la noche" },
+        { label: "Estación", value: "Posible bura; sujeta la gorra en Trsat" },
+        { label: "Reservas museo", value: "Raras excepto exposiciones temporales" },
+        { label: "Errores comunes", value: "Esperar murallas tipo Dubrovnik en cada esquina" },
+        { label: "Vestimenta", value: "Zapatos para empedrado de Trsat" },
+      ],
+      checklist: [
+        "App local de autobuses",
+        "Mezcla euro/kuna según temporada",
+        "Protección solar en tramos abiertos del puerto",
+        "Trsat mejor antes del calor del mediodía",
+        "Hueco para helado espontáneo",
+        "Revisa ferris solo si añades salto",
+      ],
+      faqs: [
+        {
+          question: "¿Rijeka es ciudad de playa?",
+          answer:
+            "No en clave resort. Rocas, muelles y calas cercanas con transporte si buscas baño fácil.",
+        },
+        {
+          question: "¿3 días bastan?",
+          answer:
+            "Sí para Korzo, Trsat, mercado y un museo. Las islas exigen ritmo más rápido.",
+        },
+        {
+          question: "¿Necesito coche?",
+          answer:
+            "No con este itinerario. Autobús y pie bastan en el núcleo.",
+        },
+        {
+          question: "¿Hay desnivel?",
+          answer:
+            "Trsat sube claro. Usa autobús de bajada si las rodillas protestan.",
+        },
+        {
+          question: "¿Dónde dormir?",
+          answer:
+            "Cerca de Korzo simplifica cenas. Žabica acerca intercambiadores.",
+        },
+        {
+          question: "¿Nivel de inglés?",
+          answer:
+            "En hoteles y cafés de Korzo suele funcionar; en tiendas pequeñas paciencia.",
+        },
+        {
+          question: "¿Comparado con Zadar o Split?",
+          answer:
+            "Rijeka es más urbana-industrial. Vale si buscas puerto real y menos postcard continuo.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "split", city: "Split", days: 3, description: "Palacio de Diocleciano y Riva." },
+        { slug: "zadar", city: "Zadar", days: 3, description: "Órgano del Mar y foro romano." },
+        { slug: "zagreb", city: "Zagreb", days: 3, description: "Ciudad alta y museos." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
     yokohama: {
       slug: "yokohama",
       city: "Yokohama",
@@ -61559,6 +67316,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
         { slug: "krakow", city: "Cracovia", days: 3, description: "Casco antiguo, castillo y Kazimierz." },
         { slug: "prague", city: "Praga", days: 3, description: "Plaza del Casco Antiguo, castillo y río." },
         { slug: "warsaw", city: "Varsovia", days: 3, description: "Casco antiguo histórico y paseos junto al río." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    katowice: {
+      slug: "katowice",
+      city: "Katowice",
+      country: "Polonia",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Patrimonio industrial", "Cultura de Silesia", "Ciudad en bucles cortos"],
+      style: ["Rynek", "Iconos modernistas", "Parques verdes"],
+      pacing: [
+        "Katowice posindustrial encaja con una gran parada diaria—zona del Spodek, calles de ladrillo de Nikiszowiec o valles con estanques—y comidas sin reloj.",
+        "Los tranvías unen barrios; el trayecto forma parte del descanso, no del castigo.",
+        "Festivales de verano alteran el flujo; una reserva de cena en fin de semana con evento ayuda.",
+      ],
+      hero: {
+        title: "Katowice en 3 días",
+        subtitle:
+          "Plazas silesias, modernismo y parques verdes sin lista interminable.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1730321942365-336937870800?auto=format&fit=crop&w=1600&q=80",
+          alt: "Vista del centro de Katowice con arquitectura modernista.",
+        },
+      },
+      cityStats: [
+        { value: "290K+", label: "Población urbana" },
+        { value: "1865", label: "Hito de la era ferroviaria" },
+        { value: "UNESCO", label: "Conjunto de viviendas obreras de Nikiszowiec" },
+        { value: "3 valles", label: "Acceso a estanques y corredor verde" },
+      ],
+      fit: {
+        forYou: [
+          "Cafés del Rynek y luz de tarde",
+          "Modernismo y barrios de ladrillo fotogénicos",
+          "Museos que explican el cambio silesio",
+          "Tranvías cómodos entre distritos",
+          "Comidas contundentes de Europa Central",
+        ],
+        notForYou: [
+          "Casco medieval como el núcleo de Cracovia",
+          "Montaña desde el hotel",
+          "Semana solo de playa",
+          "Turismo en un solo distrito minúsculo",
+          "Silencio rural nocturno en el centro",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Rynek y zona Spodek",
+          summary: "Arcos de plaza y hito en forma de platillo.",
+          morning: "Rynek y bloque del Teatro de Silesia",
+          afternoon: "Centro de Congresos y exterior del Spodek",
+          evening: "Cena en Mariacka o callejones adyacentes",
+        },
+        {
+          day: 2,
+          title: "Nikiszowiec y cultura",
+          summary: "Manzana obrera de ladrillo y museo enfocado.",
+          morning: "Paseo por el conjunto de Nikiszowiec",
+          afternoon: "Museo de Silesia o mirador del pozo",
+          evening: "Bistró con música si hay programa",
+        },
+        {
+          day: 3,
+          title: "Valle de los Tres Estanques",
+          summary: "Día verde y cierre reposado.",
+          morning: "Entrada al parque y vuelta al lago",
+          afternoon: "Café lento y tranvía de regreso",
+          evening: "Última copa en el Rynek",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Drama modernista",
+          description:
+            "La forma del Spodek divide opiniones atractivamente. El exterior casi no necesita preparación.",
+          image: {
+            src: "https://images.unsplash.com/photo-1679652947302-9a9378a81271?auto=format&fit=crop&w=1200&q=80",
+            alt: "Recinto Spodek y estructuras modernas en Katowice.",
+          },
+        },
+        {
+          title: "Calles de ladrillo",
+          description:
+            "Nikiszowiec premia el paso lento. Respeta patios vecinales con voz baja.",
+          image: {
+            src: "https://images.unsplash.com/photo-1579551356890-63849a1d1286?auto=format&fit=crop&w=1200&q=80",
+            alt: "Arquitectura de ladrillo histórica en la zona de Katowice.",
+          },
+        },
+        {
+          title: "Ritmo urbano",
+          description:
+            "Tranvías y bloques medianos enmarcan la Silesia cotidiana. Atardeceres en calles altas suman contraste.",
+          image: {
+            src: "https://images.unsplash.com/photo-1710147558445-fa151de9b47c?auto=format&fit=crop&w=1200&q=80",
+            alt: "Horizonte de Katowice al atardecer con luz cálida.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Primavera tardía a principios de otoño para parques" },
+        { label: "Traslado aeropuerto", value: "Autobús o taxi desde Katowice (KTW)" },
+        { label: "Transporte", value: "ZTM tranvía y bus; valida billete al subir" },
+        { label: "Entradas", value: "Museo y pozos pueden pedir cita online" },
+        { label: "Alojamiento", value: "Cerca del Rynek o Koszutka para líneas de tranvía" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "Conciertos llenan el Spodek en fin de semana: consulta cartel" },
+        { label: "Estación", value: "Posible bruma invernal; prioriza museos esos días" },
+        { label: "Reservas", value: "Rutas subterráneas del museo populares: reserva" },
+        { label: "Errores comunes", value: "Tratar Katowice solo como apéndice de Cracovia sin dormir aquí" },
+        { label: "Vestimenta", value: "Capas casuales; viento en parques de estanques" },
+      ],
+      checklist: [
+        "Abono de 72 h si exploras ancho",
+        "App de billetes ZTM",
+        "Calzado firme en empiedros de Nikiszowiec",
+        "Una reserva de cena tradicional",
+        "Mapa de tranvía sin conexión",
+        "Cierre de museos los lunes",
+      ],
+      faqs: [
+        {
+          question: "¿Katowice es segura?",
+          answer:
+            "Usa sentido urbano habitual. Las zonas turísticas tienen movimiento; periferias industriales conviene visitar con luz.",
+        },
+        {
+          question: "¿Comparada con Cracovia?",
+          answer:
+            "Menos postal medieval, más capas del siglo XX. Vale por densidad arquitectónica e identidad silesia.",
+        },
+        {
+          question: "¿Inglés en restaurantes?",
+          answer:
+            "Personal joven a menudo sí; menús con fotos ayudan en otros casos.",
+        },
+        {
+          question: "¿Coche?",
+          answer:
+            "No con esta guía. Tranvía llega a Nikiszowiec y valles.",
+        },
+        {
+          question: "¿Auschwitz cerca?",
+          answer:
+            "Sí, pero carga emocional fuerte. Si vas, dedica día aparte; no mezcles con fiesta nocturna.",
+        },
+        {
+          question: "¿Café de especialidad?",
+          answer:
+            "Centro y calles junto a Mariacka concentran buenas opciones tercera ola.",
+        },
+        {
+          question: "¿Festivales de música?",
+          answer:
+            "Fuera de temporada aún hay eventos de pabellón. Reserva hotel si hay entradas agotadas.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "krakow", city: "Cracovia", days: 3, description: "Núcleo medieval y Kazimierz." },
+        { slug: "warsaw", city: "Varsovia", days: 3, description: "Casco reconstruido y ribera." },
+        { slug: "wroclaw", city: "Wroclaw", days: 3, description: "Rynek y ruta de gnomos." },
       ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
@@ -64578,6 +70502,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
+    potsdam: {
+      slug: "potsdam",
+      city: "Potsdam",
+      country: "Alemania",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Paseos por parques", "Palacios", "Excursiones tranquilas desde Berlín"],
+      style: ["Sanssouci", "Barrio holandés", "Orilla del Havel"],
+      pacing: [
+        "Potsdam extiende jardines palaciegos por kilómetros: elige profundidad en un palacio por día en lugar de correr entre todas las entradas.",
+        "La bici ayuda a quien camina mucho, pero este plan sigue a pie con tranvía de apoyo.",
+        "Las noches junto al Havel suelen ser más tranquilas que en Berlín; úsalas para descomprimir.",
+      ],
+      hero: {
+        title: "Potsdam en 3 días",
+        subtitle:
+          "Terrazas rococó, ladrillo del barrio holandés y tramos lentos junto al Havel al oeste de Berlín.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1467539656147-5273a1d3fd2f?auto=format&fit=crop&w=1600&q=80",
+          alt: "Palacio y jardines de Sanssouci en Potsdam.",
+        },
+      },
+      cityStats: [
+        { value: "Siglo XVIII", label: "Paisajes de parque fredericianos" },
+        { value: "UNESCO", label: "Conjunto de palacios y parques" },
+        { value: "~180K", label: "Habitantes en la ciudad" },
+        { value: "35 min", label: "Tren regional desde el centro de Berlín" },
+      ],
+      fit: {
+        forYou: [
+          "Jardines formales con bancos",
+          "Fotografía sin ritmo de gran ciudad",
+          "Historia contada en piedra",
+          "Cenas tranquilas tras caminar",
+          "Quienes amplían Berlín con verde",
+        ],
+        notForYou: [
+          "Zonas intensas de vida nocturna",
+          "Solo itinerarios exprés",
+          "Viajeros que evitan pases de transporte",
+          "Quienes odian gestionar entradas a palacios",
+          "Buscadores de rascacielos",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Núcleo de Sanssouci",
+          summary: "Terrazas del palacio y jardines cercanos.",
+          morning: "Exterior de Sanssouci y terrazas del viñedo",
+          afternoon: "Bucle lento por parque de Sanssouci",
+          evening: "Cerca de Brandenburger Strasse",
+        },
+        {
+          day: 2,
+          title: "Neues Palais y jardín oeste",
+          summary: "Zona oeste con interiores opcionales.",
+          morning: "Patio del Neues Palais y visita guiada si reservaste",
+          afternoon: "Senderos hacia la zona de Charlottenhof",
+          evening: "Paseo junto al Havel cerca del centro",
+        },
+        {
+          day: 3,
+          title: "Barrio holandés y cine",
+          summary: "Calles de ladrillo y cultura interior.",
+          morning: "Calles del Holländisches Viertel",
+          afternoon: "Filmmuseum o colonia rusa de Alexandrowka",
+          evening: "Tranvía de vuelta pasando Bassinplatz sin prisa",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Terrazas rococó",
+          description:
+            "Las hileras de viñedo recompensan llegar temprano. En tardes calurosas el agua y la sombra escasean.",
+          image: {
+            src: "https://images.unsplash.com/photo-1688302749963-5c7709451d76?auto=format&fit=crop&w=1200&q=80",
+            alt: "Cúpula barroca del Neues Palais en Potsdam.",
+          },
+        },
+        {
+          title: "Fuentes formales",
+          description:
+            "Simetría y bancos invitan a sentarse. Combina con una entrada programada para que el día siga ligero.",
+          image: {
+            src: "https://images.unsplash.com/photo-1723482649600-5457c598211a?auto=format&fit=crop&w=1200&q=80",
+            alt: "Jardín formal con fuente en un parque de Potsdam.",
+          },
+        },
+        {
+          title: "Reflejos en el agua",
+          description:
+            "La luz tardía en los estanques es suave. Úsala como pausa antes de cenar.",
+          image: {
+            src: "https://images.unsplash.com/photo-1748450038200-3a9696c0690c?auto=format&fit=crop&w=1200&q=80",
+            alt: "Torre histórica reflejada en agua tranquila en Potsdam.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Finales de abril a junio o septiembre por color en parque" },
+        { label: "Traslado aeropuerto", value: "BER a Berlín Hbf y RE1/RB a Potsdam" },
+        { label: "Consejos de transporte", value: "Tranvías 91/92 enlazan palacios; caminar entre pavellones lejos come tiempo" },
+        { label: "Entradas", value: "Reserva interior de Sanssouci con días de antelación en pico" },
+        { label: "Alojamiento en barrio", value: "Cerca de Brandenburger Tor de tranvías o barrio holandés" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "Mediodía en Sanssouci llena de autocares: sal antes de las 10:00" },
+        { label: "Estacionalidad", value: "En invierno algunos interiores de jardín cierran; revisa calendario" },
+        { label: "Museos", value: "Máximo un palacio con entrada y dos bucles exteriores por día" },
+        { label: "Errores comunes", value: "Esperar autobuses tipo Versailles dentro del parque" },
+        { label: "Calzado", value: "Suela firme para grava y pendientes" },
+      ],
+      checklist: [
+        "Pase diario de tranvía si saltas entre palacios",
+        "Reserva el interior que más te importe",
+        "Gorra para terrazas abiertas",
+        "Botella reutilizable con puntos de recarga",
+        "Mapa sin conexión del parque",
+        "Cierres los lunes de algunas casas",
+      ],
+      faqs: [
+        {
+          question: "¿Potsdam solo es excursión desde Berlín?",
+          answer:
+            "Muchos van un día, pero tres noches permiten repetir un jardín favorito y ver interiores sin agotamiento.",
+        },
+        {
+          question: "¿Qué interior priorizar?",
+          answer:
+            "Primera vez suele elegir Sanssouci; quien ama arquitectura añade Neues Palais. Evita tickets secundarios si odias horarios.",
+        },
+        {
+          question: "¿Necesito bici?",
+          answer:
+            "No en este plan caminable; el tranvío cubre huecos si duelen los pies.",
+        },
+        {
+          question: "¿Dónde alojarme?",
+          answer:
+            "Junto a Brandenburger Tor del tranvía simplifica rutas; el barrio holandés premia noches más silenciosas.",
+        },
+        {
+          question: "¿Restaurantes muy turísticos?",
+          answer:
+            "Junto a palacios, sí. Camina diez minutos hacia Nauener Tor para mezcla más variada.",
+        },
+        {
+          question: "¿Basta inglés?",
+          answer:
+            "En taquillas grandes suele bastar; cafés pequeños pueden girar en alemán.",
+        },
+        {
+          question: "¿Se ve todo?",
+          answer:
+            "El conjunto es enorme. Elige hitos por día y trata otro viaje como bonus, no como obligación.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "berlin", city: "Berlín", days: 3, description: "Museos, memoriales y barrios." },
+        { slug: "dresden", city: "Dresden", days: 3, description: "Barroco del Elba y galerías." },
+        { slug: "wurzburg", city: "Würzburg", days: 3, description: "Residencia UNESCO y atardecer en el puente." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
     zurich: {
       slug: "zurich",
       city: "Zúrich",
@@ -65226,6 +71317,145 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
           days: 3,
           description: "Parques relajados y bucles por barrios.",
         },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    rennes: {
+      slug: "rennes",
+      city: "Rennes",
+      country: "Francia",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Mercados de comida", "Calles de madera", "Puerta a Bretaña"],
+      style: ["Bloque del parlamento", "Casas de entramado", "Jardines"],
+      pacing: [
+        "Rennes mezcla ciudad universitaria viva con rincones tranquilos: mercados por la mañana, museo o parque por la tarde.",
+        "Las calles de entramado premian deambular en diagonal; no traces cada callejuela con antelación.",
+        "El Vilaine ofrece paseos planos cuando otras ciudades bretonas suben más cuesta.",
+      ],
+      hero: {
+        title: "Rennes en 3 días",
+        subtitle:
+          "Patio del parlamento, energía del mercado del sábado y calles de madera a ritmo breton suave.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1646941696411-8cd7e72101b1?auto=format&fit=crop&w=1600&q=80",
+          alt: "Río Vilaine a su paso por Rennes con edificios a orillas.",
+        },
+      },
+      cityStats: [
+        { value: "~220K", label: "Habitantes en área metropolitana" },
+        { value: "1720s", label: "Drama en piedra del parlamento" },
+        { value: "Sáb.", label: "Gran mercado en place des Lices" },
+        { value: "TGV", label: "París en unos 90 minutos" },
+      ],
+      fit: {
+        forYou: [
+          "Escapadas urbanas con buena mesa",
+          "Mercados sin multitud de capital",
+          "Paseos fotográficos al atardecer",
+          "Café de ciudad universitaria",
+          "Trenes fáciles hacia Saint-Malo o Nantes",
+        ],
+        notForYou: [
+          "Paisaje alpino peatonal",
+          "Solo vistas costeras dentro de ciudad",
+          "Turismo solo de club nocturno",
+          "Cero interés en cocina regional",
+          "Quien no tolera lluvia ocasional",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Parlamento y núcleo de madera",
+          summary: "Instituciones históricas y calles estrechas.",
+          morning: "Exterior del parlamento de Bretaña y plaza del ayuntamiento",
+          afternoon: "Bucle de entramado en rue Saint-Michel",
+          evening: "Cena cerca de la plaza Saint-Anne",
+        },
+        {
+          day: 2,
+          title: "Mercado y museos",
+          summary: "Lices el sábado y bloque cultural.",
+          morning: "Marché des Lices (sábado) o brunch alternativo",
+          afternoon: "Museo de Bretaña o Bellas Artes",
+          evening: "Paseo hacia el centro comercial MAIL junto al Vilaine",
+        },
+        {
+          day: 3,
+          title: "Thabor y cierre suave",
+          summary: "Jardín y repaso comercial.",
+          morning: "Jardines del Thabor y circuito de rosaleda",
+          afternoon: "Parada perfumes Odorama o ronda de cafés",
+          evening: "Repetir calles de madera sin objetivos",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Luz sobre el río",
+          description:
+            "Los reflejos matinales del Vilaine son suaves antes del pico de bicis.",
+          image: {
+            src: "https://images.unsplash.com/photo-1602441424328-f609508f8163?auto=format&fit=crop&w=1200&q=80",
+            alt: "Barco y edificios junto al agua en Rennes.",
+          },
+        },
+        {
+          title: "Piedra del parlamento",
+          description:
+            "Los patios mezclan solemnidad con vida cotidiana. Camina el perímetro y entra en callejuelas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1610937102577-78606931e97f?auto=format&fit=crop&w=1200&q=80",
+            alt: "Arquitectura cívica histórica en una calle de Rennes.",
+          },
+        },
+        {
+          title: "Ritmo de ladrillo",
+          description:
+            "Bloques modernos junto a madera antigua dan variedad sin largos traslados.",
+          image: {
+            src: "https://images.unsplash.com/photo-1610937507905-06fcd469f2d7?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calle urbana con arquitectura mixta en Rennes.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Mayo a junio o septiembre para mercado y jardín" },
+        { label: "Traslado aeropuerto", value: "Shuttle del aeropuerto de Rennes o TGV desde París" },
+        { label: "Consejos de transporte", value: "Línea A del metro cruza la ciudad; centro caminable" },
+        { label: "Entradas", value: "Reserva ópera o danza con tiempo si aplica" },
+        { label: "Alojamiento en barrio", value: "Saint-Anne o República para comida" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "El mercado del sábado pica antes de las 11:00: ve temprano o casi al cierre" },
+        { label: "Estacionalidad", value: "La lluvia bretona llega rápido; ten plan B en museo" },
+        { label: "Museos", value: "El museo regional es grande; elige dos plantas, no todo" },
+        { label: "Errores comunes", value: "Encadenar Rennes y costa en coche sin descanso" },
+        { label: "Vestimenta", value: "Capas ante clima costero variable" },
+      ],
+      checklist: [
+        "Alinea un día con el mercado del sábado",
+        "Reserva cena para la noche del mercado",
+        "Paraguas compacto",
+        "Mapa metro sin conexión",
+        "Zapatos para adoquines",
+        "Anota cierres tardíos de cocinas",
+      ],
+      faqs: [
+        { question: "¿Rennes es solo parada antes de Saint-Malo?", answer: "Puede serlo, pero tres días añaden mercado, museo breton y madera sin fatiga de viento costero." },
+        { question: "¿Necesito coche?", answer: "No en este plan urbano. El tren llega a la costa si amplías después." },
+        { question: "¿Se habla inglés?", answer: "Jóvenes y turismo suelen manejar inglés; pueblos rurales menos." },
+        { question: "¿Dónde alojarme?", answer: "República o Saint-Anne mantienen cerca la comida tarde; Thabor para más silencio." },
+        { question: "¿Cómo es la comida?", answer: "Galettes y crêpes son base, pero hay escena más amplia: reserva una mesa mejor." },
+        { question: "¿Es caro?", answer: "Moderado para Francia; el mercado equilibra restaurante." },
+        { question: "¿Puedo saltar museos?", answer: "Sí si prefieres madera y jardín; el plan deja un bloque interior para lluvia." },
+      ],
+      relatedItineraries: [
+        { slug: "nantes", city: "Nantes", days: 2, description: "Loira creativa y centro compacto." },
+        { slug: "paris", city: "París", days: 3, description: "Hitos y barrios tranquilos." },
+        { slug: "bordeaux", city: "Burdeos", days: 3, description: "Muelles de piedra y ritmo vinícola." },
       ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
@@ -66582,6 +72812,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
+    linz: {
+      slug: "linz",
+      city: "Linz",
+      country: "Austria",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Paseos junto al río", "Días sin museos agobiantes"],
+      style: ["Frente al Danubio", "Plaza Mayor", "Transporte fácil"],
+      pacing: [
+        "Linz funciona con un ritmo constante: un barrio o gran parada por día, y tiempo para alargar el almuerzo junto al Danubio o en el casco antiguo.",
+        "Haz del Hauptplatz y del paseo fluvial tus puntos de referencia. Los tranvías cubren las distancias largas sin obligarte a apretar el calendario entre el barrio de museos y Pöstlingberg.",
+        "Deja una tarde a medias para un café, un paseo lento por el río o un mirador breve sin sumar otro bloque con entrada.",
+      ],
+      hero: {
+        title: "Linz en 3 días",
+        subtitle:
+          "Paseos por el Danubio, calma en el Hauptplatz y museos modernos con ritmo sensato.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1714154053327-ec051c193858?auto=format&fit=crop&w=1600&q=80",
+          alt: "Tranvía amarillo y calle céntrica en Linz, Austria.",
+        },
+      },
+      cityStats: [
+        { value: "200K+", label: "Habitantes en la ciudad" },
+        { value: "1", label: "Gran puerto del Danubio en Austria" },
+        { value: "Siglo XIII", label: "Era de carta del casco antiguo" },
+        { value: "2009", label: "Año de Capital Europea de la Cultura" },
+      ],
+      fit: {
+        forYou: [
+          "Casco antiguo compacto y paseos junto al agua",
+          "Tranvías sencillos y distancias cortas",
+          "Museos sin agenda desbordada",
+          "Ciudad austriaca más tranquila que Viena",
+          "Cafés y atardecer junto al agua",
+        ],
+        notForYou: [
+          "Enfoque en palacios imperiales como el núcleo de Viena",
+          "Senderismo alpino desde el hotel",
+          "Distritos de vida nocturna sin parar",
+          "Sprints de catedral y museo",
+          "Días de playa costera",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Hauptplatz y casco antiguo",
+          summary: "Plaza principal y callejones céntricos.",
+          morning: "Hauptplatz y escaparates de Landstraße",
+          afternoon: "Calles del casco antiguo y Columna de la Trinidad",
+          evening: "Paseo por el Danubio hacia el puente de los Nibelungos",
+        },
+        {
+          day: 2,
+          title: "Ars Electronica y frente fluvial",
+          summary: "Museo interactivo y ritmo junto al agua.",
+          morning: "Ars Electronica Center",
+          afternoon: "Carril del Danubio o terrazas junto al río",
+          evening: "Cena en Urfahr y tranvía de vuelta",
+        },
+        {
+          day: 3,
+          title: "Pöstlingberg y cierre con vistas",
+          summary: "Basílica en la colina o arte, y un cierre tranquilo.",
+          morning: "Pöstlingbergbahn y mirador de la basílica",
+          afternoon: "Lentos o última pausa en cafés del Hauptplatz",
+          evening: "Último paseo fluvial al anochecer",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Tranvías y Hauptplatz",
+          description:
+            "La plaza principal orienta el día. Los tranvías acortan el camino cuando quieres llegar al museo o al río sin cansar las piernas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1607554338569-d83477dbe01a?auto=format&fit=crop&w=1200&q=80",
+            alt: "Edificios históricos cerca del Hauptplatz en Linz.",
+          },
+        },
+        {
+          title: "El Danubio en la ciudad",
+          description:
+            "El agua amplia ordena el paisaje. Los paseos matutinos y al atardecer reinician el día sin sumar kilómetros forzados.",
+          image: {
+            src: "https://images.unsplash.com/photo-1653384942485-266003c4e1c2?auto=format&fit=crop&w=1200&q=80",
+            alt: "Barco y frente fluvial del Danubio en Linz.",
+          },
+        },
+        {
+          title: "Cultura contemporánea",
+          description:
+            "Linz mezcla rincones barrocos con diseño actual. Un bloque museístico enfocado basta para un día reposado.",
+          image: {
+            src: "https://images.unsplash.com/photo-1591348761914-65fbd0258076?auto=format&fit=crop&w=1200&q=80",
+            alt: "Arquitectura moderna y cielo en el centro de Linz.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre a comienzos de octubre" },
+        { label: "Traslado del aeropuerto", value: "Bus 601 hasta Hauptbahnhof o taxi" },
+        { label: "Consejos de transporte", value: "Tranvías y autobuses; casco caminable" },
+        { label: "Entradas", value: "Reserva Pöstlingbergbahn en fines de semana de mucha afluencia" },
+        { label: "Alojamiento en barrio", value: "Cerca del Hauptplatz o del frente fluvial de Urfahr" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "Algunos museos abren tarde un día a la semana; revisa horarios" },
+        { label: "Estación", value: "Viento del río en invierno; capa ligera" },
+        { label: "Reservas de museos", value: "Ars Electronica rara vez llena; igualmente reserva en festivos" },
+        { label: "Errores comunes", value: "Intentar igualar el número de museos de Viena" },
+        { label: "Vestimenta", value: "Calzado cómodo para adoquines y escaleras en colina" },
+      ],
+      checklist: [
+        "Guarda mapa de tranvías sin conexión",
+        "Reserva el Pöstlingberg si viajas en verano entre semana",
+        "Capas para brisa del río",
+        "Un museo al día, no tres",
+        "Un tramo diario de paseo junto al Danubio",
+        "Tarjeta o monedas para billetes rápidos de tranvía",
+      ],
+      faqs: [
+        {
+          question: "¿Son suficientes 3 días en Linz?",
+          answer:
+            "Sí para una primera visita. Casco antiguo, frente fluvial, Ars Electronica y Pöstlingberg caben con tiempo para cafés.",
+        },
+        {
+          question: "¿Necesito abono de transporte?",
+          answer:
+            "Un pase de 24 o 48 horas ayuda si usas tranvías cada día. El centro es caminable si prefieres pagar trayecto a trayecto.",
+        },
+        {
+          question: "¿Es Linz caminable?",
+          answer:
+            "El Hauptplatz y el río se recorren bien a pie. Usa tranvía hacia Lentos, Ars Electronica y la base del Pöstlingbergbahn.",
+        },
+        {
+          question: "¿Dónde alojarme?",
+          answer:
+            "Cerca del Hauptplatz simplifica cenas y salidas matutinas. Urfahr ofrece calles más tranquilas con acceso rápido al puente.",
+        },
+        {
+          question: "¿Cuándo subir a Pöstlingberg?",
+          answer:
+            "Temprano hay menos gente y buena luz. El mediodía sirve si prefieres más calor.",
+        },
+        {
+          question: "¿Linz es solo para fans de la tecnología?",
+          answer:
+            "No. Ars Electronica es una parte. Plazas barrocas, el río y el mirador equilibran el viaje.",
+        },
+        {
+          question: "¿Puedo excursionar a Salzburgo o Viena?",
+          answer:
+            "Sí en tren, pero aprieta el ritmo. Esta guía asume que te quedas en Linz y deja excursiones como opcional.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "vienna", city: "Viena", days: 3, description: "Palacios, Ringstrasse y museos clásicos." },
+        { slug: "salzburg", city: "Salzburgo", days: 3, description: "Casco barroco y fortaleza." },
+        { slug: "munich", city: "Múnich", days: 3, description: "Plazas históricas y jardines." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
     rotterdam: {
       slug: "rotterdam",
       city: "Róterdam",
@@ -66753,6 +73150,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
           days: 3,
           description: "Historia y barrios creativos.",
         },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    groningen: {
+      slug: "groningen",
+      city: "Groninga",
+      country: "Países Bajos",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Calles cómodas en bici", "Ritmo de ciudad universitaria"],
+      style: ["Canales", "Plaza Mayor", "Ritmo del norte neerlandés"],
+      pacing: [
+        "Groninga es bastante compacta para caminar. Organiza el día en torno a la zona de la Martini y la Grote Markt y extiéndete a parques sin trasbordos largos.",
+        "La cultura de cafés importa. Deja las tardes abiertas para callejear o rodear canales si cambia el tiempo.",
+        "Aquí la bicicleta es habitual, pero este plan se apoya en ir a pie y en autobuses cortos para quien visita por primera vez.",
+      ],
+      hero: {
+        title: "Groninga en 3 días",
+        subtitle:
+          "Paseos junto a los canales, la zona de la torre Martini y un ritmo holandés del norte sin prisas.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1732969167670-46120838a47a?auto=format&fit=crop&w=1600&q=80",
+          alt: "Torre histórica y edificios en el centro de Groninga.",
+        },
+      },
+      cityStats: [
+        { value: "230K+", label: "Habitantes en el municipio" },
+        { value: "1614+", label: "Años desde la fundación universitaria" },
+        { value: "600+", label: "Monumentos y sitios patrimoniales" },
+        { value: "La más joven", label: "Ciudad de los Países Bajos por edad media" },
+      ],
+      fit: {
+        forYou: [
+          "Centro caminable y canales tranquilos",
+          "Zona histórica de la Martini y mercados",
+          "Museos a escala humana",
+          "Trenes sencillos hacia el norte amplio",
+          "Terrazas al atardecer sin estrés de gran ciudad",
+        ],
+        notForYou: [
+          "Anillos de canales como Ámsterdam",
+          "Itinerarios de palacio real",
+          "Viajes centrados en playa",
+          "Vida nocturna intensa cada noche",
+          "Fiordos o montaña a la puerta del hotel",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Grote Markt y zona Martini",
+          summary: "Cafés en la plaza principal y barrio de la torre.",
+          morning: "Grote Markt y café en la terraza del ayuntamiento",
+          afternoon: "Calles e iglesias cerca de la Martinitoren",
+          evening: "Cena en Peperstraat o paseo canalero cercano",
+        },
+        {
+          day: 2,
+          title: "Museos y Noorderplantsoen",
+          summary: "Cultura interior y pausa verde.",
+          morning: "Museo de Groninga o Museo de la Universidad",
+          afternoon: "Paseo por Noorderplantsoen",
+          evening: "Tiendas pequeñas en Folkingestraat y cena",
+        },
+        {
+          day: 3,
+          title: "Canalillos al este y despedida reposada",
+          summary: "Barrios tranquilos sin lista larga.",
+          morning: "Calles canaleras hacia Helpman",
+          afternoon: "Mirador del Forum o cafés librería céntricos",
+          evening: "Última copa en Grote Markt y preparar maletas",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Barrio de la torre",
+          description:
+            "La zona de la Martini define el perfil urbano. Radios cortos llevan a cafés y calles comerciales estrechas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1732969174895-0a99d4f669eb?auto=format&fit=crop&w=1200&q=80",
+            alt: "Esquina con balcones históricos en Groninga.",
+          },
+        },
+        {
+          title: "Vida cotidiana céntrica",
+          description:
+            "Estudiantes y vecinos comparten el centro. Las mañanas se leen mejor; las tardes animan con suavidad.",
+          image: {
+            src: "https://images.unsplash.com/photo-1732969204471-9d1d0d24f515?auto=format&fit=crop&w=1200&q=80",
+            alt: "Peatones cerca de comercios y edificios altos en Groninga.",
+          },
+        },
+        {
+          title: "Ciudad de bicis",
+          description:
+            "Los aparcabicis rodean las plazas. Como peatón, cuenta con cruces corteses con el tráfico ciclista.",
+          image: {
+            src: "https://images.unsplash.com/photo-1732969216960-32fa5f245f8f?auto=format&fit=crop&w=1200&q=80",
+            alt: "Bicicletas aparcadas en una calle de Groninga.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Mayo a septiembre para terrazas; tulipanes de camino en primavera" },
+        { label: "Llegada", value: "Tren directo desde Ámsterdam o conexiones desde Schiphol" },
+        { label: "Consejos de transporte", value: "Autobús desde la estación; centro mayormente a pie" },
+        { label: "Entradas", value: "Reserva subidas guiadas a la torre en semanas festivas" },
+        { label: "Alojamiento en barrio", value: "Entre Grote Markt y la estación" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "El mercado del sábado llena la plaza pronto" },
+        { label: "Estación", value: "Viento del mar del Norte; lleva cortavientos" },
+        { label: "Reservas museo", value: "Las exposiciones temporales pueden pedir hora" },
+        { label: "Errores comunes", value: "Esperar un tour solo de canales como en Ámsterdam" },
+        { label: "Vestimenta", value: "Casual; zapatos cómodos para adoquines" },
+      ],
+      checklist: [
+        "Consulta horarios de subida a la Martinitoren",
+        "Mapa sin conexión del casco interior",
+        "Tarjeta contactless para autobuses",
+        "Un tramo diario de parque o canal",
+        "Una reserva de cena en fin de semana",
+        "Paraguas compacto",
+      ],
+      faqs: [
+        {
+          question: "¿Son suficientes 3 días en Groninga?",
+          answer:
+            "Sí. Puedes ver el casco histórico, añadir un día de museo y aún dejar tardes lentas.",
+        },
+        {
+          question: "¿Necesito bicicleta?",
+          answer:
+            "No con este plan. El centro se recorre a pie; el autobús ayuda si duermes más lejos.",
+        },
+        {
+          question: "¿Se habla inglés?",
+          answer:
+            "Sí en comercios, cafés y museos. Las cartas suelen ir bilingües.",
+        },
+        {
+          question: "¿Dónde alojarme?",
+          answer:
+            "Entre la estación y la Grote Markt simplifica la logística para una primera visita.",
+        },
+        {
+          question: "¿Puedo visitar las islas Frisias?",
+          answer:
+            "Es un día largo y cambia el ritmo tranquilo. Mejor como viaje aparte.",
+        },
+        {
+          question: "¿Es cara Groninga?",
+          answer:
+            "Moderada para los Países Bajos. Cenar cuesta menos presión que en Ámsterdam si evitas solo terrazas turísticas.",
+        },
+        {
+          question: "¿Y las excursiones de un día?",
+          answer:
+            "Leeuwarden o pueblos históricos en tren si reduce un día urbano.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "amsterdam", city: "Ámsterdam", days: 3, description: "Anillos de canal y grandes museos." },
+        { slug: "rotterdam", city: "Róterdam", days: 3, description: "Arquitectura moderna y Mosa." },
+        { slug: "hamburg", city: "Hamburgo", days: 3, description: "Speicherstadt y vida portuaria." },
       ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
@@ -68412,6 +74976,145 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
+    trier: {
+      slug: "trier",
+      city: "Tréveris",
+      country: "Alemania",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Historia romana", "País del Mosela", "Altstadt caminable"],
+      style: ["Porta Nigra", "Muelles del Mosela", "Bloque catedralicio"],
+      pacing: [
+        "Tréveris concentra milenios en un centro caminable: elige un ancla romana por día para que los museos no se confundan.",
+        "Los bancos del Mosela invitan a tardes lentas aunque termines pronto de ver monumentos.",
+        "Espacia las catas: programa comida antes si el alcohol de mediodía te afecta.",
+      ],
+      hero: {
+        title: "Tréveris en 3 días",
+        subtitle:
+          "Puertas romanas, eco de anfiteatro y bancales del Mosela sin reservar cada ruina.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1767715241091-dcbac841d0c0?auto=format&fit=crop&w=1600&q=80",
+          alt: "Puerta Negra romana con palmeras en Tréveris.",
+        },
+      },
+      cityStats: [
+        { value: "~16 a. C.", label: "Raíces de colonia romana" },
+        { value: "UNESCO", label: "Concentración de monumentos clásicos" },
+        { value: "~110K", label: "Habitantes en la ciudad" },
+        { value: "Mosela", label: "Viñedos a minutos" },
+      ],
+      fit: {
+        forYou: [
+          "Tejido romano visible al aire libre",
+          "Distancias cortas entre hitos",
+          "Mesones de vino con mesura",
+          "Ambiente de ciudad universitaria",
+          "Fotos en puertas y puentes",
+        ],
+        notForYou: [
+          "Esperar interiores tipo catedral de Colonia",
+          "Fines de semana solo de fiesta",
+          "Quien evita escaleras en monumentos",
+          "Vacaciones solo de playa",
+          "Arquitectura solo contemporánea",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "De Porta Nigra a la catedral",
+          summary: "Puerta norte hasta Hauptmarkt.",
+          morning: "Interior opcional de Porta Nigra",
+          afternoon: "Catedral e iglesia de Nuestra Señora",
+          evening: "Cafés en Hauptmarkt con luz suave",
+        },
+        {
+          day: 2,
+          title: "Termas y anfiteatro",
+          summary: "Zona sur con pausa verde.",
+          morning: "Ruinas de las termas imperiales",
+          afternoon: "Anfiteatro romano",
+          evening: "Paseo al Mosela hacia puente Kaiser-Wilhelm",
+        },
+        {
+          day: 3,
+          title: "Museo o viñedo en bus",
+          summary: "Profundidad museística o cata con cuidado.",
+          morning: "Museo regional del Rin o casa de Karl Marx si interesa",
+          afternoon: "Bus local hacia viñedo o paseo en bici junto al río",
+          evening: "Cena en terraza tranquila del Mosela",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Masa de piedra romana",
+          description:
+            "Los marcados de cantería se ven de cerca. Llega pronto a la puerta para evitar grupos mediodía.",
+          image: {
+            src: "https://images.unsplash.com/photo-1773589061404-042494139908?auto=format&fit=crop&w=1200&q=80",
+            alt: "Arcos de piedra de la puerta romana en Tréveris.",
+          },
+        },
+        {
+          title: "Ciudad en la ladera",
+          description:
+            "Los miradores ayudan a situar anfiteatro, viñedos y agujas en un solo mapa mental.",
+          image: {
+            src: "https://images.unsplash.com/photo-1728306173203-4ef0151f4071?auto=format&fit=crop&w=1200&q=80",
+            alt: "Vista elevada sobre tejados de Tréveris.",
+          },
+        },
+        {
+          title: "Plaza al atardecer",
+          description:
+            "La luz tarde calienta la piedra distinto que el flash: planifica un bucle corto.",
+          image: {
+            src: "https://images.unsplash.com/photo-1768002708691-2648151fd46b?auto=format&fit=crop&w=1200&q=80",
+            alt: "Plaza de ciudad europea al atardecer con gente caminando.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre para terrazas" },
+        { label: "Traslado aeropuerto", value: "Bus desde Frankfurt-Hahn o tren desde Luxemburgo" },
+        { label: "Consejos de transporte", value: "Camina el centro; bus 30 hacia viñedos lejanos" },
+        { label: "Entradas", value: "Antikencard si entras a más de dos monumentos" },
+        { label: "Alojamiento en barrio", value: "Cerca de Porta Nigra o Hauptmarkt" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "Cruceros llenan la zona de la puerta al mediodía" },
+        { label: "Estacionalidad", value: "Mercado navideño colma Hauptmarkt: reserva hotel" },
+        { label: "Museos", value: "Museo regional más tranquilo entre semana por la mañana" },
+        { label: "Errores comunes", value: "Conducir entre sitios a diez minutos a pie" },
+        { label: "Calzado", value: "Suela con agarre en césped del anfiteatro" },
+      ],
+      checklist: [
+        "Compara Antikencard con entradas sueltas",
+        "Gorra para ruinas al sol",
+        "Límite de catas si pedaleas",
+        "Monedas de 1 € para aseos",
+        "Horario de bus a viñedos",
+        "Misas que cierran catedral",
+      ],
+      faqs: [
+        { question: "¿Tréveris es pequeña para 3 días?", answer: "Si te gustan capas romanas y noches de Mosela, tres días se sienten bien. Si solo fotografías la puerta, bastan menos." },
+        { question: "¿Necesito guía?", answer: "Útil en termas; no obligatorio. Audios cubren lo básico." },
+        { question: "¿Luxemburgo en excursión?", answer: "Hay tren, pero consume energía. Termina Tréveris con calma salvo viaje multi capital explícito." },
+        { question: "¿Dónde alojarme?", answer: "Dentro de la antigua muralla simplifica noches; hoteles de río cambian tranquilidad por tranvías." },
+        { question: "¿Vino o ruinas primero?", answer: "Ruinas por la mañana fresca; catas mejor tarde si bebes varias copas." },
+        { question: "¿Hablo alemán?", answer: "No imprescindible en hitos; bodegas rurales agradecen frases." },
+        { question: "¿Accesibilidad?", answer: "Algunos niveles romanos tienen escaleras; revisa fichas si movilidad limitada." },
+      ],
+      relatedItineraries: [
+        { slug: "luxembourg", city: "Luxemburgo", days: 3, description: "Ciudad del desfiladero y casematas." },
+        { slug: "cologne", city: "Colonia", days: 3, description: "Dom y paseo del Rin." },
+        { slug: "strasbourg", city: "Estrasburgo", days: 3, description: "Catedral y barrio de canales." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
     tokyo: {
       slug: "tokyo",
       city: "Tokio",
@@ -69208,6 +75911,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
         { slug: "tokyo", city: "Tokio", days: 3, description: "Templos tradicionales y barrios modernos." },
         { slug: "singapore", city: "Singapur", days: 3, description: "Arquitectura moderna y barrios diversos." },
         { slug: "bangkok", city: "Bangkok", days: 3, description: "Templos dorados y mercados vibrantes." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    rouen: {
+      slug: "rouen",
+      city: "Ruán",
+      country: "Francia",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Gótico francés", "Paseos por el Sena", "Escapadas normandas compactas"],
+      style: ["Luz de catedral", "Calles de entramado", "Historia del Viejo Mercado"],
+      pacing: [
+        "Ruán pide vueltas cortas: la catedral en una luz, la calle del reloj en otra, el museo en medio. No hace falta fotografiar cada casa de madera.",
+        "El Sena orienta. Usa el malecón para reiniciar entre subidas del casco.",
+        "Mercados y cafés importan: alarga el almuerzo cuando las campanas superen tu horario.",
+      ],
+      hero: {
+        title: "Ruán en 3 días",
+        subtitle:
+          "Catedral gótica, calle del Gros-Horloge y ritmo reposado junto al Sena.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1708599205714-dad8f3cd8638?auto=format&fit=crop&w=1600&q=80",
+          alt: "Fachada gótica de la catedral de Ruán bajo cielo dramático.",
+        },
+      },
+      cityStats: [
+        { value: "1431", label: "Año del proceso de Juana de Arco en Ruán" },
+        { value: "151 m", label: "Altura aproximada del farol de la catedral" },
+        { value: "110K+", label: "Población del núcleo urbano" },
+        { value: "Sena", label: "Río que orienta el recorrido norte-sur" },
+      ],
+      fit: {
+        forYou: [
+          "El motivo repetido de Monet en piedra real",
+          "Fotografía de entramado sin coche",
+          "Museos entre arte y edad media",
+          "Excursión costera opcional si te sobra día",
+          "Normandía caminable desde la estación",
+        ],
+        notForYou: [
+          "Riviera soleada",
+          "Playas grandes dentro de la ciudad",
+          "Frecuencia de metro parisino",
+          "Skyline de rascacielos",
+          "Zonas de club hasta el amanecer",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Catedral y callejones cercanos",
+          summary: "Fachada oeste e iglesias vecinas.",
+          morning: "Exterior de Notre-Dame y capillas de entrada",
+          afternoon: "Exteriores de Saint-Maclou u Saint-Ouen",
+          evening: "Rue du Gros-Horloge al anochecer",
+        },
+        {
+          day: 2,
+          title: "Vieux-Marché y museos",
+          summary: "Sitio de Juana y ritmo de bellas artes.",
+          morning: "Place du Vieux-Marché y torre conmemorativa",
+          afternoon: "Museo de Bellas Artes con visita parcial",
+          evening: "Malecón hasta el Pont Boieldieu",
+        },
+        {
+          day: 3,
+          title: "Mirador y despedida gastronómica",
+          summary: "Vistas o compras tranquilas.",
+          morning: "Subida a Côte Sainte-Catherine",
+          afternoon: "Barrio de anticuarios o café fluvial",
+          evening: "Último paseo en la plaza de la catedral",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Calle del Gros-Horloge",
+          description:
+            "El arco del reloj reúne citas. Repite la zona en otra luz matutina o vespertina.",
+          image: {
+            src: "https://images.unsplash.com/photo-1708168505286-033800ac4710?auto=format&fit=crop&w=1200&q=80",
+            alt: "Arco renacentista del Gros-Horloge en Ruán.",
+          },
+        },
+        {
+          title: "Empedrado y madera",
+          description:
+            "Las horas peatonales facilitan el paso. Cuidado con el empedrado mojado.",
+          image: {
+            src: "https://images.unsplash.com/photo-1705706786113-525c571ff884?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calle empedrada con casas de entramado en Ruán.",
+          },
+        },
+        {
+          title: "Calado de piedra",
+          description:
+            "La fachada de la catedral cambia cada hora. Aquí manda la paciencia, no el megazoom obligatorio.",
+          image: {
+            src: "https://images.unsplash.com/photo-1676721411061-6953c9f7b2da?auto=format&fit=crop&w=1200&q=80",
+            alt: "Detalle de torre y tallas en la catedral de Ruán.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre con menos turismo" },
+        { label: "Llegada", value: "Tren directo desde París Saint-Lazare (~2 h)" },
+        { label: "Transporte", value: "TEOR cruza el río; casco a pie" },
+        { label: "Entradas", value: "Si reaprece subida a torre, suele ser billete aparte" },
+        { label: "Alojamiento", value: "Entre catedral y Vieux-Marché" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "Grupos escolares a media mañana en la catedral" },
+        { label: "Estación", value: "Espectáculos de luz pueden cambiar el acceso nocturno" },
+        { label: "Reservas museo", value: "Poco habituales salvo exposiciones puntuales" },
+        { label: "Errores comunes", value: "Meter coche en callejones de entramado: mejor aparcar en periferia" },
+        { label: "Vestimenta", value: "Hombros modestos si visitas culto activo" },
+      ],
+      checklist: [
+        "Suela cómoda para empedrado húmedo",
+        "Paraguas compacto",
+        "Una cena junto al río reservada",
+        "Cámara cargada para hora azul en fachada",
+        "Domingo: confirma museos",
+        "Bolsa pequeña si hay mañana de mercado",
+      ],
+      faqs: [
+        {
+          question: "¿Ruán es excursión desde París?",
+          answer:
+            "Se puede, pero pierdes la catedral al anochecer y comidas largas. Dormir aquí mantiene el tono tranquilo.",
+        },
+        {
+          question: "¿Andamios eternos en la catedral?",
+          answer:
+            "Los ciclos de restauración cambian. Algunos paneles pueden estar tapados: no esperes la fachada perfecta siempre.",
+        },
+        {
+          question: "¿Honfleur en el mismo viaje?",
+          answer:
+            "Sí con bus u organizado, pero comprime Ruán. Mejor costa en día dedicado.",
+        },
+        {
+          question: "¿Hay cuestas?",
+          answer:
+            "Moderadas hacia Côte Sainte-Catherine. El casco diario es mayormente plano.",
+        },
+        {
+          question: "¿Opciones vegetarianas?",
+          answer:
+            "Mejoran; apóyate en creperías y bistrós modernos más que en cartas solo de andouille.",
+        },
+        {
+          question: "¿Efectivo o tarjeta?",
+          answer:
+            "Tarjeta habitual; panaderías mañaneras a veces prefieren efectivo.",
+        },
+        {
+          question: "¿Idioma?",
+          answer:
+            "Hotel y museo suelen inglé; saluda primero en francés en cafés pequeños.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "paris", city: "París", days: 3, description: "Grandes museos y eje del Sena." },
+        { slug: "caen", city: "Caen", days: 3, description: "Castillo de Guillermo y abadías en meseta." },
+        { slug: "brussels", city: "Bruselas", days: 3, description: "Grand Place y nodo ferroviario." },
       ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
@@ -70358,6 +77228,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
           days: 3,
           description: "Sitios antiguos y cafés de barrio.",
         },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    caen: {
+      slug: "caen",
+      city: "Caen",
+      country: "Francia",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Quienes leen historia", "Primeros pasos en Normandía", "Casco caminable"],
+      style: ["Castillo ducal", "Abadías románicas", "Meseta tranquila"],
+      pacing: [
+        "Caen se extiende en meseta, pero el castillo y las abadías ordenan jornadas cortas. Reserva una gran visita por la mañana y deja Vaugueux sin lista rígida.",
+        "El tiempo normando cambia enseguida. Combina rampas exteriores del castillo con interiores de abadía si llegan nubarrones.",
+        "Las cenas en callejones se mantienen tranquilas. Una reserva basta; el resto puede ser flexible.",
+      ],
+      hero: {
+        title: "Caen en 3 días",
+        subtitle:
+          "El castillo de Guillermo, abadías gemelas y calles normandas sin sobrecargar la agenda.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1680770259219-d0d760dd135e?auto=format&fit=crop&w=1600&q=80",
+          alt: "Vista aérea de las murallas del castillo de Caen y césped interior.",
+        },
+      },
+      cityStats: [
+        { value: "Siglo XI", label: "Cimientos del castillo de Caen" },
+        { value: "2", label: "Grandes abadías románicas del plan" },
+        { value: "125K+", label: "Habitantes del área de Caen" },
+        { value: "15 min", label: "Tren aproximado hacia Bayeux" },
+      ],
+      fit: {
+        forYou: [
+          "Historia del desembarco cerca sin vivir solo en museos",
+          "Murallas del castillo y calma abacial",
+          "Ambiente universitario en ciudad manejable",
+          "Sidra y marisco regional con calma",
+          "Trenes regionales para salidas opcionales",
+        ],
+        notForYou: [
+          "Vida nocturna al estilo París",
+          "Paisaje alpino inmediato",
+          "Playas urbanas todo el año",
+          "Ruta exprés solo de castillos del Loira",
+          "Cero interés histórico",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Château de Caen",
+          summary: "Murallas y museos del castillo ducal.",
+          morning: "Murallas y ala del Museo de Bellas Artes",
+          afternoon: "Jardines del castillo o salas de exposición temporal",
+          evening: "Cena en callejones de Vaugueux",
+        },
+        {
+          day: 2,
+          title: "Abadía de los Hombres y de las Mujeres",
+          summary: "Arquitectura románica sin correr.",
+          morning: "Abadía de los Hombres (Abbaye aux Hommes)",
+          afternoon: "Abadía de las Mujeres y entorno",
+          evening: "Puerto o café del casco antiguo",
+        },
+        {
+          day: 3,
+          title: "Memorial y tarde abierta",
+          summary: "Memoria histórica enfocada y tiempo local.",
+          morning: "Memorial de Caen (varias horas)",
+          afternoon: "Zona de Saint-Pierre o calles comerciales",
+          evening: "Paseo de despedida por la meseta",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Muros del castillo",
+          description:
+            "La fortificación de Guillermo ocupa un espacio verde amplio. La escala se entiende mejor sin correr de bastión en bastión.",
+          image: {
+            src: "https://images.unsplash.com/photo-1730410037260-ea4a1fd19c7e?auto=format&fit=crop&w=1200&q=80",
+            alt: "Aguja histórica y piedra de iglesia en Caen.",
+          },
+        },
+        {
+          title: "Piedra románica",
+          description:
+            "Las líneas románicas se leen bien por la mañana. Las audioguías ayudan sin apretar el tiempo.",
+          image: {
+            src: "https://images.unsplash.com/photo-1743424222555-0268611eca10?auto=format&fit=crop&w=1200&q=80",
+            alt: "Detalle de arquitectura gótica y románica en Caen.",
+          },
+        },
+        {
+          title: "Vista de la meseta",
+          description:
+            "Desde ciertos puntos altos se entiende el trazado. Sirve para planificar regresos a pie suaves.",
+          image: {
+            src: "https://images.unsplash.com/photo-1662552378984-57020fdba712?auto=format&fit=crop&w=1200&q=80",
+            alt: "Vista desde la colina sobre tejados y zonas verdes de Caen.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre con menos afluencia" },
+        { label: "Llegada", value: "Tren París–Caen en torno a tres horas" },
+        { label: "Consejos de transporte", value: "Tranvía en meseta; casco a pie" },
+        { label: "Entradas", value: "Reserva Memorial en verano punta" },
+        { label: "Alojamiento en barrio", value: "Junto al castillo o Vaugueux" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "Memorial llena a media mañana; llega a la apertura" },
+        { label: "Estación", value: "Lluvia frecuente; alterna bloques interiores en abadías" },
+        { label: "Reservas", value: "Visitas guiadas a abadías a veces con cupo diario" },
+        { label: "Errores comunes", value: "Juntar playas del Desembarco el mismo día que Memorial completo" },
+        { label: "Vestimenta", value: "Hombros cubiertos en culto activo" },
+      ],
+      checklist: [
+        "Reserva Memorial si viajas en julio–agosto",
+        "Mapa de tranvía guardado",
+        "Calzado con buen agarre en rampas",
+        "Consulta cierres los martes en algunos sitios",
+        "Efectivo para panaderías rurales",
+        "Paraguas ligero",
+      ],
+      faqs: [
+        {
+          question: "¿Caen es solo Desembarco?",
+          answer:
+            "No. El Caen medieval vale por sí. El Memorial encaja el día tercero si quieres ese enfoque.",
+        },
+        {
+          question: "¿Puedo ver playas del Desembarco en un día?",
+          answer:
+            "Es día completo con coche o tour. No es un añadido tranquilo al mismo tiempo que Memorial largo.",
+        },
+        {
+          question: "¿Es caminable Caen?",
+          answer:
+            "El casco sí. La meseta tiene cuestas suaves; el tranvía cruza ejes largos.",
+        },
+        {
+          question: "¿Dónde comer?",
+          answer:
+            "Vaugueux concentra restaurantes pequeños. Una reserva en fin de semana suele bastar.",
+        },
+        {
+          question: "¿Hace falta coche?",
+          answer:
+            "No para Caen ciudad. Sí si conduces tú mismo las playas o el campo.",
+        },
+        {
+          question: "¿Basta con inglés?",
+          answer:
+            "En hoteles y museos, suele sí. En cafés pequeños ayudan frases en francés.",
+        },
+        {
+          question: "¿3 días son demasiados?",
+          answer:
+            "Equilibran castillo, abadías y un bloque memorial serio. Acorta el tercer día si prefieres una parada normanda breve.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "paris", city: "París", days: 3, description: "Trenes conexión y grandes museos." },
+        { slug: "lyon", city: "Lyon", days: 3, description: "Dos ríos y gastronomía." },
+        { slug: "brussels", city: "Bruselas", days: 3, description: "Grand Place y enlaces al norte." },
       ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
@@ -86101,6 +93138,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
+    koblenz: {
+      slug: "koblenz",
+      city: "Koblenz",
+      country: "Alemania",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Vistas de río", "Primera vez", "Días cortos caminando"],
+      style: ["Rin-Mosela", "Miradores en teleférico", "Calles del casco"],
+      pacing: [
+        "Koblenz funciona bien anclando cada día en un río o en una altura: la confluencia, luego las alturas, y al final un cierre tranquilo en el casco.",
+        "Las colas del teleférico marcan su propio ritmo; añade margen y trata el trayecto como descanso, no como enlace apretado.",
+        "Las noches en el paseo suelen calmarse cuando los grupos se dispersan: reserva una cena sin carrera de reserva.",
+      ],
+      hero: {
+        title: "Koblenz en 3 días",
+        subtitle:
+          "Se encuentran el Rin y el Mosela: miradores en la confluencia, fortaleza y paseos fáciles por el casco.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1756298516111-48fb3617530c?auto=format&fit=crop&w=1600&q=80",
+          alt: "Teleférico sobre el Rin con Koblenz y colinas al fondo.",
+        },
+      },
+      cityStats: [
+        { value: "2", label: "Ríos: Rin y Mosela" },
+        { value: "121 a. C.", label: "Orígenes romanos" },
+        { value: "~115K", label: "Habitantes en la ciudad" },
+        { value: "Fortaleza", label: "Ehrenbreitstein al otro lado del río" },
+      ],
+      fit: {
+        forYou: [
+          "Paseos marítimos con hitos claros",
+          "Miradores sin ascensos alpinos largos",
+          "Enlaces en tren por el corredor del Rin",
+          "Cenas tranquilas junto al agua",
+          "Casco compacto para la noche",
+        ],
+        notForYou: [
+          "Vida nocturna de megaciudad",
+          "Viajes solo de playa",
+          "Calendarios solo de museo",
+          "Cero tolerancia a colas turísticas",
+          "Esperar el horizonte de Colonia",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Deutsches Eck y paseo por el Rin",
+          summary: "Monumento en la confluencia y ritmo fluvial.",
+          morning: "Deutsches Eck y mirador de confluencia",
+          afternoon: "Paseo por el Rin hacia el casco antiguo",
+          evening: "Cena en callejuelas del casco",
+        },
+        {
+          day: 2,
+          title: "Fortaleza y teleférico",
+          summary: "Alturas al otro lado del río con museo opcional.",
+          morning: "Teleférico a la fortaleza de Ehrenbreitstein",
+          afternoon: "Recinto y museo regional",
+          evening: "Atardecer en el paseo o mirador de puente",
+        },
+        {
+          day: 3,
+          title: "Orilla del Mosela y repaso",
+          summary: "Muelle del Mosela o viñedos con mesura.",
+          morning: "Balduinbrücke y frente del Mosela",
+          afternoon: "Jardines del palacio electoral o repetir un tramo favorito del Rin",
+          evening: "Copa de vino o cena regional sin prisa",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Colinas sobre los ríos",
+          description:
+            "Las vistas desde la meseta contextualizan ambos valles. A media mañana la luz suele ser suave para fotos.",
+          image: {
+            src: "https://images.unsplash.com/photo-1664789351856-e5807503fc47?auto=format&fit=crop&w=1200&q=80",
+            alt: "Casco de Koblenz y río visto desde una colina.",
+          },
+        },
+        {
+          title: "Piedra junto al agua",
+          description:
+            "Los paseos unen ocio moderno y mampostería antigua. Sirven para bucles cortos entre comidas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1664788424057-a47dc61dbb37?auto=format&fit=crop&w=1200&q=80",
+            alt: "Edificio histórico de piedra en Koblenz con colinas detrás.",
+          },
+        },
+        {
+          title: "Monumento en la esquina",
+          description:
+            "La estatua en la confluencia es buen punto de encuentro. Visítala con calma y explora hacia fuera.",
+          image: {
+            src: "https://images.unsplash.com/photo-1631993034684-9948cae7a27d?auto=format&fit=crop&w=1200&q=80",
+            alt: "Monumento Deutsches Eck y paseo fluvial en Koblenz.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre para pasear a orillas" },
+        { label: "Traslado aeropuerto", value: "Aeropuerto de Fráncfort y luego ICE hasta Koblenz Hbf" },
+        { label: "Consejos de transporte", value: "Camina el centro; ferries opcionales por perspectiva" },
+        { label: "Entradas", value: "Compra teleférico online en fines de semana ocupados" },
+        { label: "Alojamiento en barrio", value: "Casco cerca de Jesuitenplatz o paseo del Rin" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "Los cruceros del Rin llenan el paseo al mediodía" },
+        { label: "Estacionalidad", value: "Los mercados navideños cambian rutas cerca de las iglesias" },
+        { label: "Museos", value: "Salas en la fortaleza casi no exigen reserva fuera de festivos" },
+        { label: "Errores comunes", value: "Meter teleférico, crucero y Mosela en el mismo día apretado" },
+        { label: "Vestimenta", value: "Cortavientos útil en la meseta de la fortaleza" },
+      ],
+      checklist: [
+        "Reserva fin de semana del teleférico con tiempo",
+        "Zapatos con agarre para caminos de fortaleza",
+        "Mapa sin conexión de puertas del casco",
+        "Elige crucero O terraza sin apuros",
+        "Mochila ligera para controles",
+        "Horarios de ferris si cruzas el río",
+      ],
+      faqs: [
+        {
+          question: "¿Bastan 3 días en Koblenz?",
+          answer:
+            "Sí para la confluencia, la fortaleza, el Mosela y repetir el paseo fluvial sin meter cruceros largos cada hora.",
+        },
+        {
+          question: "¿Debo subir en teleférico?",
+          answer:
+            "Si toleras esperas cortas, es la vista más clara de los ríos. Evítalo si las alturas o las colas te frenan.",
+        },
+        {
+          question: "¿Koblenz es caminable?",
+          answer:
+            "El casco es compacto. La fortaleza implica cruce y ascensor o camino; reserva media jornada, no una hora.",
+        },
+        {
+          question: "¿Dónde alojarme?",
+          answer:
+            "El casco simplifica las cenas; el paseo añade ruido pero acorta el acceso al muelle.",
+        },
+        {
+          question: "¿Necesito crucero por el Rin?",
+          answer:
+            "Opcional. Este itinerario prioriza caminar; añade crucero solo si recortas otro bloque.",
+        },
+        {
+          question: "¿Mucha gente en temporada alta?",
+          answer:
+            "Los fines de semana de verano llenan el paseo. Desayunos tempranos y paseos tardíos se sienten más tranquilos.",
+        },
+        {
+          question: "¿Puedo ir un día a Colonia?",
+          answer:
+            "Hay trenes frecuentes, pero mentalmente es otro viaje. Termina Koblenz con calma antes de extender noches.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "cologne", city: "Colonia", days: 3, description: "Catedral, Rin y museos." },
+        { slug: "frankfurt", city: "Fráncfort", days: 3, description: "Skyline y museos junto al Meno." },
+        { slug: "strasbourg", city: "Estrasburgo", days: 3, description: "Canales y catedral." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
     kolkata: {
       slug: "kolkata",
       city: "Calcuta",
@@ -88112,6 +95316,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
         { slug: "london", city: "Londres", days: 3, description: "Iconos, museos y paseos junto al río." },
         { slug: "edinburgh", city: "Edimburgo", days: 3, description: "Castillo, Royal Mile y calles históricas." },
         { slug: "bristol", city: "Bristol", days: 3, description: "Harbourside, arte callejero y ritmo tranquilo." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    nancy: {
+      slug: "nancy",
+      city: "Nancy",
+      country: "Francia",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Arquitectura", "Primera vez", "Días largos en plazas"],
+      style: ["Plaza Stanislas", "Art nouveau", "Parques"],
+      pacing: [
+        "Nancy premia un ritmo de plaza primero: pausas largas en Stanislas y saltos cortos a calles o parques sin ir y volver todo el tiempo.",
+        "El art nouveau pide caminar con la mirada arriba; reserva una mañana lenta para fachadas en lugar de una lista de interiores.",
+        "El parque de la Pépinière da sombra cuando las plazas de verano pesan.",
+      ],
+      hero: {
+        title: "Nancy en 3 días",
+        subtitle:
+          "Rejas doradas, luz en Stanislas y esquinas art nouveau con ritmo lorena tranquilo.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1743768767640-40ef3400cece?auto=format&fit=crop&w=1600&q=80",
+          alt: "Edificios históricos bajo el sol en la plaza Stanislas de Nancy.",
+        },
+      },
+      cityStats: [
+        { value: "UNESCO", label: "Conjunto del siglo XVIII en Stanislas" },
+        { value: "~105K", label: "Habitantes en la ciudad" },
+        { value: "1755", label: "Inauguración de la plaza Stanislas" },
+        { value: "3", label: "Plazas reales enlazadas a pie" },
+      ],
+      fit: {
+        forYou: [
+          "Plazas ornamentadas con sitio para sentarse",
+          "Distancias manejables entre hitos",
+          "Cenas con vino sin estridencia",
+          "Fotografía en horas tranquilas",
+          "Escapada urbana calmada",
+        ],
+        notForYou: [
+          "Semanas de playa",
+          "Clubbing hasta tarde",
+          "Senderismo de montaña desde el hotel",
+          "Esperar el metro de París",
+          "Itinerarios tipo parque temático",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Stanislas y Carré d'Or",
+          summary: "Plaza emblemática y calles cercanas.",
+          morning: "Arcos y fuentes de la plaza Stanislas",
+          afternoon: "Paseo Carré d'Or hacia la plaza de la Carrière",
+          evening: "Cena cerca de la plaza sin reserva muy apretada",
+        },
+        {
+          day: 2,
+          title: "Ciudad Vieja y calles artesanas",
+          summary: "Casas de entramado y rincones silenciosos.",
+          morning: "Puerta de la Craffe y entradas del casco viejo",
+          afternoon: "Tiendas y cafés en rue des Dominicains",
+          evening: "Cours Léopold o bistró en calle lateral",
+        },
+        {
+          day: 3,
+          title: "Parques y art nouveau",
+          summary: "Verde pausado y fachadas.",
+          morning: "Paseo por el parque de la Pépinière",
+          afternoon: "Fachadas art nouveau en Saurupt o centro, sin prisa",
+          evening: "Vuelta a Stanislas si quieres ver iluminación",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Luz diurna en las plazas",
+          description:
+            "A media mañana la luz suaviza piedra y dorados. Evita el mediodía duro en las arcadas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1614891202431-e4ba6b3d9edb?auto=format&fit=crop&w=1200&q=80",
+            alt: "Gente caminando por la plaza Stanislas de Nancy de día.",
+          },
+        },
+        {
+          title: "Tejados ornamentados",
+          description:
+            "Busca escultura y hierro por encima de la vista. Nancy premia las esquinas lentas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1744200152317-83899ffa0169?auto=format&fit=crop&w=1200&q=80",
+            alt: "Fachada histórica ornamentada en Nancy bajo cielo azul.",
+          },
+        },
+        {
+          title: "Farolas y detalle",
+          description:
+            "La noche cambia el contraste en barandillas y farolas. Un bucle corto tras cenar suele bastar.",
+          image: {
+            src: "https://images.unsplash.com/photo-1744224490362-0ec8e59d7d53?auto=format&fit=crop&w=1200&q=80",
+            alt: "Farola decorativa y arquitectura clásica en Nancy.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre para comodidad en plaza" },
+        { label: "Traslado aeropuerto", value: "TGV desde París o Metz; tranvía desde la estación" },
+        { label: "Consejos de transporte", value: "Camina el centro; tranvía si el hotel lejos" },
+        { label: "Entradas", value: "Reserva Museo de Bellas Artes en pico si hace falta" },
+        { label: "Alojamiento en barrio", value: "Cerca de Stanislas o ciudad vieja para noches tranquilas" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "Los viernes por la noche la plaza se llena de paseo local" },
+        { label: "Estacionalidad", value: "Mercados navideños añaden puestos; tiempo para abrigo" },
+        { label: "Museos", value: "Expos pequeñas pueden pedir entrada online en verano" },
+        { label: "Errores comunes", value: "Intentar igualar el recuento de museos de París" },
+        { label: "Vestimenta", value: "Smart casual en la mayoría de bistrós cerca de Stanislas" },
+      ],
+      checklist: [
+        "Carga batería para fotos nocturnas",
+        "Reserva una cena el fin de semana",
+        "Zapatos planos para adoquines",
+        "Horarios de museo sin conexión",
+        "Tarde de parque al menos una vez",
+        "Paraguas ligero en entretiempo",
+      ],
+      faqs: [
+        {
+          question: "¿Bastan 3 días en Nancy?",
+          answer:
+            "Sí. Dos días cubren Stanislas, puertas y comercio; el tercero añade parques y art nouveau sin presión.",
+        },
+        {
+          question: "¿Necesito francés?",
+          answer:
+            "Las frases básicas ayudan; cerca de las plazas muchos hablan inglés.",
+        },
+        {
+          question: "¿Nancy es caminable?",
+          answer:
+            "El núcleo histórico es compacto. Caminarás más que usar transporte salvo hotel lejano.",
+        },
+        {
+          question: "¿Dónde alojarme?",
+          answer:
+            "Junto a Stanislas tienes los hitos a mano; la ciudad vieja cambia prestigio por encanto de entramado.",
+        },
+        {
+          question: "¿Cómo combinar con Estrasburgo?",
+          answer:
+            "El TGV acorta distancia, pero mejor base tranquila en cada ciudad que trasnochar en tren.",
+        },
+        {
+          question: "¿Son imprescindibles los museos?",
+          answer:
+            "El de Bellas Artes suma si llueve; la ciudad funciona como visita de arquitectura al aire libre.",
+        },
+        {
+          question: "¿Hay mucha gente?",
+          answer:
+            "Sube en verano, pero el ritmo sigue más lento que en capitales. Las mañanas se sienten suaves.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "paris", city: "París", days: 3, description: "Monumentos y museos." },
+        { slug: "strasbourg", city: "Estrasburgo", days: 3, description: "Canales y catedral." },
+        { slug: "brussels", city: "Bruselas", days: 3, description: "Grand Place y buen tren." },
       ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
@@ -93776,6 +101147,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
         { slug: "prague", city: "Praga", days: 3, description: "Casco antiguo, castillo y río." },
         { slug: "krakow", city: "Cracovia", days: 3, description: "Plaza, castillo y casco antiguo." },
         { slug: "vienna", city: "Viena", days: 3, description: "Palacios, museos y grandes avenidas." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    pilsen: {
+      slug: "pilsen",
+      city: "Pilsen",
+      country: "República Checa",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Historia cervecera", "Gótico checo", "Escapadas prácticas"],
+      style: ["Plaza de la República", "Gran Sinagoga", "Patrimonio cervecero"],
+      pacing: [
+        "Pilsen pide una mañana con un solo foco: torres de catedral, visita cervecera o sinagoga—luego un almuerzo largo en la plaza.",
+        "El casco se recorre en bucles. Volver a la plaza bajo otra luz vale más que perseguir barrios lejanos.",
+        "Deja una tarde suelta para túneles históricos o para mirar la gente con media jarra que no bebiste a contrarreloj.",
+      ],
+      hero: {
+        title: "Pilsen en 3 días",
+        subtitle:
+          "Torre gótica, plaza ordenada y cultura cervecera checa con ritmo sensato.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1709073035222-edfaf938da11?auto=format&fit=crop&w=1600&q=80",
+          alt: "Torre de la catedral de San Bartolomé en Pilsen.",
+        },
+      },
+      cityStats: [
+        { value: "103 m", label: "Torre de iglesia más alta de Chequia" },
+        { value: "1842", label: "Era del lager pilsner" },
+        { value: "170K+", label: "Habitantes urbanos" },
+        { value: "~90 min", label: "Tren rápido típico desde Praga" },
+      ],
+      fit: {
+        forYou: [
+          "Plaza central checa sin densidad de Praga",
+          "Cultura cervecera con contexto",
+          "Visitas subterráneas si reservas",
+          "Trenes hacia Alemania con facilidad",
+          "Tardes largas en cafetería",
+        ],
+        notForYou: [
+          "Castillo tras castillo como circuito praguense",
+          "Alpes desde el hotel",
+          "Itinerario solo costero",
+          "Cartas solo en inglés en todas partes",
+          "Noches solo de club",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Plaza de la República y catedral",
+          summary: "Subida a torre y geometría de la plaza.",
+          morning: "Arcos del ayuntamiento y plaza",
+          afternoon: "Interior de catedral y ventanilla de torre",
+          evening: "Cena en la plaza; noche temprana si subes",
+        },
+        {
+          day: 2,
+          title: "Pilsner Urquell y barrio cervecero",
+          summary: "Cueva histórica y relato de elaboración.",
+          morning: "Visita reservada a la fábrica Pilsner Urquell",
+          afternoon: "Museo de la cerveza o parque vecino",
+          evening: "Pub local con ritmo moderado",
+        },
+        {
+          day: 3,
+          title: "Sinagoga y subterráneos",
+          summary: "Patrimonio diverso y cierre flexible.",
+          morning: "Gran Sinagoga",
+          afternoon: "Tour de túneles históricos o Techmania con familia",
+          evening: "Último paseo por la plaza",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Torre de catedral",
+          description:
+            "La subida castiga rodillas pacientes. Comprueba hora de último acceso antes de comprometerte.",
+          image: {
+            src: "https://images.unsplash.com/photo-1716481731194-67a27f868c23?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calle hacia la torre alta de la catedral de Pilsen.",
+          },
+        },
+        {
+          title: "Simetría de la plaza",
+          description:
+            "La plaza de la República enmarca cafés y eventos. Entre semana por la mañana suele fotografiarse mejor.",
+          image: {
+            src: "https://images.unsplash.com/photo-1662666808151-aaa73e09883d?auto=format&fit=crop&w=1200&q=80",
+            alt: "Tejados y perfil urbano de Pilsen.",
+          },
+        },
+        {
+          title: "Fuente y fachadas",
+          description:
+            "Columna de la Peste y tranvías definen el ritmo cotidiano. Rodear despacio vence a tachar casillas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1634842542033-cd34e3abb060?auto=format&fit=crop&w=1200&q=80",
+            alt: "Fuente monumento y fachada histórica en Pilsen.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre con festivales locales" },
+        { label: "Llegada", value: "RegioJet o ČD desde Praga hl.n." },
+        { label: "Transporte", value: "Casco a pie; tranvía a barrios externos" },
+        { label: "Entradas", value: "Reserva fábrica y túneles en fines de semana" },
+        { label: "Alojamiento", value: "En o a una manzana de la plaza de la República" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "Colas en torre al mediodía" },
+        { label: "Estación", value: "Mercado navideño llena la plaza; reserva hotel" },
+        { label: "Visitas", value: "En culto, respeta normas de la sinagoga" },
+        { label: "Errores comunes", value: "Ver solo la fábrica como bar crawl sin historia" },
+        { label: "Vestimenta", value: "Hombros modestos en espacios de culto abiertos" },
+      ],
+      checklist: [
+        "Reserva visita guiada en inglés a la fábrica",
+        "Coronas sueltas para aseos o snack",
+        "Entrada de torre aparte de donativo posible en iglesia",
+        "Hidratación entre catas",
+        "Frases checas offline",
+        "Ropa de capas para cuevas frescas",
+      ],
+      faqs: [
+        {
+          question: "¿Pilsen es solo para bebedores?",
+          answer:
+            "No. La catedral y la sinagoga bastan solos. La cerveza es una capa, no el viaje entero.",
+        },
+        {
+          question: "¿Vale excursión desde Praga?",
+          answer:
+            "Sí en el día, pero pierdes cuevas y segunda jornada. Dormir aquí honestece el ritmo.",
+        },
+        {
+          question: "¿Se habla inglés?",
+          answer:
+            "En sitios grandes, a menudo. En pubs pequeños, gestos y paciencia.",
+        },
+        {
+          question: "¿Niños?",
+          answer:
+            "Fábrica y Techmania funcionan. Los túneles pueden tener edad mínima: revisa.",
+        },
+        {
+          question: "¿Subida a torre dura?",
+          answer:
+            "Empinada y estrecha. Evítala si ciertos escalones cerrados te incomodan.",
+        },
+        {
+          question: "¿Efectivo o tarjeta?",
+          answer:
+            "La tarjeta gana terreno; lleva coronas para puestos pequeños.",
+        },
+        {
+          question: "¿Y Karlovy Vary después?",
+          answer:
+            "Otra lógica: colinas de spa frente a herencia cervecera-industrial. Elige por interés, no solo por mapa.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "prague", city: "Praga", days: 3, description: "Castillo, Puente de Carlos y Casco Antiguo." },
+        { slug: "brno", city: "Brno", days: 3, description: "Cafés moravos y fortín Špilberk." },
+        { slug: "vienna", city: "Viena", days: 3, description: "Museos del Ring y palacios." },
       ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
@@ -101431,6 +108969,173 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
+    erfurt: {
+      slug: "erfurt",
+      city: "Erfurt",
+      country: "Alemania",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Arquitectura medieval", "Centros caminables"],
+      style: ["Colina de la catedral", "Puente de comerciantes", "Centro compacto"],
+      pacing: [
+        "Érfurt es lo bastante compacta para días sencillos: una zona principal por la mañana, un almuerzo tranquilo y luego un museo o un paseo corto.",
+        "Agrupa la colina de la catedral con plazas cercanas para no cruzar el casco una y otra vez. Reserva Krämerbrücke cuando quieras mirar escaparates sin prisa.",
+        "Deja una tarde libre para un café en una plaza o volver al puente con luz más suave.",
+      ],
+      hero: {
+        title: "Erfurt en 3 días",
+        subtitle:
+          "Vistas de catedral, casas de madera en Krämerbrücke y plazas tranquilas al ritmo de Turingia.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1743267956403-f60902e888d0?auto=format&fit=crop&w=1600&q=80",
+          alt: "Calle empedrada y fachadas históricas en el casco antiguo de Érfurt.",
+        },
+      },
+      cityStats: [
+        { value: "~213K", label: "Habitantes en la ciudad" },
+        { value: "1250+", label: "Años de comercio documentado en Krämerbrücke" },
+        { value: "25+", label: "Iglesias y capillas en el centro" },
+        { value: "1 h", label: "Tren rápido a Leipzig (referencia)" },
+      ],
+      fit: {
+        forYou: [
+          "Calles medievales sin presión de gran ciudad",
+          "Días a pie con tranvía de apoyo",
+          "Fotografía de puentes y plazas",
+          "Comida regional con ritmo tranquilo",
+          "Base única para tres días calmados",
+        ],
+        notForYou: [
+          "Vida nocturna sin parar",
+          "Atracciones tipo parque temático",
+          "Costa o montaña desde el hotel",
+          "Maratones de museos diarios",
+          "Esperar la escala de Berlín",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Colina de la catedral y casco",
+          summary: "Dom, Severi y plazas principales.",
+          morning: "Exterior de la catedral de Érfurt e iglesia de San Severo",
+          afternoon: "Mercado del Pescado y ayuntamiento",
+          evening: "Cena cerca de Anger o Willy-Brandt-Platz",
+        },
+        {
+          day: 2,
+          title: "Krämerbrücke y museos",
+          summary: "Día del puente mercante con bloque interior.",
+          morning: "Paseo por Krämerbrücke y tiendas pequeñas",
+          afternoon: "Angermuseum o memorial Andreasstrasse (opcional)",
+          evening: "Calles tranquilas junto al río Gera",
+        },
+        {
+          day: 3,
+          title: "Verdes y segunda pasada",
+          summary: "Parque o repaso de lo pendiente.",
+          morning: "Exterior de la ciudadela de Petersberg o bosque de Egapark en tranvía",
+          afternoon: "Jardines de Egapark u otro bucle por el casco",
+          evening: "Última cena turingia sin horario cerrado",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "La catedral sobre los tejados",
+          description:
+            "El conjunto en colina orienta el mapa. Suele haber menos gente en las escaleras por la mañana.",
+          image: {
+            src: "https://images.unsplash.com/photo-1707893853509-ef1535a8b4a3?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calle y línea de tranvía cerca del centro histórico de Érfurt.",
+          },
+        },
+        {
+          title: "Ritmo de plazas",
+          description:
+            "Plazas pequeñas cortan las caminatas. Úsalas para café en lugar de abarcar todo a la vez.",
+          image: {
+            src: "https://images.unsplash.com/photo-1707893997085-a3db283e6916?auto=format&fit=crop&w=1200&q=80",
+            alt: "Visitantes junto a edificios históricos en una plaza de Érfurt.",
+          },
+        },
+        {
+          title: "Capas del centro",
+          description:
+            "Conviven entramados de madera y piedra. Un segundo paseo lento suele revelar detalles.",
+          image: {
+            src: "https://images.unsplash.com/photo-1707893741492-fdcd2b1afc14?auto=format&fit=crop&w=1200&q=80",
+            alt: "Arquitectura histórica en una calle peatonal de Érfurt.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Mayo a junio o septiembre a comienzos de octubre" },
+        { label: "Traslado aeropuerto", value: "Leipzig o tren desde Fráncfort; RE hasta Érfurt Hbf" },
+        { label: "Consejos de transporte", value: "Camina el casco; tranvías enlazan la estación con Anger" },
+        { label: "Entradas", value: "Reserva subida a torre de catedral si ofrecen y el tiempo acompaña" },
+        { label: "Alojamiento en barrio", value: "Cerca de Anger u oeste de la colina de la catedral" },
+      ],
+      goodToKnow: [
+        { label: "Horario de multitudes", value: "Krämerbrücke se llena tarde en fines de semana" },
+        { label: "Notas estacionales", value: "Los mercados navideños cambian el flujo; abrigo ante el viento en la colina" },
+        { label: "Reservas de museos", value: "Los museos pequeños casi no necesitan horario fuera de vacaciones" },
+        { label: "Errores comunes", value: "Tratar Érfurt solo como excursión desde Leipzig sin pernocta" },
+        { label: "Calzado", value: "Suela cómoda para adoquines y escaleras" },
+      ],
+      checklist: [
+        "Guarda mapa sin conexión del casco",
+        "Capa ligera de lluvia",
+        "Reserva un almuerzo lento",
+        "Comprueba cierres de museos los lunes",
+        "Planifica media jornada sin entradas",
+        "Lleva efectivo para puestos pequeños",
+      ],
+      faqs: [
+        {
+          question: "¿Bastan 3 días en Érfurt?",
+          answer:
+            "Sí. Puedes cubrir el conjunto de la catedral, Krämerbrücke y los museos principales con tiempo para jardines o un segundo paseo.",
+        },
+        {
+          question: "¿Necesito coche?",
+          answer:
+            "No para este plan. El casco es caminable y los trenes regionales facilitan el día de llegada.",
+        },
+        {
+          question: "¿Érfurt es caminable?",
+          answer:
+            "El núcleo es compacto. Usa tranvías sobre todo para la estación, la ciudadela o hoteles alejados.",
+        },
+        {
+          question: "¿Dónde alojarme?",
+          answer:
+            "Cerca de Anger equilibra estación y casco; al oeste de la colina suele ser más tranquilo por la noche.",
+        },
+        {
+          question: "¿Qué diferencia a Érfurt de Weimar?",
+          answer:
+            "Érfurt pesa el puente medieval; Weimar es más pequeña y literaria. Se pueden combinar después, pero esta guía se queda local.",
+        },
+        {
+          question: "¿Hay menús en inglés?",
+          answer:
+            "Hoteles y restaurantes céntricos suelen tenerlos; las tabernas pequeñas bastan con app de traducción.",
+        },
+        {
+          question: "¿Puedo ir un día a Leipzig?",
+          answer:
+            "Sí en tren rápido, pero añade traslados. Mejor si puedes cambiar noches, no en medio del plan.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "berlin", city: "Berlín", days: 3, description: "Museos amplios y barrios." },
+        { slug: "prague", city: "Praga", days: 3, description: "Castillo y paseos junto al río." },
+        { slug: "wurzburg", city: "Würzburg", days: 3, description: "Residencia, fortaleza y bucles del Main." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
     essen: {
       slug: "essen",
       city: "Essen",
@@ -102715,6 +110420,145 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },
+    wurzburg: {
+      slug: "wurzburg",
+      city: "Würzburg",
+      country: "Alemania",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Interiores barrocos", "Atardeceres junto al río", "Ciudad del vino compacta"],
+      style: ["Residencia", "Miradores de fortaleza", "Puente viejo"],
+      pacing: [
+        "Würzburg alinea tres anclas claras—Residencia Puente y fortaleza—repartidas en lugar de apiladas en una jornada exprés.",
+        "El vino franconio tiende a seco; espacia catas si luego subes cuestas.",
+        "La Alte Mainbrücke por la noche es teatro social: únete un rato sin reloj.",
+      ],
+      hero: {
+        title: "Würzburg en 3 días",
+        subtitle:
+          "Salones rococó, vistas desde Marienberg y luz del Main a ritmo franconio tranquilo.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1704702954173-bf16d49fae9f?auto=format&fit=crop&w=1600&q=80",
+          alt: "Río Main en Würzburg con puente viejo y ciudad.",
+        },
+      },
+      cityStats: [
+        { value: "UNESCO", label: "Interiores de la Residencia de Würzburg" },
+        { value: "Fortaleza", label: "Marienberg sobre viñedos" },
+        { value: "~130K", label: "Habitantes en la ciudad" },
+        { value: "Stein", label: "Pueblo de vino en tranvía" },
+      ],
+      fit: {
+        forYou: [
+          "Salas palaciegas sin multitud descontrolada",
+          "Subidas con panorama fluvial",
+          "Cultura de aperitivo en el río",
+          "Energía estudiantil cerca de Sanderstrasse",
+          "Orientación clara del casco",
+        ],
+        notForYou: [
+          "Búsqueda de rascacielos",
+          "Quien evita escaleras por completo",
+          "Estrictos abstinentes incómodos junto al vino",
+          "Escenas de club enormes",
+          "Esperar metro tipo Berlín",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Residencia e iglesia de corte",
+          summary: "Interiores rococó y jardín.",
+          morning: "Tour por la Residencia con salas de Tiepolo",
+          afternoon: "Jardín de corte simétrico",
+          evening: "Atardecer tradicional de pie en Alte Mainbrücke",
+        },
+        {
+          day: 2,
+          title: "Fortaleza Marienberg",
+          summary: "Subida o bus, museo opcional.",
+          morning: "Camino o bus hasta Marienberg",
+          afternoon: "Museo de la fortaleza y muralas",
+          evening: "Descenso a cena en tabernas de Sachsenhausen",
+        },
+        {
+          day: 3,
+          title: "Plaza del mercado y repaso",
+          summary: "Compras o pueblo Stein.",
+          morning: "Marktplatz y detalle de Marienkapelle",
+          afternoon: "Tranvía a museo de Baja Franconia o viñedos de Stein",
+          evening: "Paseo fluvial tranquilo sin metas",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Torres y fachadas",
+          description:
+            "El ornamento renacentista convive con masas barrocas: separa capas caminando despacio.",
+          image: {
+            src: "https://images.unsplash.com/photo-1697660444865-edaa1d2c5b59?auto=format&fit=crop&w=1200&q=80",
+            alt: "Edificio histórico con torre del reloj en Würzburg.",
+          },
+        },
+        {
+          title: "Puente sobre el Main",
+          description:
+            "Los reflejos de tarde difieren del brillo de farolas: repite el puente con calma.",
+          image: {
+            src: "https://images.unsplash.com/photo-1602128318292-8273afb70bb5?auto=format&fit=crop&w=1200&q=80",
+            alt: "Puente de piedra sobre el río Main en Würzburg.",
+          },
+        },
+        {
+          title: "Luz en el recodo",
+          description:
+            "El codo del río enmarca agujas al atardecer si las nubes cooperan.",
+          image: {
+            src: "https://images.unsplash.com/photo-1647742313916-737d919ad851?auto=format&fit=crop&w=1200&q=80",
+            alt: "Casco antiguo de Würzburg y recodo del río desde arriba.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Mayo a septiembre para terrazas y viñedos" },
+        { label: "Traslado aeropuerto", value: "Conexiones desde Núremberg o Fráncfort hasta Würzburg Hbf" },
+        { label: "Consejos de transporte", value: "Tranvías suben a paradas de fortaleza; baja caminando si las rodillas lo permiten" },
+        { label: "Entradas", value: "Residencia: reserva mañanas online" },
+        { label: "Alojamiento en barrio", value: "Altstadt dentro del anillo o Sachsenhausen vinícola" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "Visitas mediodía a la Residencia llenan de excursiones" },
+        { label: "Estacionalidad", value: "Semanas de Volksfest mueven tranvías" },
+        { label: "Museos", value: "Museo de fortaleza pide ~90 minutos tranquilos" },
+        { label: "Errores comunes", value: "No descansar entre audio de Residencia y subida a fortaleza" },
+        { label: "Vestimenta", value: "Hombros cubiertos útiles en capillas activas" },
+      ],
+      checklist: [
+        "Reserva horario de Residencia antes de llegar",
+        "Batería para fotos del puente nocturno",
+        "Capas transpirables para el viento en la fortaleza",
+        "Anota último tranvía cuesta abajo",
+        "Prueba una copa seca de Silvaner",
+        "Trípode o mano firme para noche",
+      ],
+      faqs: [
+        { question: "¿Basta un día en Würzburg?", answer: "Para el trío principal sí, pero tres noches dejan segundo atardecer en el puente y viñedos con menos gente." },
+        { question: "¿Imprescindible interior de la Residencia?", answer: "Si te importan techos barrocos, sí; si no, jardín y exterior bastan para una visita más ligera." },
+        { question: "¿La fortaleza es dura?", answer: "El camino es constante; el bus alivia subida. Baja a pie si las rodillas lo toleran." },
+        { question: "¿Dónde alojarme?", answer: "Dentro del anillo reduce paseos nocturnos; Sachsenhausen premia vino con regreso corto al puente." },
+        { question: "¿Comparación con Bamberg?", answer: "Würzburg enfatiza barroco episcopal y el puente; Bamberg mira más a cerveza ahumada medieval." },
+        { question: "¿Efectivo necesario?", answer: "Tarjeta habitual; pequeñas catas pueden preferir billetes." },
+        { question: "¿Visitas en inglés?", answer: "Grandes sedes ofrecen audio o horario en inglés; revisa temporada." },
+      ],
+      relatedItineraries: [
+        { slug: "nuremberg", city: "Núremberg", days: 3, description: "Castillo imperial y murallas." },
+        { slug: "frankfurt", city: "Fráncfort", days: 3, description: "Skyline y museos." },
+        { slug: "erfurt", city: "Erfurt", days: 3, description: "Colina de catedral y Krämerbrücke." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
     lusaka: {
       slug: "lusaka",
       city: "Lusaka",
@@ -102822,6 +110666,3258 @@ const cityItineraries: Record<ItineraryLocale, Record<string, CityItinerary>> = 
       checklist: ["Zapatos con buena suela", "Capa ligera para viento", "Rutas de ascensor guardadas offline", "Objetos de valor resguardados", "Una cena con vista reservada", "Una tarde sin plan cerrado"],
       faqs: [{ question: "¿Bastan 3 días en Valparaíso?", answer: "Sí, para cerros principales, miradores y ascensores históricos con ritmo relajado." }, { question: "¿Es caminable?", answer: "Por tramos sí; por pendientes conviene alternar con ascensores y taxis." }, { question: "¿Dónde alojarse?", answer: "Cerro Alegre o Concepción son buenas bases para primera visita." }, { question: "¿Se puede hacer en el día desde Santiago?", answer: "Sí, pero dormir en Valparaíso permite un ritmo más calmado." }, { question: "¿Es seguro caminar con cámara?", answer: "Con precauciones urbanas normales, sí." }, { question: "¿Funcionan siempre los ascensores?", answer: "No todos tienen el mismo horario; revisa operación cada día." }, { question: "¿Mejor hora para fotos?", answer: "Primeras horas y última tarde suelen dar mejor luz." }],
       relatedItineraries: [{ slug: "santiago", city: "Santiago", days: 3, description: "Parques urbanos y barrios andinos." }, { slug: "buenos-aires", city: "Buenos Aires", days: 3, description: "Barrios clásicos y vida cultural." }, { slug: "lima", city: "Lima", days: 3, description: "Costa y ruta gastronómica." }],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    alicante: {
+      slug: "alicante",
+      city: "Alicante",
+      country: "España",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Paseos costeros", "Primera visita", "Mercados por la mañana"],
+      style: ["Vistas del castillo", "Paseos por el puerto", "Calles del casco"],
+      pacing: [
+        "Alicante se organiza bien por barrios: el castillo, el puerto y la playa, o el casco y la Explanada.",
+        "En verano el mediodía pesa; busca sombra, una comida larga o interiores, y deja el paseo marítimo para el atardecer.",
+        "Reserva una noche sin plan para seguir el paseo a tu ritmo.",
+      ],
+      hero: {
+        title: "Alicante en 3 días",
+        subtitle:
+          "Vistas desde el castillo, paseo por el puerto y casco antiguo en la Costa Blanca, con tiempo para la playa.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1680537732160-01750bae5217?auto=format&fit=crop&w=1600&q=80",
+          alt: "Panorámica de Alicante y colinas junto al Mediterráneo.",
+        },
+      },
+      cityStats: [
+        { value: "330K+", label: "Habitantes en la ciudad" },
+        { value: "300+", label: "Días de sol al año (zona)" },
+        { value: "Siglo IX", label: "Orígenes del cerro del castillo" },
+        { value: "Puerto", label: "Marina activa y escalas de crucero" },
+      ],
+      fit: {
+        forYou: ["Vuelos cortos al aeropuerto", "Playa cerca del centro", "Casco caminable", "Marisco y tapas", "Ritmo relajado"],
+        notForYou: ["Solo montaña", "Playa en temporada fría", "Días solo de museos", "Base rural lejana", "Vida nocturna intensa"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Santa Bárbara y casco antiguo",
+          summary: "Vistas del castillo y calles con sombra.",
+          morning: "Castillo de Santa Bárbara (ascensor o subida) y murallas",
+          afternoon: "Barrio Santa Cruz y zona de la catedral",
+          evening: "Tapas en plazas del casco",
+        },
+        {
+          day: 2,
+          title: "Puerto y playa",
+          summary: "Paseo marítimo y arena.",
+          morning: "Paseo por puerto y marina",
+          afternoon: "Playa del Postiguet o descanso largo en el paseo",
+          evening: "Cena de pescado cerca del puerto",
+        },
+        {
+          day: 3,
+          title: "Explanada y mercados",
+          summary: "Palmeras y cierre tranquilo.",
+          morning: "Explanada de España y Mercado Central",
+          afternoon: "Luceros o compras, pausa en cafetería",
+          evening: "Último paseo y cena temprana",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Puerto y bahía",
+          description: "La mañana suele ser más suave para recorrer el agua con calma.",
+          image: {
+            src: "https://images.unsplash.com/photo-1680537732093-a4cde73479af?auto=format&fit=crop&w=1200&q=80",
+            alt: "Barcos y agua en la bahía de Alicante.",
+          },
+        },
+        {
+          title: "Calles con palmeras",
+          description: "Los paseos anchos facilitan vueltas cortas entre comidas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1636319039199-4b81fe4d9552?auto=format&fit=crop&w=1200&q=80",
+            alt: "Palmeras junto a acera en Alicante.",
+          },
+        },
+        {
+          title: "Calles del casco",
+          description: "Las cuestas bajo el castillo dan sombra por la tarde.",
+          image: {
+            src: "https://images.unsplash.com/photo-1693835826680-82abb277bf7e?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calle estrecha con plantas en el casco de Alicante.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre para caminar con más frescor" },
+        { label: "Traslado aeropuerto", value: "Bus corto o taxi desde Alicante-Elche" },
+        { label: "Transporte", value: "Centro a pie; tranvía para tramos costeros largos" },
+        { label: "Entradas", value: "Reserva ascensor al castillo en horas punta si quieres horario" },
+        { label: "Dónde alojarse", value: "Casco antiguo o cerca de la Explanada" },
+      ],
+      checklist: [
+        "Protector solar y gorra en verano",
+        "Calzado con buen agarre para el castillo",
+        "Agua para el mediodía",
+        "Revisar bandera de baño antes de nadar",
+        "Reservar cena un fin de semana",
+        "Mapa offline del casco",
+      ],
+      faqs: [
+        {
+          question: "¿Bastan 3 días en Alicante?",
+          answer:
+            "Sí para el castillo, casco, puerto y una tarde de playa con mercados y paseos nocturnos.",
+        },
+        {
+          question: "¿Hace falta coche?",
+          answer:
+            "No para el centro: caminando y transporte público cubren la mayoría de planes de primera visita.",
+        },
+        {
+          question: "¿Es caminable?",
+          answer:
+            "El casco y el paseo son compactos; el castillo añade cuestas pero se hace por tramos.",
+        },
+        {
+          question: "¿Dónde alojarse?",
+          answer:
+            "Cerca del casco o de la Explanada simplifica las noches y evita idas repetidas.",
+        },
+        {
+          question: "¿Cuándo hay menos gente en la playa?",
+          answer:
+            "Las mañanas entre semana fuera de julio y agosto suelen ser más tranquilas.",
+        },
+        {
+          question: "¿Puedo hacer excursiones desde aquí?",
+          answer:
+            "Sí, pero esta guía mantiene el foco en la ciudad para no cambiar descanso por traslados.",
+        },
+        {
+          question: "¿Horario de cenas?",
+          answer:
+            "Más tarde que en otros países; reserva si quieres terraza concreta.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "valencia", city: "Valencia", days: 3, description: "Jardín del Turia y pausas junto al mar." },
+        { slug: "murcia", city: "Murcia", days: 3, description: "Catedral y centro compacto." },
+        { slug: "madrid", city: "Madrid", days: 3, description: "Museos, plazas y barrios." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    surabaya: {
+      slug: "surabaya",
+      city: "Surabaya",
+      country: "Indonesia",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Historia urbana", "Mercados", "Primera vez en Java oriental"],
+      style: ["Calles coloniales", "Paseos junto al río", "Ritmo de barrio"],
+      pacing: [
+        "Surabaya es extensa: elige un eje por día: barrio árabe, museos o un día más tranquilo al sur.",
+        "El tráfico sube por la tarde; encaja comidas sentado o interiores en esas horas.",
+        "La primera noche, cenar cerca del hotel ayuda a ajustar transporte y horarios.",
+      ],
+      hero: {
+        title: "Surabaya en 3 días",
+        subtitle:
+          "Barrios coloniales, contexto fluvial y días prácticos sin lista interminable de hitos.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1642356190266-f91794c89ee0?auto=format&fit=crop&w=1600&q=80",
+          alt: "Perfil urbano de Surabaya con torres bajo el cielo.",
+        },
+      },
+      cityStats: [
+        { value: "2,9M+", label: "Habitantes en la ciudad" },
+        { value: "1293", label: "Primera mención documentada" },
+        { value: "Java oriental", label: "Nodo comercial regional" },
+        { value: "Puerto", label: "Enlaces fluviales y marítimos" },
+      ],
+      fit: {
+        forYou: ["Historia en callejuelas", "Comida callejera y mercados", "Mañanas de museo", "Taxi o app entre barrios", "Escala antes de volar a Bali"],
+        notForYou: ["Pueblo tranquilo", "Playa urbana", "Solo a pie sin plan de calor", "Senderismo alpino", "Sin apps de transporte"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Barrio árabe y Casa de Sampoerna",
+          summary: "Calles, patrimonio y museo.",
+          morning: "Paseo por el barrio árabe (Kenari)",
+          afternoon: "Museo Casa de Sampoerna y patio",
+          evening: "Cena cerca de Tunjungan o del hotel",
+        },
+        {
+          day: 2,
+          title: "Monumentos y centro",
+          summary: "Plaza de héroes y museos cercanos.",
+          morning: "Tugu Pahlawan y parque",
+          afternoon: "Monumento Submarino o museos cercanos",
+          evening: "Warung o patio de comidas en centro comercial",
+        },
+        {
+          day: 3,
+          title: "Kenjeran o cierre tranquilo",
+          summary: "Costa urbana o día ligero.",
+          morning: "Paseo por zona de playa Kenjeran o mirador",
+          afternoon: "Margen libre para cafés y maletas",
+          evening: "Última cena de barrio",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Arcos patrimoniales",
+          description: "Las calles de casas-tienda cuentan el pasado comercial.",
+          image: {
+            src: "https://images.unsplash.com/photo-1572522227522-4495a1481425?auto=format&fit=crop&w=1200&q=80",
+            alt: "Arco decorativo y calle en Surabaya.",
+          },
+        },
+        {
+          title: "Agua y barcas",
+          description: "La luz de la mañana suele ser más clara antes del tráfico.",
+          image: {
+            src: "https://images.unsplash.com/photo-1605661276967-56238b4faca9?auto=format&fit=crop&w=1200&q=80",
+            alt: "Siluetas en barca al atardecer en aguas de Surabaya.",
+          },
+        },
+        {
+          title: "Vida en la calle",
+          description: "Tramos cortos entre comidas mantienen el ritmo humano.",
+          image: {
+            src: "https://images.unsplash.com/photo-1643981005089-dbba5668a337?auto=format&fit=crop&w=1200&q=80",
+            alt: "Gente caminando por calle concurrida de Surabaya.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Mayo a octubre, menos lluvia" },
+        { label: "Traslado aeropuerto", value: "Taxi o app hasta tu zona" },
+        { label: "Transporte", value: "Grab para tramos largos; paseos cortos en el casco" },
+        { label: "Entradas", value: "Comprobar cierre de museos los lunes" },
+        { label: "Dónde alojarse", value: "Genteng o corredor Tunjungan" },
+      ],
+      checklist: [
+        "Mapa offline de la zona base",
+        "Efectivo para puestos pequeños",
+        "Ropa ligera y transpirable",
+        "Pausas al mediodía fuera del sol",
+        "Confirmar traslado al aeropuerto la víspera",
+        "Una cena cerca del hotel tras días largos",
+      ],
+      faqs: [
+        {
+          question: "¿Bastan 3 días en Surabaya?",
+          answer:
+            "Sí para patrimonio central, monumentos y un día costero o relajado sin recorrer todos los barrios.",
+        },
+        {
+          question: "¿Es segura para turistas?",
+          answer:
+            "Usa hábitos de gran ciudad: cuida objetos, taxi o app de noche y atención en mercados.",
+        },
+        {
+          question: "¿Necesito bahasa Indonesia?",
+          answer:
+            "El inglés ayuda en hoteles; frases básicas facilitan pedir comida.",
+        },
+        {
+          question: "¿Cómo evitar el tráfico?",
+          answer:
+            "Sal antes de media tarde y agrupa lugares en la misma zona cada día.",
+        },
+        {
+          question: "¿Puedo ir al Bromo desde aquí?",
+          answer:
+            "Es un viaje largo; esta guía mantiene los días en ciudad para no cambiar descanso por carretera.",
+        },
+        {
+          question: "¿Dónde alojarse?",
+          answer:
+            "Un corredor céntrico cerca de Tunjungan reduce traslados repetidos.",
+        },
+        {
+          question: "¿Comida callejera?",
+          answer:
+            "Elige puestos con rotación y agua embotellada; respeta tu tolerancia al picante.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "jakarta", city: "Yakarta", days: 3, description: "Monas, Kota Tua y puerto." },
+        { slug: "yogyakarta", city: "Yogyakarta", days: 3, description: "Templos y barrio del palacio." },
+        { slug: "bali", city: "Bali", days: 3, description: "Ritmo de isla tras las ciudades de Java." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    bandung: {
+      slug: "bandung",
+      city: "Bandung",
+      country: "Indonesia",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Aire más fresco", "Arquitectura colonial", "Cafés"],
+      style: ["Calles art déco", "Vistas al norte", "Ritmo pausado"],
+      pacing: [
+        "Bandung está más alto que la costa; aprovecha las mañanas antes de lluvias en temporada húmeda.",
+        "Los outlets de moda saturan el fin de semana; elige una zona comercial, no tres.",
+        "Deja margen para cafés lentos; forma parte del ritmo local.",
+      ],
+      hero: {
+        title: "Bandung en 3 días",
+        subtitle:
+          "Avenidas coloniales, horizonte volcánico y ritmo relajado de ciudad de montaña.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1676910905288-3a72eacb3512?auto=format&fit=crop&w=1600&q=80",
+          alt: "Bandung con montañas al fondo.",
+        },
+      },
+      cityStats: [
+        { value: "2,5M+", label: "Población metropolitana" },
+        { value: "~768 m", label: "Altitud aproximada" },
+        { value: "Años 1920", label: "Edificios art déco" },
+        { value: "Más fresco", label: "Clima respecto a la costa javanesa" },
+      ],
+      fit: {
+        forYou: ["Clima más suave", "Paseos arquitectónicos", "Cafés y panaderías", "Miradores cercanos", "Escapadas de fin de semana"],
+        notForYou: ["Playa urbana", "Solo llano", "Tráfico intolerante los fines de semana", "Selva desde el hotel", "Solo museos sin pausas"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Braga y Asia-Afrika",
+          summary: "Calle colonial y conferencia histórica.",
+          morning: "Calle Braga y exterior de Gedung Merdeka",
+          afternoon: "Museo Konferensi Asia-Afrika o calles cercanas",
+          evening: "Café y noche tranquila cerca del alojamiento",
+        },
+        {
+          day: 2,
+          title: "Gedung Sate y miradores norte",
+          summary: "Edificio icónico y aire más fresco.",
+          morning: "Recorrido exterior en Gedung Sate",
+          afternoon: "Dago o Lembang: mirador o casa de té",
+          evening: "Cena lejos del pico de tráfico comercial",
+        },
+        {
+          day: 3,
+          title: "Mercados y cierre",
+          summary: "Compras locales o parque.",
+          morning: "Pasar Baru u otro mercado elegido",
+          afternoon: "Hueco libre o museo pequeño",
+          evening: "Última cena en Bandung",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Sierra y horizonte",
+          description: "Los volcanos marcan por qué el clima cambia respecto a la costa.",
+          image: {
+            src: "https://images.unsplash.com/photo-1631005441185-0cdb5fe1b126?auto=format&fit=crop&w=1200&q=80",
+            alt: "Montañas verdes cerca de Bandung.",
+          },
+        },
+        {
+          title: "Tejados urbanos",
+          description: "La cuenca reparte barrios; un eje por salida.",
+          image: {
+            src: "https://images.unsplash.com/photo-1633175186866-91e357fa7562?auto=format&fit=crop&w=1200&q=80",
+            alt: "Tejados y árboles en Bandung.",
+          },
+        },
+        {
+          title: "Verde cercano",
+          description: "Trayectos cortos suben a zonas más frescas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1584796236624-988ea65160d1?auto=format&fit=crop&w=1200&q=80",
+            alt: "Bosque y colinas cerca de Bandung.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Estación seca para miradores más despejados" },
+        { label: "Traslado aeropuerto", value: "Taxi o app a Dago o centro" },
+        { label: "Transporte", value: "Apps en cuestas; más tiempo los fines de semana" },
+        { label: "Entradas", value: "Algunos sitios patrimoniales piden horario" },
+        { label: "Dónde alojarse", value: "Corredor Dago o Braga" },
+      ],
+      checklist: [
+        "Chaqueta ligera para la noche en altura",
+        "Margen extra en rutas del fin de semana",
+        "Chubasquero en temporada de lluvias",
+        "Reserva en casa de té popular",
+        "Efectivo en warungs pequeños",
+        "Evita dos excursiones lejanas el mismo plan",
+      ],
+      faqs: [
+        {
+          question: "¿Hace más fresco que Yakarta?",
+          answer:
+            "Suele hacerlo por las mañanas y en el norte, aunque el mediodía puede ser caluroso.",
+        },
+        {
+          question: "¿Bastan 3 días?",
+          answer:
+            "Sí para Braga, Gedung Sate, una salida al norte y mercados sin ir siempre en coche.",
+        },
+        {
+          question: "¿Necesito conductor?",
+          answer:
+            "No solo, pero cuestas y tráfico hacen prácticos chofer o apps en día de miradores.",
+        },
+        {
+          question: "¿Dónde alojarse?",
+          answer:
+            "Dago o cerca de Braga reduce traslados cruzados.",
+        },
+        {
+          question: "¿Merecen los outlets?",
+          answer:
+            "Si te gusta comprar, elige un polo; si no, omite para mantener calma.",
+        },
+        {
+          question: "¿Lluvia?",
+          answer:
+            "En temporada húmeda suelen caer chaparrones por la tarde; planifica interiores o cafés.",
+        },
+        {
+          question: "¿Tangkuban Perahu en este plan?",
+          answer:
+            "Es excursión larga; añade un día si quieres cráter con calma.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "jakarta", city: "Yakarta", days: 3, description: "Museos y Kota Tua." },
+        { slug: "yogyakarta", city: "Yogyakarta", days: 3, description: "Templos y palacio." },
+        { slug: "surabaya", city: "Surabaya", days: 3, description: "Patrimonio en Java oriental." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    bonn: {
+      slug: "bonn",
+      city: "Bonn",
+      country: "Alemania",
+      days: 2,
+      pace: "Equilibrado",
+      idealFor: ["Paseos por el Rin", "Historia musical", "Escapadas cortas"],
+      style: ["Casco antiguo", "Mañanas de museo", "Atardeceres junto al río"],
+      pacing: [
+        "Bonn se recorre en dos días tranquilos: uno para Beethoven y el centro, otro para museos y el Rin.",
+        "Evita encadenar museos sin pausa; encaja un almuerzo largo.",
+        "Las noches invitan al paseo ribereño o a un restaurante de barrio.",
+      ],
+      hero: {
+        title: "Bonn en 2 días",
+        subtitle: "Ciudad de Beethoven a orillas del Rin con museos, callejuelas y paseos fáciles.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1600801686672-756a329e60ec?auto=format&fit=crop&w=1600&q=80",
+          alt: "Bonn de noche con el Rin y el horizonte urbano iluminado.",
+        },
+      },
+      cityStats: [
+        { value: "330K+", label: "Habitantes en la ciudad" },
+        { value: "1770", label: "Año de nacimiento de Beethoven" },
+        { value: "ONU", label: "Presencia institucional alemana" },
+        { value: "Rin", label: "Gran paseo fluvial" },
+      ],
+      fit: {
+        forYou: ["Contexto musical", "Casco caminable", "Museos agrupados", "Bicicleta o paseo en el Rin", "Colonia al lado"],
+        notForYou: ["Vida nocturna sin parar", "Alpes", "Metrópoli enorme", "Playa", "Turismo al minuto"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Beethoven y Münster",
+          summary: "Casa natal, iglesia y calles.",
+          morning: "Casa de Beethoven y zona del Münster",
+          afternoon: "Marktplatz y museo de la ciudad si abre",
+          evening: "Paseo por la ribera del Rin",
+        },
+        {
+          day: 2,
+          title: "Museos y cierre en el Rin",
+          summary: "Arte o historia y tarde ligera.",
+          morning: "Bundeskunsthalle o Haus der Geschichte",
+          afternoon: "Kunstmuseum o parque abierto",
+          evening: "Último paseo y cena temprana",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Frente al Rin",
+          description: "Los caminos anchos ayudan a cerrar días de museo sin prisa.",
+          image: {
+            src: "https://images.unsplash.com/photo-1618151343302-a654c2880c38?auto=format&fit=crop&w=1200&q=80",
+            alt: "Cerezos en flor en calle de Bonn.",
+          },
+        },
+        {
+          title: "Arquitectura urbana",
+          description: "Lo moderno convive con calles de piedra más antiguas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1589482816439-19a28b7ac7a8?auto=format&fit=crop&w=1200&q=80",
+            alt: "Edificio de cristal en Bonn.",
+          },
+        },
+        {
+          title: "Calles tranquilas",
+          description: "Los laterales del Marktplatz se calman tras la tarde laboral.",
+          image: {
+            src: "https://images.unsplash.com/photo-1649658656738-5be4414e54b0?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calle arbolada con coches aparcados en Bonn.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre" },
+        { label: "Traslado aeropuerto", value: "Aeropuerto Colonia-Bonn en S-Bahn o taxi" },
+        { label: "Transporte", value: "Centro a pie; tren regional a Colonia en unos 20 minutos" },
+        { label: "Entradas", value: "Muchos museos cierran los lunes" },
+        { label: "Dónde alojarse", value: "Casco antiguo o Südstadt" },
+      ],
+      checklist: [
+        "Reserva Casa Beethoven en temporada alta",
+        "Monedas o tarjeta para taquillas de museo",
+        "Capa ligera para brisa del Rin",
+        "Horario de Haus der Geschichte",
+        "Mapa offline del casco",
+        "Margen si sigues en tren",
+      ],
+      faqs: [
+        {
+          question: "¿Bastan 2 días en Bonn?",
+          answer:
+            "Sí para Beethoven, casco, un bloque de museo y tiempo junto al Rin sin correr.",
+        },
+        {
+          question: "¿Combinar con Colonia?",
+          answer:
+            "Mejor como día aparte; mezclar ambas en una tarde aprieta.",
+        },
+        {
+          question: "¿Es caminable?",
+          answer:
+            "El centro es compacto; los museos se alcanzan en tranvía corto.",
+        },
+        {
+          question: "¿Dónde alojarse?",
+          answer:
+            "Casco para noches sencillas; Südstadt más tranquilo con buen enlace.",
+        },
+        {
+          question: "¿Necesito alemán?",
+          answer:
+            "En museos suele bastar inglés; alemán básico ayuda en cafés pequeños.",
+        },
+        {
+          question: "¿Museos los lunes?",
+          answer:
+            "Muchos cierran; confirma cada sitio la víspera.",
+        },
+        {
+          question: "¿Ribera de noche?",
+          answer:
+            "Iluminada en el centro; usa sentido común como en cualquier ciudad.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "cologne", city: "Colonia", days: 3, description: "Catedral y casco junto al Rin." },
+        { slug: "berlin", city: "Berlín", days: 3, description: "Historia y barrios verdes." },
+        { slug: "munich", city: "Múnich", days: 3, description: "Plazas bávaras y jardines." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    klaipeda: {
+      slug: "klaipeda",
+      city: "Klaipeda",
+      country: "Lituania",
+      days: 2,
+      pace: "Equilibrado",
+      idealFor: ["Puerto báltico", "Casco pequeño", "Ideas de ferry"],
+      style: ["Casas de madera", "Paseos por el puerto", "Centro compacto"],
+      pacing: [
+        "Klaipeda funciona en vueltas cortas: plaza del teatro, puerto y una calle tranquila.",
+        "El viento de la laguna puede ser frío; alterna café y paseo.",
+        "Si cruzas en ferry, deja la tarde ligera.",
+      ],
+      hero: {
+        title: "Klaipeda en 2 días",
+        subtitle: "Calles con entramado de madera, puerto activo y base báltica cerca de la costa curlandesa.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1587668799230-4b776f4304a7?auto=format&fit=crop&w=1600&q=80",
+          alt: "Barca en el agua báltica cerca del puerto de Klaipeda.",
+        },
+      },
+      cityStats: [
+        { value: "150K+", label: "Habitantes en la ciudad" },
+        { value: "1253", label: "Carta medieval" },
+        { value: "Puerto", label: "Principal de Lituania" },
+        { value: "Ferry", label: "Acceso a la laguna" },
+      ],
+      fit: {
+        forYou: ["Pueblos pequeños", "Historia marítima", "Excursiones cortas", "Fotografía pausada", "Escala antes de Vilna"],
+        notForYou: ["Gran vida nocturna", "Playa tropical en invierno", "Montaña", "Clima cálido constante", "Compras sin parar"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Casco y plaza del teatro",
+          summary: "Esculturas, calles y puerto.",
+          morning: "Plaza del teatro y casas de madera",
+          afternoon: "Zona del barco Meridianas y paseo portuario",
+          evening: "Cena de pescado cerca del muelle",
+        },
+        {
+          day: 2,
+          title: "Smiltyne o museos",
+          summary: "Ferry o día tranquilo.",
+          morning: "Ferry a Smiltyne y paseo entre dunas o bosque",
+          afternoon: "Anexo del museo marítimo o cafetería",
+          evening: "Último paseo por el casco",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Embarcaciones",
+          description: "Los barcos de trabajo recuerdan que el mar sigue siendo el oficio.",
+          image: {
+            src: "https://images.unsplash.com/photo-1676580239330-ad05bc4c056e?auto=format&fit=crop&w=1200&q=80",
+            alt: "Casa flotante y edificios junto al agua en Klaipeda.",
+          },
+        },
+        {
+          title: "Luz báltica",
+          description: "El atardecer sobre el agua compensa ir despacio.",
+          image: {
+            src: "https://images.unsplash.com/photo-1660390304539-3d10533adc10?auto=format&fit=crop&w=1200&q=80",
+            alt: "Atardecer sobre el mar Báltico.",
+          },
+        },
+        {
+          title: "Esculturas",
+          description: "Pequeñas estatuas marcan esquinas sin desvíos largos.",
+          image: {
+            src: "https://images.unsplash.com/photo-1672323316581-3d976535b3ba?auto=format&fit=crop&w=1200&q=80",
+            alt: "Estatua y fachada histórica en Klaipeda.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Mayo a septiembre para tardes largas" },
+        { label: "Traslado aeropuerto", value: "Bus o taxi desde Palanga" },
+        { label: "Transporte", value: "Centro a pie; ferry a Smiltyne" },
+        { label: "Entradas", value: "Horarios de ferry según temporada" },
+        { label: "Dónde alojarse", value: "Casco junto a la plaza del teatro" },
+      ],
+      checklist: [
+        "Capa cortavientos para el muelle",
+        "Horario de ferry por la mañana",
+        "Zapatos con buen agarre si hay muelle mojado",
+        "Tarjeta y algo de efectivo",
+        "Horarios de museos",
+        "Reserva de cena en verano",
+      ],
+      faqs: [
+        {
+          question: "¿Bastan 2 días en Klaipeda?",
+          answer:
+            "Sí para casco, puerto y media jornada en Smiltyne con noches tranquilas.",
+        },
+        {
+          question: "¿Espigón curlandés desde aquí?",
+          answer:
+            "Ferry a Smiltyne; recorrer todo el espigón pide más tiempo del que asume esta guía.",
+        },
+        {
+          question: "¿Se habla inglés?",
+          answer:
+            "Suele haberlo en turismo; aprende unas palabras en lituano.",
+        },
+        {
+          question: "¿Dónde alojarse?",
+          answer:
+            "En el casco reduces caminar al volver del ferry.",
+        },
+        {
+          question: "¿Es caro?",
+          answer:
+            "Moderado para el Báltico; el paseo marítimo encarece la cena.",
+        },
+        {
+          question: "¿Invierno?",
+          answer:
+            "Días cortos y viento; acorta bucles al aire libre.",
+        },
+        {
+          question: "¿Efectivo?",
+          answer:
+            "La tarjeta es habitual; el efectivo ayuda en quioscos.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "vilnius", city: "Vilna", days: 3, description: "Colinas y callejas del casco." },
+        { slug: "riga", city: "Riga", days: 3, description: "Art nouveau en bulevares." },
+        { slug: "tallinn", city: "Tallin", days: 3, description: "Murallas y puerto." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    szeged: {
+      slug: "szeged",
+      city: "Szeged",
+      country: "Hungría",
+      days: 2,
+      pace: "Equilibrado",
+      idealFor: ["Ciudades de río", "Arquitectura", "Cafés pausados"],
+      style: ["Iglesia votiva", "Paseos por el Tisza", "Plazas abiertas"],
+      pacing: [
+        "Szeged se extiende a lo largo del Tisza; evita cruzar de punta a punta en hora punta.",
+        "La plaza principal y la iglesia merecen tiempo sin checklist largo.",
+        "Las noches junto al río son más ligeras si el mediodía fue suave.",
+      ],
+      hero: {
+        title: "Szeged en 2 días",
+        subtitle: "Plazas amplias, gran iglesia y paseos tranquilos junto al Tisza en la Gran Llanura.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1550231566-0099d6a56964?auto=format&fit=crop&w=1600&q=80",
+          alt: "Fachada histórica grande en el centro de Szeged.",
+        },
+      },
+      cityStats: [
+        { value: "160K+", label: "Habitantes en la ciudad" },
+        { value: "1914", label: "Contexto de la iglesia votiva" },
+        { value: "Tisza", label: "Río que define la ciudad" },
+        { value: "Llanura", label: "Gran Llanura del sur" },
+      ],
+      fit: {
+        forYou: ["Cocina regional", "Bulevares anchos", "Arquitectura religiosa", "Cafés de ciudad universitaria", "Paradas de dos noches"],
+        notForYou: ["Montaña", "Costa", "Pueblo minúsculo", "Solo termas sin parar", "Viajes interurbanos apurados"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Iglesia votiva y plaza Széchenyi",
+          summary: "Culto principal y cafés alrededor.",
+          morning: "Visita a la iglesia votiva y fotos en la plaza",
+          afternoon: "Exterior del palacio Reök y calles cercanas",
+          evening: "Cena cerca del entorno catedralicio",
+        },
+        {
+          day: 2,
+          title: "Tisza y mercados",
+          summary: "Paseo ribereño y sabores locales.",
+          morning: "Cruce de puente y parque junto al río",
+          afternoon: "Mercado cubierto o compras para picnic",
+          evening: "Último paseo por el Tisza",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Plazas abiertas",
+          description: "Los espacios amplios orientan bien a pie.",
+          image: {
+            src: "https://images.unsplash.com/photo-1605267139835-96d017ba36cc?auto=format&fit=crop&w=1200&q=80",
+            alt: "Árboles y césped en parque de Szeged.",
+          },
+        },
+        {
+          title: "Ritmo del río",
+          description: "Los caminos mañaneros suelen estar más vacíos.",
+          image: {
+            src: "https://images.unsplash.com/photo-1735986079937-5a55eb87734c?auto=format&fit=crop&w=1200&q=80",
+            alt: "Cielo cálido sobre el horizonte de Szeged al atardecer.",
+          },
+        },
+        {
+          title: "Verde urbano",
+          description: "Los parques cortan largos bulevares entre visitas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1588176693663-ee03251e8682?auto=format&fit=crop&w=1200&q=80",
+            alt: "Flores amarillas y vegetación en jardín de Szeged.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio u otoño inicial" },
+        { label: "Traslado aeropuerto", value: "Tren desde Budapest u otro enlace" },
+        { label: "Transporte", value: "Tranvía río-centro; núcleo caminable" },
+        { label: "Entradas", value: "Vestimenta modesta en iglesia" },
+        { label: "Dónde alojarse", value: "Cerca de la plaza Széchenyi" },
+      ],
+      checklist: [
+        "Horario de misas antes de entrar",
+        "Forint en efectivo para puestos",
+        "Chaqueta ligera para brisa del río",
+        "Cierres dominicales",
+        "Reserva viernes por la noche",
+        "Mapa de tranvía offline",
+      ],
+      faqs: [
+        {
+          question: "¿Bastan 2 días en Szeged?",
+          answer:
+            "Sí para la iglesia votiva, plazas principales y una tarde completa junto al Tisza.",
+        },
+        {
+          question: "¿Cómo llegar desde Budapest?",
+          answer:
+            "Tren frecuente; cuenta dos o tres horas según servicio.",
+        },
+        {
+          question: "¿Es caminable?",
+          answer:
+            "El centro es llano y abierto; el tranvía ayuda si duermes lejos del río.",
+        },
+        {
+          question: "¿Qué comer?",
+          answer:
+            "Sopa de pescado y platos con pimentón son clásicos; pide menú del día.",
+        },
+        {
+          question: "¿Dónde alojarse?",
+          answer:
+            "Cerca de Széchenyi reduce caminar tras cenar.",
+        },
+        {
+          question: "¿Inglés?",
+          answer:
+            "En hoteles y cafés suele haberlo; comercios pequeños pueden ser solo húngaros.",
+        },
+        {
+          question: "¿Termas?",
+          answer:
+            "Si quieres aguas termales, añade medio día; esta guía prioriza el casco urbano.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "budapest", city: "Budapest", days: 3, description: "Colinas del Danubio y baños." },
+        { slug: "pecs", city: "Pécs", days: 2, description: "Patrimonio del sur húngaro." },
+        { slug: "debrecen", city: "Debrecen", days: 2, description: "Gran Llanura y parques." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    oradea: {
+      slug: "oradea",
+      city: "Oradea",
+      country: "Rumanía",
+      days: 2,
+      pace: "Equilibrado",
+      idealFor: ["Art nouveau", "Aguas termales", "Paradas fronterizas"],
+      style: ["Fachadas de secesión", "Plaza Unión", "Paseos fluviales"],
+      pacing: [
+        "El centro de Oradea es compacto: mira fachadas despacio en lugar de saltar barrios lejanos.",
+        "Las piscinas termales encajan por la tarde; las fotos de fachadas, mejor por la mañana.",
+        "Si cruzas a Hungría por un recado, vuelve con margen.",
+      ],
+      hero: {
+        title: "Oradea en 2 días",
+        subtitle: "Arquitectura de secesión, plazas restauradas y paseo fácil por el oeste de Rumanía.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1654172054677-c9dbc18cd1ec?auto=format&fit=crop&w=1600&q=80",
+          alt: "Vista elevada de Oradea con tejados históricos.",
+        },
+      },
+      cityStats: [
+        { value: "180K+", label: "Habitantes en la ciudad" },
+        { value: "Art nouveau", label: "Patrimonio de fachadas" },
+        { value: "Crisul Repede", label: "Río en el centro" },
+        { value: "Frontera", label: "Cerca del cruce con Hungría" },
+      ],
+      fit: {
+        forYou: ["Fotografía urbana", "Complejos termales", "Manzanas caminables", "Café y paseo", "Primera parada regional"],
+        notForYou: ["Montaña alpina", "Playa", "Macrofiestas", "Pueblo remoto", "Solo museos apretados"],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Fachadas de la plaza Unión",
+          summary: "Palacio Águila Negra y circuito.",
+          morning: "Circuito por la plaza Unión y exterior del Palacio Águila Negra",
+          afternoon: "Palacio Moskovits y calles art nouveau",
+          evening: "Cena con vino local",
+        },
+        {
+          day: 2,
+          title: "Río y termas",
+          summary: "Paseo y aguas o museo tranquilo.",
+          morning: "Paseo por el Crisul Repede",
+          afternoon: "Nymphaea Aquapark o museo urbano",
+          evening: "Último paseo por la plaza",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Torres del reloj",
+          description: "Las agujas ayudan a orientarte mientras miras el detalle de las fachadas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1654172054677-9a8cd7a8c04a?auto=format&fit=crop&w=1200&q=80",
+            alt: "Torre e histórico edificio en Oradea.",
+          },
+        },
+        {
+          title: "Ribera",
+          description: "El paseo arbolado corta el ritmo de calles rectas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1635621216620-48fe7a7fab2c?auto=format&fit=crop&w=1200&q=80",
+            alt: "Edificio claro junto al agua en Oradea.",
+          },
+        },
+        {
+          title: "Trama urbana",
+          description: "Manzanas cortas facilitan volver al hotel.",
+          image: {
+            src: "https://images.unsplash.com/photo-1654172054673-a1aebcf51dbd?auto=format&fit=crop&w=1200&q=80",
+            alt: "Río con edificios a ambos lados en Oradea.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre para caminar" },
+        { label: "Traslado aeropuerto", value: "Taxi o bus desde el aeropuerto de Oradea" },
+        { label: "Transporte", value: "Centro a pie; tranvía para tramos largos" },
+        { label: "Entradas", value: "Reserva en acuático los fines de verano" },
+        { label: "Dónde alojarse", value: "Cerca de la plaza Unión" },
+      ],
+      checklist: [
+        "Lei en efectivo para comercios pequeños",
+        "Ropa modesta si entras en iglesia",
+        "Bañador si vas al acuático",
+        "Fotos de fachadas por la mañana",
+        "Horario del parque acuático",
+        "Copia del pasaporte si cruzas frontera",
+      ],
+      faqs: [
+        {
+          question: "¿Bastan 2 días en Oradea?",
+          answer:
+            "Sí para plazas principales, calles art nouveau y una tarde de río o termas.",
+        },
+        {
+          question: "¿Es segura?",
+          answer:
+            "Usa precaución nocturna habitual; el centro tiene movimiento local.",
+        },
+        {
+          question: "¿Necesito rumano?",
+          answer:
+            "Los jóvenes suelen hablar inglés; el húngaro también se escucha en comercios.",
+        },
+        {
+          question: "¿Excursión a Debrecen?",
+          answer:
+            "Es posible cruzando la frontera; esta guía asume noches en Oradea para ritmo calmado.",
+        },
+        {
+          question: "¿Dónde alojarse?",
+          answer:
+            "Cerca de la plaza Unión acorta caminos y simplifica las noches.",
+        },
+        {
+          question: "¿Multitud en las termas?",
+          answer:
+            "Los sábados por la tarde llenan; ve antes o reserva.",
+        },
+        {
+          question: "¿Es llana?",
+          answer:
+            "Sí; el calor del mediodía en verano puede ser intenso.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "cluj-napoca", city: "Cluj-Napoca", days: 3, description: "Ciudad universitaria en Transilvania." },
+        { slug: "timisoara", city: "Timișoara", days: 3, description: "Plazas del Banato." },
+        { slug: "bucharest", city: "Bucarest", days: 3, description: "Bulevares y casco de la capital." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    braga: {
+      slug: "braga",
+      city: "Braga",
+      country: "Portugal",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Arquitectura religiosa", "Portugal del norte tranquilo"],
+      style: ["Santuarios barrocos", "Centro caminable", "Miradores en colina"],
+      pacing: [
+        "Braga funciona mejor si tratas Bom Jesus o Sameiro como una salida enfocada y luego recuperas ritmo en cafés del casco.",
+        "El barrio de la catedral se disfruta en bucles cortos: puedes volver a la misma plaza con otra luz sin sentir repetición.",
+        "Deja una noche sin plan para tascas y conversación: el norte de Portugal es tanto ritmo como monumentos.",
+      ],
+      hero: {
+        title: "Braga en 3 días",
+        subtitle:
+          "Escaleras barrocas, raíces de la catedral más antigua de Portugal y un centro compacto sin correr.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1693580759775-319125e2ebd4?auto=format&fit=crop&w=1600&q=80",
+          alt: "Vista aérea del santuario del Bom Jesus y la escalinata barroca sobre Braga.",
+        },
+      },
+      cityStats: [
+        { value: "193K+", label: "Habitantes en el municipio" },
+        { value: "S. XII", label: "Profundidad del arzobispado" },
+        { value: "116 m", label: "Desnivel aproximado de la escalinata de Bom Jesus" },
+        { value: "45 min", label: "Tren típico desde Oporto" },
+      ],
+      fit: {
+        forYou: [
+          "Historia de iglesias por capas",
+          "Santuarios en colina a ritmo pausado",
+          "Noches del casco caminables",
+          "Combinación fácil con Guimarães u Oporto",
+          "Noches más tranquilas que Lisboa",
+        ],
+        notForYou: [
+          "Itinerarios solo de playa",
+          "Grandes distritos de vida nocturna",
+          "Poca tolerancia a caminar",
+          "Turismo estrictamente laico",
+          "Energía de gran ciudad",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Barrio catedralicio y callejas",
+          summary: "Sé, capillas y plazas del casco.",
+          morning: "Exterior de la Sé y zona del Palacio Arzobispal",
+          afternoon: "Iglesia de Santa Cruz y calles peatonales",
+          evening: "Praça da República y cerca del centro",
+        },
+        {
+          day: 2,
+          title: "Bom Jesus do Monte",
+          summary: "Santuario, funicular y vistas arboladas.",
+          morning: "Recinto del santuario y escalinata o funicular",
+          afternoon: "Terrazas mirador y regreso pausado al centro",
+          evening: "Cena relajada; noche temprana si subiste a pie",
+        },
+        {
+          day: 3,
+          title: "Sameiro o museos urbanos",
+          summary: "Segundo santuario o profundidad en museo.",
+          morning: "Aproximación a Sameiro o Museo dos Biscainhos",
+          afternoon: "Arco da Porta Nova y pausa en cafetería",
+          evening: "Último paseo por la malla histórica",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Escalinatas del santuario",
+          description:
+            "Las escaleras barrocas cansan. Los funiculares existen por algo—úsalos si quieres energía para cenar.",
+          image: {
+            src: "https://images.unsplash.com/photo-1555881400-3f22ee160acf?auto=format&fit=crop&w=1200&q=80",
+            alt: "Escalinata barroca ornada subiendo una ladera verde en Portugal.",
+          },
+        },
+        {
+          title: "Piedra del casco antiguo",
+          description:
+            "Callejas estrechas y plazas pequeñas con vida. La luz de media mañana favorece fachadas sin aglomeraciones.",
+          image: {
+            src: "https://images.unsplash.com/photo-1565008576399-9432a827e324?auto=format&fit=crop&w=1200&q=80",
+            alt: "Fachada de iglesia histórica de piedra en un centro urbano portugués.",
+          },
+        },
+        {
+          title: "Perspectiva desde la colina",
+          description:
+            "Desde los santuarios ves pliegues de verde y tejados rojos. Merece una larga pausa en un mirador.",
+          image: {
+            src: "https://images.unsplash.com/photo-1523906834651-245e5e503437?auto=format&fit=crop&w=1200&q=80",
+            alt: "Vista sobre tejados y colinas desde un punto elevado en el norte de Portugal.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre a octubre para caminar con suavidad" },
+        { label: "Cómo llegar", value: "Tren desde Porto-Campanhã; autobuses regionales a pueblos cercanos" },
+        { label: "Consejos de transporte", value: "Camina el centro; taxi o bus a santuarios si evitas funicular" },
+        { label: "Entradas", value: "Consulta horarios de santuarios; algunas capillas cierran al mediodía" },
+        { label: "Alojamiento", value: "Cerca de la Sé o Praça da República para paseos nocturnos cortos" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "Bom Jesus se llena los fines de semana; ve temprano para fotos" },
+        { label: "Estación", value: "Las tardes de verano pueden ser fuertes en escaleras expuestas" },
+        { label: "Vestimenta", value: "Hombros cubiertos en espacios de culto activos" },
+        { label: "Errores comunes", value: "Apilar ambos santuarios y un día en Oporto sin descanso" },
+        { label: "Pago", value: "Tarjetas habituales; capillas pequeñas pueden preferir efectivo para velas" },
+      ],
+      checklist: [
+        "Consulta horario del funicular de Bom Jesus",
+        "Calzado con agarre para escaleras mojadas",
+        "Reserva restaurantes el fin de semana si quieres horario fijo",
+        "Mapas sin conexión para zonas de colina",
+        "Agua para subidas a santuarios",
+        "Un café lento diario en el plan",
+      ],
+      faqs: [
+        {
+          question: "¿Se puede caminar Braga?",
+          answer:
+            "Sí en el casco histórico. Los santuarios están en cima—planifica transporte o funicular si quieres mantener el día relajado.",
+        },
+        {
+          question: "¿Puedo ir en excursión desde Oporto?",
+          answer:
+            "Sí, pero recortarás museos y un segundo santuario. Pernoctar hace las escalinatas menos apresuradas.",
+        },
+        {
+          question: "¿Necesito coche?",
+          answer:
+            "No para el centro urbano. El coche ayuda solo si encadenas aldeas del Miño; el tren cubre bien Oporto.",
+        },
+        {
+          question: "¿Se habla inglés?",
+          answer:
+            "A menudo en hoteles y sitios principales. Las tascas pequeñas pueden ser más portuguesas—señalar el menú funciona.",
+        },
+        {
+          question: "¿Cómo se compara con Oporto?",
+          answer:
+            "Más pequeña, noches más calmadas, más foco en iglesias. Combínalas en un viaje en lugar de elegir solo una.",
+        },
+        {
+          question: "¿Los santuarios son gratis?",
+          answer:
+            "Los recintos suelen ser accesibles; normas interiores y donativos varían. Revisa avisos en la entrada.",
+        },
+        {
+          question: "¿Qué comer?",
+          answer:
+            "Prueba bacalao, vinho verde regional y carnes a la parrilla sencillas. Mantén una comida ligera si subiste escaleras.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "porto", city: "Oporto", days: 3, description: "Ribera, bodegas de oporto y calles empinadas." },
+        { slug: "lisbon", city: "Lisboa", days: 3, description: "Tranvías, miradores y paseo junto al Tajo." },
+        { slug: "coimbra", city: "Coímbra", days: 3, description: "Colina universitaria y ciudad junto al río." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    brescia: {
+      slug: "brescia",
+      city: "Brescia",
+      country: "Italia",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Historia romana", "Excursiones al lago", "Lombardía sin prisa"],
+      style: ["Foro UNESCO", "Vida en plaza", "Enlaces en tren"],
+      pacing: [
+        "Brescia encaja en ritmo calmado: un gran capítulo por día—foro romano, plaza renacentista y opción de lago.",
+        "Sé honesto con los traslados. Si añades Iseo o Franciacorta, acorta el bucle del casco antiguo.",
+        "Las tardes en Piazza della Loggia son para aperitivo y mirar pasar gente, no para museos seguidos.",
+      ],
+      hero: {
+        title: "Brescia en 3 días",
+        subtitle:
+          "Capitolium subterráneo, logias renacentistas y opción de lago sin saturar la agenda.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1689776166708-f46c2ec1f2a1?auto=format&fit=crop&w=1600&q=80",
+          alt: "Ruinas de las Grotte di Catullo con el lago de Garda en Sirmione, provincia de Brescia.",
+        },
+      },
+      cityStats: [
+        { value: "200K+", label: "Habitantes de la ciudad" },
+        { value: "UNESCO", label: "Complejo longobardo en la ciudad" },
+        { value: "S. I", label: "Capas del foro romano bajo el centro" },
+        { value: "30 min", label: "Tren típico a pueblos del lago Iseo" },
+      ],
+      fit: {
+        forYou: [
+          "Ruinas romanas con contexto de museo",
+          "Comer en plaza sin multitudes de Milán",
+          "Excursiones en tren",
+          "Museos a ritmo humano",
+          "Comida del norte de Italia a buen precio",
+        ],
+        notForYou: [
+          "Hitos de horizonte tipo Duomo de Milán",
+          "Playa urbana inmediata",
+          "Senderismo alpino continuo en la puerta",
+          "Menús solo en inglés",
+          "Distritos de club nocturno",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Capitolium y foro",
+          summary: "Brixia romana subterránea y museo.",
+          morning: "Complejo museístico Santa Giulia y contexto longobardo",
+          afternoon: "Zona arqueológica del Capitolium",
+          evening: "Paseo por Piazza della Loggia y aperitivo",
+        },
+        {
+          day: 2,
+          title: "Castillo y panorámicas",
+          summary: "Ascensos al Cidneo y vistas.",
+          morning: "Acceso al castillo y vistas desde la muralla",
+          afternoon: "Exteriores del Duomo Vecchio y Duomo Nuovo",
+          evening: "Cena cerca de Piazza Paolo VI",
+        },
+        {
+          day: 3,
+          title: "Lago Iseo o Franciacorta",
+          summary: "Aire de agua o viñedos.",
+          morning: "Tren a Iseo o Sulzano",
+          afternoon: "Paseo junto al lago o ferry corto si hay horario",
+          evening: "Regreso y último paseo tranquilo por Brescia",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Capas romanas",
+          description:
+            "El foro hace concreta la historia antigua. Las audioguías ayudan si prefieres estructura.",
+          image: {
+            src: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1200&q=80",
+            alt: "Columnas y piedra arqueológica romana en Italia.",
+          },
+        },
+        {
+          title: "Logias renacentistas",
+          description:
+            "Los arcos enmarcan pausas de café y luz de tarde. Es una plaza viva, no solo postal.",
+          image: {
+            src: "https://images.unsplash.com/photo-1612697850866-9b998272d2d4?auto=format&fit=crop&w=1200&q=80",
+            alt: "Plaza italiana con edificios históricos y terrazas al aire libre.",
+          },
+        },
+        {
+          title: "Opción de lago",
+          description:
+            "Iseo suele estar más tranquilo que Como en muchos días. Deja margen al ferry en lugar de apretar islas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
+            alt: "Orilla de lago tranquila con montañas al fondo.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre para caminar y brisa en el lago" },
+        { label: "Cómo llegar", value: "Trenes frecuentes desde Milano Centrale; enlaces cercanos a Verona" },
+        { label: "Consejos de transporte", value: "Metro útil este-oeste; camina el centro histórico" },
+        { label: "Entradas", value: "Reserva combo Santa Giulia online en fines de semana ocupados" },
+        { label: "Alojamiento", value: "Cerca de Piazza della Loggia o Piazza Vittoria" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "Museos más tranquilos entre semana por la mañana" },
+        { label: "Estación", value: "Las tardes de julio pueden ser húmedas antes de tormentas" },
+        { label: "Errores comunes", value: "Tratar Brescia solo como dormitorio de Milán" },
+        { label: "Vestimenta", value: "Hombros modestos en interiores de catedral" },
+        { label: "Ferries", value: "Consulta horarios estacionales antes de prometer Monte Isola" },
+      ],
+      checklist: [
+        "Reserva Santa Giulia si visitas el sábado",
+        "Billete integrado bus-metro si usas ambos",
+        "Gorra para el sol en las murallas",
+        "Confirma trenes de regreso del lago",
+        "Efectivo para quioscos pequeños del lago",
+        "Una cena lenta sin reloj",
+      ],
+      faqs: [
+        {
+          question: "¿Merece Brescia tres días?",
+          answer:
+            "Sí si quieres profundidad romana, aire de castillo y un día de lago. Dos días cubren lo esencial; el tercero da margen.",
+        },
+        {
+          question: "¿Puedo saltarme el lago?",
+          answer:
+            "Sí—cambia el día tres por Pinacoteca Tosio Martinengo o un día gastronómico en Franciacorta.",
+        },
+        {
+          question: "¿Qué tan lejos está Milán?",
+          answer:
+            "Una hora en tren aproximadamente. Excursión a Milán es posible, pero esta guía mantiene foco local.",
+        },
+        {
+          question: "¿Hay mucha gente?",
+          answer:
+            "Menos que en puntos calientes de Venecia o Como. Las plazas pueden animarse el sábado por la noche.",
+        },
+        {
+          question: "¿Necesito italiano?",
+          answer:
+            "Ayuda pero no es obligatorio. Anota direcciones para taxis; a veces hay inglés en zonas turísticas.",
+        },
+        {
+          question: "¿Son accesibles los sitios?",
+          answer:
+            "Algunas zonas romanas tienen piedra irregular. Las rampas del castillo incluyen pendientes—planifica si hay movilidad reducida.",
+        },
+        {
+          question: "¿Y el aparcamiento?",
+          answer:
+            "Aplican ZTL en el centro. El tren suele ser más simple que conducir en una primera visita.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "milan", city: "Milán", days: 3, description: "Duomo, Navigli y diseño urbano." },
+        { slug: "verona", city: "Verona", days: 3, description: "Arena, curvas del Adigio y callejas." },
+        { slug: "bergamo", city: "Bérgamo", days: 3, description: "Murallas de la cima y funicular." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    durban: {
+      slug: "durban",
+      city: "Durban",
+      country: "Sudáfrica",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Paseos de playa", "Primera vez", "Clima cálido"],
+      style: ["Golden Mile", "Baños en el Índico", "Mercados"],
+      pacing: [
+        "Durban encaja cuando combinas aire de playa por la mañana con pausas a la sombra por la tarde: la humedad invita a ir más despacio.",
+        "Deja un día flexible por el tiempo; el paseo marítimo sigue siendo agradable con nubes si acortas el baño.",
+        "Mercados y bunny chow forman parte del ritmo, no son extras—intégralo sin culpa.",
+      ],
+      hero: {
+        title: "Durban en 3 días",
+        subtitle:
+          "Paseos junto al océano, tiempo de playa calmado y mercados urbanos respetando calor y humedad.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1747558510377-2b383597e1d1?auto=format&fit=crop&w=1600&q=80",
+          alt: "Atardecer desde el muelle de North Beach, Durban y el océano Índico.",
+        },
+      },
+      cityStats: [
+        { value: "3,9M+", label: "Habitantes en el metro Ethekwini" },
+        { value: "Cálido", label: "Clima subtropical la mayor parte del año" },
+        { value: "6 km+", label: "Tramo del paseo Golden Mile" },
+        { value: "Principal", label: "Puerto de contenedores más activo del país" },
+      ],
+      fit: {
+        forYou: [
+          "Ciudad y playa en una estancia",
+          "Paseos al amanecer o al atardecer",
+          "Callejera con curry",
+          "Ritmo relajado con chapuzones",
+          "Puerta a la naturaleza de KwaZulu-Natal después",
+        ],
+        notForYou: [
+          "Solo montaña fría sin desplazamiento",
+          "Densidad de casco antiguo europeo",
+          "Confort de clima frío",
+          "Safari sin coche desde la ciudad",
+          "Enfoque en deportes de invierno",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Golden Mile",
+          summary: "Paseo marítimo, baño y zona uShaka.",
+          morning: "Caminata desde North Beach hacia el muelle",
+          afternoon: "Baño en zonas señalizadas; pausa a la sombra",
+          evening: "Paseo por el entorno de uShaka sin apretar todas las atracciones",
+        },
+        {
+          day: 2,
+          title: "Mercados y Victoria Street",
+          summary: "Especias, arquitectura y textura urbana.",
+          morning: "Mercado de Victoria Street y manzanas cercanas",
+          afternoon: "Ayuntamiento o museo KwaMuhle si el calor lo permite",
+          evening: "Cena con curry en barrio accesible en taxi o app",
+        },
+        {
+          day: 3,
+          title: "Jardín botánico o repetir playa",
+          summary: "Verdor o última mañana de océano.",
+          morning: "Jardín botánico de Durban",
+          afternoon: "Mirador del estadio Moses Mabhida si reservas, o playa tranquila",
+          evening: "Atardecer en el paseo y preparar maletas",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Orilla con palmeras",
+          description:
+            "Las banderas de los socorristas importan—nada donde nade la gente local. La luz matutina en el paseo es la más calmada.",
+          image: {
+            src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+            alt: "Playa tropical con palmeras a lo largo de la arena.",
+          },
+        },
+        {
+          title: "Color de mercado",
+          description:
+            "Los puestos de especias invitan a curiosear. Compra poco si sigues viaje.",
+          image: {
+            src: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80",
+            alt: "Especias de mercado en recipientes coloridos.",
+          },
+        },
+        {
+          title: "Ciudad y mar",
+          description:
+            "El perfil urbano detrás del oleaje recuerda que es una costa activa. Mejor un banco que una lista apurada de fotos.",
+          image: {
+            src: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80",
+            alt: "Vista costera con bruma marina y ciudad al frente.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Mayo a septiembre para playa más seca y suave" },
+        { label: "Aeropuerto", value: "King Shaka: taxi o shuttle; confirma tarifas" },
+        { label: "Transporte", value: "Apps de transporte y shuttles de hotel; pregunta zonas nocturnas" },
+        { label: "Seguridad", value: "Playas principales; objetos seguros; respeta avisos de baño" },
+        { label: "Alojamiento", value: "North Beach o Berea para acceso al paseo" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "Fin de semana en playa más lleno; entre semana por la mañana es más suave" },
+        { label: "Estación", value: "Humedad del mediodía en verano—planifica bloques interiores o sombra" },
+        { label: "Sol", value: "UV alto incluso con nubes" },
+        { label: "Agua", value: "Consulta avisos municipales tras lluvias fuertes" },
+        { label: "Errores comunes", value: "No hidratarse entre playa y mercado" },
+      ],
+      checklist: [
+        "Protector solar respetuoso con arrecifes y sombrero",
+        "Agua embotellada en paseos largos",
+        "Baño solo en playas vigiladas",
+        "Reserva columpio o sky car del estadio si aplica",
+        "Efectivo suelto para puestos del mercado",
+        "Mapas sin conexión para direcciones en taxi",
+      ],
+      faqs: [
+        {
+          question: "¿Es seguro Durban para turistas?",
+          answer:
+            "Usa sentido común urbano, sobre todo de noche. Quédate en playas concurridas, transporte autorizado y consejos del alojamiento.",
+        },
+        {
+          question: "¿Se puede nadar todo el año?",
+          answer:
+            "El agua suele ser templada, pero el aire en invierno puede enfriar. Temporada de socorristas y banderas marcan cuándo y dónde.",
+        },
+        {
+          question: "¿Necesito coche?",
+          answer:
+            "No para el núcleo del Golden Mile. Alquila solo si sigues a Drakensberg o reservas.",
+        },
+        {
+          question: "¿Qué es el bunny chow?",
+          answer:
+            "Pan hueco relleno de curry, icono de Durban. Pide picor razonable y si prefieres menos lío, siéntate a comerlo.",
+        },
+        {
+          question: "¿Cómo se compara con Ciudad del Cabo?",
+          answer:
+            "Océano más cálido, ritmo de playa urbana distinto, mezcla cultural diferente. Ambas ganan con ritmo calmado.",
+        },
+        {
+          question: "¿Hay tiburones?",
+          answer:
+            "Redes y vigilancia en zonas; sigue instrucciones de socorristas y evita madrugadas o noches si se recomienda.",
+        },
+        {
+          question: "¿Qué es el apagón programado?",
+          answer:
+            "Los cortes de luz rotativos pueden afectar ascensores o cocinas. Muchos hoteles tienen respaldo—confirma al reservar.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "cape-town", city: "Ciudad del Cabo", days: 3, description: "Montaña de la Mesa, waterfront y Península." },
+        { slug: "johannesburg", city: "Johannesburgo", days: 3, description: "Museos, barrios e historia urbana." },
+        { slug: "nairobi", city: "Nairobi", days: 3, description: "Parques, museos y puertas a safari." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    girona: {
+      slug: "girona",
+      city: "Girona",
+      country: "España",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Calles medievales", "Primera vez en Cataluña", "Complemento a Barcelona"],
+      style: ["Casas del Onyar", "Murallas", "Plazas tranquilas"],
+      pacing: [
+        "Girona se disfruta en bucles cortos: la colina de la catedral, el meandro del río y las murallas merecen cada uno su pase sin prisa.",
+        "Si la combinas con Barcelona, deja el tercer día suave—repite un café favorito en lugar de forzar novedades.",
+        "En verano el calor sube al mediodía; planifica las murallas por la mañana o la hora dorada.",
+      ],
+      hero: {
+        title: "Girona en 3 días",
+        subtitle:
+          "Casas de colores junto al río, murallas enteras y un barrio catedralicio sin correr.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1566736459432-a82bdacb0330?auto=format&fit=crop&w=1600&q=80",
+          alt: "Edificios de colores junto al río Onyar en Girona.",
+        },
+      },
+      cityStats: [
+        { value: "100K+", label: "Habitantes en la capital provincial" },
+        { value: "S. IX", label: "Cimientos de la colina catedralicia" },
+        { value: "2 km+", label: "Tramos caminables de muralla medieval" },
+        { value: "38 min", label: "AVE típico desde Barcelona" },
+      ],
+      fit: {
+        forYou: [
+          "Fans de localizaciones con calles reales",
+          "Fotografía de reflejos en el río",
+          "Ciudad pequeña y caminable",
+          "Comida con excursión a la Costa Brava",
+          "Noches tranquilas tras el ruido de gran ciudad",
+        ],
+        notForYou: [
+          "Horizonte de rascacielos",
+          "Playa en ciudad sin un corto desplazamiento",
+          "Densidad de museos como Madrid",
+          "Macrodiscotecas nocturnas",
+          "Silencio rural absoluto",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Casco antiguo y catedral",
+          summary: "Escaleras, claustro y judería.",
+          morning: "Aproximación a la catedral de Girona y terrazas exteriores",
+          afternoon: "Calles de la judería y museos pequeños",
+          evening: "Paseo por la Rambla de la Libertad y cena",
+        },
+        {
+          day: 2,
+          title: "Puentes del Onyar y murallas",
+          summary: "Fotos del río y paseo por la muralla.",
+          morning: "Puente Eiffel y miradores de las casas del río",
+          afternoon: "Tramo oriental de murallas con pausas de agua",
+          evening: "Aperitivo en la Plaça del Vi",
+        },
+        {
+          day: 3,
+          title: "Sant Pere o opción Costa Brava",
+          summary: "Monasterio en calma o media jornada en costa.",
+          morning: "Sant Pere de Galligants o Baños árabes",
+          afternoon: "Tren a Figueres para Dalí solo si tienes entrada—si no, Girona a ritmo lento",
+          evening: "Último paseo por el Onyar y maletas",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Fachadas del río",
+          description:
+            "El sol de media mañana pinta ocres y amarillos del Onyar. Cruza varios puentes para encuadrar distinto.",
+          image: {
+            src: "https://images.unsplash.com/photo-1562600873-9af178dec6d5?auto=format&fit=crop&w=1200&q=80",
+            alt: "Casas pintadas reflejadas en un río estrecho en Girona.",
+          },
+        },
+        {
+          title: "Escalinata de la catedral",
+          description:
+            "La escalinata amplia es un escenario. Llega temprano si buscas encuadres sin gente.",
+          image: {
+            src: "https://images.unsplash.com/photo-1591014761979-d111e1bc083c?auto=format&fit=crop&w=1200&q=80",
+            alt: "Fachada histórica de catedral y escalinata de piedra ancha en Girona.",
+          },
+        },
+        {
+          title: "Paseo de muralla",
+          description:
+            "Lleva agua; hay tramos soleados. Sal por las salidas señalizadas en lugar de retroceder con calor.",
+          image: {
+            src: "https://images.unsplash.com/photo-1555999468-27fcd7851d4f?auto=format&fit=crop&w=1200&q=80",
+            alt: "Muralla de piedra sobre tejados rojos y colinas verdes.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre para caminar con suavidad" },
+        { label: "Cómo llegar", value: "AVE o regional desde Barcelona-Sants" },
+        { label: "Transporte", value: "Centro a pie; autobuses si duermes en las afueras" },
+        { label: "Entradas", value: "Reserva combo catedral en fines de semana ocupados" },
+        { label: "Alojamiento", value: "Cerca de la Plaça de la Independència o casco antiguo" },
+      ],
+      goodToKnow: [
+        { label: "Multitudes", value: "Sábados mediodía con turismo de un día" },
+        { label: "Estación", value: "Temps de Flors en mayo—reserva alojamiento" },
+        { label: "Errores comunes", value: "Tratar Girona como parada de una hora solo para fotos" },
+        { label: "Idioma", value: "Catalán y castellano habituales; inglés en hoteles" },
+        { label: "Escaleras", value: "Catedral y murallas con desniveles" },
+      ],
+      checklist: [
+        "Baterías cargadas para la luz del río",
+        "Calzado con agarre en adoquines mojados",
+        "Reserva Dalí si vas a Figueres",
+        "Pañuelo ligero para entradas a iglesia",
+        "Una noche libre para tapeo sin reloj",
+        "Billetes de tren descargados sin conexión",
+      ],
+      faqs: [
+        {
+          question: "¿Girona es excursión desde Barcelona?",
+          answer:
+            "Sí, pero pernoctar permite murallas al atardecer y cenar sin mirar el reloj del último tren.",
+        },
+        {
+          question: "¿Hay muchas cuestas?",
+          answer:
+            "La catedral y las murallas exigen subidas. Planifica descansos y agua.",
+        },
+        {
+          question: "¿Necesito coche?",
+          answer:
+            "No para el casco. Alquila solo si encadenas calas de la Costa Brava en un día.",
+        },
+        {
+          question: "¿Cuándo es Temps de Flors?",
+          answer:
+            "Suele ser en mayo; las calles se llenan de flores—hermoso pero concurrido. Reserva hotel con margen.",
+        },
+        {
+          question: "¿Está llena en verano?",
+          answer:
+            "Los miradores del río se llenan por la tarde. Las murallas por la mañana suelen ir mejor.",
+        },
+        {
+          question: "¿Qué comer?",
+          answer:
+            "Prueba xuixo, vermut de horario y cocina catalana clásica. Almuerzo largo y cena tardía.",
+        },
+        {
+          question: "¿Se puede recorrer toda la muralla?",
+          answer:
+            "Hay tramos enlazados con salidas; no hace falta recorrer cada metro. Respeta horarios publicados.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "barcelona", city: "Barcelona", days: 3, description: "Gaudí, Barrio Gótico y brisa marina." },
+        { slug: "madrid", city: "Madrid", days: 3, description: "Museos, plazas y tapeo." },
+        { slug: "valencia", city: "Valencia", days: 3, description: "Jardín del Turia, casco y paella." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    haifa: {
+      slug: "haifa",
+      city: "Haifa",
+      country: "Israel",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Jardines en terrazas", "Vistas de puerto", "Contexto multiconfesional"],
+      style: ["Terrazas bahá'ís", "Colonia alemana", "Lomas del Carmelo"],
+      pacing: [
+        "Haifa se apila en vertical: planifica una salida de cuesta por día para cuidar rodillas y horarios.",
+        "Shabbat y fiestas mueven el transporte; deja margen el viernes por la tarde si dependes de autobuses.",
+        "Las noches en la Colonia Alemana son para pasear, no para meter más monumentos.",
+      ],
+      hero: {
+        title: "Haifa en 3 días",
+        subtitle:
+          "Jardines escalonados, brisa de bahía y barrios en ladera a ritmo que respeta calor y cuestas.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1573322867448-1ba626bd9aeb?auto=format&fit=crop&w=1600&q=80",
+          alt: "Vista elevada de los jardines bahá'ís y el Santuario del Báb en Haifa.",
+        },
+      },
+      cityStats: [
+        { value: "280K+", label: "Habitantes de la ciudad" },
+        { value: "19 terrazas", label: "Niveles de jardín sobre la bahía" },
+        { value: "Monte Carmelo", label: "Loma que vertebra la ciudad" },
+        { value: "90 km", label: "Distancia aproximada a Tel Aviv en tren" },
+      ],
+      fit: {
+        forYou: [
+          "Visitas de jardín con horario fijo",
+          "Paseos de barrio con pausa en cafés",
+          "Fotos de contraste puerto-loma",
+          "Calma relativa frente a noches de Tel Aviv",
+          "Historia leída en capas arquitectónicas",
+        ],
+        notForYou: [
+          "Solo casco medieval europeo",
+          "Playa en ciudad como eje único",
+          "Poca tolerancia a controles en viajes regionales",
+          "Itinerarios solo planos",
+          "Vida nocturna centrada en alcohol como prioridad",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Mirador de los jardines bahá'ís",
+          summary: "Vistas altas y contexto en centro de visitantes.",
+          morning: "Miradores de la calle Yefe Nof y orientación del jardín",
+          afternoon: "Paseo por la Colonia Alemana y almuerzo tardío",
+          evening: "Caminata nocturna por el bulevar Ben Gurión",
+        },
+        {
+          day: 2,
+          title: "Centro y puerto",
+          summary: "Nivel de bahía sin subidas constantes.",
+          morning: "Paseo por la zona portuaria y contexto marítimo",
+          afternoon: "Museo nacional de ciencia o Madatech si viajas en familia",
+          evening: "Cena con brisa cerca del casco bajo",
+        },
+        {
+          day: 3,
+          title: "Stella Maris o naturaleza del Carmelo",
+          summary: "Iglesia, teleférico opcional y aire de cumbre.",
+          morning: "Zona de Stella Maris y panorámicas",
+          afternoon: "Sendero corto en parque nacional del Carmelo o café largo",
+          evening: "Repetir atardecer en un mirador favorito",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Verde en terrazas",
+          description:
+            "Los jardines siguen normas estrictas de visita. Lee la guía oficial de acceso antes de fijar el día.",
+          image: {
+            src: "https://images.unsplash.com/photo-1611348571902-76b37cd4db11?auto=format&fit=crop&w=1200&q=80",
+            alt: "Jardines simétricos en terrazas empinadas sobre una bahía.",
+          },
+        },
+        {
+          title: "Calles de la colonia",
+          description:
+            "Casas templeras restauradas albergan cafés y tiendas pequeñas—ideal para mirar sin prisa.",
+          image: {
+            src: "https://images.unsplash.com/photo-1566737230979-f9850f9aacae?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calle arbolada con edificios históricos en ciudad mediterránea.",
+          },
+        },
+        {
+          title: "Bahía y barcos",
+          description:
+            "La luz portuaria cambia a lo largo del día. Un banco vale más que una lista de panorámicas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1542037371027-348bdd1b6172?auto=format&fit=crop&w=1200&q=80",
+            alt: "Puerto con grúas y agua tranquila bajo cielo cálido.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Marzo a mayo u octubre a noviembre para caminar en loma" },
+        { label: "Cómo llegar", value: "Tren desde Tel Aviv HaHaganah; autobuses urbanos" },
+        { label: "Transporte", value: "Teleférico del Carmelo según días de operación" },
+        { label: "Entradas", value: "Confirma ventanas de registro para recorridos bahá'ís con antelación" },
+        { label: "Alojamiento", value: "Colonia Alemana o Carmelo bajo para noches más planas" },
+      ],
+      goodToKnow: [
+        { label: "Shabbat", value: "Del viernes al sábado hay menos autobuses—planifica taxi o caminar" },
+        { label: "Seguridad", value: "Sigue orientación local; lleva identificación si viajas a otras zonas" },
+        { label: "Calor", value: "Los caminos del jardín expuesto castigan al mediodía" },
+        { label: "Vestimenta", value: "Ropa modesta en sitios religiosos" },
+        { label: "Cuestas", value: "Las escaleras suman—reparte subidas entre días" },
+      ],
+      checklist: [
+        "Normas de visita bahá'ís actualizadas",
+        "Apps de transporte con mapas offline",
+        "Protección solar y agua para terrazas",
+        "Horario de shabbat de tu semana",
+        "Cena del sábado reservada si te importa el horario",
+        "Pequeños shekel para mercados",
+      ],
+      faqs: [
+        {
+          question: "¿Se entra libremente a los jardines bahá'ís?",
+          answer:
+            "Los bordes y miradores suelen ser públicos; los recorridos estructurados a menudo requieren registro. Consulta la web oficial.",
+        },
+        {
+          question: "¿Es Haifa más barata que Tel Aviv?",
+          answer:
+            "A veces un poco, pero los hoteles suben en festivos. Reserva con margen los fines de semana.",
+        },
+        {
+          question: "¿Necesito hebreo?",
+          answer:
+            "El inglés ayuda en muchos sitios turísticos. Unas frases de hebreo o árabe abren puertas.",
+        },
+        {
+          question: "¿Es fiable el teleférico?",
+          answer:
+            "Puede cerrar por viento o mantenimiento. Ten plan B en autobús o taxi entre Carmelo alto y bajo.",
+        },
+        {
+          question: "¿Hay playa en Haifa?",
+          answer:
+            "Existen playas; calidad y banderas varían por temporada. Pregunta localmente antes de planificar un día de baño.",
+        },
+        {
+          question: "¿Cómo llego a Acre?",
+          answer:
+            "Tren corto hacia el norte; excursión posible manteniendo noches en Haifa para regresos tranquilos.",
+        },
+        {
+          question: "¿Y Nazaret?",
+          answer:
+            "Accesible en autobús o tour; es día completo. Reduce sitios en Haifa si la añades a mitad de viaje.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "tel-aviv", city: "Tel Aviv", days: 3, description: "Playas, Bauhaus y mercados de comida." },
+        { slug: "jerusalem", city: "Jerusalén", days: 3, description: "Calles de la ciudad vieja y luz de colina." },
+        { slug: "athens", city: "Atenas", days: 3, description: "Colinas antiguas y tardes mediterráneas." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    messina: {
+      slug: "messina",
+      city: "Mesina",
+      country: "Italia",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Vistas del estrecho", "Primer contacto con Sicilia", "Nodos de ferry"],
+      style: ["Plazas barrocas", "Paseo costero", "Reloj astronómico"],
+      pacing: [
+        "Mesina encaja si buscas luz del estrecho y detalle barroco sin multitudes al estilo Roma.",
+        "Los días de ferry mueven el reloj—si llegas o sales por mar, mantén el plan del día ligero.",
+        "El calor en el paseo marítimo es real; desplaza iglesias y museos a la mañana.",
+      ],
+      hero: {
+        title: "Mesina en 3 días",
+        subtitle:
+          "Panorámicas del estrecho, reloj animado y centro caminable con margen de aire.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1666079757423-7cb18ec1865d?auto=format&fit=crop&w=1600&q=75",
+          alt: "Panorama urbano de Mesina con aguja de catedral y árboles en el centro histórico, Sicilia.",
+        },
+      },
+      cityStats: [
+        { value: "220K+", label: "Habitantes de la ciudad" },
+        { value: "3 km", label: "Ancho aproximado del estrecho hacia Calabria" },
+        { value: "S. XII", label: "Era de cimientos de la catedral" },
+        { value: "Gran", label: "Puerto siciliano de ferry y cruceros" },
+      ],
+      fit: {
+        forYou: [
+          "Primeras noches en Sicilia en tren o ferry",
+          "Paseos con montaña al fondo",
+          "Interiores barrocos sin colas largas",
+          "Curiosidad de excursión a Taormina",
+          "Noches portuarias sin prisa",
+        ],
+        notForYou: [
+          "Solo senderismo alpino",
+          "Densidad de canales venecianos",
+          "Estética rural inglesa estricta",
+          "Cero interés en arquitectura religiosa",
+          "Viajes solo de fiesta nocturna",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Duomo y reloj",
+          summary: "Geometría de plaza y figuras en movimiento.",
+          morning: "Plaza del Duomo e interior de la catedral",
+          afternoon: "Hora del reloj astronómico y cafés de la plaza",
+          evening: "Atardecer en el lungomare",
+        },
+        {
+          day: 2,
+          title: "Museo regional y estrecho",
+          summary: "Contexto interior y aire abierto.",
+          morning: "Bloque en MuME u otro museo clave",
+          afternoon: "Mirador de Torre Faro o tramo costero en autobús",
+          evening: "Cena de pescado con vistas al estrecho",
+        },
+        {
+          day: 3,
+          title: "Opción Taormina o Mesina lenta",
+          summary: "Pueblo en colina o repetir favoritos.",
+          morning: "Tren a Taormina-Giardini si hay billete",
+          afternoon: "Teatro griego por fuera o regreso para descanso",
+          evening: "Último paseo por el paseo marítimo",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Luz del estrecho",
+          description:
+            "La bruma matinal suaviza Calabria; al atardecer los perfiles se definen más.",
+          image: {
+            src: "https://images.unsplash.com/photo-1539650116574-75c0c6d34a95?auto=format&fit=crop&w=1200&q=80",
+            alt: "Costa siciliana con mar profundo hacia el estrecho de Mesina.",
+          },
+        },
+        {
+          title: "Interiores barrocos",
+          description:
+            "Las capillas laterales merecen mirar despacio. Respeta horarios de misa.",
+          image: {
+            src: "https://images.unsplash.com/photo-1528312635006-8ea0bc49ec63?auto=format&fit=crop&w=1200&q=80",
+            alt: "Fachada de iglesia barroca siciliana con piedra labrada.",
+          },
+        },
+        {
+          title: "Ritmo del paseo",
+          description:
+            "La gente local usa el frente marítimo para ejercicio y charla. Únete al ritmo sin medir kilómetros.",
+          image: {
+            src: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+            alt: "Barcos en puerto y actividad junto al mar en Sicilia.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre para paseo costero más suave" },
+        { label: "Cómo llegar", value: "Ferry desde Villa San Giovanni; tren por la costa siciliana" },
+        { label: "Transporte", value: "Centro a pie; autobús a Torre Faro" },
+        { label: "Entradas", value: "Reserva tren a Taormina con antelación domingos de verano" },
+        { label: "Alojamiento", value: "Cerca del Duomo o del lungomare" },
+      ],
+      goodToKnow: [
+        { label: "Cruceros", value: "Los días de barco llenan el centro—museo por la mañana" },
+        { label: "Reloj", value: "Confirma horarios del espectro del reloj para no esperar al sol" },
+        { label: "Ferry", value: "El viento puede retrasar cruces del estrecho—margen antes de vuelos" },
+        { label: "Idioma", value: "Italiano principal; frases básicas ayudan" },
+        { label: "Sol", value: "UV fuerte en el paseo incluso en primavera" },
+      ],
+      checklist: [
+        "Anota horas del reloj al llegar",
+        "Euros en efectivo para ferry y snacks",
+        "Capa ligera para brisa marina",
+        "Tren de vuelta de Taormina si el día es ajustado",
+        "Ropa modesta en culto activo",
+        "Una comida de pez espada o pasta local",
+      ],
+      faqs: [
+        {
+          question: "¿Mesina es solo escala de ferry?",
+          answer:
+            "Muchos la usan así, pero dos noches permiten plaza, reloj y luz del estrecho sin correr al siguiente puerto.",
+        },
+        {
+          question: "¿Se ve el Etna desde la ciudad?",
+          answer:
+            "A veces en mañanas claras desde puntos altos. No planifiques fotos asumiendo vista garantizada.",
+        },
+        {
+          question: "¿Qué tan lejos está Taormina?",
+          answer:
+            "Menos de una hora en tren hasta Giardini-Naxos más subida al pueblo. Un día completo si vas con calma.",
+        },
+        {
+          question: "¿Es segura de noche?",
+          answer:
+            "Quédate en paseo iluminado y plazas céntricas; taxi autorizado si dudas.",
+        },
+        {
+          question: "¿Y Reggio Calabria?",
+          answer:
+            "Ferry corto para otra mirada al estrecho; esta guía asume noches en Sicilia.",
+        },
+        {
+          question: "¿Necesito coche?",
+          answer:
+            "No para el centro de Mesina. Alquila si encadenas pueblos de montaña en bucle.",
+        },
+        {
+          question: "¿Cuándo evitar multitudes de crucero?",
+          answer:
+            "Consulta calendarios de barcos; media mañana en días de atraque suele congestionar el puerto.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "palermo", city: "Palermo", days: 3, description: "Mercados, palacios y capas normandas." },
+        { slug: "catania", city: "Catania", days: 3, description: "Piedra barroca y el Etna en el horizonte." },
+        { slug: "naples", city: "Nápoles", days: 3, description: "Energía del centro y bahía." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    salerno: {
+      slug: "salerno",
+      city: "Salerno",
+      country: "Italia",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Puerta al Amalfi", "Paseos en lungomare", "Base en Campania más tranquila"],
+      style: ["Centro medieval", "Atardeceres en el mar", "Enlaces en ferry"],
+      pacing: [
+        "Salerno brilla cuando tratas el ferry como parte del día, no como carrera desde taquilla a pasarela.",
+        "Los callejones medievales son cortos pero empinados: alterna con kilómetros planos del lungomare.",
+        "Si te tienta Positano, acepta que los ferris de regreso pueden ir tarde en temporada.",
+      ],
+      hero: {
+        title: "Salerno en 3 días",
+        subtitle:
+          "Lungomare largo, casco antiguo compacto y acceso en ferry hacia el sur sin meter cada pueblo famoso en un solo día.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1764586118555-6166ff75e6ec?auto=format&fit=crop&w=1600&q=80",
+          alt: "Positano en acantilado, costa Amalfitana (provincia de Salerno).",
+        },
+      },
+      cityStats: [
+        { value: "130K+", label: "Habitantes de la ciudad" },
+        { value: "Duomo", label: "Mosaicos de herencia normanda" },
+        { value: "Ferries", label: "Enlaces costeros hacia Amalfi y Capri en temporada" },
+        { value: "40 min", label: "Tren rápido típico a Nápoles" },
+      ],
+      fit: {
+        forYou: [
+          "Brisa marina con alojamiento más sencillo que Positano",
+          "Callejones medievales sin laberinto veneciano",
+          "Planes tren más ferry",
+          "Atardeceres largos en paseo",
+          "Excursiones con regreso realista",
+        ],
+        notForYou: [
+          "Solo acantilado sin desplazarte",
+          "Playas vacías en agosto",
+          "Cero tolerancia a escaleras",
+          "Silencio nocturno estricto—el centro puede animarse",
+          "Baño invernal como eje",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Duomo y centro storico",
+          summary: "Mosaicos, callejones y jardín de la Minerva.",
+          morning: "Visita al duomo y mosaicos del atrio",
+          afternoon: "Bucle por Via dei Mercanti y jardín de la Minerva",
+          evening: "Atardecer en el lungomare Trieste",
+        },
+        {
+          day: 2,
+          title: "Amalfi en ferry",
+          summary: "Llegada costera sin conducir acantilados.",
+          morning: "Ferry a Amalfi; catedral y plaza",
+          afternoon: "Tramo de paseo costero o café tranquilo",
+          evening: "Ferry de vuelta; cena ligera cerca del puerto",
+        },
+        {
+          day: 3,
+          title: "Vietri sul Mare o Paestum",
+          summary: "Cerámica o templos griegos.",
+          morning: "Tren a Vietri por calles de cerámica o a Paestum por ruinas",
+          afternoon: "Regreso lento con paradas de helado",
+          evening: "Último paseo por el casco antiguo y maletas",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Kilómetros de lungomare",
+          description:
+            "El paseo invita a repetir. Palmeras y sombra convierten la tarde en plan legítimo.",
+          image: {
+            src: "https://images.unsplash.com/photo-1523906834651-245e5e503437?auto=format&fit=crop&w=1200&q=80",
+            alt: "Frente marítimo mediterráneo con paseo y colinas lejanas.",
+          },
+        },
+        {
+          title: "Trama medieval",
+          description:
+            "Las escaleras unen plazas pequeñas. Marca tu pensión en el mapa para volver de noche.",
+          image: {
+            src: "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calle estrecha europea con escaleras de piedra entre edificios viejos.",
+          },
+        },
+        {
+          title: "Luz en ferry",
+          description:
+            "En día claro, la cubierta supera al asiento interior. Protégete del sol y del viento.",
+          image: {
+            src: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+            alt: "Ferry de pasajeros en agua azul hacia acantilados costeros.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre para ferris y calor moderado" },
+        { label: "Cómo llegar", value: "Tren Freccia desde Nápoles o conexiones desde Roma" },
+        { label: "Transporte", value: "Casco a pie; ferris desde Molo Manfredi en temporada" },
+        { label: "Entradas", value: "Compra billetes de ferry por la mañana o online cuando publiquen horarios" },
+        { label: "Alojamiento", value: "Centro histórico o lungomare para noches planas" },
+      ],
+      goodToKnow: [
+        { label: "Verano", value: "Los ferris llenan el fin de semana—llega temprano por sitio en cubierta" },
+        { label: "Mar", value: "Días gruesos cancelan lanchas pequeñas—ten plan en tierra" },
+        { label: "Equipaje", value: "Las escaleras del centro castigan maletas pesadas—viaja ligero" },
+        { label: "Aparcamiento", value: "ZTL estrictas—el tren suele ser más simple" },
+        { label: "Efectivo", value: "Algunos bares de café prefieren efectivo" },
+      ],
+      checklist: [
+        "Captura de horarios de ferry sin conexión",
+        "Pastillas para mareo si dudas",
+        "Calzado con agarre en piedra mojada",
+        "Entrada a Paestum online en fin de semana",
+        "Cortavientos ligero para cubierta",
+        "Una cena sin reserva obligatoria",
+      ],
+      faqs: [
+        {
+          question: "¿Sirve Salerno como base del Amalfi?",
+          answer:
+            "Sí para días en ferry y manejo de equipaje más sencillo que en escalones de Positano. Conducir la costa es otra historia.",
+        },
+        {
+          question: "¿Puedo ir a Positano en un día?",
+          answer:
+            "Posible en ferry o autobús, pero las colas de verano pican. Sal temprano y acepta regreso largo.",
+        },
+        {
+          question: "¿Ruido en el centro?",
+          answer:
+            "Las noches pueden animarse cerca de bares. Elige lungomare si necesitas silencio antes.",
+        },
+        {
+          question: "¿Hay playa en ciudad?",
+          answer:
+            "Hay tramos hacia el este; calidad y aforo varían—pregunta en la semana del viaje.",
+        },
+        {
+          question: "¿Necesito italiano?",
+          answer:
+            "Ayuda en comercios pequeños; hay inglés básico en zonas turísticas.",
+        },
+        {
+          question: "¿Si cancelan ferris?",
+          answer:
+            "Pivota a Vietri, Paestum o un museo lento—forzar coche si no te gusta conducir no compensa.",
+        },
+        {
+          question: "¿Cómo se compara con Sorrento?",
+          answer:
+            "Salerno se siente más cotidiana, a menudo más económica, con buen tren. Sorrento tiende más a resort empaquetado.",
+        },
+      ],
+      relatedItineraries: [
+        { slug: "naples", city: "Nápoles", days: 3, description: "Pizza, arqueología y energía de bahía." },
+        { slug: "sorrento", city: "Sorrento", days: 3, description: "Calles en acantilado y atardeceres en marina." },
+        { slug: "rome", city: "Roma", days: 3, description: "Iconos antiguos, plazas y profundidad vaticana." },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    bolzano: {
+      slug: "bolzano",
+      city: "Bolzano",
+      country: "Italia",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Mezcla montaña y ciudad", "Caminantes tranquilos"],
+      style: ["Calles con pórticos", "Mañanas de museo", "Pausas junto al río"],
+      pacing: [
+        "Bolzano funciona mejor si tratas el casco como un mundo pequeño: bucles cortos, cafés largos y un foco claro por día.",
+        "Deja margen para el Talvera y miradores sin perseguir cada teleférico: elige un punto y disfrútalo.",
+        "Las noches se enfrían cerca de los Alpes; lleva una capa y cierra con cenas tranquilas junto a los arcos.",
+      ],
+      hero: {
+        title: "Bolzano en 3 días",
+        subtitle:
+          "Recorre la puerta alpina italiana con pórticos, senderos de río y horizontes de montaña.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1601893920895-e3ed4a655d27?auto=format&fit=crop&w=1600&q=80",
+          alt: "Lago de Braies en los Dolomitas, Tirol del Sur cerca de Bolzano.",
+        },
+      },
+      cityStats: [
+        { value: "100k+", label: "Habitantes en el área metropolitana" },
+        { value: "5.000+", label: "Años de historia comercial alpina" },
+        { value: "15+", label: "Museos y galerías" },
+        { value: "300+", label: "Días soleados típicos en verano" },
+      ],
+      fit: {
+        forYou: [
+          "Cultura italiana y tirolesa en una base",
+          "Casco caminable y transporte sencillo",
+          "Museos con pausas breves en la naturaleza",
+          "Cocina con notas alpinas y mediterráneas",
+          "Ritmo calmado con anclas diarias claras",
+        ],
+        notForYou: [
+          "Solo playa sin interrupciones",
+          "Vida nocturna de club hasta tarde",
+          "Solo gran metrópoli",
+          "Clima tropical",
+          "Esquí sin tiempo de ciudad",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Piazza Walther y pórticos",
+          summary: "Plazas centrales, catedral y vida bajo los soportales.",
+          morning: "Piazza Walther y catedral de Bolzano",
+          afternoon: "Via dei Portici y Piazza delle Erbe",
+          evening: "Paseo por el río Talvera",
+        },
+        {
+          day: 2,
+          title: "Ötzi y borde vinícola",
+          summary: "Museo profundo y tarde suave hacia las colinas.",
+          morning: "Museo Arqueológico del Alto Adigio (Ötzi)",
+          afternoon: "Autobús o camino suave hacia Gries y viñedos",
+          evening: "Vinoteca o trattoria en el casco",
+        },
+        {
+          day: 3,
+          title: "Castillos y miradores",
+          summary: "Mareccio o Runkelstein sin abarrotar entradas.",
+          morning: "Jardines y exterior del castillo Maretsch",
+          afternoon: "Camino hacia Runkelstein y sendero en cuesta",
+          evening: "Copa en azotea o mirador en funicular si abre",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Pórticos y plazas de mercado",
+          description:
+            "Los soportales enmarcan la vida diaria. Los recados matutinos se alargan en espresso sin horario rígido.",
+          image: {
+            src: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+            alt: "Cumbres dolomíticas sobre tejados cerca de Bolzano.",
+          },
+        },
+        {
+          title: "Pasarelas del Talvera",
+          description:
+            "Senderos planos entre árboles separan barrios y sirven para despejar la mente tras bloques de visitas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&q=80",
+            alt: "Lago alpino reflejando montañas en el Alto Adigio.",
+          },
+        },
+        {
+          title: "Colinas de viñedos al borde",
+          description:
+            "Autobuses cortos llevan a terrazas. Una tarde allí equilibra mañanas en el centro.",
+          image: {
+            src: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80",
+            alt: "Viñedos en terrazas bajo cielo despejado.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre a octubre con cielos claros" },
+        { label: "Aeropuerto", value: "Autobuses regionales o tren vía Verona e Innsbruck" },
+        { label: "Transporte", value: "Casco a pie; autobuses a las colinas" },
+        { label: "Entradas", value: "Reserva Ötzi en fines de semana ocupados" },
+        { label: "Alojamiento", value: "Casco histórico o Gries junto al río" },
+      ],
+      checklist: [
+        "Frases offline en italiano y alemán",
+        "Chaqueta ligera para el fresco nocturno",
+        "Calzado con agarre en adoquines",
+        "Reserva de museo si visitas sábado",
+        "Botella de agua reutilizable",
+        "Una tarde sin plan cerrado",
+      ],
+      faqs: [
+        {
+          question: "¿Bolzano es caminable?",
+          answer:
+            "Sí. El casco es compacto y los paseos del río suman kilómetros planos sin saturar el día.",
+        },
+        {
+          question: "¿Necesito coche?",
+          answer:
+            "No para la ciudad. Autobuses cubren colinas; el tren enlaza norte y sur si prolongas viaje.",
+        },
+        {
+          question: "¿Se habla alemán?",
+          answer:
+            "El Alto Adigio es bilingüe. Menús y carteles suelen mostrar italiano y alemán, lo que simplifica orientarse.",
+        },
+        {
+          question: "¿Bastan tres días?",
+          answer:
+            "Sí para lo esencial y una tarde más lenta en naturaleza sin correr cada mirador alpino.",
+        },
+      ],
+      relatedItineraries: [
+        {
+          slug: "verona",
+          city: "Verona",
+          days: 3,
+          description: "Arena, curvas del Adigio y calles medievales compactas.",
+        },
+        {
+          slug: "innsbruck",
+          city: "Innsbruck",
+          days: 2,
+          description: "Casco alpino con miradores fáciles al valle.",
+        },
+        {
+          slug: "venice",
+          city: "Venecia",
+          days: 3,
+          description: "Canales, iglesias y ritmo lento entre islas.",
+        },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    matera: {
+      slug: "matera",
+      city: "Matera",
+      country: "Italia",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Historia y paisaje", "Caminantes tranquilos"],
+      style: ["Barrios de piedra", "Miradores", "Cocina local"],
+      pacing: [
+        "Matera pide tramos cortos de escaleras y descanso real. Alterna miradores con cafés a la sombra.",
+        "Reparte iglesias rupestres y vistas en varios días para no castigar rodillas ni cámaras.",
+        "Las noches sobre los Sassi son silenciosas y cinematográficas; deja una noche sin reserva forzada.",
+      ],
+      hero: {
+        title: "Matera en 3 días",
+        subtitle:
+          "Explora barrios de piedra antigua, vistas al barranco y noches lentas del sur italiano.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1528214096798-37891d32174c?auto=format&fit=crop&w=1600&q=80",
+          alt: "Atardecer sobre los Sassi de Matera enmarcado desde una cueva en la ladera.",
+        },
+      },
+      cityStats: [
+        { value: "9k+", label: "Habitantes en el área histórica" },
+        { value: "UNESCO", label: "Patrimonio de los distritos Sassi" },
+        { value: "150+", label: "Iglesias rupestres en la región" },
+        { value: "7.000+", label: "Años de ocupación en capas" },
+      ],
+      fit: {
+        forYou: [
+          "Arquitectura de piedra y miradores dramáticos",
+          "Días compactos con gran recompensa visual",
+          "Cocina lucana y cultura del pan",
+          "Fotografía en hora dorada",
+          "Ritmo lento sin presión de playa",
+        ],
+        notForYou: [
+          "Ciudad plana solo con ascensores",
+          "Circuito solo de vida nocturna",
+          "Viaje solo de playa",
+          "Atracciones tipo parque temático",
+          "Quien evita escaleras",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Introducción al Sasso Barisano",
+          summary: "Calles, miradores y primer contacto con la ciudad de piedra.",
+          morning: "Piazza Vittorio Veneto y miradores del Belvedere",
+          afternoon: "Calles del Sasso Barisano y zona Casa Grotta",
+          evening: "Terraza al atardecer sobre el barranco",
+        },
+        {
+          day: 2,
+          title: "Iglesias rupestres y Civita",
+          summary: "Rocas sagradas y parte alta del casco.",
+          morning: "Conjunto de chiese rupestri con horarios",
+          afternoon: "Civita y tranquilidad en la plaza de la catedral",
+          evening: "Cena lenta en cueva restaurante",
+        },
+        {
+          day: 3,
+          title: "Murgia y Matera contemporánea",
+          summary: "Al otro lado del desfiladero y cultura reciente.",
+          morning: "Sendero o taxi hacia miradores de Murgia Timone",
+          afternoon: "Museo de escultura contemporánea o palazzi",
+          evening: "Paseo final y vino local",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Barrios de piedra en terrazas",
+          description:
+            "Los Sassi apilan casas e iglesias. Las mañanas refrescan en calles este; dosifica subidas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calle estrecha de piedra entre los Sassi de Matera.",
+          },
+        },
+        {
+          title: "Luz del barranco al atardecer",
+          description:
+            "La Gravina marca el horizonte. Una tarde lenta en un belvedere vale más que kilómetros de día.",
+          image: {
+            src: "https://images.unsplash.com/photo-1533395427226-1b7cc9e5dcd0?auto=format&fit=crop&w=1200&q=80",
+            alt: "Viviendas de piedra del Sassi junto al barranco al atardecer.",
+          },
+        },
+        {
+          title: "Pan y cocina lucana",
+          description:
+            "Pane di Matera y peperoni cruschi marcan comidas sencillas. Comparte platos para probar sin exceso.",
+          image: {
+            src: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
+            alt: "Mesa rústica italiana con pan, verduras y aceite de oliva.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre para escaleras suaves" },
+        { label: "Aeropuerto", value: "Autobús desde Bari o tren con enlace regional" },
+        { label: "Transporte", value: "Sassi a pie; taxi para saltos entre crestas" },
+        { label: "Entradas", value: "Reserva combinadas de iglesias en fin de semana" },
+        { label: "Alojamiento", value: "Sasso Barisano o meseta central con menos subidas" },
+      ],
+      checklist: [
+        "Calzado con buen agarre en piedra lisa",
+        "Linterna pequeña para callejones oscuros",
+        "Gorra para miradores expuestos",
+        "Mapas offline de atajos con escaleras",
+        "Hidratación antes de subidas de tarde",
+        "Reserva una cena en cueva con antelación",
+      ],
+      faqs: [
+        {
+          question: "¿Matera es dura para caminar?",
+          answer:
+            "Hay cuestas y escaleras. Inserta pausas, elige bien el alojamiento y evita correr entre crestas.",
+        },
+        {
+          question: "¿Cuántos días necesito?",
+          answer:
+            "Tres días cubren distritos principales, un bloque de iglesias rupestres y una mañana final tranquila.",
+        },
+        {
+          question: "¿Puedo ver iglesias sin guía?",
+          answer:
+            "Algunos sitios permiten entrada libre; otros piden hora. Revisa pases combinados para no repetir colas.",
+        },
+        {
+          question: "¿Verano es demasiado caliente?",
+          answer:
+            "Julio y agosto castigan en piedra. Primavera y otoño suavizan el ritmo.",
+        },
+      ],
+      relatedItineraries: [
+        {
+          slug: "naples",
+          city: "Nápoles",
+          days: 3,
+          description: "Energía de bahía, arqueología y calles en capas.",
+        },
+        {
+          slug: "bari",
+          city: "Bari",
+          days: 3,
+          description: "Casco adriático y ritmo de marisco.",
+        },
+        {
+          slug: "rome",
+          city: "Roma",
+          days: 3,
+          description: "Iconos antiguos, plazas y profundidad vaticana.",
+        },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    lugano: {
+      slug: "lugano",
+      city: "Lugano",
+      country: "Suiza",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Amantes del lago", "Primera vez", "Caminantes tranquilos"],
+      style: ["Paseos del lago", "Miradores", "Cafés ticineses"],
+      pacing: [
+        "Lugano premia pocas millas junto al agua y pausas largas. Reserva un mirador para mitad de viaje, no cada mañana.",
+        "Funiculares y barcos son herramientas de ritmo, no lista cerrada. Salta un trayecto si el cielo apaga el paisaje.",
+        "Las tardes reflejan calor; las mañanas son mejores para subidas.",
+      ],
+      hero: {
+        title: "Lugano en 3 días",
+        subtitle:
+          "Rodea el lago con calma, sube a un buen mirador y deja que los cafés ticineses marquen el reloj.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1597676685077-eb9176b25b57?auto=format&fit=crop&w=1600&q=80",
+          alt: "Vista aérea de Lugano en el lago homónimo con los Alpes alrededor.",
+        },
+      },
+      cityStats: [
+        { value: "60k+", label: "Habitantes en la ciudad" },
+        { value: "48 km", label: "Costa para recorrer por tramos" },
+        { value: "300+", label: "Días soleados medios al año" },
+        { value: "11", label: "Distritos oficiales" },
+      ],
+      fit: {
+        forYou: [
+          "Ritmo suizo de habla italiana",
+          "Barcos y colinas suaves",
+          "Mañanas de museo compactas",
+          "Comidas al aire libre con vistas",
+          "Tren fácil hacia Milán y Alpes",
+        ],
+        notForYou: [
+          "Base solo de esquí en altura",
+          "Grandes distritos de fiesta nocturna",
+          "Fiestas de playa low cost",
+          "Clima tropical",
+          "Ciudad sin ninguna pendiente",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Parco Ciani y casco",
+          summary: "Millas planas del lago y arcadas comerciales.",
+          morning: "Paseo del Parco Ciani hacia Gandria",
+          afternoon: "Piazza della Riforma y arcadas de Nassa",
+          evening: "Atardecer en el lungolago",
+        },
+        {
+          day: 2,
+          title: "Monte Brè o San Salvatore",
+          summary: "Un día de mirador, sin complicar.",
+          morning: "Funicular a la terraza del Monte Brè",
+          afternoon: "Caminata ligera y café en altura",
+          evening: "Cena informal junto al lago",
+        },
+        {
+          day: 3,
+          title: "Cultura y barco lento",
+          summary: "Arte y perspectiva desde el agua.",
+          morning: "Visita enfocada al LAC o museo de arte",
+          afternoon: "Salto en barco público si hay horario",
+          evening: "Último paseo con helado en el paseo",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Simetría del frente lacustre",
+          description:
+            "La luz matutina calma el agua. Camina en una dirección y vuelve en barco o bus para ahorrar rodillas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
+            alt: "Lago de montaña con agua clara y laderas boscosas.",
+          },
+        },
+        {
+          title: "Miradores en cuesta",
+          description:
+            "Las terrazas sobre la ciudad enmarcan el lago como mapa. Un mirador basta; no acumules varios con prisa.",
+          image: {
+            src: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80",
+            alt: "Cresta alpina sobre un valle de lago azul.",
+          },
+        },
+        {
+          title: "Arcadas y plazas",
+          description:
+            "Los soportales salvan chaparrones breves. Úsalos para enlazar cafés sin convertir compras en meta.",
+          image: {
+            src: "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&w=1200&q=80",
+            alt: "Terraza de café europea bajo arcos de piedra.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Abril a junio o septiembre para vistas claras" },
+        { label: "Aeropuerto", value: "Enlaces desde Milán Malpensa o autobús Lugano-Agno" },
+        { label: "Transporte", value: "Barcos, buses y funiculares; pase diario si saltas mucho" },
+        { label: "Entradas", value: "Reserva exposiciones del LAC en festivos" },
+        { label: "Alojamiento", value: "Frente al lago o Paradiso para caminos planos" },
+      ],
+      checklist: [
+        "Revisa cortes de mantenimiento de funiculares",
+        "Gafas de sol por reflejo en el agua",
+        "Francos y tarjetas, ambos útiles",
+        "Horarios de barco offline",
+        "Capas para cimas",
+        "Una comida sin reserva",
+      ],
+      faqs: [
+        {
+          question: "¿Lugano es caro?",
+          answer:
+            "Aplican precios suizos. Picnic de panadería y cenas puntuales equilibran sin correr.",
+        },
+        {
+          question: "¿Necesito italiano?",
+          answer:
+            "El italiano domina; alemán e inglés aparecen en turismo. Frases básicas ayudan en comercios pequeños.",
+        },
+        {
+          question: "¿Puedo nadar?",
+          answer:
+            "Hay lidos de temporada. El agua se mantiene fresca; piensa en chapuzones cortos.",
+        },
+        {
+          question: "¿Bastan tres días?",
+          answer:
+            "Sí para la ciudad, una subida y una mañana de museo sin sensación de falta.",
+        },
+      ],
+      relatedItineraries: [
+        {
+          slug: "zurich",
+          city: "Zúrich",
+          days: 3,
+          description: "Lago, tranvías, museos y paseos del Limmat.",
+        },
+        {
+          slug: "geneva",
+          city: "Ginebra",
+          days: 3,
+          description: "Chorro de agua, casco y ritmo lacustre.",
+        },
+        {
+          slug: "milan",
+          city: "Milán",
+          days: 3,
+          description: "Duomo, diseño y aperitivo urbano.",
+        },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    montreux: {
+      slug: "montreux",
+      city: "Montreux",
+      country: "Suiza",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Lago Lemán", "Primera vez", "Historia musical"],
+      style: ["Paseo del lago", "Castillo", "Viñedos en terraza"],
+      pacing: [
+        "Montreux es lineal: camina una dirección por la mañana y vuelve en tren o barco para no duplicar fatiga.",
+        "Empareja Chillon con una tarde ligera; es fácil saturar el primer día.",
+        "Lavaux premia la paciencia más que el kilometraje; elige una terraza y quédate.",
+      ],
+      hero: {
+        title: "Montreux en 3 días",
+        subtitle:
+          "Recorre el lago Lemán, visita el castillo de Chillon y deja tardes para terrazas y trenes.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1684050879098-87151a1ded14?auto=format&fit=crop&w=1600&q=80",
+          alt: "Lago Lemán con flores de primavera y el castillo de Chillon cerca de Montreux.",
+        },
+      },
+      cityStats: [
+        { value: "25k+", label: "Habitantes en el municipio" },
+        { value: "Siglo XI", label: "Orígenes del castillo de Chillon" },
+        { value: "50+", label: "Años de legado del festival de jazz" },
+        { value: "30 km", label: "Radio cómodo en tren hasta Lausana" },
+      ],
+      fit: {
+        forYou: [
+          "Paseos lacustres sin coche",
+          "Interiores de castillo histórico",
+          "Trenes escénicos hacia viñedos",
+          "Ritmo de balneario calmado",
+          "Memorabilia de Queen y música",
+        ],
+        notForYou: [
+          "Solo rascacielos urbanos",
+          "Playas tropicales",
+          "Circuito solo de hostales baratos",
+          "Distritos solo de club nocturno",
+          "Clima desértico",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Chillon y el paseo",
+          summary: "Castillo por la mañana, paseo plano después.",
+          morning: "Interior del castillo de Chillon y sendero del lago",
+          afternoon: "Promenade Fleuri hacia Clarens",
+          evening: "Cena tranquila con vistas al agua",
+        },
+        {
+          day: 2,
+          title: "Vevey y terrazas",
+          summary: "Salto corto, mercado y miradores fáciles.",
+          morning: "Tren al puerto antiguo de Vevey",
+          afternoon: "Zona del tenedor y calles de mercado",
+          evening: "Regreso en barco si el viento lo permite",
+        },
+        {
+          day: 3,
+          title: "Lavaux o Rochers-de-Naye",
+          summary: "Elige una línea escénica; deja la otra para otra visita.",
+          morning: "Caminata entre viñedos desde Rivaz o Cully",
+          afternoon: "Cata con cita o picnic sencillo",
+          evening: "Atardecer en el muelle de Montreux",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Chillon sobre el agua",
+          description:
+            "Llega temprano para luz suave en patios. Las audioguías ayudan si prefieres ir solo.",
+          image: {
+            src: "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?auto=format&fit=crop&w=1200&q=80",
+            alt: "Castillo de piedra en orilla de lago con montañas.",
+          },
+        },
+        {
+          title: "Paseo florido",
+          description:
+            "El sendero es plano. Usa bancos; busca movimiento constante, no récords de distancia.",
+          image: {
+            src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
+            alt: "Lago alpino reflejando picos al atardecer.",
+          },
+        },
+        {
+          title: "Escaleras entre viñedos",
+          description:
+            "Lavaux sube en tramos cortos. Bastones opcionales; agua imprescindible en calor.",
+          image: {
+            src: "https://images.unsplash.com/photo-1506377295352-b315464d35b2?auto=format&fit=crop&w=1200&q=80",
+            alt: "Viñedos en terrazas sobre lago azul.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Mayo a septiembre para barcos y senderos de viña" },
+        { label: "Aeropuerto", value: "Tren desde Ginebra a Lausana y regionales" },
+        { label: "Transporte", value: "Swiss Travel Pass o pases diarios para barcos del lago" },
+        { label: "Entradas", value: "Reserva Chillon online en verano" },
+        { label: "Alojamiento", value: "Frente al lago central o Clarens para noches más silenciosas" },
+      ],
+      checklist: [
+        "App SBB para cambios de andén",
+        "Cortavientos para brisa del lago",
+        "Francos para quioscos pequeños",
+        "Reserva una cata entre semana",
+        "Calzado con agarre en viñedos",
+        "Horarios de barco offline",
+      ],
+      faqs: [
+        {
+          question: "¿Montreux solo es jazz?",
+          answer:
+            "No. El paseo, Chillon y trenes lucen todo el año; el festival solo concentra más gente.",
+        },
+        {
+          question: "¿Necesito coche?",
+          answer:
+            "Rara vez. Trenes y barcos unen Vevey, Lausana y pueblos de viña con claridad.",
+        },
+        {
+          question: "¿Puedo nadar?",
+          answer:
+            "Hay lidos de temporada; el agua es fresca. Piensa en chapuzones breves.",
+        },
+        {
+          question: "¿Qué pendiente tiene Lavaux?",
+          answer:
+            "Escaleras moderadas entre terrazas. Planifica descansos y agua.",
+        },
+      ],
+      relatedItineraries: [
+        {
+          slug: "lausanne",
+          city: "Lausana",
+          days: 3,
+          description: "Casco en cuesta, museos del lago y parque olímpico.",
+        },
+        {
+          slug: "geneva",
+          city: "Ginebra",
+          days: 3,
+          description: "Chorro de agua, barrio diplomático y muelles tranquilos.",
+        },
+        {
+          slug: "zurich",
+          city: "Zúrich",
+          days: 3,
+          description: "Tranvías, Limmat y bloques de museo enfocados.",
+        },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    biarritz: {
+      slug: "biarritz",
+      city: "Biarritz",
+      country: "Francia",
+      days: 3,
+      pace: "Equilibrado",
+      idealFor: ["Paseo costero", "Primera vez", "Comida como eje"],
+      style: ["Playas atlánticas", "Sabores vascos", "Paseos fáciles"],
+      pacing: [
+        "Biarritz se extiende en acantilados y arena. Elige un estado de playa por día en lugar de perseguir cada cala.",
+        "Viento y marea cambian planes; guarda plan B interior como acuario o comida larga.",
+        "La luz del atardecer en el Rocher merece repetir paseo; evita correr tierra adentro tras el sol.",
+      ],
+      hero: {
+        title: "Biarritz en 3 días",
+        subtitle:
+          "Equilibra playas atlánticas, cocina vasca y paseos por acantilado sin sobrecargar la costa.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1712939703029-b0b3c6d0e7ee?auto=format&fit=crop&w=1600&q=80",
+          alt: "Vista aérea de la playa y la ciudad de Biarritz en la costa vasca atlántica.",
+        },
+      },
+      cityStats: [
+        { value: "30k+", label: "Habitantes en la villa" },
+        { value: "1834", label: "Inicio de la era de baños de mar" },
+        { value: "6 km", label: "Paseos urbanos enlazados en la costa" },
+        { value: "20+", label: "Escuelas de surf en la orilla" },
+      ],
+      fit: {
+        forYou: [
+          "Aire oceánico y caminatas moderadas",
+          "Cultura de pintxos cerca",
+          "Arquitectura belle époque frente al mar",
+          "Fotografía en cabos",
+          "Ritmo de balneario relajado",
+        ],
+        notForYou: [
+          "Solo mar mediterráneo plano",
+          "Solo montaña sin costa",
+          "Circuito ultra low cost",
+          "Ciudad solo de vida nocturna",
+          "Mar en calma garantizada cada día",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Grande Plage y faro",
+          summary: "Ritmo clásico de playa y aire de acantilado.",
+          morning: "Paseo por Grande Plage y malecón",
+          afternoon: "Miradores del faro de Biarritz",
+          evening: "Cena en el puerto de pescadores",
+        },
+        {
+          day: 2,
+          title: "Côte des Basques",
+          summary: "Cultura surf y charcos con calma.",
+          morning: "Mirador y tiempo de arena en Côte des Basques",
+          afternoon: "Acuario de Biarritz o plan cubierto",
+          evening: "Tapeo en Les Halles",
+        },
+        {
+          day: 3,
+          title: "Bosque de Chiberta o bahía lenta",
+          summary: "Día verde lejos de muchedumbres.",
+          morning: "Senderos del bosque Chiberta o paseo suave",
+          afternoon: "Spa o café con vista al mar",
+          evening: "Despedida caminando por Grande Plage",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Acantilados rojizos y oleaje",
+          description:
+            "La marea redefine la arena. Revisa banderas antes de bañarte; las corrientes merecen respeto.",
+          image: {
+            src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+            alt: "Olas rompiendo en playa ancha bajo cielo amplio.",
+          },
+        },
+        {
+          title: "Fachada histórica del casino",
+          description:
+            "Detalles belle époque enmarcan el paseo. Una mirada breve basta si no juegas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1544984243-ec57dc26339f?auto=format&fit=crop&w=1200&q=80",
+            alt: "Surfista al atardecer en la arena con tabla.",
+          },
+        },
+        {
+          title: "Mesa vasca compartida",
+          description:
+            "Anchoas, pimientos y sidra marcan comidas sencillas. Comparte platos para probar sin exceso.",
+          image: {
+            src: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1200&q=80",
+            alt: "Platos coloridos estilo tapas sobre mesa de madera.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Junio a septiembre para arena cálida; mayo y octubre para menos gente" },
+        { label: "Aeropuerto", value: "Autobús o taxi desde Biarritz Pays Basque" },
+        { label: "Transporte", value: "Casco a pie; bici para bucles del bosque" },
+        { label: "Entradas", value: "Reserva acuario en fines de semana lluviosos" },
+        { label: "Alojamiento", value: "Grande Plage por vistas o Saint-Charles por noches más tranquilas" },
+      ],
+      checklist: [
+        "Cortavientos incluso en verano",
+        "Protector solar respetuoso con arrecifes",
+        "Revisa banderas de surf antes de nadar",
+        "Reserva un marisco a mitad de semana",
+        "Sandalias para calas rocosas",
+        "Mareas offline descargadas",
+      ],
+      faqs: [
+        {
+          question: "¿El agua es fría?",
+          answer:
+            "El Atlántico se mantiene fresco. Los surfistas usan neopreno; bañistas, chapuzones cortos.",
+        },
+        {
+          question: "¿Necesito euskera?",
+          answer:
+            "El francés cubre el día a día; el euskera alegra pero no es obligatorio.",
+        },
+        {
+          question: "¿Puedo ir a España en un día?",
+          answer:
+            "San Sebastián es alcanzable, pero suma horas. Si buscas ritmo calmado, quédate en Biarritz.",
+        },
+        {
+          question: "¿Biarritz es caminable?",
+          answer:
+            "Sí en la costa. Los barrios interiores tienen suaves cuestas; el autobús cubre huecos.",
+        },
+      ],
+      relatedItineraries: [
+        {
+          slug: "bordeaux",
+          city: "Burdeos",
+          days: 3,
+          description: "Muelles de piedra, vino y bucles del río.",
+        },
+        {
+          slug: "nice",
+          city: "Niza",
+          days: 3,
+          description: "Paseo mediterráneo y casco antiguo.",
+        },
+        {
+          slug: "san-sebastian",
+          city: "San Sebastián",
+          days: 3,
+          description: "Pintxos y bahía en forma de concha.",
+        },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    odense: {
+      slug: "odense",
+      city: "Odense",
+      country: "Dinamarca",
+      days: 2,
+      pace: "Equilibrado",
+      idealFor: ["Familias", "Lectores", "Estancias cortas"],
+      style: ["Historia de cuentos", "Parques verdes", "Carril bici"],
+      pacing: [
+        "Odense encaja en dos días fáciles: uno para Andersen y otro para museos y bucles del río sin prisa.",
+        "La bici encaja con la escala; camina si prefieres menos candados y más cafés espontáneos.",
+        "El clima cambia rápido; planifica un ancla cubierta por día.",
+      ],
+      hero: {
+        title: "Odense en 2 días",
+        subtitle:
+          "Camina calles de cuento, senderos de río y museos tranquilos en el corazón de Fionia.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1693329048681-409f68fccaa6?auto=format&fit=crop&w=1600&q=80",
+          alt: "Calle empedrada estrecha con casas en el casco antiguo de Odense.",
+        },
+      },
+      cityStats: [
+        { value: "180k+", label: "Habitantes en el municipio" },
+        { value: "1805", label: "Año de nacimiento de H. C. Andersen" },
+        { value: "13 km", label: "Senderos del río Odense Å" },
+        { value: "200+", label: "Esculturas públicas en la ciudad" },
+      ],
+      fit: {
+        forYou: [
+          "Ciudad compacta con traslados cortos",
+          "Historia literaria y paradas infantiles",
+          "Ciclismo y caminata plana",
+          "Cafés hygge entre visitas",
+          "Tren sencillo a Copenhague",
+        ],
+        notForYou: [
+          "Base solo de montaña",
+          "Calor tropical",
+          "Energía de megaciudad 24 h",
+          "Grandes resorts de playa en ciudad",
+          "Viaje solo con coche obligatorio",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Barrio Andersen",
+          summary: "Museos, entramado de madera y bucle de río.",
+          morning: "Conjunto del museo Hans Christian Andersen",
+          afternoon: "Calles históricas y Eventyrhaven",
+          evening: "Paseo por el río Odense Å",
+        },
+        {
+          day: 2,
+          title: "Cultura y parque",
+          summary: "Un museo enfocado y tiempo verde.",
+          morning: "Brandts o museo del ferrocarril a elegir",
+          afternoon: "Munke Mose o senderos de Fruens Bøge",
+          evening: "Smørrebrød o cena de panadería local",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Casas de madera y patios",
+          description:
+            "El casco premia giros lentos. Lee placas con calma y deja que los callejones marquen ruta.",
+          image: {
+            src: "https://images.unsplash.com/photo-1579033461380-adb46c903e1f?auto=format&fit=crop&w=1200&q=80",
+            alt: "Calle empedrada con fachadas escandinavas amarillas.",
+          },
+        },
+        {
+          title: "Senderos del Å",
+          description:
+            "Los caminos pavimentados sirven para bici o carrito. Las mañanas son más silenciosas.",
+          image: {
+            src: "https://images.unsplash.com/photo-1445968660880-12065ba1b1b0?auto=format&fit=crop&w=1200&q=80",
+            alt: "Río tranquilo reflejando árboles en parque urbano.",
+          },
+        },
+        {
+          title: "Alas modernas de museo",
+          description:
+            "Brandts mezcla ladrillo industrial con galerías luminosas. Una hora enfocada bate recorrer todo.",
+          image: {
+            src: "https://images.unsplash.com/photo-1545987796-200677ee0041?auto=format&fit=crop&w=1200&q=80",
+            alt: "Interior de galería de arte contemporáneo con visitantes.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Mayo a septiembre para largas horas de luz" },
+        { label: "Aeropuerto", value: "Autobús desde Billund o tren desde Copenhague" },
+        { label: "Transporte", value: "Alquila bici en la estación o recorre el centro a pie" },
+        { label: "Entradas", value: "Reserva casas Andersen en festivos" },
+        { label: "Alojamiento", value: "Centro o junto a la estación para llegadas planas" },
+      ],
+      checklist: [
+        "App de billetes DOT",
+        "Chubasquero ligero",
+        "Taza reutilizable para descuentos en cafés",
+        "Reserva Brandts si hay exposición fuerte",
+        "Capas para viento del río",
+        "Consigna en estación si haces escala",
+      ],
+      faqs: [
+        {
+          question: "¿Odense es solo para familias?",
+          answer:
+            "No. Museos, diseño y río atraen a adultos; los sitios de Andersen son profundidad opcional.",
+        },
+        {
+          question: "¿Distancia a Copenhague?",
+          answer:
+            "Trenes directos frecuentes; calcula unos 90 minutos cada trayecto si divides bases.",
+        },
+        {
+          question: "¿Necesito efectivo?",
+          answer:
+            "Dominan tarjetas; unas monedas ayudan en máquinas antiguas.",
+        },
+        {
+          question: "¿Basta con inglés?",
+          answer:
+            "Sí en la mayoría del turismo; un saludo en danés sigue siendo bien recibido.",
+        },
+      ],
+      relatedItineraries: [
+        {
+          slug: "copenhagen",
+          city: "Copenhague",
+          days: 3,
+          description: "Nyhavn, diseño y bicis en el puerto.",
+        },
+        {
+          slug: "aarhus",
+          city: "Aarhus",
+          days: 3,
+          description: "ARoS, barrio latino y calma de segunda ciudad.",
+        },
+        {
+          slug: "stockholm",
+          city: "Estocolmo",
+          days: 3,
+          description: "Ferry entre islas, Gamla Stan y museos.",
+        },
+      ],
+      primaryCtaHref: "/",
+      secondaryCtaHref: "/cities",
+    },
+    bled: {
+      slug: "bled",
+      city: "Bled",
+      country: "Eslovenia",
+      days: 2,
+      pace: "Equilibrado",
+      idealFor: ["Primera vez", "Lago y sendero", "Estancias cortas"],
+      style: ["Isla icónica", "Bosque", "Repostería alpina"],
+      pacing: [
+        "Bled es pequeño; repite el bucle del lago a distintas horas en lugar de sumar metas lejanas.",
+        "La niebla matinal gana al brillo del mediodía; la tarde es para pastel y baño si aceptas agua fresca.",
+        "Vintgar merece una mañana enfocada; calzado adecuado para tablas mojadas.",
+      ],
+      hero: {
+        title: "Bled en 2 días",
+        subtitle:
+          "Rodea el lago, sube al castillo y reserva una mañana para la garganta sin correr.",
+        eyebrow: "Guía de viaje",
+        image: {
+          src: "https://images.unsplash.com/photo-1740978197848-d526dfd5af05?auto=format&fit=crop&w=1600&q=80",
+          alt: "Lago Bled con la iglesia de la isla, el castillo en el acantilado y los Alpes Julianos.",
+        },
+      },
+      cityStats: [
+        { value: "8k+", label: "Habitantes en Bled" },
+        { value: "2 km", label: "Tramos del paseo alrededor del lago" },
+        { value: "100 m", label: "Subida aproximada al castillo" },
+        { value: "1981", label: "Era de la receta protegida del pastel cremoso" },
+      ],
+      fit: {
+        forYou: [
+          "Fotografía clásica del lago",
+          "Caminatas cortas por bosque",
+          "Calma en bote o pletna",
+          "Puerta a los Alpes julianos",
+          "Combinación con Liubliana",
+        ],
+        notForYou: [
+          "Gran vida nocturna urbana",
+          "Mar caliente garantizado",
+          "Paisajes desérticos",
+          "Ciudades tipo parque temático",
+          "Quien evita picos turísticos",
+        ],
+      },
+      dayPlans: [
+        {
+          day: 1,
+          title: "Bucle del lago y castillo",
+          summary: "Kilómetros planos, vistas a la isla, murallas.",
+          morning: "Paseo por la orilla oeste hacia Velika Zaka",
+          afternoon: "Exterior del castillo de Bled y terraza cafetera",
+          evening: "Atardecer desde Mala Osojnica si queda energía",
+        },
+        {
+          day: 2,
+          title: "Garganta de Vintgar",
+          summary: "Pasarelas por la mañana y tarde lenta en pueblo.",
+          morning: "Autobús o bici a la garganta de Vintgar",
+          afternoon: "Pastel cremoso y bote opcional",
+          evening: "Cena tranquila lejos del paseo principal",
+        },
+      ],
+      imageInfoCards: [
+        {
+          title: "Silueta de la isla",
+          description:
+            "Las pletnas van por horarios; remar tú mismo es más lento pero sereno si el viento ayuda.",
+          image: {
+            src: "https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=1200&q=80",
+            alt: "Pequeña iglesia en isla arbolada en lago alpino.",
+          },
+        },
+        {
+          title: "Castillo sobre el bosque",
+          description:
+            "La subida es corta pero empinada. La sombra matutina en el sendero este suaviza el esfuerzo.",
+          image: {
+            src: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=80",
+            alt: "Castillo medieval en acantilado rocoso sobre bosque.",
+          },
+        },
+        {
+          title: "Pasarelas en garganta",
+          description:
+            "Vintgar es de sentido único en temporada alta. Llega temprano para fotos sin atascos.",
+          image: {
+            src: "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1200&q=80",
+            alt: "Río turquesa en cañón estrecho entre bosque.",
+          },
+        },
+      ],
+      logistics: [
+        { label: "Mejor época", value: "Mayo a septiembre para barcos y garganta abierta" },
+        { label: "Aeropuerto", value: "Shuttle desde Liubliana o autobús vía Kranj" },
+        { label: "Transporte", value: "Lago a pie; autobús a Vintgar en temporada alta" },
+        { label: "Entradas", value: "Compra garganta online en mañanas de verano" },
+        { label: "Alojamiento", value: "Oeste para noches tranquilas o centro para autobuses" },
+      ],
+      checklist: [
+        "Reserva alojamiento con antelación en julio",
+        "Efectivo para alquileres de bote pequeños",
+        "Calzado con agarre para Vintgar",
+        "Capa de baño si pruebas el lago",
+        "Horarios de autobús capturados offline",
+        "Llega a Vintgar antes de las 9",
+      ],
+      faqs: [
+        {
+          question: "¿Bled está masificado?",
+          answer:
+            "Julio y agosto concentran gente. Meses colindantes y salidas tempranas suavizan el bucle del lago.",
+        },
+        {
+          question: "¿Puedo saltar la isla?",
+          answer:
+            "Sí. Muchos disfrutan el paseo y miradores sin pagar desembarco en barca.",
+        },
+        {
+          question: "¿Necesito coche?",
+          answer:
+            "No para dos días en pueblo. Autobuses cubren Vintgar; Liubliana conecta con frecuencia.",
+        },
+        {
+          question: "¿Merece el pastel?",
+          answer:
+            "Es ritual compartido. Pide una porción a media tarde en lugar de postre en cada comida.",
+        },
+      ],
+      relatedItineraries: [
+        {
+          slug: "ljubljana",
+          city: "Liubliana",
+          days: 2,
+          description: "Colina del castillo, cafés del río y casco compacto.",
+        },
+        {
+          slug: "zagreb",
+          city: "Zagreb",
+          days: 3,
+          description: "Calles del alto barrio, mercados y mañanas de museo.",
+        },
+        {
+          slug: "venice",
+          city: "Venecia",
+          days: 3,
+          description: "Ritmo lagunar tras la calma alpina.",
+        },
+      ],
       primaryCtaHref: "/",
       secondaryCtaHref: "/cities",
     },

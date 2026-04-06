@@ -50,16 +50,20 @@ export async function generateMetadata({
     });
   }
 
-  const travelGuideTitle = `${city.name} Travel Guide (${city.days} Days) – Plan a Calm Trip with Kruno`;
-  const description = itinerary?.hero.subtitle ?? city.description;
+  const cityName = itinerary?.city ?? city.name;
+  const cityDays = itinerary?.days ?? city.days;
+  const title = `How to spend ${cityDays} days in ${cityName} without Rushing`;
+  const description = `A full day-by-day ${cityName} travel guide designed for first-time visitors. See the essentials, enjoy great food, and avoid overplanning.`;
   return buildMetadata({
-    title: travelGuideTitle,
+    title,
     description,
-    path: `/cities/${city.slug}`,
+    path: canonicalPath,
     alternates: {
       canonical: buildCanonicalUrl(canonicalPath),
       languages: buildLanguageAlternates(`/cities/${city.slug}`),
     },
+    openGraphLocale: "en_US",
+    openGraphAlternateLocales: ["es_ES"],
   });
 }
 
@@ -204,13 +208,30 @@ export default async function CityItineraryPage({
     ...item,
     image: getCityItinerary("en", item.slug)?.hero.image,
   }));
-  const dayImageCards = await getDayImageCards({
+  const englishItinerary = getCityItinerary("en", slug);
+  const imageLookupCity = englishItinerary?.city ?? itinerary.city ?? city.name;
+  const imageLookupCountry = englishItinerary?.country ?? itinerary.country ?? city.country;
+  const imageLookupDayPlans = englishItinerary?.dayPlans ?? itinerary.dayPlans;
+  const dayImageCardsResult = await getDayImageCards({
     slug: itinerary.slug,
-    city: itinerary.city,
-    country: itinerary.country,
-    dayPlans: itinerary.dayPlans,
+    city: imageLookupCity,
+    country: imageLookupCountry,
+    dayPlans: imageLookupDayPlans,
     fallbackImage: itinerary.hero.image,
   });
+  const dayImageCards = dayImageCardsResult
+    ? dayImageCardsResult.map((card, index) => {
+        const displayTitle = itinerary.dayPlans[index]?.title ?? card.title;
+        return {
+          ...card,
+          title: displayTitle,
+          image: {
+            ...card.image,
+            alt: `${displayCityName} - ${displayTitle}`,
+          },
+        };
+      })
+    : null;
   if (process.env.NODE_ENV !== "production") {
     const missingP0 = validateGuide(itinerary);
     const invalidImageUrls = collectInvalidImageUrls(itinerary, relatedItemsWithImages);
