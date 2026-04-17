@@ -63,6 +63,11 @@ export async function generateMetadata({
     });
   }
 
+  // Lite pages have stub content — exclude from Google's index to protect crawl budget.
+  if (city.contentLevel === "lite") {
+    return { robots: { index: false, follow: true } };
+  }
+
   const cityName = itinerary?.city ?? city.name;
   const cityDays = itinerary?.days ?? city.days;
   const title =
