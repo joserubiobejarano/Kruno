@@ -18,6 +18,7 @@ export default function robots(): MetadataRoute.Robots {
           "/sign-in",
           "/sign-up",
           "/p/",
+          "/dental-clinic-experiment",
           "/sentry-example-page",
           "/monitoring",
           "/*?*utm_",
