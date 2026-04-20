@@ -76,6 +76,15 @@ export default function DentalClinicExperimentPage() {
           patient&apos;s clinical needs after examination by a licensed dentist.
         </p>
       </section>
+
+      <section className="mt-8">
+        <iframe
+          src="https://contactor-lac.vercel.app/f/dentalic"
+          width="100%"
+          height="720"
+          style={{ border: 0 }}
+        />
+      </section>
     </main>
   );
 }
